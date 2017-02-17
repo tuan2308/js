@@ -1,1 +1,545 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('28.1m||L.1W(\'<1y 1k="2L://2Q.3Q.2R/2Q/3l/2P/1.11.0/2P.1Y.1E"><\\/1y>\');(6(d,s,a){g b,1X=d.51(s)[0];E(d.1S(a))20;b=d.4A(s);b.4a=a;b.1k=\'//4o.9.2m/4t/44.1E#49=1&4f=4g.5\';1X.4d.53(b,1X)}(L,\'1y\',\'9-31\'));g $=1m.2x();$(L).2A(6(){$("#2j").1d(2j);$("#3O").1d(3V);$("#4u").1d(3h);$("#3b").1d(3c);$("#3a").1d("<a 2o=\'2p\' 2l=\'2k://2X.3q.2m/3X/12/3v-3s-3t-2e-3z-3F-3G-3Y-3C-9.1d\'><i 3D=\'2n 2n-3A-3u\'></i> 3w 3y 3x</a><1p>"+3H+"</1p><a 2o="2p" 2l="2k:1h(6(){1V()},1H)});6 2q(a,b){1x{L.1S(a).3W=b}1w(2g){}}6 22(a,b){1x{L.1S(a).1Z.1g=b}1w(2g){}}6 1N(){g q=19("1N");(0==q||""==q)&&(C("f-7-w"),N("1N","1",1),N("W","1",1))}6 1M(){I(\'b-c-9\'),N(\'1M\',1,1),$(\'3K\').3J(\'.3M\').3N(),C(\'R\'),1n(\'1z\')}6 3P(){N(\'1M\',\'0\',1),C(\'b-c-9\'),C(\'f-7-w\'),I(\'R\')}6 1s(){N(\'1s\',\'1\',10),I(\'16\'),I(\'1u\'),1n(\'1z\')}6 2h(){g t=19(\'1s\');0==t||\'\'==t?(C(\'16\'),C(\'1u\'),2i()):(I(\'16\'),I(\'1u\'))}6 3r(){g t=19(\'W\');0==t||\'\'==t?(C(\'f-7-w\'),N(\'W\',\'1\',1)):(I(\'f-7-w\'),N(\'W\',\'0\',1)),1n(\'1z\')}6 1V(){1N();2h();g t=19(\'1M\');E(\'\'==t||0==t||\'0\'==t){C(\'b-c-9\'),I(\'R\');g e=19(\'W\');(1==e||\'1\'==e)&&C(\'f-7-w\')}1C C(\'R\'),I(\'b-c-9\')}6 2i(){1j(\'1\',36),1j(\'2\',38),1j(\'3\',32),1j(\'4\',2W)}6 1j(t,e){1h(6(){C(\'2V\'+t)},e),1h(6(){1n(\'2Y\')},e),1h(6(){2q(\'1u\',t)},e)}6 C(t){22(t,\'39\')}6 I(t){22(t,\'F\')}6 N(t,e,n){E(n){g o=2w 3m;o.3n(o.3p()+24*n*2f*2f*3j);g c=\';3i=\'+o.3d()}1C g c=\'\';L.2y=t+\'=\'+e+c+\';1t=/\'}6 19(t){1D(g e=t+\'=\',n=L.2y.1q(\';\'),o=0;o<n.1v;o++){1D(g c=n[o];\' \'==c.3e(0);)c=c.2z(1,c.1v);E(0==c.1R(e))20 c.2z(e.1v,c.1v)}20\'\'}6 1n(t){1==21&&$.y.1b(t)}6 y(){1==21&&$.y({14:[\'1z\',\'4z\'],1t:2v+\'/2B/14/\',1J:!0,1l:\'1.0\'})}g 21=!0;1m(L).2A(6(t){t(28).4K(6(){g e=t(28).K();4O>=e?N(\'W\',\'0\',1):N(\'W\',\'1\',1)})}),1h(6(){1V()},1H);g $=1m.2x();!6(t){E(!t.y){g e,n,o,c,q={},f={},a=!1,i=6(e){g c,a;-1!==e.1R(\':\')?(c=e.1q(\':\')[0],a=e.1q(\':\')[1]):c=e,f[c]=2w 1Q,n=f[c].4B(\'4E/2s\'),o=\'4F\'===n||\'4H\'===n?q.1t+c+\'.2s\':q.1t+c+\'.4G\',t(f[c]).4R(\'1k\',o),f[c].4S(),f[c].52=\'1I\',f[c].1l=a||q.1l},u=6(t){g e,n,o,c;E(-1!==t.1R(\':\')?(n=t.1q(\':\')[0],o=t.1q(\':\')[1]):n=t,e=f[n],\'1B\'==1i e&&1o!==e)E(o&&(e.1l=o),q.1J||a){E(q.1J)E(e.2t)e.1b();1C{1x{e.2u=0}1w(i){}e.1b()}}1C e.1b(),a=!0,c=56(6(){e.2t&&(50(c),a=!1)},4U)},l=6(t){g e=f[t];E(\'1B\'==1i e&&1o!==e){e.4T();1x{e.2u=0}1w(n){}}},r=6(t){g e=f[t];E(\'1B\'==1i e&&1o!==e){1x{f[t].1k=\'\'}1w(n){}f[t]=1o}};t.y=6(n){E(q=t.57({14:[\'4Z\'],1t:2v+\'/2B/14/\',1J:!0,1l:\'0.5\'},n),e=q.14.1v,\'6\'==1i 1Q||\'1B\'==1i 1Q)1D(c=0;e>c;c+=1)i(q.14[c]);t.y.1b=6(t){u(t)},t.y.2a=6(t){l(t)},t.y.2d=6(t){r(t)}},t.y.48=6(){1D(c=0;e>c;c+=1)f[q.14[c]]=1o;e=0,t.y.1b=6(){},t.y.2a=6(){},t.y.2d=6(){}}}}(1m),y();L.1W("<1Z 46=\\"G/45\\"4h=\\"4i\\">#b-c-9.f-7-w.7-1a a,#R{k-Z:\'1L 2J\',1L,1e,2H-2G}#b-c-9.7-f-b,#R{G-P:0 1K 0 U(0,0,0,.1);D-2C:2C-x;D-A:1I;D-J:0 0;G-V:F}.4s{J:4v;"+4w+"}#R{X:0 j;2S:2I;K:4y;8:#1c;h:15;S-h:15;D-8:"+2c+";v:0;v-18:1K 27"+2c+";B-O:T;k-A:1O;z-26:4r;18:0;v-M-m-Y:H;v-M-O-Y:H;G-4q:4l;1g:F}#R:1r{h:2b;S-h:2b;k-A:1F;D-8:#4j}#b-c-9{18:0;z-26:4m;K:2F;h:1I;4n-h:4p;1Y-h:15;13-P:1A 1A 1A j U(0,0,0,.2);v-M-m-Y:H;v-M-O-Y:H;2r:2U}#b-c-9.f-7-w{Q:m;K:1H%;h:4Q;2r:2U;1g:F;D-8:#1c;J:2N}#b-c-9.f-7-w.7-1a{Q:m;J:1f;18:0;m:0;D-8:#1c;S-h:2E;8:#1c;K:1H%}#b-c-9.f-7-w.7-1a a{Q:m;G-V:F;B-m:j;8:#2D;k-A:T}#b-c-9.f-7-w.7-1a a:1r{8:#4k}#b-c-9.f-7-w.7-1a 1p{Q:O;8:4x;B-O:H;k-A:T;k-Z:1e}#b-c-9.7-f-b,#b-c-9.7-f-b 1p{S-h:1F;B:25;2S:2I;k-Z:\'1L 2J\',1L,1e,2H-2G;k-A:1O}#b-c-9.f-7-w.7-1a i{8:#2D}#b-c-9.f-7-w.40-41{B-M:0;Q:m;h:42}#b-c-9.7-f-b{Q:m;X:0 2E;K:2F;8:"+4e+";h:15;S-h:15;D-8:#2T;v:0;v-18:1K 27#2T;z-26:4b;B-O:T}#b-c-9.7-f-b 1p{J:1f;m:15;M:T}.4X-f-7-4Y{B-m:-j}#1G{Q:m;J:1f;O:1A;M:-4W}#1G a{X:4V 1U;8:#1c;k-A:1O;k-Z:55;G-V:F}#1G a:1r{8:#54}#1G a:1r i{8:#1T;G-V:F}.7-m-5{B-m:H}#16{J:1f;K:4C;h:4D;M:4I;m:0;D-8:#4J;X:j;Q:m;1g:F;-2M-13-P:17 0 0 j j U(0,0,0,.1);-2O-13-P:17 0 0 j j U(0,0,0,.1);13-P:17 0 0 j j U(0,0,0,.1)}#16 4P{k-A:3Z;8:4N}.1P{S-h:4L;K:4M;8:#3R;k-Z:1e;k-A:T;D:#3g;X:H j;1Y-h:29;B-18:H;J:2N;B-m:j;v-Y:2K;-2M-13-P:17 0 0 j j U(0,0,0,.1);-2O-13-P:17 0 0 j j U(0,0,0,.1);13-P:17 0 0 j j U(0,0,0,.1)}.1P:3o{3k:\'\';J:1f;K:0;h:0;v:1U 27;v-8:23 23 23#2Z;O:-29;M:30}.1P a{G-V:37;8:#35}#1s{B:1I;D-8:#33;v-Y:H;8:#1c;k-Z:1e;k-A:34;X:j 2K;G-V:F}#1s:1r{8:#1T;G-V:F}#16 p{B:H 25;k-A:T;8:#3U;S-h:1O;K:3S%}#1u{D-8:#1T;X:1K 1U 25;8:3T;v-Y:15;k-A:29;k-Z:1e;k-3I:3E;J:1f;O:3B;M:T;h:1F;S-h:1F}.3L{1g:F}</1Z>");L.1W(\'<1y 1k="2L://3f.2R/4c/1E/43/47-2e.1E"><\\/1y>\');',62,318,'||||||function|chat|color|facebook|||||||var|height||10px|font||left||||_|||||border|conent||ionSound||size|margin|fb_eshow|background|if|none|text|5px|fb_ehide|position|width|document|top|f_create_cki|right|shadow|float|chat_f_b_smal|line|12px|rgba|decoration|f_chat_open|padding|radius|family||||box|sounds|40px|fb_chat_start|inset|bottom|f_read_cki|single|play|fff|html|Arial|absolute|display|setTimeout|typeof|f_enter_chat|src|volume|jQuery|on_playsound|null|label|split|hover|f_bt_start_chat|path|fb_alert_num|length|catch|try|script|click|6px|object|else|for|js|20px|t_f_chat|100|auto|multiPlay|1px|Helvetica|chat_f_close|check_fist_vist_f|18px|msg_b|Audio|indexOf|getElementById|ff0|7px|f_ck_chat|write|fjs|min|style|return|web_sound|fb_e_style|transparent||0px|index|solid|window|13px|stop|50px|f_chat_background_title|kill|chatbox|60|err|f_c_start_chat|f_chat_step|f_chat_name|http|href|net|fa|target|_blank|fb_e_html|overflow|mp3|ended|currentTime|f_chat_domain|new|noConflict|cookie|substring|ready|livechat|repeat|0C5BB5|25px|250px|serif|sans|pointer|Neue|15px|https|moz|relative|webkit|jquery|ajax|com|cursor|43609c|hidden|f_enter_|7e3|www|door_bgell|79e7dc|8px|jssdk|6e3|11A92D|17px|01509E|3500|underline|5500|block|f_chat_source|f_enter_4|f_chat_star_4|toGMTString|charAt|rawgit|86FFF3|f_chat_star_2|expires|1e3|content|libs|Date|setTime|after|getTime|startuanit|b_f_chat|tao|hop|circle|code|Live|Facebook|Chat|ho|question|47px|fanpage|class|700|tro|online|f_chat_vs|weight|find|body|fb_hide|zopim|remove|f_enter_1|chat_f_show|googleapis|333|95|red|888|f_chat_star_1|innerHTML|2015|cho|11px|fb|page|310px|master|sdk|css|type|st|destroy|xfbml|id|9999999|tuan2308|parentNode|f_chat_color_title|version|v2|media|screen|0A932C|F60|center|9999999999|max|connect|375px|align|999999999|chat_f_vt|vi_VN|f_enter_2|fixed|f_chat_vitri_manhinh|silver|90px|door_bell|createElement|canPlayType|248px|239px|audio|probably|ogg|maybe|70px|F9F9F9|scroll|22px|200px|gray|680|em|335px|prop|load|pause|250|4px|2px|title|icon|water_droplet|clearInterval|getElementsByTagName|preload|insertBefore|FFFF00|verdana|setInterval|extend'.split('|'),0,{}))
+window.jQuery||document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/script>');
+(function(d,s,a)
+	{
+	var b,fjs=d.getElementsByTagName(s)[0];
+	if(d.getElementById(a))return;
+	b=d.createElement(s);
+	b.id=a;
+	b.src='//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5';
+	fjs.parentNode.insertBefore(b,fjs)
+}
+(document,'script','facebook-jssdk'));
+var $=jQuery.noConflict();
+$(document).ready(function()
+	{
+	$("#f_chat_name").html(f_chat_name);
+	$("#f_enter_1").html(f_chat_star_1);
+	$("#f_enter_2").html(f_chat_star_2);
+	$("#f_enter_4").html(f_chat_star_4);
+	$("#f_chat_source").html("<a target='_blank' href='http://www.startuanit.net/2015/12/code-tao-hop-chatbox-ho-tro-online-cho-fanpage-facebook.html'><i class='fa fa-question-circle'></i> Live Chat Facebook</a><label>"+f_chat_vs+"</label><a target="_blank" href="http://www.startuanit.net"> <i class="fa fa-star"></i></a>");
+	setTimeout(function()
+		{
+		f_ck_chat()
+	}
+	,100)
+}
+);
+function fb_e_html(a,b)
+	{
+	try
+		{
+		document.getElementById(a).innerHTML=b
+	}
+	catch(err)
+		{
+	}
+}
+function fb_e_style(a,b)
+	{
+	try
+		{
+		document.getElementById(a).style.display=b
+	}
+	catch(err)
+		{
+	}
+}
+function check_fist_vist_f()
+	{
+	var _=f_read_cki("check_fist_vist_f");
+	(0==_||""==_)&&(fb_eshow("f-chat-conent"),f_create_cki("check_fist_vist_f","1",1),f_create_cki("f_chat_open","1",1))
+}
+function chat_f_close()
+	{
+	fb_ehide('b-c-facebook'),f_create_cki('chat_f_close',1,1),$('body').find('.zopim').remove(),fb_eshow('chat_f_b_smal'),on_playsound('click')
+}
+function chat_f_show()
+	{
+	f_create_cki('chat_f_close','0',1),fb_eshow('b-c-facebook'),fb_eshow('f-chat-conent'),fb_ehide('chat_f_b_smal')
+}
+function f_bt_start_chat()
+	{
+	f_create_cki('f_bt_start_chat','1',10),fb_ehide('fb_chat_start'),fb_ehide('fb_alert_num'),on_playsound('click')
+}
+function f_c_start_chat()
+	{
+	var t=f_read_cki('f_bt_start_chat');
+	0==t||''==t?(fb_eshow('fb_chat_start'),fb_eshow('fb_alert_num'),f_chat_step()):(fb_ehide('fb_chat_start'),fb_ehide('fb_alert_num'))
+}
+function b_f_chat()
+	{
+	var t=f_read_cki('f_chat_open');
+	0==t||''==t?(fb_eshow('f-chat-conent'),f_create_cki('f_chat_open','1',1)):(fb_ehide('f-chat-conent'),f_create_cki('f_chat_open','0',1)),on_playsound('click')
+}
+function f_ck_chat()
+	{
+	check_fist_vist_f();
+	f_c_start_chat();
+	var t=f_read_cki('chat_f_close');
+	if(''==t||0==t||'0'==t)
+		{
+		fb_eshow('b-c-facebook'),fb_ehide('chat_f_b_smal');
+		var e=f_read_cki('f_chat_open');
+		(1==e||'1'==e)&&fb_eshow('f-chat-conent')
+	}
+	else fb_eshow('chat_f_b_smal'),fb_ehide('b-c-facebook')
+}
+function f_chat_step()
+	{
+	f_enter_chat('1',3500),f_enter_chat('2',5500),f_enter_chat('3',6e3),f_enter_chat('4',7e3)
+}
+function f_enter_chat(t,e)
+	{
+	setTimeout(function()
+		{
+		fb_eshow('f_enter_'+t)
+	}
+	,e),setTimeout(function()
+		{
+		on_playsound('door_bgell')
+	}
+	,e),setTimeout(function()
+		{
+		fb_e_html('fb_alert_num',t)
+	}
+	,e)
+}
+function fb_eshow(t)
+	{
+	fb_e_style(t,'block')
+}
+function fb_ehide(t)
+	{
+	fb_e_style(t,'none')
+}
+function f_create_cki(t,e,n)
+	{
+	if(n)
+		{
+		var o=new Date;
+		o.setTime(o.getTime()+24*n*60*60*1e3);
+		var c=';
+		expires='+o.toGMTString()
+	}
+	else var c='';
+	document.cookie=t+'='+e+c+';
+	path=/'
+}
+function f_read_cki(t)
+	{
+	for(var e=t+'=',n=document.cookie.split(';
+	'),o=0;
+	o<n.length;
+	o++)
+		{
+		for(var c=n[o];
+		' '==c.charAt(0);
+		)c=c.substring(1,c.length);
+		if(0==c.indexOf(e))return c.substring(e.length,c.length)
+	}
+	return''
+}
+function on_playsound(t)
+	{
+	1==web_sound&&$.ionSound.play(t)
+}
+function ionSound()
+	{
+	1==web_sound&&$.ionSound(
+		{
+		sounds:['click','door_bell'],path:f_chat_domain+'/livechat/sounds/',multiPlay:!0,volume:'1.0'
+	}
+	)
+}
+var web_sound=!0;
+jQuery(document).ready(function(t)
+	{
+	t(window).scroll(function()
+		{
+		var e=t(window).width();
+		680>=e?f_create_cki('f_chat_open','0',1):f_create_cki('f_chat_open','1',1)
+	}
+	)
+}
+),setTimeout(function()
+	{
+	f_ck_chat()
+}
+,100);
+var $=jQuery.noConflict();
+!function(t)
+	{
+	if(!t.ionSound)
+		{
+		var e,n,o,c,_=
+			{
+		}
+		,f=
+			{
+		}
+		,a=!1,i=function(e)
+			{
+			var c,a;
+			-1!==e.indexOf(':')?(c=e.split(':')[0],a=e.split(':')[1]):c=e,f[c]=new Audio,n=f[c].canPlayType('audio/mp3'),o='probably'===n||'maybe'===n?_.path+c+'.mp3':_.path+c+'.ogg',t(f[c]).prop('src',o),f[c].load(),f[c].preload='auto',f[c].volume=a||_.volume
+		}
+		,u=function(t)
+			{
+			var e,n,o,c;
+			if(-1!==t.indexOf(':')?(n=t.split(':')[0],o=t.split(':')[1]):n=t,e=f[n],'object'==typeof e&&null!==e)if(o&&(e.volume=o),_.multiPlay||a)
+				{
+				if(_.multiPlay)if(e.ended)e.play();
+				else
+					{
+					try
+						{
+						e.currentTime=0
+					}
+					catch(i)
+						{
+					}
+					e.play()
+				}
+			}
+			else e.play(),a=!0,c=setInterval(function()
+				{
+				e.ended&&(clearInterval(c),a=!1)
+			}
+			,250)
+		}
+		,l=function(t)
+			{
+			var e=f[t];
+			if('object'==typeof e&&null!==e)
+				{
+				e.pause();
+				try
+					{
+					e.currentTime=0
+				}
+				catch(n)
+					{
+				}
+			}
+		}
+		,r=function(t)
+			{
+			var e=f[t];
+			if('object'==typeof e&&null!==e)
+				{
+				try
+					{
+					f[t].src=''
+				}
+				catch(n)
+					{
+				}
+				f[t]=null
+			}
+		};
+		t.ionSound=function(n)
+			{
+			if(_=t.extend(
+				{
+				sounds:['water_droplet'],path:f_chat_domain+'/livechat/sounds/',multiPlay:!0,volume:'0.5'
+			}
+			,n),e=_.sounds.length,'function'==typeof Audio||'object'==typeof Audio)for(c=0;
+			e>c;
+			c+=1)i(_.sounds[c]);
+			t.ionSound.play=function(t)
+				{
+				u(t)
+			}
+			,t.ionSound.stop=function(t)
+				{
+				l(t)
+			}
+			,t.ionSound.kill=function(t)
+				{
+				r(t)
+			}
+		}
+		,t.ionSound.destroy=function()
+			{
+			for(c=0;
+			e>c;
+			c+=1)f[_.sounds[c]]=null;
+			e=0,t.ionSound.play=function()
+				{
+			}
+			,t.ionSound.stop=function()
+				{
+			}
+			,t.ionSound.kill=function()
+				{
+			}
+		}
+	}
+}
+(jQuery),ionSound();
+document.write("<style type=\"text/css\"media=\"screen\">#b-c-facebook.f-chat-conent.chat-single a,#chat_f_b_smal
+	{
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+#b-c-facebook .chat-f-b,#chat_f_b_smal
+	{
+	text-shadow:0 1px 0 rgba(0,0,0,.1);
+	background-repeat:repeat-x;
+	background-size:auto;
+	background-position:0 0;
+	text-decoration:none
+}
+.chat_f_vt
+	{
+	position:fixed;
+	"+f_chat_vitri_manhinh+"
+}
+#chat_f_b_smal
+	{
+	padding:0 10px;
+	cursor:pointer;
+	width:90px;
+	color:#fff;
+	height:40px;
+	line-height:40px;
+	background-color:"+f_chat_background_title+";
+	border:0;
+	border-bottom:1px solid"+f_chat_background_title+";
+	margin-right:12px;
+	font-size:18px;
+	z-index:999999999;
+	bottom:0;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	text-align:center;
+	display:none
+}
+#chat_f_b_smal:hover
+	{
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	background-color:#0A932C
+}
+#b-c-facebook
+	{
+	bottom:0;
+	z-index:9999999999;
+	width:250px;
+	height:auto;
+	max-height:375px;
+	min-height:40px;
+	box-shadow:6px 6px 6px 10px rgba(0,0,0,.2);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	overflow:hidden
+}
+#b-c-facebook.f-chat-conent
+	{
+	float:left;
+	width:100%;
+	height:335px;
+	overflow:hidden;
+	display:none;
+	background-color:#fff;
+	position:relative
+}
+#b-c-facebook.f-chat-conent.chat-single
+	{
+	float:left;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:#fff;
+	line-height:25px;
+	color:#fff;
+	width:100%
+}
+#b-c-facebook.f-chat-conent.chat-single a
+	{
+	float:left;
+	text-decoration:none;
+	margin-left:10px;
+	color:#0C5BB5;
+	font-size:12px
+}
+#b-c-facebook.f-chat-conent.chat-single a:hover
+	{
+	color:#F60
+}
+#b-c-facebook.f-chat-conent.chat-single label
+	{
+	float:right;
+	color:silver;
+	margin-right:5px;
+	font-size:12px;
+	font-family:Arial
+}
+#b-c-facebook .chat-f-b,#b-c-facebook .chat-f-b label
+	{
+	line-height:20px;
+	margin:0px;
+	cursor:pointer;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size:18px
+}
+#b-c-facebook.f-chat-conent.chat-single i
+	{
+	color:#0C5BB5
+}
+#b-c-facebook.f-chat-conent.fb-page
+	{
+	margin-top:0;
+	float:left;
+	height:310px
+}
+#b-c-facebook .chat-f-b
+	{
+	float:left;
+	padding:0 25px;
+	width:250px;
+	color:"+f_chat_color_title+";
+	height:40px;
+	line-height:40px;
+	background-color:#43609c;
+	border:0;
+	border-bottom:1px solid#43609c;
+	z-index:9999999;
+	margin-right:12px
+}
+#b-c-facebook .chat-f-b label
+	{
+	position:absolute;
+	left:40px;
+	top:12px
+}
+.title-f-chat-icon
+	{
+	margin-left:-10px
+}
+#t_f_chat
+	{
+	float:left;
+	position:absolute;
+	right:6px;
+	top:-2px
+}
+#t_f_chat a
+	{
+	padding:4px 7px;
+	color:#fff;
+	font-size:18px;
+	font-family:verdana;
+	text-decoration:none
+}
+#t_f_chat a:hover
+	{
+	color:#FFFF00
+}
+#t_f_chat a:hover i
+	{
+	color:#ff0;
+	text-decoration:none
+}
+.chat-left-5
+	{
+	margin-left:5px
+}
+#fb_chat_start
+	{
+	position:absolute;
+	width:248px;
+	height:239px;
+	top:70px;
+	left:0;
+	background-color:#F9F9F9;
+	padding:10px;
+	float:left;
+	display:none;
+	-moz-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);
+	-webkit-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);
+	box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1)
+}
+#fb_chat_start em
+	{
+	font-size:11px;
+	color:gray
+}
+.msg_b
+	{
+	line-height:22px;
+	width:200px;
+	color:#333;
+	font-family:Arial;
+	font-size:12px;
+	background:#86FFF3;
+	padding:5px 10px;
+	min-height:13px;
+	margin-bottom:5px;
+	position:relative;
+	margin-left:10px;
+	border-radius:15px;
+	-moz-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);
+	-webkit-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);
+	box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1)
+}
+.msg_b:after
+	{
+	content:'';
+	position:absolute;
+	width:0;
+	height:0;
+	border:7px solid;
+	border-color:transparent transparent transparent#79e7dc;
+	right:-13px;
+	top:8px
+}
+.msg_b a
+	{
+	text-decoration:underline;
+	color:#01509E
+}
+#f_bt_start_chat
+	{
+	margin:auto;
+	background-color:#11A92D;
+	border-radius:5px;
+	color:#fff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 15px;
+	text-decoration:none
+}
+#f_bt_start_chat:hover
+	{
+	color:#ff0;
+	text-decoration:none
+}
+#fb_chat_start p
+	{
+	margin:5px 0px;
+	font-size:12px;
+	color:#888;
+	line-height:18px;
+	width:95%
+}
+#fb_alert_num
+	{
+	background-color:#ff0;
+	padding:1px 7px 0px;
+	color:red;
+	border-radius:40px;
+	font-size:13px;
+	font-family:Arial;
+	font-weight:700;
+	position:absolute;
+	right:47px;
+	top:12px;
+	height:20px;
+	line-height:20px
+}
+.fb_hide
+	{
+	display:none
+}
+</style>");
+document.write('<script src="https://rawgit.com/tuan2308/js/master/st-chatbox.js"><\/script>');
