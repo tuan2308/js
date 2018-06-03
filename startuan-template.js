@@ -5,5 +5,5 @@ if(window.location.href == 'http://cuhanhblog.blogspot.com/')
 }
 if(window.location.href == 'http://share-cn.blogspot.com/')
 {
-    window.location.href="https://startuan-4104.blogspot.com/";
+    window.location.href="https://www.startuanit.net/";
 }
