@@ -3,3 +3,7 @@ if(window.location.href == 'http://cuhanhblog.blogspot.com/')
 {
     window.location.href="https://www.startuanit.net/";
 }
+if(window.location.href == 'http://share-cn.blogspot.com/')
+{
+    window.location.href="https://startuan-4104.blogspot.com/";
+}
