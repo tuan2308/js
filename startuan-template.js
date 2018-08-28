@@ -1,4 +1,4 @@
-document.write( '<script src=\"https://rawgit.com/tuan2308/js/master/startuan-template.js\" type=\"text/javascript\"></script>' );
+document.write( '<script src=\"https://rawgit.com/tuan2308/js/master/startuan-temp.js\" type=\"text/javascript\"></script>' );
 
 
 $(document).ready(function () {
