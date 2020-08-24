@@ -1,0 +1,96 @@
+<body style="background-color: #33CCFF">  
+    <center>  
+        <h1>  
+            Canvas Scaling Animation  
+        </h1>  
+    </center>  
+    <hr />  
+    <div id="container">  
+    </div>  
+</body> 
+<style>  
+    body  
+    {  
+      margin: 0px;  
+      padding: 0px;  
+    }  
+    Canvas  
+    {  
+       border: 2px solid #9C9898;  
+       margin-top: 50px;  
+       margin-left: 50px;  
+       background-color: #009999;  
+       box-shadow: 5px 5px 8px #222;  
+     }  
+    .title  
+    {  
+       text-align: center;  
+       font-family: Segoe UI Light, Arial, Helvetica;  
+       font-size: 2.2em;  
+       margin: 1em;  
+    }  
+    .info  
+    {  
+       text-align: center;  
+       font-family: Segoe UI Light, Arial, Helvetica;  
+       font-size: 1.2em;  
+       margin: 0.25em;  
+    }  
+    </style> 
+<script>  
+        window.onload = function ()  
+          {  
+            var stage = new Kinetic.Stage("container", 600, 200);  
+            var layer = new Kinetic.Layer();         
+            var blueHex = new Kinetic.RegularPolygon({  
+                x: 100,  
+                y: stage.height / 2,  
+                sides: 6,  
+                radius: 70,  
+                fill: "white",  
+                stroke: "black",  
+                strokeWidth: 4,  
+                draggable: true  
+            });  
+             var yellowHex = new Kinetic.RegularPolygon({  
+                x: stage.width / 2,  
+                y: stage.height / 2,  
+                sides: 6,  
+                radius: 70,  
+                fill: "yellow",  
+                stroke: "black",  
+                strokeWidth: 4,  
+                draggable: true  
+           });  
+            var redHex = new Kinetic.RegularPolygon({  
+                x: 470,  
+                y: stage.height / 2,  
+                sides: 6,  
+                radius: 70,  
+                fill: "gray",  
+                stroke: "black",  
+                strokeWidth: 4,  
+                centerOffset: {  
+                    x: 70,  
+                    y: 0  
+                },  
+                draggable: true  
+            });  
+            layer.add(blueHex);  
+            layer.add(yellowHex);  
+            layer.add(redHex);  
+            stage.add(layer);  
+            var period = 2000; // in ms  
+            stage.onFrame(function (frame) {  
+                var scale = Math.sin(frame.time * 2 * Math.PI / period) + 0.001;  
+                // scale x and y  
+                blueHex.setScale(scale);  
+                // scale only y  
+                yellowHex.scale.y = scale;  
+               // scale only x  
+                redHex.scale.x = scale;  
+                layer.draw();  
+            });  
+            stage.start();  
+        };  
+</script> 
