@@ -1,0 +1,42 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<style>
+  video,
+  canvas {
+    width: 300px;
+  }
+</style>
+<div id="theater">
+  <button class="btn">dfsdfsdf</button>
+  <video id="video" src="https://cdn.taoanhdep.com/dautich.mp4" controls="false"></video>
+  <canvas id="canvas" width="720" height="1280"></canvas>
+  <label>
+    <br />Try to play me :)</label>
+  <br />
+</div>
+
+<script>
+  $(function () {
+
+    $('.btn').click(function () {
+      $('#video').trigger('play');
+    });
+
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+    var video = document.getElementById('video');
+
+    vid = document.createElement('video');
+    vid.crossOrigin = 'anonymous';
+
+    vid = 'https://cdn.taoanhdep.com/dautich.mp4';
+
+
+    function loop() {
+      ctx.drawImage(video, 0, 0);
+      setTimeout(loop, 1000 / 30); // drawing at 30fps
+
+    }
+
+    loop();
+  });
+</script>
