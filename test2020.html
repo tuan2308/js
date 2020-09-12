@@ -1,0 +1,196 @@
+<html>
+
+<head>
+  <style>
+
+  </style>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js' type='text/javascript'></script>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all'
+    rel='stylesheet' />
+
+
+  <style>
+    #canvas {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+    #dieuchinh ,#themlayer{
+      display: none;
+    }
+
+ @media only screen and (max-width: 600px) {
+  #dieuchinh {
+    height: 150px;
+    overflow: auto;
+}
+}
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    
+
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        
+        <label>Chọn nền</label>
+    <div>
+      <input type="file" id="chonnen">
+    </div>
+    <canvas id="canvas" style="border:1px solid #333" width="500" height="500"></canvas>
+      </div>
+      <div class="col-lg-6">
+        <div id="themlayer">
+        <label>Chọn ảnh</label>
+        <div>
+          <input type="file" id="upanhlen">
+        </div>
+      </div>
+        <br />
+        <div id="dieuchinh">
+    
+          <label>Hoạ trộn (Blend Mode)</label>
+          <select class="custom-select mb-3 dieuchinh" id="dieuchinhHoatron">
+            <option selected>normal</option>
+            <option value="multiply">multiply</option>
+            <option value="screen">screen</option>
+            <option value="darken">darken</option>
+            <option value="lighten">lighten</option>
+            <option value="color-dodge">color-dodge</option>
+            <option value="color-burn">color-burn</option>
+            <option value="hard-light">hard-light</option>
+            <option value="soft-light">soft-light</option>
+            <option value="difference">difference</option>
+            <option value="exclusion">exclusion</option>
+            <option value="hue">hue</option>
+            <option value="saturation">saturation</option>
+            <option value="color">color</option>
+            <option value="luminosity">luminosity</option>
+
+          </select>
+          <div id="dieuchinhX">
+            <label>Toạ độ ngang (X) <span class="badge badge-primary">0</span></label>
+            <input type="range" min=-50 value=0 max=1000 step=1 class="custom-range dieuchinh">
+          </div>
+          <div id="dieuchinhY">
+          <label>Toạ độ dọc (Y) <span class="badge badge-primary">0</span></label>
+          <input type="range" min=-50 value=0 max=1000 step=1 class="custom-range dieuchinh">
+        </div>
+          <div id="dieuchinhOpa">
+          <label>Độ trong suốt (Opacity) <span class="badge badge-primary">100%</span></label>
+          <input type="range" min=0.1 value=1 max=1 step=0.01 class="custom-range dieuchinh"><br>
+        </div>
+
+          <label>Thu phóng (Zoom)</label>
+          <input type="range" id="dieuchinhScale" min=0.1 value=1 max=3 step=0.1 class="custom-range dieuchinh"><br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <img src="" id="img1" style="display: none;"></img>
+  <img src="" id="img2" style="display: none;"></img>
+
+  <script type="text/javascript">
+    //Khai bao
+    var img1 = document.getElementById('img1');
+    var img2 = document.getElementById('img2');
+    var canvas = document.getElementById('canvas');
+    var x, y, scale = 0
+    var HoaTron = "normal";
+    var Dotrong = 1
+    var cwidth = 0;
+    var cheight = 0;
+
+
+
+    //chuc nang di chuyen anh
+    $("#dieuchinh .dieuchinh").on("input", function () {
+
+      toadoX = $("#dieuchinhX input").val();
+
+      $("#dieuchinhX span").text(toadoX + "px");
+
+      toadoY = $("#dieuchinhY input").val();
+
+      $("#dieuchinhY span").text(toadoY + "px");
+
+      DcScale = $("#dieuchinhScale").val();
+
+      HoaTron = $("#dieuchinhHoatron").val();
+
+      Dotrong = $("#dieuchinhOpa input").val();
+      $("#dieuchinhOpa span").text(parseInt(Dotrong*100)+ "%");
+
+      draw(toadoX, toadoY, DcScale, HoaTron, Dotrong);
+    });
+
+
+
+    //upnen
+    document.getElementById('chonnen').onchange = function (e) {
+      $("#themlayer").slideDown();
+      img1.onload = Vechonnen;
+      img1.onerror = failed;
+      img1.src = URL.createObjectURL(this.files[0]);
+    };
+
+    //up anh
+    document.getElementById('upanhlen').onchange = function (e) {
+      $("#dieuchinh").slideDown();
+      img2.onload = draw;
+      img2.onerror = failed;
+      img2.src = URL.createObjectURL(this.files[0]);
+    };
+
+    //ve nen
+    function Vechonnen() {
+
+      canvas.width = img1.width;
+      canvas.height = img1.height;
+
+
+      $("#dieuchinhX input").attr("max", img1.width).attr("min", "-" + img1.width);
+      $("#dieuchinhY input").attr("max", img1.height).attr("min", "-" + img1.height);
+
+      var ctx = canvas.getContext('2d');
+
+      ctx.drawImage(img1, 0, 0);
+      draw();
+    }
+
+    // ve anh
+    function draw(x, y, scale, HoaTron, Dotrong) {
+
+
+      var ctx = canvas.getContext('2d');
+      ctx.save();
+      ctx.drawImage(img1, 0, 0);
+      ctx.restore();
+
+
+      ctx.save();
+      ctx.globalCompositeOperation = HoaTron;
+      ctx.globalAlpha = Dotrong;
+      ctx.translate(x, y);
+      ctx.scale(scale, scale);
+      ctx.drawImage(img2, 0, 0);
+      ctx.restore();
+
+    }
+    function failed() {
+      console.error("The provided file couldn't be loaded as an Image media");
+    }
+  </script>
+
+
+</body>
+
+</html>
