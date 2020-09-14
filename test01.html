@@ -5,6 +5,9 @@
     <meta charset="utf-8">
 
     <title>Objects Bounding Rectangles | Fabric.js Demos</title>
+    <style>
+     
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
       (function() {
@@ -29,16 +32,79 @@
       </p>
     </div>
     
-      <canvas id="c" width="500" height="500" style="border:1px solid #ccc"></canvas>
+    
 
+      <input type="file" id="tad-chonnen">
 
 <input type="file" id="imgLoader">
-
+<canvas id="c" width="500" height="500" style="border:1px solid #ccc"></canvas>
 <script id="main">
   var canvas = new fabric.Canvas('c');
 
 
-  document.getElementById('imgLoader').onchange = function handleImage(e) {
+
+
+canvas.observe("object:added", function(e){
+    var shape        = e.target
+    ,   maxWidth     = shape.get("maxWidth")
+    ,   maxHeight    = shape.get("maxHeight")
+    ,   actualWidth  = shape.scaleX * shape.width
+    ,   actualHeight = shape.scaleY * shape.height;
+
+    if(!isNaN(maxWidth) && actualWidth >= maxWidth){
+        // dividing maxWidth by the shape.width gives us our 'max scale' 
+        shape.set({scaleX: maxWidth/shape.width})
+        shape.set({scaleY: maxWidth/shape.width})
+    }
+
+    if(!isNaN(maxHeight) && actualHeight >= maxHeight){
+        shape.set({scaleY: maxWidth/shape.width})
+        shape.set({scaleX: maxWidth/shape.width})
+    }
+
+    console.log("width:" + (shape.width * shape.scaleX) + " height:" + (shape.height * shape.scaleY));
+});
+
+
+  document.getElementById('tad-chonnen').onchange = function handleImage(e) {
+var reader = new FileReader();
+
+  reader.onload = function (event){
+    
+    var imgObj = new Image();
+    imgObj.src = event.target.result;
+    imgObj.onload = function () {
+      var image = new fabric.Image(imgObj);
+      
+      canvas.setHeight(image.height);
+canvas.setWidth(image.width);
+      image.set({
+            angle: 0,
+            padding: 0,
+            cornersize:0,
+            top:0,
+            left:0,
+            globalCompositeOperation: 'screen',
+           
+            height: image.height,
+            width: image.width,
+      });
+      
+      canvas.backgroundImage = image
+      canvas.renderAll();
+
+    
+    }
+  }
+  reader.readAsDataURL(e.target.files[0]);
+}
+
+
+
+
+
+  
+document.getElementById('imgLoader').onchange = function handleImage(e) {
 var reader = new FileReader();
 
   reader.onload = function (event){
@@ -48,15 +114,15 @@ var reader = new FileReader();
     imgObj.onload = function () {
       var image = new fabric.Image(imgObj);
 
-      canvas.setHeight(image.height);
-canvas.setWidth(image.width);
       image.set({
             angle: 0,
             padding: 0,
             cornersize:0,
+            maxWidth:500, maxHeight:500,
             top:0,
             left:0,
-             mode: 'multiply',
+            globalCompositeOperation: 'screen',
+            
             height: image.height,
             width: image.width,
       });
@@ -70,6 +136,8 @@ canvas.setWidth(image.width);
   }
   reader.readAsDataURL(e.target.files[0]);
 }
+
+
 
   function Add() {
 
@@ -111,43 +179,49 @@ canvas.on({
 });
 
 
-function addDeleteBtn(x, y, w){
-	$(".deleteBtn").remove(); 
-	var btnLeft = x;
-	var btnTop = y - 25;
-	var widthadjust=w/2;
-	btnLeft=widthadjust+btnLeft-10;
-	var deleteBtn = '<img src="https://www.funagain.com/images/old/common/delete-icon.png" class="deleteBtn" style="position:absolute;top:'+btnTop+'px;left:'+btnLeft+'px;cursor:pointer;"/>';
-	$(".canvas-container").append(deleteBtn);
+
+//remove btn
+
+
+function addDeleteBtn(x, y){
+    $(".deleteBtn").remove(); 
+    var btnLeft = x-10;
+    var btnTop = y-10;
+    var deleteBtn = '<img src="https://www.funagain.com/images/old/common/delete-icon.png" class="deleteBtn" style="position:absolute;top:'+btnTop+'px;left:'+btnLeft+'px;cursor:pointer;width:20px;height:20px;"/>';
+    $(".canvas-container").append(deleteBtn);
 }
 
 canvas.on('object:selected',function(e){
-		addDeleteBtn(e.target.oCoords.mt.x, e.target.oCoords.mt.y, e.target.width);
+        addDeleteBtn(e.target.oCoords.tr.x, e.target.oCoords.tr.y);
 });
 
 canvas.on('mouse:down',function(e){
     if(!canvas.getActiveObject())
     {
-		$(".deleteBtn").remove(); 
+        $(".deleteBtn").remove(); 
     }
 });
 
 canvas.on('object:modified',function(e){
-	addDeleteBtn(e.target.oCoords.mt.x, e.target.oCoords.mt.y, e.target.width);
+    addDeleteBtn(e.target.oCoords.tr.x, e.target.oCoords.tr.y);
 });
 
+canvas.on('object:scaling',function(e){
+    $(".deleteBtn").remove(); 
+});
 canvas.on('object:moving',function(e){
-	$(".deleteBtn").remove(); 
+    $(".deleteBtn").remove(); 
 });
-
+canvas.on('object:rotating',function(e){
+    $(".deleteBtn").remove(); 
+});
 $(document).on('click',".deleteBtn",function(){
-	if(canvas.getActiveObject())
-	{
-		canvas.remove(canvas.getActiveObject());
-		$(".deleteBtn").remove();
-	}
+    if(canvas.getActiveObject())
+    {
+        canvas.remove(canvas.getActiveObject());
+        $(".deleteBtn").remove();
+    }
 });
-
 
     </script>
 
