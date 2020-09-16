@@ -65,7 +65,7 @@ canvas.observe("object:added", function(e){
     console.log("width:" + (shape.width * shape.scaleX) + " height:" + (shape.height * shape.scaleY));
 });
 
-
+//up nen
   document.getElementById('tad-chonnen').onchange = function handleImage(e) {
 var reader = new FileReader();
 
@@ -76,7 +76,12 @@ var reader = new FileReader();
     imgObj.onload = function () {
       var image = new fabric.Image(imgObj);
       
-      canvas.setHeight(image.height);
+
+      tyle = image.height/image.width;
+      console.log(tyle)
+
+
+canvas.setHeight(image.height);
 canvas.setWidth(image.width);
       image.set({
             angle: 0,
@@ -86,8 +91,7 @@ canvas.setWidth(image.width);
             left:0,
             globalCompositeOperation: 'screen',
            
-            height: image.height,
-            width: image.width,
+
       });
       
       canvas.backgroundImage = image
@@ -101,7 +105,7 @@ canvas.setWidth(image.width);
 
 
 
-
+//up anh
 
   
 document.getElementById('imgLoader').onchange = function handleImage(e) {
