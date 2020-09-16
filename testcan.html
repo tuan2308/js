@@ -39,4 +39,56 @@
 
     loop();
   });
+
+
+
+  $(document).ready(function () {
+    console.log("ready!");
+  });
+</script>
+
+<script>
+  $(document).ready(function () {
+    if (window.location.hostname == tmbq) {
+      $("#tad-taianhve").hide();
+      $(".tad-ketqua").hide();
+      $("#tad-taoanh").addClass("disabled");
+      $("#cropanh").click(function () {
+        $("#tad-taoanh").removeClass("disabled");
+      });
+      $(".tad-in-text2,.tad-in-text1").click(function () {
+        $("#tad-taoanh").removeClass("disabled");
+      });
+      var getimg = "";
+      $("#tad-taoanh").click(function () {
+        t1 = $(".tad-in-text1").val();
+        $(".tad-out-text1").html(t1);
+        t2 = $(".tad-in-text2").val();
+        $(".tad-out-text2").html(t2);
+        $(".load-anh").show();
+        html2canvas(document.querySelector(".tad-main"), {
+          useCORS: !0,
+          scrollX: 0,
+          scrollY: 0,
+          width: rongh2,
+          height: daih2,
+          scale: 1,
+          x: 0,
+          y: 0
+        }).then(canvas => {
+          var dataurl = canvas.toDataURL("image/jpeg");
+          $("#img-out").html("<img src='" + dataurl + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><img src='https://1.bp.blogspot.com/-MXa89uJVSL8/XzjhYKWxmOI/AAAAAAAAjAE/xkQwwcwb6AIgxrYGiY1HqbCokweghh1ewCNcBGAsYHQ/s1000/manhinh.png' alt='Màn hình iphone' class='tad-manhinh'/>");
+          getimg = dataurl;
+          $("#tad-taianhve").show();
+          $(".tad-ketqua").show();
+          $(".load-anh").hide();
+        });
+        $("#tad-taianhve").click(function () {
+          $(this).attr("download", tenanhxuat).attr("href", getimg);
+        });
+      });
+    }
+  });
+
+
 </script>
