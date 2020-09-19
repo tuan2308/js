@@ -3,7 +3,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
   <link rel='stylesheet'
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css"/>
-  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" media="all">
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
 
@@ -19,7 +19,7 @@
     #dcchu,
     #themlayer,
     #chonnen,
-    #upanhlen,#tad-xuatanh,.loadtad {
+    #upanhlen,#tad-xuatanh,.loadtad,#chontyponay {
       display: none;
     }
 
@@ -44,9 +44,12 @@
     max-height: 300px;
     overflow: auto;
 }
-.showtypo img{
-  width: 50%;
+
+.img-thumbnail{ cursor: pointer;}
+.img-thumbnail.active {
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
 }
+
     @media only screen and (max-width: 600px) {
       #Dch,#dcchu {
         padding:10px;
@@ -125,8 +128,11 @@
               <li class="nav-item">
                 <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Chọn ảnh</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#urlanh" role="tab" aria-controls="urlanh" aria-selected="false">URL ảnh</a>
+              </li>
               
-                <li class="nav-item">
+                <li class="nav-item" style="display: none;">
                   <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Nhập chữ</a>
                 </li>
                 
@@ -137,19 +143,26 @@
 
                       <input type="file" id="upanhlen">
 
-                    <label for="upanhlen" class="btn btn-primary m-0">Upload ảnh</label>
-<button id="test" class="btn btn-secondary" onclick="showchuden()">Typo chữ đen</button>
-<button id="test" class="btn btn-secondary" onclick="showchutrang()">Typo chữ trắng</button>
+                    <label for="upanhlen" class="btn btn-primary m-0"><i class="fas fa-upload"></i> Upload ảnh</label>
 
+<button id="test" class="btn btn-secondary" onclick="showchutrang()"><i class="fas fa-font"></i> Typo chữ trắng</button>
+<button id="test" class="btn btn-secondary" onclick="showchuden()"><i class="fas fa-font"></i> Typo chữ đen</button>
 
 
 </div>
-<div id="showchuden" class="showtypo" blendmode="multiply"></div>
+<div id="showchuden" class="showtypo row pt-2" blendmode="multiply"></div>
 
-<div id="showchutrang" class="showtypo" blendmode="screen"></div>
+<div id="showchutrang" class="showtypo row pt-2" blendmode="screen"></div>
 
 
                 </div>
+
+
+                <div class="tab-pane fade" id="urlanh" role="tabpanel" aria-labelledby="urlanh-tab">
+nsadnsa,dn
+
+                </div>
+
 
                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
@@ -165,6 +178,8 @@
                       </div>
 
                 </div>
+
+<button id="chontyponay" class="btn btn-primary mt-2 float-right">Chèn typo</button>
 
               </div>
 
@@ -324,11 +339,10 @@
 
 <div id="tad-xuatanh">
 
-Thay đổi nền hoặc ảnh chữ được chèn
 <button class="btn btn-primary btn-block" id="quaylai">Quay lại</button><br/>
-<label>Dùng hình ảnh này tiếp tục chỉnh sửa</label>
-  <button class="btn btn-primary btn-block" id="chinhtiep">Chỉnh tiếp</button><br/>
-  <label>Lưu hình ảnh này về máy</label>
+
+  <button class="btn btn-primary btn-block d-none" id="chinhtiep">Chỉnh tiếp</button>
+
   <a class="btn btn-primary btn-block" id="tad-taianhve" href="#" download="taoanhdep.png">Tải ảnh về</a>
 
   <br/>
@@ -534,8 +548,10 @@ $("#nhaptext button").click(function(){
       img2.onload = draw0;
       img2.onerror = failed;
       img2.src = URL.createObjectURL(this.files[0]);
-
+   
     };
+
+
 
 
     //ve nen
@@ -578,22 +594,27 @@ $("#nhaptext button").click(function(){
 
     function draw0(HoaTron) {
 
+$(".showtypo,#chontyponay").hide();
       var ctx = canvas.getContext('2d');
       ctx.save();
 
       ctx.drawImage(img1, 0, 0);
 
       ctx.restore();
+      
       ctx.save();
       ctx.globalCompositeOperation = HoaTron;
       ctx.translate((img2.width / 2), (img2.height / 2));
       ctx.scale(0.8, 0.8);
+
       ctx.drawImage(img2, -(img2.width / 2), -(img2.height / 2), img2.width, img2.height);
 
       ctx.restore();
+      
       $("#Dch").show(); 
       $(".avt-upanhlen").css("background-image", "url(' " + img2.src + " ')");
       $('#chonanhModal').modal('hide');
+      
 
     }
 
@@ -610,7 +631,7 @@ $("#nhaptext button").click(function(){
       ctx.globalAlpha = Dotrong;
 
       ctx.translate((img2.width / 2) - (-x), (img2.height / 2) - (-y));
-      console.log((img2.width / 2) - (-x));
+
 
       ctx.rotate(xoay * Math.PI / 360);
 
@@ -1302,7 +1323,7 @@ function showchuden(){
 
 for (index = 0; index < chuden.length; ++index) {
   $("#showchutrang").hide();
-$("#showchuden").append( "<img src='" +  chuden[index] + "'></img>").show();
+$("#showchuden").append( "<div class='col-6 mb-3'><img src='" +  chuden[index] + "' class='img-thumbnail'></img></div>").show();
 
 }
 showtypo();
@@ -1313,7 +1334,7 @@ function showchutrang(){
 
 for (index = 0; index < chutrang.length; ++index) {
   $("#showchuden").hide();
-$("#showchutrang").append( "<img src='" +  chutrang[index] + "'></img>").show();
+$("#showchutrang").append( "<div class='col-6 mb-3'><img src='" +  chutrang[index] + " 'class='img-thumbnail'></img></div>").show();
 
 }
 showtypo();
@@ -1327,23 +1348,36 @@ showtypo();
 function showtypo(){
 
 $(".showtypo img").click(function(){
+  $(".showtypo img").removeClass("active");
+  $(this).addClass("active");
+
+$("#chontyponay").show();
 
 var mytypo = $(this).attr("src");
 
-var typoblend = $(this).parent().attr("blendmode");
+
+var typoblend = $(this).parent().parent().attr("blendmode");
 
 $("#DchHoatron").val(typoblend);
 
-HoaTron = $("#DchHoatron").val();
+img2.crossOrigin = "Anonymous";
 
 $("#img2").attr("src",mytypo);
 
 
-draw0(HoaTron);
 
 });
 
+$("#chontyponay").click(function(){
+  HoaTron = $("#DchHoatron").val();
+ 
+  draw0(HoaTron);
+  
+});
+
+
 }
+
   </script>
 
 </div>
