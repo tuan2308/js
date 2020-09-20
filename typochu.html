@@ -24,9 +24,7 @@
   #tad-xuatanh,
   .loadtad,
   #chontyponay,
-  #chonanhup,
-  #preimgurl,
-  .thongbaourl {
+  #chonanhup,#preimgurl {
     display: none;
   }
 
@@ -62,13 +60,15 @@
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, .5);
   }
 
-  div#preimgup img.img-thumbnail {
-    width: 100%;
-    max-height: 350px;
-    object-fit: contain;
-  }
-
   @media only screen and (max-width: 600px) {
+
+    #Dch,
+    #dcchu {
+      padding: 10px;
+      height: 150px;
+      overflow: auto;
+      border: 1px solid
+    }
 
     #canvas {
 
@@ -114,12 +114,12 @@
 
 
 
-            <canvas id="canvas" style="border: 2px solid #dee2e6; border-radius: .25rem;" width="500" height="500"></canvas>
+            <canvas id="canvas" style="border:1px solid #333" width="500" height="500"></canvas>
 
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <br />
-                <label><b>Chọn ảnh*</b></label><br />
+                <label><b>Upload ảnh* (logo, typo, texture,...)</b></label><br />
                 <div class="chonanh-avt">
                   <div class="img-preview avt-upanhlen"></div>
                 </div>
@@ -148,7 +148,10 @@
                               aria-controls="urlanh" aria-selected="false">URL ảnh</a>
                           </li>
 
-
+                          <li class="nav-item" style="display: none;">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                              aria-controls="profile" aria-selected="false">Nhập chữ</a>
+                          </li>
 
                         </ul>
                         <div class="tab-content mt-2" id="myTabContent">
@@ -180,41 +183,54 @@
 
 
 
-                            <div id="showchuden" class="showtypo row" blendmode="multiply"></div>
+                            <div id="showchuden" class="showtypo row pt-2" blendmode="multiply"></div>
 
-                            <div id="showchutrang" class="showtypo row" blendmode="screen"></div>
+                            <div id="showchutrang" class="showtypo row pt-2" blendmode="screen"></div>
 
-                            <button id="chontyponay" class="btn btn-primary mt-2 float-right">Chèn typo</button>
 
                           </div>
 
 
                           <div class="tab-pane fade" id="urlanh" role="tabpanel" aria-labelledby="urlanh-tab">
-
-                            <div class="input-group" id="upanhurl">
-                              <input class="form-control" placeholder="Nhập url ảnh" required="" type="text">
-                              <div class="input-group-append">
-                                <button class="btn btn-primary" id="chonanhurl" type="button"><i
-                                    class="fas fa-check"></i></button>
-                              </div>
-                            </div>
-
-
-                            <div class="alert alert-danger alert-dismissible fade show mt-3 thongbaourl" role="alert">
-                              Địa chỉ hình ảnh không hợp lệ
+                            <div class="alert alert-success alert-dismissible fade show mb-3 thongbaourl" role="alert">
+                              Nhập url ảnh bạn đã copy vào khung
                               <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                               </button>
                             </div>
 
+                            <div class="input-group" id="upanhurl">
+                              <input class="form-control" placeholder="Nhập url ảnh" required="" type="text">
+                              <div class="input-group-append">
+                                <button class="btn btn-primary" id="chonanhurl" type="button"><i class="fas fa-check"></i></button>
+                              </div>
+                            </div>
                             <div id="preimgurl" class="my-2"></div>
 
 
-
+                         
 
                           </div>
 
 
+                          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                            <div id="themtext">
+                              <label> <b> Nhập chữ </b></label>
+
+
+                              <div class="input-group" id="nhaptext">
+                                <input aria-label="Search" class="form-control Dch" name="q"
+                                  placeholder="Nhập chữ vào đây" required="" type="text">
+                                <div class="input-group-append">
+                                  <button class="btn btn-primary" type="button">Xong</button>
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <button id="chontyponay" class="btn btn-primary mt-2 float-right">Chèn typo</button>
 
                         </div>
 
@@ -234,17 +250,15 @@
                   <ul class="nav nav-tabs mb-3" id="myTab" role="pills-tab">
                     <li class="nav-item">
                       <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                        aria-controls="pills-home" aria-selected="true"><i class="fas fa-adjust"></i> Hoà trộn</a>
+                        aria-controls="pills-home" aria-selected="true"><i class="fas fa-filter"></i> Hoà trộn</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                        aria-controls="pills-profile" aria-selected="false"><i class="fas fa-arrows-alt"></i> Di
-                        chuyển</a>
+                        aria-controls="pills-profile" aria-selected="false"><i class="fas fa-arrows-alt"></i> Di chuyển</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                        aria-controls="pills-contact" aria-selected="false"><i class="fas fa-expand-arrows-alt"></i> Căn
-                        chỉnh</a>
+                        aria-controls="pills-contact" aria-selected="false"><i class="fas fa-expand-arrows-alt"></i> Căn chỉnh</a>
                     </li>
                   </ul>
 
@@ -314,7 +328,53 @@
 
               </div>
 
+              <div id="Dchchu">
 
+
+                <div id="dcchu">
+                  <div id="DchchuColor">
+                    <label>Màu chữ (Color) <span class="badge badge-primary">A</span></label>
+                    <input type="text" value=#007bff class="form-control Dch"><br>
+                  </div>
+                  <div id="DchchuSize">
+                    <label>Cỡ chữ(Size) <span class="badge badge-primary">50px</span></label>
+                    <input type="range" min=1 value=50 max=300 step=1 class="custom-range Dch"><br>
+                  </div>
+                  <hr />
+                  <div id="DchchuX">
+                    <label>Di chuyển ngang (X) <span class="badge badge-primary">0</span></label>
+                    <input type="range" min=-50 value=0 max=1000 step=1 class="custom-range Dch">
+                  </div>
+                  <div id="DchchuY">
+                    <label>Di chuyển dọc (Y) <span class="badge badge-primary">0</span></label>
+                    <input type="range" min=-50 value=0 max=1000 step=1 class="custom-range Dch">
+                  </div>
+                  <hr />
+                  <label>Hoà trộn (Blend Mode)</label>
+                  <select class="custom-select mb-3 Dch" id="DchchuHoatron">
+                    <option selected>normal</option>
+                    <option value="multiply">multiply</option>
+                    <option value="screen">screen</option>
+                    <option value="darken">darken</option>
+                    <option value="lighten">lighten</option>
+                    <option value="color-dodge">color-dodge</option>
+                    <option value="color-burn">color-burn</option>
+                    <option value="hard-light">hard-light</option>
+                    <option value="soft-light">soft-light</option>
+                    <option value="difference">difference</option>
+                    <option value="exclusion">exclusion</option>
+                    <option value="hue">hue</option>
+                    <option value="saturation">saturation</option>
+                    <option value="color">color</option>
+                    <option value="luminosity">luminosity</option>
+
+                  </select>
+                  <div id="DchchuOpa">
+                    <label>Độ trong suốt (Opacity) <span class="badge badge-primary">100%</span></label>
+                    <input type="range" min=0.1 value=1 max=1 step=0.01 class="custom-range Dch"><br>
+                  </div>
+                </div>
+              </div>
 
 
             </div>
@@ -323,7 +383,7 @@
 
 
         </div>
-        <button class="btn btn-primary mt-2 disabled" id="taoxong"><i class="fas fa-cut"></i> Tạo ảnh</button>
+        <button class="btn btn-primary mt-2" id="taoxong"><i class="fas fa-cut"></i> Tạo ảnh</button>
       </div>
 
       <div class="spinner-border text-primary loadtad m-auto" role="status">
@@ -334,12 +394,13 @@
 
       <div id="tad-xuatanh">
 
-        <div class="row mb-3">
-          <div class="col"><button class="btn btn-block btn-primary" id="quaylai"><i class="fas fa-chevron-left"></i>
-              Quay lại</button></div>
-          <div class="col"><a class="btn btn-block btn-primary" id="tad-taianhve" href="#" download="taoanhdep.jpeg"><i
-                class="fas fa-cloud-download-alt"></i> Tải ảnh về</a></div>
-        </div>
+        <button class="btn btn-primary btn-block" id="quaylai"><i class="fas fa-arrow-left"></i> Quay lại</button><br />
+
+        <button class="btn btn-primary btn-block d-none" id="chinhtiep">Chỉnh tiếp</button>
+
+        <a class="btn btn-primary btn-block" id="tad-taianhve" href="#" download="taoanhdep.jpeg"><i class="fas fa-cloud-download-alt"></i> Tải ảnh về</a>
+
+        <br />
 
         <img src="" id="img1" style="display: none;"></img>
         <img src="" id="img2" style="display: none;"></img>
@@ -358,6 +419,136 @@
         var cheight = 0;
 
 
+
+
+
+        //chuc nang chinh chu
+
+        $("#themtext").one("input", function () {
+          $("#dcchu").show();
+        });
+
+        $("#nhaptext button").click(function () {
+          $('#chonanhModal').modal('hide');
+        });
+
+        $('#DchchuColor input').colorpicker().on("change", function () {
+          Mauchu = $("#DchchuColor input").val();
+
+          $("#DchchuColor span").css("background", Mauchu);
+          ndChu = $("#nhaptext input").val();
+          Mauchu = $("#DchchuColor input").val();
+
+
+          toadochuX = $("#DchchuX input").val();
+
+          toadochuY = $("#DchchuY input").val();
+
+
+          DcSizechu = $("#DchchuSize input").val();
+
+
+          HoaTronchu = $("#DchchuHoatron").val();
+
+          Dotrongchu = $("#DchchuOpa input").val();
+
+          Dcxoaychu = $("#DchchuXoay input").val();
+
+          Vietchu(ndChu, Mauchu, DcSizechu, toadochuX, toadochuY, HoaTron, Dotrongchu, xoay);
+
+        });
+
+
+        $("#Dchchu .Dch,#nhaptext input").on("input", function () {
+
+
+          var ndChu = $("#nhaptext input").val();
+
+          Mauchu = $("#DchchuColor input").val();
+
+
+          toadochuX = $("#DchchuX input").val();
+
+          $("#DchchuX span").text(toadochuX + "px");
+
+          toadochuY = $("#DchchuY input").val();
+
+          $("#DchchuY span").text(toadochuY + "px");
+
+          DcSizechu = $("#DchchuSize input").val();
+          $("#DchchuSize span").text(DcSizechu + "px");
+
+
+          HoaTronchu = $("#DchchuHoatron").val();
+
+          Dotrongchu = $("#DchchuOpa input").val();
+          $("#DchchuOpa span").text(parseInt(Dotrongchu * 100) + "%");
+
+          Dcxoaychu = $("#DchchuXoay input").val();
+
+          $("#DchchuXoay span").text(Dcxoaychu + "º");
+
+          Vietchu(ndChu, Mauchu, DcSizechu, toadochuX, toadochuY, HoaTron, Dotrongchu, xoay);
+        });
+        //sadsad
+        function nnewr() {
+
+
+          var ndChu = $("#nhaptext input").val();
+
+          Mauchu = $("#DchchuColor input").val();
+
+
+          toadochuX = $("#DchchuX input").val();
+
+          $("#DchchuX span").text(toadochuX + "px");
+
+          toadochuY = $("#DchchuY input").val();
+
+          $("#DchchuY span").text(toadochuY + "px");
+
+          DcSizechu = $("#DchchuSize input").val();
+          $("#DchchuSize span").text(DcSizechu + "px");
+
+
+          HoaTronchu = $("#DchchuHoatron").val();
+
+          Dotrongchu = $("#DchchuOpa input").val();
+          $("#DchchuOpa span").text(parseInt(Dotrongchu * 100) + "%");
+
+          Dcxoaychu = $("#DchchuXoay input").val();
+
+          $("#DchchuXoay span").text(Dcxoaychu + "º");
+
+          Vietchu(ndChu, Mauchu, DcSizechu, toadochuX, toadochuY, HoaTron, Dotrongchu, xoay);
+        }
+
+
+
+
+        //chuc nang viet chu
+
+
+        //vietchu
+        function Vietchu(ndChu, colortext, DcSizechu, x, y, HoaTron, Dotrongchu, xoay) {
+          var ctx = canvas.getContext('2d');
+
+
+          ctx.save();
+          ctx.drawImage(img1, 0, 0);
+          ctx.restore();
+
+          ctx.save();
+          ctx.translate(x, y);
+          ctx.globalCompositeOperation = HoaTronchu;
+          ctx.globalAlpha = Dotrongchu;
+          ctx.font = DcSizechu + "px Arial";
+          ctx.fillStyle = colortext;
+          ctx.textAlign = "center";
+          ctx.fillText(ndChu, img1.width / 2, img1.height / 2);
+
+          ctx.restore();
+        }
 
 
 
@@ -402,8 +593,6 @@
           img1.onerror = failed;
           img1.src = URL.createObjectURL(this.files[0]);
 
-  
-
         };
 
         //up anh
@@ -415,9 +604,7 @@
 
           $("#preimgup").show().html("<img class='img-thumbnail' src='" + img2.src + "'></img>");
 
-          $("#preimgup,#chonanhup").show();
-
-          $(".showtypo,#chontyponay").hide();
+          $("#chonanhup").show();
 
         };
 
@@ -429,30 +616,19 @@
 
 
 
-        // nhap url anh
+// nhap url anh
 
-        $("#upanhurl input").on("input", function () {
-
-
-          img2.crossOrigin = "anonymous";
-          img2.src = $(this).val();
-
-          $("#preimgurl").show().html("<img onerror='imgloi()' class='img-thumbnail' src='" + img2.src + "'></img>");
+$("#upanhurl input").on("input",function(){
 
 
-        });
+img2.crossOrigin = "Anonymous";
+  img2.src = $(this).val();
+
+  $("#preimgurl").show().html("<img onerror=this.style.display='none' class='img-thumbnail' src='" + img2.src + "'></img>");
 
 
+});
 
-        function imgloi() {
-
-          $(".thongbaourl").show();
-
-          $("#preimgurl img").hide();
-
-
-
-        }
 
         //ve nen
         function Vechonnen() {
@@ -514,7 +690,6 @@
           $("#Dch").show();
           $(".avt-upanhlen").css("background-image", "url(' " + img2.src + " ')");
           $('#chonanhModal').modal('hide');
-          $("#taoxong").removeClass("disabled");
 
 
         }
@@ -569,6 +744,44 @@
           $("#tad-csa").show();
         });
 
+
+
+
+        //nut chinh tiep
+
+
+
+        $("#chinhtiep").click(function () {
+          $("#img1").attr("src", getimg);
+          $("#tad-csa").show();
+          $("#tad-xuatanh").hide();
+          velai();
+          $("#Dch").hide();
+          $("#img2").attr("src", "");
+          $("#upanhlen").val("");
+          $(".avt-upanhlen").attr("style", "");
+          $("#DchX input").val(0);
+
+          $("#DchX span").text(0 + "px");
+
+          $("#DchY input").val(0);
+
+          $("#DchY span").text(0 + "px");
+
+          $("#DchScale input").val(0.8);
+          $("#DchScale span").text(0.8 + "x");
+
+          $("#DchHoatron").val("normal");
+
+          $("#DchOpa input").val(1);
+
+          $("#DchOpa span").text("100 %");
+
+          Dcxoay = $("#DchXoay input").val(0);
+
+          $("#DchXoay span").text("0 º");
+
+        });
 
 
         //taianhve
@@ -1186,7 +1399,7 @@
 
           for (index = 0; index < chuden.length; ++index) {
             $("#showchutrang").hide();
-            $("#showchuden").append("<div class='col-6 my-2'><img src='" + chuden[index] + "' class='img-thumbnail'></img></div>").show();
+            $("#showchuden").append("<div class='col-6 mb-3'><img src='" + chuden[index] + "' class='img-thumbnail'></img></div>").show();
 
           }
           showtypo();
@@ -1197,7 +1410,7 @@
 
           for (index = 0; index < chutrang.length; ++index) {
             $("#showchuden").hide();
-            $("#showchutrang").append("<div class='col-6 my-2'><img src='" + chutrang[index] + " 'class='img-thumbnail'></img></div>").show();
+            $("#showchutrang").append("<div class='col-6 mb-3'><img src='" + chutrang[index] + " 'class='img-thumbnail'></img></div>").show();
 
           }
           showtypo();
@@ -1209,8 +1422,6 @@
 
         //chon ve typo
         function showtypo() {
-
-          $("#preimgup,#chonanhup").hide();
 
           $(".showtypo img").click(function () {
             $(".showtypo img").removeClass("active");
