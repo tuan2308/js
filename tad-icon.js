@@ -20,7 +20,7 @@ $(document).ready(function () {
             $(".chonnenicon li").attr("id", "");
             $(this).attr("id","active");
             $(".tad-out-icon").attr("style", maunen);
-            $(".tad-out-icon").attr("class", chonkieu);
+            $(".tad-main").attr("class", chonkieu);
         });
         $("#cropanh").click(function () {
             $("#tad-taoanh").removeClass("disabled");
