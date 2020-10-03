@@ -6,7 +6,7 @@ $(document).ready(function () {
         var teniconxuat = "";
         $(".chonicon li").click(function () {
             $("#tad-taoanh").removeClass("disabled");
-            $(".chonicon li").attr("class", "");
+            $(".chonicon li").attr("id", "");
             $(this).attr("id","active");
             iconchon = $(this).html();
             $(".tad-out-icon").html(iconchon);
