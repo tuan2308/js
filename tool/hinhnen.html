@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+</head>
+
+<body>
+
+
+    <div class="container mt-3">
+        <h1>Chuyển html up bài hình nền</h1>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput">ALT ảnh đầu</label>
+            <input type="text" class="form-control t-althtml" id="formGroupExampleInput01">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Nhập</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea2">Copy</label>
+            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"></textarea>
+            <button id="exampleFormControlTextarea2copy" class="btn btn-primary mt-3">Copy</button>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+
+
+
+
+                $("#exampleFormControlTextarea1,.t-althtml").on("input", function () {
+
+                    var t1 = $("#exampleFormControlTextarea1").val();
+
+                    var tt01 = $("#formGroupExampleInput01").val();
+
+                    var content = t1.replace(/alt=""/g, 'alt="' + tt01 + '"').replace(/<div class="separator" style="clear: both;">/g, '<div class="col tad-gal fas">').replace(/style="display: block; padding: 1em 0; text-align: center; "/g, '');
+
+                    $("#exampleFormControlTextarea2").val(content);
+                });
+
+
+                $("#exampleFormControlTextarea2copy").click(function () {
+                    $("#exampleFormControlTextarea2").select();
+                    document.execCommand('copy');
+                });
+
+
+
+            
+            });
+        </script>
+
+<hr/>
+        <h1>HTML Nội dung bài</h1>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput">ALT ảnh đầu</label>
+            <input type="text" class="form-control t-ndbai" id="formGroupExampleInput1">
+        </div>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput">Url Ảnh đầu</label>
+            <input type="text" class="form-control t-ndbai" id="formGroupExampleInput2">
+        </div>
+
+        <div class="form-group">
+            <label for="formGroupExampleInput">Mô tả bài viết</label>
+            <input type="text" class="form-control t-ndbai" id="formGroupExampleInput3">
+        </div>
+
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea3">Copy</label>
+            <textarea class="form-control" id="exampleFormControlTextarea3" rows="5"></textarea>
+            <button id="exampleFormControlTextarea3copy" class="btn btn-primary mt-3">Copy</button>
+        </div>
+
+
+        <script>
+            $(document).ready(function () {
+
+                $(".t-ndbai").on("input", function () {
+
+
+
+                    var tt1 = $("#formGroupExampleInput1").val();
+                    var tt2 = $("#formGroupExampleInput2").val();
+                    var tt3 = $("#formGroupExampleInput3").val();
+
+                    $("#exampleFormControlTextarea3").val("<a href='" + tt2 + "' imageanchor='1'><img alt='" + tt1 + "' title='" + tt1 + "' border='0' src='" + tt2 + "' /></a> " + tt3 + " <br /> <!--more--><br /> <div class='row row-cols-1 row-cols-md-3'>")
+
+
+                });
+
+
+                $("#exampleFormControlTextarea3copy").click(function () {
+                    $("#exampleFormControlTextarea3").select();
+                    document.execCommand('copy');
+                });
+
+            });
+        </script>
+
+
+</body>
+
+</html>
