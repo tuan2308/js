@@ -4,23 +4,34 @@
 <title>Page Title</title>
 </head>
 <body>
-    <canvas width=1500 height=1500></canvas>
+  <div class="sdfas"></div>
+    <canvas width=1500 height=1333></canvas>
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
 <label>Step: <input type=range min=0 max=5 value=2></label><span>4</span><br>
 
 <style>
-body {background: url(https://1.bp.blogspot.com/-F8eI7EgblJ8/YJdKSm7cepI/AAAAAAAAsfs/y2_AOh_4-yEEwva2uAVkb6rI0lv5MNtfgCNcBGAsYHQ/s0/123.jpg) no-repeat;
-margin: 0;
-background-size:1500px;
+body {
+    background: url(https://1.bp.blogspot.com/-n0SGAoNt6sA/YKCfvSc3aqI/AAAAAAAAs38/r_Q0BiSLi2oC1vW43cA0pyG-J2m1S81KwCNcBGAsYHQ/s0/wall.png) no-repeat;
+    margin: 0;
+    background-size: 1000px;
+}.sdfas {
+    background: url(https://1.bp.blogspot.com/-KoGqi8uPtho/YKChceWdrvI/AAAAAAAAs4E/0xLJC7BPx-spQIxtquYkye192thQXceBgCNcBGAsYHQ/s0/123.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1534px;
+    height: 1333px;
+    background-size: 1192px;
+    opacity: .2;    pointer-events: none;
 }
 </style>
 
 <script>
 /* Quadrilateral Transform - (c) Ken Nilsen, CC3.0-Attr */
 var img = new Image();  img.onload = go;
-img.src = "https://1.bp.blogspot.com/-g0MxRSLiP_k/YJdLpZBL9WI/AAAAAAAAsf4/kz0uok8otlUy1WNALWBRPLy7LBjHa3L7gCNcBGAsYHQ/s500/screen.jpg";
+img.src = "https://4.bp.blogspot.com/-1BJ2K58RXTQ/WlrTNyP4AUI/AAAAAAAAKLQ/V07fe5NGoL4z7kPFhp1d2ukUkHTlCsg2ACK4BGAYYCw/s500/65d0d901c19d92bded2e1a0defa3b95e_original.jpg";
 
 function go() {
   var me = this,
@@ -29,7 +40,10 @@ function go() {
       c = document.querySelector("canvas"),
       ctx = c.getContext("2d"),
       corners = [
-      {x: 323, y: 314} ,{x: 620, y: 376} ,{x: 488, y: 807} ,{x: 152, y: 721}
+      {x: -10, y: 51}
+, {x: 1191, y: -16}
+,{x: 1152, y: 617}
+, {x: 117, y: 625}
       ],
       radius = 10, cPoint, timer,  // for mouse handling
       step = 1;                    // resolution
