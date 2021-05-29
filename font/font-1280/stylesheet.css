@@ -1,22 +1,4 @@
 @font-face {
-    font-family: 'UTM Akashi';
-    src: url('UTMAkashi.woff2') format('woff2'),
-        url('UTMAkashi.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UTM Agin';
-    src: url('UTMAgin.woff2') format('woff2'),
-        url('UTMAgin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'SVN-Block';
     src: url('SVN-Block.woff2') format('woff2'),
         url('SVN-Block.woff') format('woff');
