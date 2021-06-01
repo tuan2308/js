@@ -4,7 +4,7 @@ var tm = "https://cdn." + document.location.hostname.slice(4, 17) + "/tad/"
 
     $("head").append("<script src='" + tm + "tv/h2.js'>");
     if ($(".btn-chonanh").length !== 0) {
-        $("head").append("<link href='" + tm + "tad-crop.css' rel='stylesheet'/>");
+        $("head").append("<link href='" + tm + "css/tad-crop.css' rel='stylesheet'/>");
         $("head").append("<script src='" + tm + "cr.js'>");
         $("head").append("<script src='" + tm + "tv/cr.js'>");
         $("body").append("<input class='cropanh d-none' value=''>")
