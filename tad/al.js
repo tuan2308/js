@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    if (window.location.hostname == tmbq) {
 var tm = "https://cdn." + document.location.hostname.slice(4, 17) + "/tad/"
 
     $("head").append("<script src='" + tm + "tv/h2.js'>");
@@ -95,4 +95,5 @@ var tm = "https://cdn." + document.location.hostname.slice(4, 17) + "/tad/"
             $(".load-anh").hide();
         }, 'image/jpeg');
     });
+}
 });
