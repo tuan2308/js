@@ -97,9 +97,7 @@ window.onload = function() {
                 case 'getCroppedCanvas':
                     if (result) {
                         $(".anhdacat").html(result);
-                        if (!download.disabled) {
-                            download.href = result.toDataURL(uploadedImageType);
-                        }
+                       
                     }
                     break;
                 case 'destroy':
