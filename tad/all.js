@@ -35,7 +35,7 @@ $(document).ready(function() {
                     return false;
                 } else {
                     t0.removeClass("is-invalid");
-                    t0o.html(t1.val());
+                    t0o.html(t0.val());
                 }
             }
             var t1 = $(".tad-in-text1");
@@ -66,7 +66,7 @@ $(document).ready(function() {
                     return false;
                 } else {
                     t2.removeClass("is-invalid");
-                    t2o.html(t1.val());
+                    t2o.html(t2.val());
                 }
             }
             var t3 = $(".tad-in-text3");
