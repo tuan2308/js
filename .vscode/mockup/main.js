@@ -12,10 +12,6 @@ $(document).ready(function() {
         var layer = document.getElementById("Limg");
         var noise = document.getElementById("Nimg");
 
-        
-        img.crossOrigin = "Anonymous";
-        img.src = "https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png";
-
         function go() {
 
                 c = document.querySelector("canvas"),
@@ -43,7 +39,7 @@ $(document).ready(function() {
                 }
 
                 ctx.save();
-                 ctx.drawImage(layer,0,0) 
+                 ctx.drawImage(layer,0,0,c.width, c.height) 
                  ctx.restore();
 
 
