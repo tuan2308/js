@@ -3,7 +3,7 @@ $(document).ready(function() {
         $("#tad-taianhve").hide();
         $(".tad-ketqua").hide();
         $("#tad-taoanh").addClass("disabled");
-        $("head").append("<script src='" + tm + "xlha1.js'>");
+        $("head").append("<script src='" + tm + "tv/xlha.js'>");
         if ($(".btn-chonanh").length !== 0) {
             $("head").append("<link href='" + tm + "css/cr.css' rel='stylesheet'/>");
             $("head").append("<script src='" + tm + "cr.js'>");
