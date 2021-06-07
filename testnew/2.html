@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script crossorigin='anonymous'
+    integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+    src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+<p>Image to use:</p>
+
+<img src="" id="Pimg"></img>
+<button id="tad-taoanh">Tạo ảnh</button>
+
+<p>Canvas:</p>
+<canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<br><br>
+<style>canvas {
+    border: 2px solid;
+}</style>
+<button onclick="draw('repeat')">Repeat</button> 
+<button onclick="draw('repeat-x')">Repeat-x</button> 
+<button onclick="draw('repeat-y')">Repeat-y</button> 
+<button onclick="draw('no-repeat')">No-repeat</button>     
+
+<script>
+
+
+
+
+$( document ).ready(function() {
+var c = document.createElement("canvas");
+c.width = 200;
+c.height = 200;
+var ctx = c.getContext("2d");
+x = c.width/2;
+y = c.height/2;
+lineHeight = 15;
+ctx.fillStyle = 'black';
+x = c.width/2;
+y = c.height/2;
+
+ctx.save();
+ctx.translate(x, y);
+ctx.rotate(-Math.PI / 4);
+
+ctx.textAlign = 'center';
+var txt = "TUAN TRUONG NGOC" 
+cr = ctx.measureText(txt).width;
+font = c.width*10 / cr;
+ctx.font =  font + 'px Arial';
+ctx.fillText(txt, 0, lineHeight / 2);
+
+var dataurrl = c.toDataURL();
+
+
+c.toBlob(function(blob) {
+    var bloburl=URL.createObjectURL(blob);
+    $("#Pimg").attr("src",bloburl)
+});
+
+
+function draw(direction) {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.clearRect(0, 0, c.width, c.height); 
+  var img = document.getElementById("Pimg")
+  var pat = ctx.createPattern(img, direction);
+  ctx.rect(0, 0, c.width, c.height);
+  ctx.fillStyle = pat;
+  ctx.fill();
+}
+
+
+
+$("#tad-taoanh").click(function() {
+            document.fonts.load('10pt "UTM-Avo"').then(draw)
+        });
+
+});
+//
+
+
+
+
+</script>
+
+</body>
+</html>
