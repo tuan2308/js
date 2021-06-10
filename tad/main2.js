@@ -6,7 +6,6 @@ $(document).ready(function() {
         $("head").append("<script src='" + tm + "tv/xlha.js'>");
         if ($(".btn-chonanh").length !== 0) {
             $("head").append("<link href='" + tm + "css/cr.css' rel='stylesheet'/>");
-            $("head").append("<script src='" + tm + "cr.js'>");
             $("body").append("<input class='cropanh d-none' value=''>")
         }
         var cra = $(".cropanh");
@@ -255,4 +254,4 @@ $(document).ready(function() {
         };
 
     }
-});
+  });
