@@ -5,24 +5,24 @@
 </head>
 <body>
   <div class="sdfas"></div>
-    <canvas width=1500 height=3000></canvas>
+    <canvas width=3000 height=3000></canvas>
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
-<label>Step: <input type=range min=0 max=5 value=2></label><span>4</span><br>
+<label>Step: <input type=range min=0 max=5 value=32></label><span>32</span><br>
 
 <style>
 body {
-    background: url(https://1.bp.blogspot.com/-XwveR6y4j7w/YMINvPeNApI/AAAAAAAAtnE/O6ABum_W3kMbfvLvaYiORd7sGmhvCBllwCNcBGAsYHQ/s0/wall2.png) no-repeat;
+    background: url(https://1.bp.blogspot.com/-xwXAt1bYNvc/YMQhuaXY9eI/AAAAAAAAtqc/YP08OU78c-Im_eaO3DB3IpRkRFYkDsIdwCNcBGAsYHQ/s0/wall3.jpg) no-repeat;
     margin: 0;
-    background-size: 2000px;
+    background-size: 1600px;
 }
 </style>
 
 <script>
 /* Quadrilateral Transform - (c) Ken Nilsen, CC3.0-Attr */
 var img = new Image();  img.onload = go;
-img.src = "https://1.bp.blogspot.com/-awppGN0CGpU/YMIQfUaCXRI/AAAAAAAAtnM/thszcav8hbsT4ueOf_mKa-MVcMNJOFP4wCNcBGAsYHQ/s0/A%25CC%2589nh%2Bchu%25CC%25A3p%2BMa%25CC%2580n%2Bhi%25CC%2580nh%2B2021-06-10%2Blu%25CC%2581c%2B20.09.21.png";
+img.src = "https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png";
 
 function go() {
   var me = this,
@@ -30,10 +30,10 @@ function go() {
       stepTxt = document.querySelector("span"),
       c = document.querySelector("canvas"),
       ctx = c.getContext("2d"),
-      corners = [{x: 25, y: 44} , {x: 1168, y: 212} ,{x: 1128, y: 751} , {x: 99, y: 878}
+      corners = [{x: 99, y: 155} , {x: 1160, y: 276}, {x: 1107, y: 865} ,{x: 68, y: 1029}
       ],
       radius = 10, cPoint, timer,  // for mouse handling
-      step = 1;                    // resolution
+      step = 32;                    // resolution
 
   update();
 
@@ -45,7 +45,7 @@ function go() {
         h = img.height - 1;
 
     ctx.clearRect(0, 0, c.width, c.height);
-
+ctx.save();
     for(y = 0; y < h; y += step) {
       for(x = 0; x < w; x += step) {
         y1c = lerp(corners[0], corners[3],  y / h);
@@ -58,14 +58,14 @@ function go() {
         p2 = lerp(y1c, y2c, (x + step) / w);
         p3 = lerp(y1n, y2n, (x + step) / w);
         p4 = lerp(y1n, y2n,  x / w);
-
+        ctx.globalAlpha = 0;
         ctx.drawImage(img, x, y, step, step,  p1.x, p1.y, // get most coverage for w/h:
             Math.ceil(Math.max(step, Math.abs(p2.x - p1.x), Math.abs(p4.x - p3.x))) + 1,
             Math.ceil(Math.max(step, Math.abs(p1.y - p4.y), Math.abs(p2.y - p3.y))) + 1)
       }
     }
   }
-  
+  ctx.restore()
   function lerp(p1, p2, t) {
     return {
       x: p1.x + (p2.x - p1.x) * t, 
@@ -74,6 +74,7 @@ function go() {
 
   /* Stuff for demo: -----------------*/
   function drawCorners() {
+    ctx.globalAlpha = 1;
     ctx.strokeStyle = "#09f"; 
     ctx.lineWidth = 2;
     ctx.beginPath();
