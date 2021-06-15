@@ -5,17 +5,23 @@
 </head>
 <body>
   <div class="sdfas"></div>
+
+
+<div id="temp">
     <canvas width=3000 height=3000></canvas>
+  </div>
+
+
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
 
 <label>Step: <input type=range min=0 max=5 value=32></label><span>32</span><br>
 
 <style>
-body {
-    background: url(https://1.bp.blogspot.com/-xwXAt1bYNvc/YMQhuaXY9eI/AAAAAAAAtqc/YP08OU78c-Im_eaO3DB3IpRkRFYkDsIdwCNcBGAsYHQ/s0/wall3.jpg) no-repeat;
+#temp {
+    background: url(https://1.bp.blogspot.com/-u6LR0rAgNCc/YMgt_DnKTZI/AAAAAAAAt0s/ZPQCZbACAzMwM0NXLJphZbrMVzxdDbssQCNcBGAsYHQ/s0/missthy.png) no-repeat;
     margin: 0;
-    background-size: 1600px;
+    background-size: 1500px;
 }
 </style>
 
@@ -30,7 +36,7 @@ function go() {
       stepTxt = document.querySelector("span"),
       c = document.querySelector("canvas"),
       ctx = c.getContext("2d"),
-      corners = [{x:-20,y:150},{x: 1161, y: 272},{x:1107,y:865},{x:68,y:1029}
+      corners = [{x: 937, y: 573} ,{x: 1196, y: 304} ,{x: 1790, y: 837} ,{x: 1541, y: 1136}
       ],
       radius = 10, cPoint, timer,  // for mouse handling
       step = 32;                    // resolution
