@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-9">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tad-demoanh"><a
+                    href="https://1.bp.blogspot.com/-QRMzbkb7zJM/YLSw0Px7nzI/AAAAAAAAtP8/uOWQCvpR_DkCK64vDmdg2luQtOSTnEk3wCNcBGAsYHQ/s0/wall-pc.jpg"
+                    imageanchor="1"><img alt="Tạo ảnh trang cá nhân facebook với giao diện máy tính" border="0"
+                        class="img-thumbnail mt-0" data-original-height="720" data-original-width="1280"
+                        src="https://1.bp.blogspot.com/-QRMzbkb7zJM/YLSw0Px7nzI/AAAAAAAAtP8/uOWQCvpR_DkCK64vDmdg2luQtOSTnEk3wCNcBGAsYHQ/s0/wall-pc.jpg"
+                        title="Tạo ảnh trang cá nhân facebook với giao diện máy tính">
+                    <div class="phongtoanh"><i class="fas fa-search-plus"></i></div>
+                </a></div>
+        </div>
+        <div class="col-md-6">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1936887719551664"
+                data-ad-slot="8495386474" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+    <hr>
+    <script src="./ct2.js" type='text/javascript'></script>
+    <script src='./xlha1.js' type='text/javascript'></script>
+    <link href='https://cdn.taoanhdep.com/tad-crop.css' rel='stylesheet' />
+    <input class="dk1 d-none" value="">
+    <input class="dk2 d-none" value="">
+    <p>
+        Chào mọi người! Nếu bạn sử dụng các hiệu ứng <a
+            href="https://www.taoanhdep.com/search/label/Gh%C3%A9p%20%E1%BA%A3nh">Ghép ảnh</a> trên website
+        taoanhdep.com để ghép trang cá nhân facebook của mình nhưng không có máy tính để chụp ảnh màn hình thì có thể
+        dùng công cụ này để "Fake" giao diện facebook máy tính ngay trên điện thoại nhé!
+        <br />
+        <b>Hướng dẫn:</b>
+        <br>
+        - Chọn tải lên ảnh đại diện và ảnh bìa của bạn.
+        <br>
+        - Nhập tên của bạn và tiểu sử của bạn<br />
+        - Nhấn nút <b>Tạo ảnh</b><br />
+        - Nhấn nút <b>Tải ảnh về</b> hoặc giữ vào ảnh 3 giây để lưu ảnh.
+    </p>
+    <hr />
+    <style>
+        .xulyhinhanh img {
+            margin: 0 !important
+        }
+
+        .chonanh-avt {
+            width: 38px;
+            height: 38px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px
+        }
+
+        .img-preview1,
+        .img-preview2 {
+            width: 36px;
+            height: 36px;
+            background: url(http://2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png);
+            background-size: 36px
+        }
+
+        #chonanhModal1,
+        #chonanhModal2 {
+            display: block !important
+        }
+
+        #chonanhModal1:not(.show),
+        #chonanhModal2:not(.show) {
+            opacity: 0;
+            visibility: hidden
+        }
+
+        .img-container1,
+        .img-preview1,
+        .img-container2,
+        .img-preview2 {
+            background-color: #f7f7f7;
+            text-align: center;
+            width: 100%
+        }
+
+        .img-container1,
+        .img-container2 {
+            margin-bottom: 1rem;
+            max-height: 300px;
+            min-height: 280px
+        }
+
+        .img-container1>img,
+        .img-container2>img {
+            max-width: 100%
+        }
+
+        .img-preview1,
+        .img-preview2 {
+            float: left;
+            margin-bottom: .5rem;
+            margin-right: .5rem;
+            overflow: hidden
+        }
+
+        .img-preview1,
+        .img-preview2>img {
+            max-width: 100%
+        }
+
+
+        #temp{position:fixed;height:0;top:0;left:0;overflow:hidden}
+
+        .tad-main {
+            width: 900px;
+            height: 1950px;
+            position: relative;
+        }
+
+        .tad-layer {
+            background: url(./pro-fb.png);
+            width: 900px;
+            height: 1950px;
+            z-index: 99;
+        }
+
+        .tad-main>* {
+            position: absolute;
+        }
+
+        .anhdacat1 canvas {
+    width: 420px;
+    z-index: 10;
+    position: absolute;
+    border-radius: 100%;
+    border: 10px solid #fff;
+    left: calc(900px/2 - 420px /2);
+    top: 540px;
+}
+        .anhdacat2 canvas {
+            position: absolute;
+            top: 303px;
+            width: 828px;
+            height: 465px;
+            z-index: 9;
+            left: calc(900px/2 - 828px/2);
+            border-radius: 50px 50px 0 0;
+        }
+
+        .tad-info {
+            top: 970px;
+            width: 900px;
+            text-align: center;
+        }
+
+        .tad-out-text1 {
+            font-size: 55px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .tad-main>.tad-out-text1 {
+    z-index: 9999;
+    top: 125px;
+    left: 100px;
+    max-width: 550px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+        .tad-tick {
+            background-image: url(./tick.png);
+            width: 36px;
+            height: 36px;
+            background-size: cover;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .tad-out-texta {
+            font-size: 30px;
+            color: #555;margin-bottom: 5px;
+        }
+
+        .tad-themtin {
+            width: 900px;
+            height: 160px;
+            background: url(./themtin.png);
+        }
+
+        .tad-infoo {
+            font-size: 35px;
+            text-align: left;
+            padding: 0 40px;
+            list-style: none;
+        }
+
+        .tad-icon {
+            background-image: url(./home.png);
+            width: 50px;
+            height: 46px;
+            background-size: cover !important;
+            margin-right: 25px;
+            vertical-align: middle;
+        }
+
+        .tad-infoo li>* {
+            display: inline-block;
+        }
+
+        .tad-namefb {
+            padding: 0 100px;
+        }
+
+        .tad-out-text2 {
+            display: inline-block;
+            font-size: 40px;
+            font-weight: 500;
+            vertical-align: super;
+        }
+
+        span.tad-out-text3 ,.tad-out-text5{
+            font-weight: bold;
+        }
+
+        .tad-infoo li {
+            margin-bottom: 35px;
+        }
+
+        .tad-icon.love {
+            background-image: url(./love.png);
+        }
+
+        .tad-icon.time {
+            background-image: url(./time.png);
+            height: 50px;
+        }
+
+        .tad-icon.follow {
+            background-image: url(./follow.png);
+            height: 50px;
+        }
+
+        .tad-icon.more {
+            background-image: url(./more.png);
+            height: 12px;
+        }
+
+        .tad-chinhsua {
+            background: url(./chinhsua.png);
+            width: 900px;
+            height: 145px;
+        }
+    </style>
+
+    <div class="xulyhinhanh">
+        <label><b>Chọn avatar*</b></label>
+        <div class="mb-2">
+            <div class="chonanh-avt">
+                <div class="img-preview1 img-preview"></div>
+            </div>
+            <button type="button" class="btn btn-primary btn-chonanh1" data-toggle="modal" data-target="#chonanhModal1">
+                <i class="fas fa-upload"></i> Chọn ảnh
+            </button>
+            <div class="modal fade" id="chonanhModal1" tabindex="-1" role="dialog" aria-labelledby="chonanhModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="chonanhModalLabel">Chọn ảnh từ thiết bị</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="actions1">
+                                <div class="docs-buttons1">
+                                    <label class="btn btn-primary btn-upload btn-upanh1" for="inputImage1" title="Upload image file">
+                                        <input type="file" class="sr-only" id="inputImage1" name="file" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                                        <span><i class="fas fa-upload"></i> Chọn ảnh</span>
+                                    </label>
+                                    <div class="cropanh-container1 mt-2" style="display:none">
+                                        <div class="img-container1">
+                                            <img src="" alt="Tạo ảnh đẹp">
+                                        </div>
+                                        <div class="d-flex float-right">
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45" title="Rotate Left">
+                                                    <i class="fa fa-undo"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="rotate" data-option="45" title="Rotate Right">
+                                                    <i class="fa fa-redo"></i>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="scaleX" data-option="-1" title="Flip Horizontal">
+                                                    <i class="fa fa-arrows-alt-h"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="scaleY" data-option="-1" title="Flip Vertical">
+                                                    <i class="fa fa-arrows-alt-v"></i>
+                                                </button>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="cropanh" data-method="getCroppedCanvas" data-dismiss="modal" data-option="{ &quot;width&quot;: 550, &quot;height&quot;: 550}">
+                                                Cắt ảnh
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label><b>Chọn ảnh bìa*</b></label>
+        <div class="mb-2">
+            <div class="chonanh-avt">
+                <div class="img-preview2 img-preview"></div>
+            </div>
+            <button type="button" class="btn btn-primary btn-chonanh2" data-toggle="modal" data-target="#chonanhModal2">
+                <i class="fas fa-upload"></i> Chọn ảnh
+            </button>
+            <div class="modal fade" id="chonanhModal2" tabindex="-1" role="dialog" aria-labelledby="chonanhModal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="chonanhModal2Label">Chọn ảnh từ thiết bị</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="actions2">
+                                <div class="docs-buttons2">
+                                    <label class="btn btn-primary btn-upload btn-upanh2" for="inputImage2" title="Upload image file">
+                                        <input type="file" class="sr-only" id="inputImage2" name="file" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                                        <span><i class="fas fa-upload"></i> Chọn ảnh</span>
+                                    </label>
+                                    <div class="cropanh-container2 mt-2" style="display:none">
+                                        <div class="img-container2">
+                                            <img src="" alt="Tạo ảnh đẹp">
+                                        </div>
+                                        <div class="d-flex float-right">
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="rotate" data-option="-45" title="Rotate Left">
+                                                    <i class="fa fa-undo"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="rotate" data-option="45" title="Rotate Right">
+                                                    <i class="fa fa-redo"></i>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="scaleX" data-option="-1" title="Flip Horizontal">
+                                                    <i class="fa fa-arrows-alt-h"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="scaleY" data-option="-1" title="Flip Vertical">
+                                                    <i class="fa fa-arrows-alt-v"></i>
+                                                </button>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="cropanh" data-method="getCroppedCanvas" data-dismiss="modal" data-option="{ &quot;width&quot;: 550, &quot;height&quot;: 550}">
+                                                Cắt ảnh
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label><b>Nhập tên*</b></label>
+        <input class="form-control tad-in-text1 mb-2" type="text" placeholder="Tên của bạn" value="">
+            Tên phụ
+            <input class="form-control tad-in-text2 mb-2" type="text" placeholder="Có thể để trống" value="">
+        <label>Nhập tiểu sử</label>
+        <textarea class="form-control tad-in-texta mb-2" type="text" placeholder="Có thể để trống (Nhấn enter để xuống hàng)"></textarea>
+
+
+        <b>Sống tại*</b>
+
+<input class="form-control tad-in-text3 mb-2" type="text" placeholder="Nhập địa chỉ" value="">
+            <label>Tình trạng</label>
+
+<input class="form-control tad-in-text4 mb-2" type="text" placeholder="Nhập tình trạng" value="Độc thân">
+            <label>Số lượng follow</label>
+
+<input class="form-control tad-in-text5 mb-2" type="text" placeholder="Nhập số follow" value="1.234.567">
+
+
+        <div class="mt-3">
+            <button type="button" class="btn btn-primary" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+                ảnh</button>
+        </div>
+        <center>
+            <div class="load-anh my-2 my-2 spinner-border text-primary" role="status" style="display:none"> <span class="sr-only">Loading...</span> </div>
+        </center>
+        <label class="mt-3 tad-ketqua" style="display: none;"> Kết quả: </label>
+        <div id="img-out" class="my-2"></div>
+        <a href="#" class="btn btn-block btn-primary mb-2" id="tad-taianhve" style="display: none;"><i class="fas fa-cloud-download-alt"></i>
+            Tải ảnh về</a>
+
+
+<div id="temp">     <div class="tad-main">
+    <div class="tad-layer"></div>
+    <div class="tad-out-text1 top"></div>
+    <div class="anhdacat1"><canvas width="550" height="550"></canvas></div>
+    <div class="anhdacat2"><canvas width="550" height="366"></canvas></div>
+    <div class="tad-info">
+        <div class="tad-namefb">
+            <div class="tad-out-text1"></div>
+            <div class="tad-out-text2"></div>
+            <div class="tad-tick"></div>
+        </div>
+        <div class="tad-out-texta"></div>
+
+        <div class="tad-themtin">
+        </div>
+        <div class="tad-infoo">
+            <li>
+                <div class="tad-icon"></div>
+                <div>
+                    Sống tại <span class="tad-out-text3"></span></div>
+            </li>
+            <li>
+                <div class="love tad-icon"></div>
+                <div><span class="tad-out-text4"></span></div>
+            </li>
+            <li>
+                <div class="tad-icon follow"></div>
+                <div>Có <span class="tad-out-text5"></span> người theo dõi</div>
+            </li>
+            <li>
+                <div class="tad-icon more"></div>
+                <div>Xem thông tin giới thiệu của bạn</div>
+            </li>
+        </div>
+        <div class="tad-chinhsua">
+        </div>
+        <div></div>
+    </div>
+
+
+
+</div></div>
+
+   
+    </div>
+    <script>var tenanhxuat = "taoanhdep_wallpc.jpg"; var rongh2 = 900; var daih2 = 1950;</script>
+
+</body>
+
+</html>
