@@ -18,25 +18,30 @@
 
 </head>
 <body>
-    <canvas id="canvas" width="2000" height="2000"></canvas>
+    <canvas id="canvas" width="2000" height="2000" style="border:1px solid"></canvas>
 
     <script>
 
 
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
+const c = document.getElementById('canvas');
+const ctx = c.getContext('2d');
+ctx.font = '300px Holimount';
 
-ctx.font = '168px Holimount';
-ctx.fillText('Hello world', 50, 100);
+var txt = "Tuan Truong"
+
+var tw = ctx.measureText(txt).width
+
+
+ctx.fillText(txt, c.width/2  - tw/2 , c.height/2);
 
 
 
 
-let f = new FontFace('Holimount');
+// let f = new FontFace('Holimount');
 
-f.load().then(function() {
-    draw()
-});
+// f.load().then(function() {
+//     draw()
+// });
     </script>
 
 </body>
