@@ -31,9 +31,11 @@ $(document).ready(function() {
             n.fillText(t1, m.width/2, m.height / 2 + 30);
 
 
+            n.shadowBlur = 40;
+            n.fillText(t1, m.width/2, m.height / 2 + 30);
+            
             n.shadowBlur = 50;
             n.fillText(t1, m.width/2, m.height / 2 + 30);
-
 
             n.restore();
 
