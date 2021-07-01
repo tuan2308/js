@@ -1,0 +1,240 @@
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body class="bg-light p-2">
+    <div style="touch-action: none;">
+<label><b>Nhập tên*</b></label>
+<input class="tad-in-text1 form-control mb-2" type="text" placeholder="Nhập tên (không dấu)">
+
+<label>Chọn kiểu chữ</label>
+<select class="form-control tad-in-font1 mb-2">
+    <option value="Holimount">Kiểu chữ 1</option>
+    <option value="Scripture">Kiểu chữ 2</option>
+    <option value="Asem Kandis">Kiểu chữ 3</option>
+  </select>
+<label>Cỡ chữ</label>
+<input class="custom-range mb-2 tad-in-size1" type="range" value="300" step="10" min="100" max="500">
+<hr/>
+<label>Nét gạch chân</label>
+<select class="form-control tad-in-text2 mb-2">
+    <option value="c">Kiểu 1</option>
+    <option value="o">Kiểu 2</option>
+    <option value="h">Kiểu 3</option>
+    <option value="p">Kiểu 4</option>
+    <option value="x">Kiểu 5</option>
+    <option value="y">Kiểu 6</option>
+  </select>
+
+<label>Cỡ nét gạch chân</label>
+<input class="custom-range mb-2 tad-in-size2" type="range" value="300" step="10" min="100" max="1000">
+
+
+<label>Xem trước:</label>
+
+<div class="img-thumbnail">
+    <svg xmlns="http://www.w3.org/2000/svg" id="temp" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#FFFFFF;}
+            .st1{font-family:'Holimount';}
+            .st3{font-family:'Holimountswash';}
+        </style>
+        <rect x="0.01" class="st0" width="2000" height="2000"></rect>
+        <text transform="matrix(1 0 0 1 0 0)" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="st1 tad-out-text1" style="
+    font-size: 300px;
+">Tuan Truong</text>
+        <text transform="matrix(1 0 0 1 0 0)" class="st3 tad-out-text2" x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" style="
+    font-size: 500px;
+">n</text>
+        </svg>
+    </div>
+    <button class="btn btn-primary btn-block mt-2" id="tad-taoanh" type="button"><i class="fas fa-download"></i> Lưu ảnh</button>
+    <canvas id="tad-canvas" width="2000" height="2000" style="display:none"></canvas>
+  
+
+</div>
+
+<link rel="stylesheet" href="./fonts/stylesheet.css"/>
+
+<style>
+
+
+
+
+        /*transparent css*/
+        .transparent{background-color:#fefefe;background-image:-webkit-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB),-webkit-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB);background-image:-moz-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB),-moz-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB);background-image:-o-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB),-o-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB);background-image:-ms-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB),-ms-linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB);background-image:linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB),linear-gradient(45deg,#CBCBCB 25%,transparent 25%,transparent 75%,#CBCBCB 75%,#CBCBCB);-webkit-background-size:30px 30px;-moz-background-size:30px 30px;background-size:30px 30px;background-position:0 0,15px 15px}
+            </style>
+
+
+<script>
+
+$(document).ready(function(){
+
+
+    function removeVietnameseTones(str) {
+    str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a"); 
+    str = str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e"); 
+    str = str.replace(/ì|í|ị|ỉ|ĩ/g,"i"); 
+    str = str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o"); 
+    str = str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u"); 
+    str = str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y"); 
+    str = str.replace(/đ/g,"d");
+    str = str.replace(/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g, "A");
+    str = str.replace(/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g, "E");
+    str = str.replace(/Ì|Í|Ị|Ỉ|Ĩ/g, "I");
+    str = str.replace(/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g, "O");
+    str = str.replace(/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g, "U");
+    str = str.replace(/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g, "Y");
+    str = str.replace(/Đ/g, "D");
+    // Some system encode vietnamese combining accent as individual utf-8 characters
+    // Một vài bộ encode coi các dấu mũ, dấu chữ như một kí tự riêng biệt nên thêm hai dòng này
+    str = str.replace(/\u0300|\u0301|\u0303|\u0309|\u0323/g, ""); // ̀ ́ ̃ ̉ ̣  huyền, sắc, ngã, hỏi, nặng
+    str = str.replace(/\u02C6|\u0306|\u031B/g, ""); // ˆ ̆ ̛  Â, Ê, Ă, Ơ, Ư
+    // Remove extra spaces
+    // Bỏ các khoảng trắng liền nhau
+    str = str.replace(/ + /g," ");
+    str = str.trim();
+    // Remove punctuations
+    // Bỏ dấu câu, kí tự đặc biệt
+    str = str.replace(/!|@|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\;|\'|\"|\&|\#|\[|\]|~|\$|_|`|-|{|}|\||\\/g," ");
+    return str;
+}
+
+
+
+$(".tad-in-text1").on("input",function(){
+
+var text1 = $(".tad-in-text1").val();
+
+var out = removeVietnameseTones(text1)
+
+
+$(".tad-out-text1").text(out)
+
+});
+    
+
+//
+var font1 = "Holimount";
+
+var scaleF = "matrix(1 0 0 1 0 0)";
+
+var size1 = "300";
+
+$(".tad-in-font1").on("input",function(){
+
+font1 = $(".tad-in-font1").val();
+
+if(font1 == "Scripture"){
+    scaleF = "matrix(.5 0 0 .5 500 500)"
+}else{
+    scaleF = "matrix(1 0 0 1 0 0)"
+}
+
+$(".tad-out-text1").css({"font-family": font1, "font-size": size1}).attr("transform",scaleF);
+
+});
+
+
+//
+
+
+$(".tad-in-size1").on("input",function(){
+
+ size1 = $(".tad-in-size1").val();
+
+   $(".tad-out-text1").css({"font-family": font1, "font-size": size1}).attr("transform",scaleF);
+
+
+
+});
+
+//
+$(".tad-in-text2").on("input",function(){
+
+var text1 = $(".tad-in-text2").val();
+
+
+$(".tad-out-text2").text(text1)
+
+});
+
+
+$(".tad-in-size2").on("input",function(){
+
+var size2 = $(".tad-in-size2").val();
+
+
+ $(".tad-out-text2").attr("style","font-size:" +size2+ "px")
+
+
+});
+
+
+
+//
+const _0x3be1x1 = document.querySelector('#temp');
+        const _0x3be1x2 = document.querySelector('#tad-canvas');
+        const _0x3be1x5 = _0x3be1x2.getContext('2d');
+        const _0x3be1x6 = new Blob([_0x3be1x1.outerHTML], {
+            type: 'image/svg+xml'
+        });
+      
+        $('#tad-taoanh').click(function() {
+            if ($('.tad-in-text1').val() == '') {
+                alert('Bạn chưa nhập tên');
+                $('.tad-in-text1').focus();
+                return false
+            };
+        
+            const _0x3be1x5 = _0x3be1x2.getContext('2d');
+            const _0x3be1x6 = new Blob([_0x3be1x1.outerHTML], {
+                type: 'image/svg+xml'
+            });
+            const _0x3be1x7 = URL.createObjectURL(_0x3be1x6);
+            const _0x3be1x8 = new Image();
+            _0x3be1x8.onload = () => {
+                _0x3be1x5.drawImage(_0x3be1x8, 0, 0);
+
+                _0x3be1x2.toBlob(function(blob){var bloburl=URL.createObjectURL(blob);
+                
+                    var a=document.createElement("a");a.href=bloburl;a.setAttribute("download","taoanhdep--chuky.png");a.click();
+                
+                })
+            };
+            _0x3be1x8.src = _0x3be1x7;
+            $('.load-anh').delay(1000).hide(0);
+            $('#dl-link').delay(1000).show(0);
+            $('#img-out').delay(1000).show(0);
+            $('.tad-ketqua').delay(1000).show(0)
+        })
+
+
+
+});
+
+
+
+</script>
+
+</body>
+</html>
+ 
