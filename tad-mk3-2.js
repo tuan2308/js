@@ -1,21 +1,21 @@
-var bgimg = new Image;
-bgimg.crossOrigin = "Anonymous";
-bgimg.src = bgimg;
-var markimg = new Image;
-markimg.crossOrigin = "Anonymous";
-markimg.src = markimg;
-var vitri = vitri;
+var bg = new Image;
+bg.crossOrigin = "Anonymous";
+bg.src = bgimg;
+var mark = new Image;
+mark.crossOrigin = "Anonymous";
+mark.src = markimg;
+var vt = vitri;
 
 $(document).ready(function() {
 if (window.location.hostname == tmbq) {
 var e = document.getElementById("Nimg");
 var a = document.getElementById("Cimg");
-var d = 0;
+
 
 $("#tad-taoanh").click(function() {
-    bgimg.src = bgimg;
-    markimg.src = markimg;
-    vitri = vitri;
+    bg.src = bgimg;
+    mark.src = markimg;
+    vt = vitri;
     $("#img-out").hide();
     $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
     setTimeout(function() {
@@ -43,11 +43,11 @@ function m() {
         }
     }
     ctx.globalCompositeOperation = "destination-in";
-    ctx.drawImage(markimg, 0, 0, c.width, c.height);
+    ctx.drawImage(mark, 0, 0, c.width, c.height);
     ctx.restore();
     ctx.save();
     ctx.globalCompositeOperation = "destination-over";
-    ctx.drawImage(bgimg, 0, 0, c.width, c.height);
+    ctx.drawImage(bg, 0, 0, c.width, c.height);
     ctx.restore();
     if (e) {
         ctx.save();
