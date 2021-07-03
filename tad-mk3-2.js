@@ -13,13 +13,10 @@ var a = document.getElementById("Cimg");
 
 
 $("#tad-taoanh").click(function() {
-    bg.src = bgimg;
-    mark.src = markimg;
-    vt = vitri;
     $("#img-out").hide();
     $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
     setTimeout(function() {
-       bgimg.onload = m()
+       bg.onload = m()
     }, 200)
 });
 
