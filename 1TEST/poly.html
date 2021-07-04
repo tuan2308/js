@@ -52,7 +52,7 @@
         <label class="mt-3 tad-ketqua" style="display:none"> Kết quả: </label>
         <div id="img-out" class="my-2"></div>
         <a href="#" class="btn btn-block btn-primary" id="tad-taianhve" style="display:none"><i class="fas fa-cloud-download-alt"></i> Tải ảnh về</a>
-        <img id="scream" class="d-none" width="0" height="0" crossorigin="anonymous" src="https://1.bp.blogspot.com/-4j670jFwHMo/YEt5N2H5ddI/AAAAAAAAp8k/za0QHt8gVWUNzFVxnUnhp_bbwtBotbNwgCNcBGAsYHQ/s0/bg-poly.jpg" alt="anhnen">
+        <img id="bg" class="d-none" width="0" height="0" crossorigin="anonymous" src="https://1.bp.blogspot.com/-4j670jFwHMo/YEt5N2H5ddI/AAAAAAAAp8k/za0QHt8gVWUNzFVxnUnhp_bbwtBotbNwgCNcBGAsYHQ/s0/bg-poly.jpg" alt="anhnen">
         <canvas id="temp" width="2000" height="2000"></canvas>
         </div>
         <link href="https://cdn.taoanhdep.com/font/avo-bold/stylesheet.css" rel="stylesheet">
@@ -137,7 +137,7 @@
                     a.restore();
                     a.save();
                     a.globalCompositeOperation = "lighten";
-                    const n = document.getElementById("scream");
+                    var n = document.getElementById("bg");
                     a.drawImage(n, 0, 0, p.width, p.height);
                     a.restore();
                     a.save();
