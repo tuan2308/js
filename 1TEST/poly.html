@@ -38,8 +38,16 @@
         - Nhấn nút <b>Tải ảnh này</b> hoặc giữ vào ảnh 3 giây để lưu ảnh.
         </p>
         <hr/><!--more-->
-        <style>#temp{position:fixed;height:0;top:0;left:0;overflow:hidden}</style>
+        <style>.xulyhinhanh img{margin:0!important}.chonanh-avt{width:38px;height:38px;float:left;border:1px solid #ddd;border-radius:5px;overflow:hidden;margin-right:10px}.img-preview{width:36px;height:36px;background-size:cover;background-position:center;background-repeat:no-repeat;background:url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png)}.img-container,.img-preview{background-color:#f7f7f7;text-align:center;width:100%}.img-container{margin-bottom:1rem;max-height:300px;min-height:280px}.img-container>img{max-width:100%}.img-preview{margin:auto!important;margin-bottom:.5rem;margin-right:.5rem;overflow:hidden}.img-preview>img{max-width:100%}
+        #temp{position:fixed;height:0;top:0;left:0;overflow:hidden}</style>
+
         <div class="xulyhinhanh">
+            <label>Chọn nền</label>
+<div class="mb-3"><div class="chonanh-avt">
+<div class="img-preview"></div>
+</div>
+<button type="button" class="btn btn-primary btn-chonnen" data-toggle="modal" data-target="#chonanhModal"><i class="fas fa-image"></i> Chọn nền
+</button></div>
         <label><b>Nhập chữ dòng 1*</b></label>
         <input class="form-control tad-in-text1 mb-2" value="" maxlength="4" placeholder="AB - ABC" style="text-transform:uppercase">
         <label><b>Nhập chữ dòng 2*</b></label>
@@ -171,5 +179,95 @@
         });
           
         </script>
+
+<div class="modal fade" id="chonanhModal" tabindex="-1" role="dialog" aria-labelledby="chonanhModalTitle" style="display:none" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+    <h5 class="modal-title" id="chonanhModalTitle">Chọn nền</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&#215;</span>
+    </button>
+    </div>
+    <div class="modal-body" style="max-height:300px">
+    <div style="clear:both"></div>
+    <div class="chonnen row row-cols-2 row-cols-md-3">
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script>var vmode=1;var tenanhxuat="taoanhdep_anhbiahinhnen.jpg";var rongh2=3000;var daih2=2000;</script>
+    <script>/*<![CDATA[*/var tvtad = "";
+        var hinhnen = 12;
+        $("#phatsang").click(function() {
+            $(".tad-main").toggleClass("phatsang");
+        });
+        $(document).ready(function() {
+            // if (window.location.hostname == tmbq) {
+                var dk1 = $(".dk1").val();
+        
+                function showlist() {
+                    $(".chonnen").html("");
+                    for (let i = 1; i < hinhnen + 1; i++) {
+                        $(".chonnen").append("<div class='col mb-3 text-center'><img alt='Hình nền' class='img-thumbnail' src='https://cdn.taoanhdep.com/cover-wallpaper/" + i + ".jpg'></div>");
+                    }
+                    $(".chonnen div").click(function() {
+                        $(".btn-chonnen").html("<i class='fas fa-image'></i> Chọn nền khác")
+                        $(".dk1").val(1);
+                        $(".chonnen div").removeClass("active");
+                        $(this).addClass("active");
+                        var cropimg = $(this).children().attr("src");;
+                        $(".img-container img,.cropper-canvas img, .cropper-view-box img").attr("src", cropimg);
+                        $(".img-preview,.tad-main").css("background-image", "url(" + cropimg + ")").css("background-size", "cover");
+                        $('#chonanhModal').modal('hide');
+                    });
+                }
+                $(".btn-chonnen").one("click", function() {
+                    showlist()
+                });
+                $("#tad-taianhve").hide();
+                $(".tad-ketqua").hide();
+                $("#tad-taoanh").click(function() {
+                    t1 = $(".tad-in-text1").val();
+                    $(".tad-out-text1").html(t1);
+                    t2 = $(".tad-in-text2").val();
+                    $(".tad-out-text2").html(t2);
+                    t3 = $(".tad-in-text3").val();
+                    $(".tad-out-text3").html(t3);
+                    if ($(".dk1").val() == "") {
+                        alert("Vui lòng chọn nền");
+                        showlist()
+                        $('#chonanhModal').modal('show');
+                        return false;
+                    }
+                    if (t1 == "") {
+                        alert("Vui lòng nhập tên");
+                        $(".tad-in-text1").focus();
+                        return false;
+                    }
+                    $(".load-anh").show();
+                    html2canvas(document.querySelector(".tad-main"), {
+                        useCORS: !0,
+                        scrollX: 0,
+                        scrollY: 0,
+                        width: rongh2,
+                        height: daih2,
+                        scale: 1,
+                        x: 0,
+                        y: 0
+                    }).then(canvas => {
+                        canvas.toBlob(function(blob) {
+                            var bloburl = URL.createObjectURL(blob);
+                            $("#img-out").html("<img src='" + bloburl + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img>");
+                            $("#tad-taianhve").attr("download", tenanhxuat).attr("href", bloburl);
+                        });
+                        $("#tad-taianhve").show();
+                        $(".tad-ketqua").show();
+                        $(".load-anh").hide();
+                    }, 'image/jpeg');
+                });
+            // }
+        }); /*]]>*/ </script>
 </body>
 </html>
