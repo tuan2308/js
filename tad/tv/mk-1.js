@@ -43,7 +43,7 @@ $(document).ready(function() {
                 }
             }
 
-            if (tadMk = "black") {
+            if (tadMk == "black") {
                 ctx.save();
                 ctx.globalAlpha = 0.3;
                 ctx.fillStyle = "#333";
