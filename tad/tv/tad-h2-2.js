@@ -72,12 +72,14 @@ $(document).ready(function() {
                 canvas.toBlob(function(blob) {
                     var bloburl = URL.createObjectURL(blob);
                     $("#img-out").html("<label class='mt-2 tad-ketqua'> Kết quả: </label><img src='" + bloburl + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + bloburl + "' class='btn btn-block btn-primary mt-2'  download='taoanhdep_" + tenanhxuat + ".jpg'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");
-                });
+                }, 'image/jpeg');
                 setTimeout(function() {
                     $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
                     $("#img-out").show();
                 }, 1500)
-            }, 'image/jpeg');
+
+
+            });
         });
         window.onload = function() {
             var j = window.Cropper;
