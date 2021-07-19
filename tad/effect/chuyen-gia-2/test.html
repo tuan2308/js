@@ -2963,7 +2963,7 @@
     <script type='text/javascript'>
         var tyle = 1 / 1;
         var vmode = 1;
-        var tenanhxuat = "chuyengiataichinh.jpg";
+        var tenanhxuat = "batthaytaichinh.jpg";
     </script>
 
     <link href="https://cdn.taoanhdep.com/tad/effect/chuyen-gia-2/font/stylesheet.css" rel="stylesheet">
@@ -2973,14 +2973,12 @@
         $(document).ready(function() {
 
             // if (window.location.hostname == tmbq) { 
-
-            // $("head").append(jqueryCrop);
+            // $("head").append(cssCrop);
+            // $("head").append(jsCrop);
             $("body").append("<img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Cimg' class='d-none'/>");
             $("body").append("<img src='../chuyen-gia-2/bg.jpg' crossorigin='anonymous' id='Bimg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia-2/mark.png' crossorigin='anonymous' id='Mimg' class='d-none'/>");
             $("body").append("<img src='../chuyen-gia-2/layer.png' crossorigin='anonymous' id='Limg' class='d-none'/>");
             $("body").append("<img src='../chuyen-gia-2/screen.jpg' crossorigin='anonymous' id='Simg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia-2/multiply.jpg' crossorigin='anonymous' id='Muimg' class='d-none'/>");
 
             var i = document.getElementById("Nimg");
             var cimg = document.getElementById("Cimg");
@@ -3034,13 +3032,6 @@
                 ctx.restore();
 
 
-                // ctx.save();
-                // ctx.globalCompositeOperation = "multiply";
-                // ctx.fillStyle = "#e1c8e0";
-                // ctx.fillRect(0, 0, c.width, c.height);
-                // ctx.restore();
-
-
 
                 ctx.save();
                 ctx.drawImage(limg, 0, 0, c.width, c.height);
@@ -3065,39 +3056,6 @@
                 ctx.globalCompositeOperation = "screen";
                 ctx.drawImage(Simg, 0, 0, c.width, c.height);
                 ctx.restore();
-
-                // ctx.save();
-                // ctx.globalCompositeOperation = "multiply";
-                // ctx.drawImage(Muimg, 0, 0, c.width, c.height);
-                // ctx.restore();
-
-                // ctx.save();
-                // ctx.globalCompositeOperation = "screen";
-                // ctx.fillStyle = "white";
-                // ctx.font = "122px UTM Sharnay";
-                // ctx.shadowColor = "#ec228f";
-                // ctx.textAlign = "center";
-                // ctx.shadowBlur = 10;
-
-
-
-                // ctx.fillText(t1, c.width / 2, texttop);
-                // ctx.shadowBlur = 20;
-                // ctx.fillText(t1, c.width / 2, texttop);
-                // ctx.shadowBlur = 30;
-                // ctx.fillText(t1, c.width / 2, texttop);
-                // ctx.shadowBlur = 40;
-                // ctx.fillText(t1, c.width / 2, texttop);
-                // ctx.shadowBlur = 50;
-                // ctx.fillText(t1, c.width / 2, texttop);
-                // ctx.restore();
-
-                // ctx.save();
-                // ctx.globalCompositeOperation = "screen";
-                // ctx.fillStyle = "#111";
-                // ctx.fillRect(0, 0, c.width, c.height);
-                // ctx.restore();
-
 
                 c.toBlob(function(q) {
                     var p = URL.createObjectURL(q);
