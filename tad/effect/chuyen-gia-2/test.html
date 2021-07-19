@@ -2957,14 +2957,16 @@
             <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo ảnh</button>
         </div>
         <div id="img-out"></div>
-        <canvas width="1500" height="1500" id="temp"></canvas>
+        <canvas width="1500" height="1000" id="temp"></canvas>
     </div>
 
     <script type='text/javascript'>
         var tyle = 1 / 1;
-        var vmode = 0;
+        var vmode = 1;
         var tenanhxuat = "chuyengiataichinh.jpg";
     </script>
+
+    <link href="https://cdn.taoanhdep.com/tad/effect/chuyen-gia-2/font/stylesheet.css" rel="stylesheet">
 
 
     <script>
@@ -2974,11 +2976,11 @@
 
             // $("head").append(jqueryCrop);
             $("body").append("<img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Cimg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia/bg.jpg' crossorigin='anonymous' id='Bimg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia/mark.png' crossorigin='anonymous' id='Mimg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia/layer.png' crossorigin='anonymous' id='Limg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia/screen.jpg' crossorigin='anonymous' id='Simg' class='d-none'/>");
-            $("body").append("<img src='../chuyen-gia/multiply.jpg' crossorigin='anonymous' id='Muimg' class='d-none'/>");
+            $("body").append("<img src='../chuyen-gia-2/bg.jpg' crossorigin='anonymous' id='Bimg' class='d-none'/>");
+            $("body").append("<img src='../chuyen-gia-2/mark.png' crossorigin='anonymous' id='Mimg' class='d-none'/>");
+            $("body").append("<img src='../chuyen-gia-2/layer.png' crossorigin='anonymous' id='Limg' class='d-none'/>");
+            $("body").append("<img src='../chuyen-gia-2/screen.jpg' crossorigin='anonymous' id='Simg' class='d-none'/>");
+            $("body").append("<img src='../chuyen-gia-2/multiply.jpg' crossorigin='anonymous' id='Muimg' class='d-none'/>");
 
             var i = document.getElementById("Nimg");
             var cimg = document.getElementById("Cimg");
@@ -2998,70 +3000,103 @@
                 $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
                 setTimeout(function() {
 
-                    document.fonts.load('10pt "UTM Sharnay"').then(f)
-
-                    bimg.onload = f()
+                    document.fonts.load('10pt "UTM Impact"').then(f)
 
 
-                }, 200)
+
+                }, 1000)
             });
 
             function f() {
 
                 c = document.querySelector("canvas"), ctx = c.getContext("2d");
 
-                var t1 = $(".tad-in-text1").val().toUpperCase();
 
 
                 ctx.clearRect(0, 0, c.width, c.height);
                 ctx.save();
                 ctx.drawImage(bimg, 0, 0, c.width, c.height);
                 ctx.restore();
-                ctx.drawImage(cimg, 300, 300, 900, 900);
-                ctx.restore();
+
+
+
+
+
                 ctx.save();
-                ctx.globalCompositeOperation = "multiply";
-                ctx.fillStyle = "#e1c8e0";
-                ctx.fillRect(0, 0, c.width, c.height);
+                ctx.beginPath();
+                ctx.arc(750, 500, 250, 250, Math.PI * 2, true);
+                ctx.closePath();
+                ctx.clip();
+
+                ctx.drawImage(cimg, 500, 250, 500, 500);
+
+
                 ctx.restore();
+
+
+                // ctx.save();
+                // ctx.globalCompositeOperation = "multiply";
+                // ctx.fillStyle = "#e1c8e0";
+                // ctx.fillRect(0, 0, c.width, c.height);
+                // ctx.restore();
+
+
+
                 ctx.save();
                 ctx.drawImage(limg, 0, 0, c.width, c.height);
+                ctx.restore();
+
+                ctx.save();
+                var t1 = $(".tad-in-text1").val().toUpperCase();
+                ctx.textAlign = "center";
+                ctx.font = "60px UTM Impact";
+                var gra = ctx.createLinearGradient(600, 0, 1000, 0);
+                gra.addColorStop(0, "#EABD54");
+                gra.addColorStop(0.35, "#FFED91");
+                gra.addColorStop(0.65, "#ECC25A");
+                gra.addColorStop(1, "#FFF08A");
+                ctx.fillStyle = gra;
+                ctx.fillText(t1, c.width / 2, 690)
+                ctx.restore();
+
+
+
                 ctx.save();
                 ctx.globalCompositeOperation = "screen";
                 ctx.drawImage(Simg, 0, 0, c.width, c.height);
                 ctx.restore();
 
-                ctx.save();
-                ctx.globalCompositeOperation = "multiply";
-                ctx.drawImage(Muimg, 0, 0, c.width, c.height);
-                ctx.restore();
+                // ctx.save();
+                // ctx.globalCompositeOperation = "multiply";
+                // ctx.drawImage(Muimg, 0, 0, c.width, c.height);
+                // ctx.restore();
 
-                ctx.save();
-                ctx.globalCompositeOperation = "screen";
-                ctx.fillStyle = "white";
-                ctx.font = "122px UTM Sharnay";
-                ctx.shadowColor = "#ec228f";
-                ctx.textAlign = "center";
-                ctx.shadowBlur = 10;
+                // ctx.save();
+                // ctx.globalCompositeOperation = "screen";
+                // ctx.fillStyle = "white";
+                // ctx.font = "122px UTM Sharnay";
+                // ctx.shadowColor = "#ec228f";
+                // ctx.textAlign = "center";
+                // ctx.shadowBlur = 10;
 
 
 
-                ctx.fillText(t1, c.width / 2, texttop);
-                ctx.shadowBlur = 20;
-                ctx.fillText(t1, c.width / 2, texttop);
-                ctx.shadowBlur = 30;
-                ctx.fillText(t1, c.width / 2, texttop);
-                ctx.shadowBlur = 40;
-                ctx.fillText(t1, c.width / 2, texttop);
-                ctx.shadowBlur = 50;
-                ctx.fillText(t1, c.width / 2, texttop);
-                ctx.restore();
+                // ctx.fillText(t1, c.width / 2, texttop);
+                // ctx.shadowBlur = 20;
+                // ctx.fillText(t1, c.width / 2, texttop);
+                // ctx.shadowBlur = 30;
+                // ctx.fillText(t1, c.width / 2, texttop);
+                // ctx.shadowBlur = 40;
+                // ctx.fillText(t1, c.width / 2, texttop);
+                // ctx.shadowBlur = 50;
+                // ctx.fillText(t1, c.width / 2, texttop);
+                // ctx.restore();
 
-                ctx.save();
-                ctx.globalCompositeOperation = "screen";
-                ctx.fillStyle = "#111";
-                ctx.fillRect(0, 0, c.width, c.height);
-                ctx.restore();
+                // ctx.save();
+                // ctx.globalCompositeOperation = "screen";
+                // ctx.fillStyle = "#111";
+                // ctx.fillRect(0, 0, c.width, c.height);
+                // ctx.restore();
 
 
                 c.toBlob(function(q) {
