@@ -1,9 +1,15 @@
 $(document).ready(function() { if (window.location.hostname == tmbq) { $("head").append(cssCrop);
         $("head").append(jsCrop);
         $("head").append(jqueryCrop);
-        $("body").append("<img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Bimg' class='d-none'/> <img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Mimg' class='d-none'/>"); var i = document.getElementById("Nimg"); var g = document.getElementById("Cimg"); var n = document.getElementById("Bimg"); var l = document.getElementById("Mimg"); var k = 0; var h = vitri;
-        $("#Bimg").attr("src", bgimg);
-        $("#Mimg").attr("src", markimg);
+        $("body").append("<img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Mimg' class='d-none'/>"); 
+        $("body").append("<img src='https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png' crossorigin='anonymous' id='Bimg' class='d-none'/>"); 
+        var i = document.getElementById("Nimg"); 
+        var g = document.getElementById("Cimg");
+         var n = document.getElementById("Bimg"); 
+         var l = document.getElementById("Mimg"); 
+         var h = vitri;
+        // $("#Bimg").attr("src", bgimg);
+        // $("#Mimg").attr("src", markimg);
         $("#tad-taoanh").click(function() { $("#Bimg").attr("src", bgimg);
             $("#Mimg").attr("src", markimg);
             h = vitri;
