@@ -13,10 +13,8 @@ $(document).ready(function() { if (window.location.hostname == tmbq) { $("head")
 
 
         window.onscroll = function () {
-            var rect = $(".xulyhinhanh").getBoundingClientRect();
+            var rect = $(".xulyhinhanh").get(0).getBoundingClientRect();
             if (rect.top < window.innerHeight) {
-
-                console.log("á");
                 $("#Bimg").attr("src", bgimg);
                  $("#Mimg").attr("src", markimg);
                 window.onscroll = null;
