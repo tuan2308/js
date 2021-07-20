@@ -10,6 +10,19 @@ $(document).ready(function() { if (window.location.hostname == tmbq) { $("head")
          var h = vitri;
         // $("#Bimg").attr("src", bgimg);
         // $("#Mimg").attr("src", markimg);
+
+
+        window.onscroll = function () {
+            var rect = $(".xulyhinhanh").getBoundingClientRect();
+            if (rect.top < window.innerHeight) {
+
+                console.log("á");
+                $("#Bimg").attr("src", bgimg);
+                 $("#Mimg").attr("src", markimg);
+                window.onscroll = null;
+            } 
+        }
+
         $("#tad-taoanh").click(function() { $("#Bimg").attr("src", bgimg);
             $("#Mimg").attr("src", markimg);
             h = vitri;
