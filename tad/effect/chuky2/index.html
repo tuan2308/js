@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+    <img id="scream" width="220" height="277" src="img_the_scream.jpg" alt="The Scream">
+
+    <canvas id="myCanvas" width="1700" height="647" style="border: 1px solid;"></canvas>
+    
+<script>// Author: Aaron Edmistone
+    // Text effects using HTML5 Canvas with 2D Context.
+    // https://stackoverflow.com/questions/7814398/a-glow-effect-on-html5-canvas
+    
+    var canvas = document.getElementById('myCanvas');
+    var ctx = canvas.getContext('2d');
+    
+   
+  var img = document.getElementById("scream");
+  ctx.drawImage(img, 10, 10);
+
+
+    // prepare the font and fill
+    ctx.font = "200px Dutchbrigade";
+    ctx.fillStyle = "white";
+    
+ 
+var text = "2000"
+var x = 500
+var y = 500
+        ctx.save();
+        ctx.strokeStyle = 'black';
+        ctx.lineWidth = 6;
+        ctx.lineJoin="round";
+        ctx.miterLimit=2;
+        ctx.strokeText(text, x, y);
+        ctx.fillText(text, x, y);
+        ctx.restore();
+
+        ctx.save();
+        ctx.strokeStyle = 'black';
+        ctx.lineWidth = 12;
+        ctx.lineJoin="round";
+        ctx.miterLimit=2;
+        ctx.strokeText(text, x, y);
+        ctx.fillText(text, x, y);
+        ctx.restore();
+
+</script>
+
+
+</body>
+</html>
+ 
