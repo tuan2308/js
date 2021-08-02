@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+    <style>
+        .tad-demoanh {
+            position: relative
+        }
+
+        .tad-demoanh img {
+            width: 330px !important;
+            height: 250px !important;
+            object-fit: cover
+        }
+
+        .demoapp img {
+            height: 215px !important
+        }
+
+        .phongtoanh,
+        .chonmau .fas.fa-search-plus {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            text-shadow: 1px 1px 3px #333
+        }
+
+        .tad-demoanh a,
+        .chonmau a {
+            position: relative;
+            display: inline-block
+        }
+
+        .chonmau a {
+            margin: 10px 0
+        }
+
+        .chonmau img,
+        .tad-demoanh img {
+            margin: 0 !important
+        }
+
+        .chonmau img {
+            cursor: zoom-in
+        }
+
+        .img-thumbnail {
+            margin: 0
+        }
+
+        .tad-gal img {
+            height: 250px !important;
+            overflow: hidden;
+            object-fit: cover;
+            width: 100%;
+            padding: .25rem;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: .25rem
+        }
+
+        .tad-gall:before {
+            content: "\f00e"
+        }
+
+        .tad-gal a:before {
+            content: "\f00e";
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-family: "Font Awesome 5 Free";
+            color: #fff;
+            text-shadow: 1px 1px 3px #333
+        }
+
+        .tad-gal {
+            position: relative
+        }
+
+        pre {
+            -webkit-user-select: all !important;
+            -moz-user-select: all !important;
+            -ms-user-select: all !important;
+            user-select: all !important
+        }
+
+        .tad-disabled {
+            pointer-events: none;
+            opacity: .65
+        }
+
+        a.tad-notify {
+            height: 40px;
+            width: 50px;
+            color: #838383;
+            font-size: 20px;
+            margin-left: auto;
+            padding: 5px 15px;
+            border-radius: 3px;
+            margin-right: 3px;
+            position: relative
+        }
+
+        a.tad-notify.noti:after {
+            position: absolute;
+            content: "";
+            right: 10px;
+            top: 5px;
+            background: #f44336;
+            color: #fff;
+            padding: 0;
+            width: 13px;
+            height: 13px;
+            font-weight: bold;
+            line-height: 16px;
+            border: 2px solid #fff;
+            border-radius: 100%;
+            font-size: 10px;
+            transform: scale(1.0);
+            text-align: center
+        }
+
+        .tad-3-post {
+            padding-left: 15px;
+        }
+
+        .tad-3-post .col {
+            padding-left: 0
+        }
+
+        .tad-3-post .card-body {
+            text-align: center;
+            padding: .75rem
+        }
+
+        .tad-3-post .card-title {
+            margin-bottom: 0;
+            font-size: 1rem
+        }
+
+        #HTML10 {
+            display: none !important
+        }
+
+        .tad-hide {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <div class="chonmau row row-cols-md-4 row-cols-2 mb-2">
+        <div class="col mb-3 text-center">
+            <a href="https://cdn.taoanhdep.com/tad/effect/avt-anime/img/demo1.jpg"><img alt="Tạo ảnh avatar facebook dấu tích xanh Online" class="img-thumbnail"
+                    src="https://cdn.taoanhdep.com/tad/effect/avt-anime/img/demo1.jpg">
+                <i class="fas fa-search-plus"></i></a>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="kieu1" name="kieu" class="custom-control-input" checked="">
+                <label class="custom-control-label" for="kieu1">Kiểu 1</label>
+            </div>
+        </div>
+        <div class="col mb-3 text-center">
+            <a href="https://cdn.taoanhdep.com/tad/effect/avt-anime/img/demo2.jpg"><img alt="Tạo ảnh avatar facebook dấu tích xanh Online" class="img-thumbnail"
+                    src="https://cdn.taoanhdep.com/tad/effect/avt-anime/img/demo2.jpg">
+                <i class="fas fa-search-plus"></i></a>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="kieu2" name="kieu" class="custom-control-input">
+                <label class="custom-control-label" for="kieu2">Kiểu 2</label>
+            </div>
+        </div>
+    </div>
+
+    <label><b>Nhập tên*</b></label>
+    <input type="text" class="form-control tad-in-text1 mb-2" placeholder="Chữ ký">
+    <input type="text" class="form-control tad-in-text2 mb-2" placeholder="Chữ nền">
+    <div class="mt-3">
+        <button type="button" class="btn btn-primary disabled d-block" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+            ảnh</button>
+    </div>
+    <link href='https://cdn.taoanhdep.com/tad/effect/avt-anime/fonts/stylesheet.css' media='all' rel='stylesheet' />
+
+
+    <canvas id="myCanvas" width="2000" height="2000" style="display: none;">
+    </canvas>
+
+    <div id="img-out"></div>
+    <script>
+
+        var tenanhxuat = "yourname"
+
+        var default1 = "https://cdn.taoanhdep.com/tad/effect/avt-anime/img/yourname1.png";
+        var default2 = "https://cdn.taoanhdep.com/tad/effect/avt-anime/img/bg1.jpg";
+
+
+        var imgAnime = default1;
+        var imgBg = default2;
+
+
+        $(document).ready(function () {
+            $(".chonmau #kieu1").click(function () {
+                 imgAnime = default1;
+                 imgBg = default2;
+            });
+
+            $(".chonmau #kieu2").click(function () {
+                imgAnime = "https://cdn.taoanhdep.com/tad/effect/avt-anime/img/yourname2.png";
+                imgBg = "https://cdn.taoanhdep.com/tad/effect/avt-anime/img/bg2.jpg";
+  
+
+            });
+
+        });
+
+    </script>
+
+
+    <script src="https://cdn.taoanhdep.com/tad/effect/avt-anime/js/main.js">  </script>
+
+</body>
+
+</html>
