@@ -45,7 +45,7 @@
             
                                         var line = new Image;
                                         line.crossOrigin = "Anonymous";
-                                        line.src = "./img/line.png"
+                                        line.src = "https://cdn.taoanhdep.com/tad/effect/avt-anime/img/line.png"
                                         line.onload = function () {
             
                                             var anime = new Image;
