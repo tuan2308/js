@@ -2,8 +2,43 @@
         $(document).ready(function () {
 
             // if(window.location.hostname==tmbq){
+                var chonkieu = document.getElementById("tad-chonkieu");
+                dsAnime.forEach(function (dsAnime) {
+        
+                    var ds = document.createElement('div');
+        
+                    ds.style.backgroundImage = "url(" + dsAnime.imgAnime + ")";
+        
+                    ds.setAttribute("dataImg", dsAnime.imgAnime);
+                    ds.setAttribute("dataColor", dsAnime.colorBg);
+        
+        
+                    chonkieu.appendChild(ds);
+        
+                });
+        
+        
+                $("#tad-chonkieu>div").click(function () {
+        
+                    $("#tad-chonkieu>div").removeClass("active");
+        
+                    $(this).addClass("active")
+        
+        
+                    var dataImg = $(this).attr("dataImg").replace(/s120/g, 's0');
+        
+                    var dataColor = $(this).attr("dataColor")
+        
+                    imgAnime = dataImg;
+        
+                    colorBg = dataColor;
+        
+        
+                });
 
+                
 
+$("#tad-chonkieu").children("div:first-child").click();
 
 
                       var ti1 = $(".tad-in-text1");
@@ -45,7 +80,7 @@
             
                                         var line = new Image;
                                         line.crossOrigin = "Anonymous";
-                                        line.src = "https://cdn.taoanhdep.com/tad/effect/avt-yourname/img/line.png"
+                                        line.src = "./img/line.png"
                                         line.onload = function () {
             
                                             var anime = new Image;
@@ -53,10 +88,7 @@
                                             anime.src = imgAnime
                                             anime.onload = function () {
             
-                                                var bg = new Image;
-                                                bg.crossOrigin = "Anonymous";
-                                            bg.src = imgBg;
-                                            bg.onload = function () {
+                                          
             
                                                 t1 = $(".tad-in-text1").val();
                                                 t2 = $(".tad-in-text2").val().toUpperCase();
@@ -74,13 +106,14 @@
                                                 ctx.clearRect(0, 0, c.width, c.height);
                                                 //
                                                 ctx.save();
-                                                ctx.drawImage(bg, 0, 0, c.width, c.height);
+                                                ctx.fillStyle = colorBg
+                                                ctx.fillRect(0, 0, c.width, c.height);
                                                 ctx.restore();
             
                                                 //
             
                                                 ctx.save();
-                                                ctx.globalCompositeOperation = "overlay";
+                                     
                                                 ctx.fillStyle = '#fff';
                                                 ctx.font = "300px MTD William Letter";
                                                 ctx.textAlign = "center";
@@ -88,7 +121,7 @@
                                                 ctx.restore();
                                                 //
                                                 ctx.save();
-                                                ctx.globalCompositeOperation = "overlay";
+                                     
                                                 ctx.strokeStyle = 'white';
                                                 ctx.lineWidth = 7;
                                                 ctx.font = "450px Steelfish";
@@ -97,7 +130,7 @@
                                                 ctx.restore();
                                                 //
                                                 ctx.save();
-                                                ctx.globalCompositeOperation = "overlay";
+                                      
                                                 ctx.fillStyle = 'rgb(255 255 255 / 70%)';
                                                 ctx.font = "450px Steelfish";
                                                 ctx.textAlign = "center";
@@ -105,7 +138,7 @@
                                                 ctx.restore();
                                                 //
                                                 ctx.save();
-                                                ctx.globalCompositeOperation = "overlay";
+                                         
                                                 ctx.strokeStyle = 'white';
                                                 ctx.lineWidth = 7;
                                                 ctx.font = "450px Steelfish";
@@ -114,7 +147,7 @@
                                                 ctx.restore();
                                                 //
                                                 ctx.save();
-                                                ctx.globalCompositeOperation = "overlay";
+                                        
                                                 ctx.drawImage(line, 0, 0, c.width, c.height);
                                                 ctx.restore();
                                                 //
@@ -126,9 +159,9 @@
             
                                                 ctx.save();
                                                 gradient2 = ctx.createLinearGradient(0, 0, 0, 2000);
-                                                gradient2.addColorStop(0, 'rgba(0,0,0,0.1)');
+                                                gradient2.addColorStop(0, 'rgba(0,0,0,0.05)');
                                                 gradient2.addColorStop(0.5, 'rgba(0,0,0,0)');
-                                                gradient2.addColorStop(1, 'rgba(0,0,0,0.2)');
+                                                gradient2.addColorStop(1, 'rgba(0,0,0,0.1)');
                                                 ctx.fillStyle = gradient2;
                                                 ctx.fillRect(0, 0, 2000, 2000);
                                                 ctx.restore();
@@ -144,7 +177,7 @@
             
                                             }
                                         } }
-                                    }
+                                    
                                     )
             
             
