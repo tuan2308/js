@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body class="col-md-4" >
+    
+
+<style>
+    #temp  {
+        background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+      background-size:cover;
+            -webkit-animation: slidein 100s;
+            animation: slidein 100s;
+    
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    
+            -webkit-animation-direction: alternate;
+            animation-direction: alternate;              
+    }
+    
+    /* @-webkit-keyframes slidein {
+    from {background-position: top; background-size:3000px; }
+    to {background-position: -100px 0px;background-size:2750px;}
+    }
+     */
+    @keyframes slidein { 
+    from {background-position: top;background-size:1000px; }
+    to {background-position: -10px 0px;background-size:750px;}
+    
+    }
+    
+    
+    
+    .center
+    {
+     
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(75, 75, 250, 0.3);
+      border-radius: 3px;
+    }
+
+    </style>
+
+
+
+<div id="temp">
+    <div class="center">
+<canvas id="myCanvas" width="1000" height="1000"
+style="border:1px solid #333;    width: 100%;">
+Your browser does not support the canvas element.
+</canvas>
+
+</div>
+</div>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "100px Arial";
+ctx.textBaseline = "middle";
+ctx.textAlign = "center";
+ctx.fillStyle = "#fff"
+ctx.fillText("Hello World",c.width/2,c.height/2);
+</script>
+</body>
+</html>
+ 
