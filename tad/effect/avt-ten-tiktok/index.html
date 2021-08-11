@@ -21,67 +21,61 @@
     
 
 <style>
-    #temp  {
-        background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
-      background-size:cover;
-            -webkit-animation: slidein 100s;
-            animation: slidein 100s;
-    
-            -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    
-            -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
-    
-            -webkit-animation-direction: alternate;
-            animation-direction: alternate;              
-    }
-    
-    /* @-webkit-keyframes slidein {
-    from {background-position: top; background-size:3000px; }
-    to {background-position: -100px 0px;background-size:2750px;}
-    }
-     */
-    @keyframes slidein { 
-    from {background-position: top;background-size:1000px; }
-    to {background-position: -10px 0px;background-size:750px;}
-    
-    }
-    
-    
-    
-    .center
-    {
-     
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background: rgba(75, 75, 250, 0.3);
-      border-radius: 3px;
-    }
-
+  #temp {
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-simple-blue-sky-with-white-clouds-background-sky-and-white-image_58490.jpg);
+    line-height: 0;
+    position: relative;
+    background-size: cover;
+}
+ 
     </style>
 
 
 
 <div id="temp">
-    <div class="center">
-<canvas id="myCanvas" width="1000" height="1000"
-style="border:1px solid #333;    width: 100%;">
-Your browser does not support the canvas element.
-</canvas>
 
-</div>
-</div>
+    <img src="./tiktok.png" style="
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+    ">
+    
+    
+    <canvas id="myCanvas" width="1000" height="1000" style="width: 100%;border-radius: 100%;transform: scale(.7);">
+    Your browser does not support the canvas element.
+    </canvas>
+    
+    
+    </div>
+
+
+    <input type="text" class="form-control tad-in-text1 mt-3 mb-2" placeholder="Nhập tên">
+
+    
 <script>
+
+
+$(".tad-in-text1").on("input",function(){
+
+var text = $(".tad-in-text1").val();
+
+
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
+ctx.clearRect(0, 0, c.width, c.height);
 ctx.font = "100px Arial";
 ctx.textBaseline = "middle";
 ctx.textAlign = "center";
 ctx.fillStyle = "#fff"
-ctx.fillText("Hello World",c.width/2,c.height/2);
+ctx.fillText(text,c.width/2,c.height/2);
+
+
+
+});
+
+
+
+
 </script>
 </body>
 </html>
