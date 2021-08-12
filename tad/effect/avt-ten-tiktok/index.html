@@ -21,13 +21,18 @@
     
 
 <style>
-  #temp {
-    background: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-simple-blue-sky-with-white-clouds-background-sky-and-white-image_58490.jpg);
+#temp {
+    background: url(./bg.jpg);
     line-height: 0;
     position: relative;
     background-size: cover;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
- 
     </style>
 
 
@@ -48,30 +53,83 @@
     
     </div>
 
+    <label><b>Nhập tên*</b></label>
+    <input type="text" class="form-control tad-in-text1 mt-3 mb-2" value="Tạo ảnh đẹp" placeholder="Nhập tên">
 
-    <input type="text" class="form-control tad-in-text1 mt-3 mb-2" placeholder="Nhập tên">
+    <label><b>Cỡ chữ</b></label>
+    <div style="touch-action:none">
+        <input class="custom-range mb-2 tad-in-size1" type="range" value="100" step="10" min="10" max="500">
+        </div>
 
-    
+
+    <label>Kiểu chữ</label>
+    <select class="form-control tad-in-font1 mb-3">
+        <option value="iCiel Pony">Kiểu chữ 1</option>
+        <option value="UTM-Avo">Kiểu chữ 2</option>
+        <option value="SVN-Bango">Kiểu chữ 3</option>
+        <option value="UTM-Duepuntozero">Kiểu chữ 4</option>
+        <option value="UTM-Alpine-KT">Kiểu chữ 5</option>
+        </select>
+
+        <button class="btn btn-primary btn-block mt-2" id="tad-taoanh" type="button"><i class="fas fa-download"></i> Tải ảnh về</button> 
+
+<script>tenanhxuat = "avt_tiktok"</script>
+
 <script>
 
+$(".tad-in-text1").one("focus",function(){
 
-$(".tad-in-text1").on("input",function(){
 
-var text = $(".tad-in-text1").val();
+    $(".tad-in-text1").val("")
 
+});
+
+
+$(".tad-in-text1,.tad-in-size1,.tad-in-font1").on("input",function(){
+draw();
+
+});
+draw();
 
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
+
+
+function draw(){
+var text = $(".tad-in-text1").val();
+var size = $(".tad-in-size1").val();
+var font = $(".tad-in-font1").val();
+
+
+document.fonts.load('10pt ' + font).then(function() {
+
+
+
 ctx.clearRect(0, 0, c.width, c.height);
-ctx.font = "100px Arial";
+ctx.font = size + "pt " + font;
 ctx.textBaseline = "middle";
 ctx.textAlign = "center";
 ctx.fillStyle = "#fff"
-ctx.fillText(text,c.width/2,c.height/2);
+ctx.fillText(text,c.width/2,c.height/2 + 30);
 
+
+    })
+}
+
+
+
+
+$("#tad-taoanh").click(function(){
+c.toBlob(function (l) {
+var k = URL.createObjectURL(l);
+$("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + k + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + k + "' class='btn btn-block btn-primary mt-2'  download='taoanhdep_" + tenanhxuat + "'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");
+$("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
+$("#img-out").show()
+}, "image/jpeg");
 
 
 });
+
 
 
 
