@@ -205,8 +205,17 @@ document.fonts.load('10pt "AR DARLING"').then(function () {
                                         c.toBlob(function (l) {
                                             var k = URL.createObjectURL(l);
                                             $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + k + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + k + "' class='btn btn-block btn-primary mt-2'  download='taoanhdep_" + tenanhxuat + "'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");
-                                            $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
+                                          
+
+
+                                            setTimeout(function () {
+
+                                                $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
                                             $("#img-out").show()
+
+
+}, 1000)
+
                                         }, "image/jpeg");
 
 
@@ -219,7 +228,6 @@ document.fonts.load('10pt "AR DARLING"').then(function () {
 
 
 
-draw();
 
             $("#tad-taoanh").click(function () {
                 $("#img-out").hide();
