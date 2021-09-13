@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+
+    <canvas id="temp" width="2000" height="2000"
+    style="border:1px solid #d3d3d3;">
+    Your browser does not support the canvas element.
+    </canvas>
+    
+    <script>
+
+var a = new Image();
+                a.crossOrigin = "Anonymous";
+                a.src = "https://1.bp.blogspot.com/-Rvvwd_3e6tc/YT8r74wMEqI/AAAAAAAAxKw/OQBCpkNXHbk7t9yIJXL923qn8JGzyR0dACNcBGAsYHQ/s0/bg.png";
+                a.onload = function () {
+
+
+
+                    var b = new Image();
+                b.crossOrigin = "Anonymous";
+                b.src = "https://1.bp.blogspot.com/-bk48U49-XHk/YT8soRpMx1I/AAAAAAAAxK4/WKOPumRo8Ho_4W83kVzmcbto49maTapoACNcBGAsYHQ/s0/gold.jpg";
+                b.onload = function () {
+
+
+
+    var c = document.getElementById("temp");
+    var ctx = c.getContext("2d");
+
+    ctx.fillRect(0, 0, c.width, c.height);
+
+    ctx.drawImage(b,0,0,c.width,c.height);
+
+
+    ctx.globalCompositeOperation = "destination-atop";
+
+
+    ctx.fillStyle = "red";
+    ctx.font = "bold 300px arial";
+    ctx.textAlign = "center";
+    ctx.textBaseline = 'middle';
+    ctx.fillText("Ngọc Tuấn",c.width/2,c.height/2);
+    
+    ctx.save();
+    ctx.fillStyle = "red";
+    ctx.font = "bold 300px arial";
+    ctx.textAlign = "center";
+    ctx.textBaseline = 'middle';
+    ctx.fillText("T",c.width/2,c.height/2);
+    ctx.restore();
+
+    ctx.save();
+    ctx.drawImage(a,0,0,c.width,c.height);
+    ctx.restore();
+    
+} } 
+
+
+    </script>
+
+
+
+</body>
+</html>
