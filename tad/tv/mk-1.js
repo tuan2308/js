@@ -97,7 +97,7 @@ $(document).ready(function() {
 							$("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> " + tta);
 							$("#img-out").show()
 						}, "image/jpeg")
-					}, 7000);
+					}, 1000);
                   
                   
                   
