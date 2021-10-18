@@ -76,7 +76,7 @@ $(document).ready(function() {
 							$("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> " + tta);
 							$("#img-out").show()
 						}, "image/jpeg")
-					}, 1000);
+					}, 2000);
 
 					function p(m, k, j) {
 						return {
