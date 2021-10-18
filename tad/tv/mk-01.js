@@ -43,7 +43,12 @@ $(document).ready(function() {
 							ctx.drawImage(e, x, y, step, step, D.x, D.y, Math.ceil(Math.max(step, Math.abs(h.x - D.x), Math.abs(A.x - g.x))) + 1, Math.ceil(Math.max(step, Math.abs(D.y - A.y), Math.abs(h.y - g.y))) + 1)
 						}
 					}
-					
+                    function p(m, k, j) {
+						return {
+							x: m.x + (k.x - m.x) * j,
+							y: m.y + (k.y - m.y) * j
+						}
+					}
 					setTimeout(function() {
 					    
 					    
@@ -78,12 +83,7 @@ $(document).ready(function() {
 						}, "image/jpeg")
 					}, 2000);
 
-					function p(m, k, j) {
-						return {
-							x: m.x + (k.x - m.x) * j,
-							y: m.y + (k.y - m.y) * j
-						}
-					}
+			
 				}
 			}
 		}
