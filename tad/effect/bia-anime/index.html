@@ -59,7 +59,7 @@ l4.onload = function () {
 
 
 ctx.save();
-ctx.fillStyle = "#5e4c7c";
+ctx.fillStyle = "yellow";
 ctx.fillRect(0, 0, c.width, c.height);
 ctx.restore();
 
@@ -109,7 +109,7 @@ ctx.save();
 var gradient = ctx.createLinearGradient(0, 0, 0, 960);
 gradient.addColorStop(0, "#fff");
 gradient.addColorStop(0.42, "#fff");
-gradient.addColorStop(1, "transparent");
+gradient.addColorStop(1, "rgb(255 255 255 / 0%)");
 
 
 
@@ -118,7 +118,7 @@ ctx.fillStyle = gradient;
 ctx.transform(1,0,-0.2,1,0,0);
 ctx.textAlign = "right";
 ctx.font = "200px SVN-Big Noodle Titling";
-ctx.fillText("Tuấn Trương",1250,550);
+ctx.fillText("Ngọc Tuấn",1250,535);
 ctx.restore();
 
 
@@ -128,7 +128,7 @@ ctx.textAlign = "right";
 ctx.transform(1,0,-0.2,1,0,0);
 ctx.font = "60px SVN-Big Noodle Titling";
 
-var u = "fb.com/tuan2308"
+var u = "fb.com/tuan2308 dfsgdfgsdf"
 
 
 var q = ctx.measureText(u).width;
