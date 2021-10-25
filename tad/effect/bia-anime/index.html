@@ -70,23 +70,33 @@ ctx.globalCompositeOperation = "multiply"
 ctx.drawImage(l2, 0, 0, c.width, c.height);
 ctx.restore();
 
+// ctx.save();
+// ctx.globalAlpha = 0.3;
+// ctx.fillStyle = "#fff";
+// ctx.strokeStyle = '#fff';
+// ctx.lineWidth = 3;
+// ctx.font = "150px UTM Neutra";
+// ctx.strokeText("satoru gojo",1230,290);
+// ctx.fillText("satoru gojo",1230,410);
+// ctx.strokeText("satoru gojo",1230,530);
+// ctx.fillText("satoru gojo",1230,650);
+// ctx.strokeText("satoru gojo",1230,770);
+
+// ctx.restore();
+
 ctx.save();
-ctx.globalAlpha = 0.3;
+ctx.transform(1,0,-0.2,1,0,0);
 ctx.fillStyle = "#fff";
-ctx.strokeStyle = '#fff';
-ctx.lineWidth = 3;
-ctx.font = "150px UTM Neutra";
-ctx.strokeText("satoru gojo",1230,290);
-ctx.fillText("satoru gojo",1230,410);
-ctx.strokeText("satoru gojo",1230,530);
-ctx.fillText("satoru gojo",1230,650);
-ctx.strokeText("satoru gojo",1230,770);
+ctx.fillRect(1600,166,150,627)
+ctx.globalAlpha = 0.5;
+ctx.fillRect(1400,166,150,627)
 
 ctx.restore();
 
+
 ctx.save();
 ctx.globalAlpha = 0.3;
-ctx.filter = "grayscale(.5)";
+ctx.filter = "grayscale(1)";
 ctx.globalCompositeOperation = "multiply";
 ctx.drawImage(l3, 0, -320, c.width, c.width);
 ctx.restore();
@@ -100,7 +110,11 @@ var gradient = ctx.createLinearGradient(0, 0, 0, 960);
 gradient.addColorStop(0, "#fff");
 gradient.addColorStop(0.42, "#fff");
 gradient.addColorStop(1, "transparent");
+
+
+
 ctx.fillStyle = gradient;
+
 ctx.transform(1,0,-0.2,1,0,0);
 ctx.textAlign = "right";
 ctx.font = "200px SVN-Big Noodle Titling";
@@ -126,7 +140,7 @@ ctx.fillText(u,1235,640);
 
 ctx.restore();
 
-ctx.drawImage(l3, 1100, 92, 700, 700);
+ctx.drawImage(l3, 1100, 93, 700, 700);
 
 
 ctx.drawImage(l4, 0, 0, c.width, c.height);
