@@ -56,9 +56,9 @@ function go() {
       stepTxt = document.querySelector("span"),
       c = document.querySelector("canvas"),
       ctx = c.getContext("2d"),
-      corners = [{x:340,y:147},{x:659,y:150},{x:653,y:370},{x:360,y:372}],
+      corners = [{x:431,y:375},{x:729,y:437},{x:658,y:607},{x:425,y:592}],
       radius = 10, cPoint, timer,  // for mouse handling
-      step = 3;                    // resolution
+      step = 1.5;                    // resolution
 
   update();
 
@@ -88,6 +88,8 @@ ctx.save();
             Math.ceil(Math.max(step, Math.abs(p2.x - p1.x), Math.abs(p4.x - p3.x))) + 1,
             Math.ceil(Math.max(step, Math.abs(p1.y - p4.y), Math.abs(p2.y - p3.y))) + 1)
 
+
+console.log("a")
 
       }
     }
