@@ -15,7 +15,7 @@ $(document).ready(function() {
 				i()
 			}, 200)
 		});
-
+  
 		function i() {
 			var a = new Image();
 			a.crossOrigin = "Anonymous";
