@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-XztkjBMGyDE/YXfL3E-DClI/AAAAAAAAyps/Lo9Yb4U-n50pkxkZFUjBOKPgp3FuuPwKwCNcBGAsYHQ/s120/senko.png",
+	colorBg: "#f5a933"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-RACeL_kfkAw/YXaiHI6x3WI/AAAAAAAAyoQ/rjq4QBgQudQWdVGsE-Qb_SBE_uFZUvaawCNcBGAsYHQ/s120/ceres-fauna.png",
 	colorBg: "#64c4a7"
 },{
