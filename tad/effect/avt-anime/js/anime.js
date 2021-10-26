@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-f7Xnirn5ZwY/YXfMWuI1J9I/AAAAAAAAyp0/PHI5k728oqs5hHsCasn4L_T3GihSNoimQCNcBGAsYHQ/s120/sans.png",
+	colorBg: "#347fd8"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-XztkjBMGyDE/YXfL3E-DClI/AAAAAAAAyps/Lo9Yb4U-n50pkxkZFUjBOKPgp3FuuPwKwCNcBGAsYHQ/s120/senko.png",
 	colorBg: "#f5a933"
 },{
