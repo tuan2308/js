@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-IVq3938YjSY/YXpipcwGi4I/AAAAAAAAy8w/XCpQsR9JtXQVAQO8XlK66GdGD_kDnSCyACNcBGAsYHQ/s120/emiya-shirou.png",
+	colorBg: "#3e4588"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-FYRkUlH0Zhs/YXpiHe1VGvI/AAAAAAAAy8o/PNcsn9zxYao6AQ2CZsKX1tsf3yzIZWWQACNcBGAsYHQ/s120/renge-miyauchi.png",
+	colorBg: "#9990c2"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-XiwW2OfHAKE/YXpf7txf1TI/AAAAAAAAy8Y/tVkrhVCJZi0gu5x1CA7kNqCx3wree0DEQCNcBGAsYHQ/s120/fuwa.png",
+	colorBg: "#6bd0f1"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-oMXVFXyZ-go/YXpcoMLBooI/AAAAAAAAy8E/xIqIG3r1g7UdkrhGVtT-MaEXcGvMHlESACNcBGAsYHQ/s120/tatsuya-shiba.png",
 	colorBg: "#48c7aa"
 },{
@@ -1039,6 +1048,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-XBr4TvyyrQ8/YTy9zUwImqI/AAAAAAAAxHA/By3sKe8GXWY6wPegXq7tbmBFG5RxYngdwCNcBGAsYHQ/s120/katakuri.png",
 	colorBg: "#e63e77"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-06C5QjXT_WI/YXpg6a_QnVI/AAAAAAAAy8g/YCqQWPEnH9QNZP_AwE7GCqHIuY29i3vlQCNcBGAsYHQ/s120/sabo.png",
+	colorBg: "#429ddc"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/s120/naruto.png",
 	colorBg: "#ec7230"
