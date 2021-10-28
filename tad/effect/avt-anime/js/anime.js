@@ -18,7 +18,7 @@ var dsAnime = [{
 	colorBg: "#3b9172"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-1lzQ9TBEEtA/YQqczRz91DI/AAAAAAAAv3Y/xSE5cIapEx81y-drb8pTFBX5sXytr-DZACNcBGAsYHQ/s120/nezuko.png",
-	colorBg: "#d19397"
+	colorBg: "#ffa6ac"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-rMFuWp2MFiA/YRYgnPhwtyI/AAAAAAAAwOQ/r2cGi9q0x5YtevOyRHpRW4nnoMwGI0MZQCNcBGAsYHQ/s120/zenitsu.png",
 	colorBg: "#fabd4b"
@@ -77,9 +77,6 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/s120/akaza.png",
 	colorBg: "#df94a7"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/s120/akaza.png",
-	colorBg: "#df94a7"
-},{
 	imgAnime: "https://lh3.googleusercontent.com/-f7Xnirn5ZwY/YXfMWuI1J9I/AAAAAAAAyp0/PHI5k728oqs5hHsCasn4L_T3GihSNoimQCNcBGAsYHQ/s120/sans.png",
 	colorBg: "#347fd8"
 },{
