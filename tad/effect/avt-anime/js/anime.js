@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-oMXVFXyZ-go/YXpcoMLBooI/AAAAAAAAy8E/xIqIG3r1g7UdkrhGVtT-MaEXcGvMHlESACNcBGAsYHQ/s120/tatsuya-shiba.png",
+	colorBg: "#48c7aa"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-7_1Jv9QjhRI/YXpcoFo1oDI/AAAAAAAAy8A/9zvtgCA92zMOog4v-h1_SdHoLY3yiRusACNcBGAsYHQ/s120/miyuki-shiba.png",
+	colorBg: "#48c7aa"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-D_8PxJ58tYE/YQqczcsSdoI/AAAAAAAAv3U/M9Z4JB8BYD4IN54qgld45M1G2l9NKD54ACNcBGAsYHQ/s120/tanjiro.png",
 	colorBg: "#3b9172"
 }, {
