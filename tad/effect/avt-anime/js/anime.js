@@ -62,8 +62,11 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-UTKm-6dLGfg/YS9-oyey5cI/AAAAAAAAw5I/t-_pn2SQ5lU2_0_7YjVtGpr5VM0Id0LrACNcBGAsYHQ/s120/makomo.png",
 	colorBg: "#ec8aa1"
 },  {
-	imgAnime: "https://1.bp.blogspot.com/-l0yymFKl0Qg/YUxdOSwMi1I/AAAAAAAAxh4/3aZ2q_APs2wWCHcL1NpCpvbsV6Sk0y1PwCNcBGAsYHQ/s120/mitsuri.png",
-	colorBg: "#b4cd37"
+	imgAnime: "https://lh3.googleusercontent.com/-3nXCYPprknc/YXpfFHgywOI/AAAAAAAAy8Q/9KD5YgR3uIsUSi3fGJ1QUNRb48XvK34bwCNcBGAsYHQ/s120/muzan.png",
+	colorBg: "#f13c1e"
+},{
+	imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/s120/akaza.png",
+	colorBg: "#df94a7"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/s120/akaza.png",
 	colorBg: "#df94a7"
