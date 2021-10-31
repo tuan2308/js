@@ -1,4 +1,16 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-8Z08aytgr8M/YX51sU6xbAI/AAAAAAAAy_s/ZJCvPxzmVTc9jLDFsZyriltSqt7s-Y1EQCNcBGAsYHQ/s120/haruno-haruka.png",
+	colorBg: "#f46546"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/--zDuuZMS530/YX52iKVf2uI/AAAAAAAAy_0/dTe7HVeV-HUHlhhuYXwjzcTRFvYOno2MwCNcBGAsYHQ/s120/kaido-minami.png",
+	colorBg: "#52cdf6"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-aGQtPKQsvNQ/YX52zUSHpQI/AAAAAAAAy_8/IWv9KO2isV8n0ui31x4T26S7RTe1TF5jQCNcBGAsYHQ/s120/amanogawa-kirara.png",
+	colorBg: "#52cdf6"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-3CYRL6KxvgY/YX53Br8gaJI/AAAAAAAAzAA/JKIeMPyLd2AoSECzJxpbt7oasmkyrM-8QCNcBGAsYHQ/s120/akagi-towa.png",
+	colorBg: "#f78480"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-upDDiiYo-Ms/YX4i7AH5wLI/AAAAAAAAy_g/CfMeuqFPXAQgAUIfeiizSYMd46LgIi14wCNcBGAsYHQ/s120/rin-shima.png",
 	colorBg: "#7099d6"
 },{
