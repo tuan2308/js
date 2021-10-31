@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-vO_iwFqpuGw/YX54Ty5QNTI/AAAAAAAAzAQ/dmOqCfpQlRAzubEyyd2QFDzonHZIYkBnACNcBGAsYHQ/s120/yae-sakura.png",
+	colorBg: "#ec95ae"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-nI1CR5pTiRY/YX55b44qKFI/AAAAAAAAzAc/soBMTvcY68EkN9xM4leiYCA95F5G6bvSACNcBGAsYHQ/s120/yae-miko.png",
+	colorBg: "#fa8da1"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-8Z08aytgr8M/YX51sU6xbAI/AAAAAAAAy_s/ZJCvPxzmVTc9jLDFsZyriltSqt7s-Y1EQCNcBGAsYHQ/s120/haruno-haruka.png",
 	colorBg: "#f46546"
 },{
@@ -1111,6 +1117,9 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-BlkaQFCEN84/YX01P-ZG1PI/AAAAAAAAy90/uc-TSwVDYaEICjHyz2tYeDThM4AVfaJqgCNcBGAsYHQ/s120/yamato.png",
 	colorBg: "#bd3030"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-oxxLdQIMJSw/YX53fbkZvEI/AAAAAAAAzAI/qJTbNX1HsSQl6bgU6uA5Zp-kC9jkonzBACNcBGAsYHQ/s120/kaido-rejiu.png",
+	colorBg: "#ff82a2"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/s120/naruto.png",
 	colorBg: "#ec7230"
