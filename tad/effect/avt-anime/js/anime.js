@@ -1,4 +1,34 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-upDDiiYo-Ms/YX4i7AH5wLI/AAAAAAAAy_g/CfMeuqFPXAQgAUIfeiizSYMd46LgIi14wCNcBGAsYHQ/s120/rin-shima.png",
+	colorBg: "#7099d6"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-A0JmU2vBqas/YX4hW-PovmI/AAAAAAAAy_I/HEk4MLQ_nS0YtFTlaibeGMVf9oHZrecZgCNcBGAsYHQ/s120/klee.png",
+	colorBg: "#d64131"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-Rt4w0oV-mjI/YX4gDMxZ9kI/AAAAAAAAy_A/424kyT1_wMEwc8oqqERdpiLdTxyOQCbBQCNcBGAsYHQ/s120/kiana.png",
+	colorBg: "#ffb243"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-K9Bz2vCU_eg/YX4e-8m2E7I/AAAAAAAAy-4/XRhzVuePfw0F6O7SonhOYJDiRcaxzeHVwCNcBGAsYHQ/s120/komi-san.png",
+	colorBg: "#b459cb"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-t5p-THDB8o0/YX4epkm_zqI/AAAAAAAAy-s/5jXLmqq0cvQKtQovY0Yy1gzSF3jHPw5qACNcBGAsYHQ/s120/satoshi.png",
+	colorBg: "#288ce0"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-QINx8LuNbR0/YX4d7UPZruI/AAAAAAAAy-g/2I35CyrgK641K1EZMNtn1A1w4UwDMxhnwCNcBGAsYHQ/s120/arima-kousei.png",
+	colorBg: "#5fa9c1"
+},{
+	imgAnime: "https://1.bp.blogspot.com/-JGrthO2Roh8/YRJ1ubT0qFI/AAAAAAAAwE8/TXJjlZupyOAAcaNrXp-1HnBkRBwr1YCTwCNcBGAsYHQ/s120/kaori-miyazono.png",
+	colorBg: "#82778a"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/s120/kawaki.png",
+	colorBg: "#b95768"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-amHkN74EZ9I/YX4ZkGoZO6I/AAAAAAAAy-I/Gls-Vd4cvIU5o861gToThwILqoj-hyJ9wCNcBGAsYHQ/s120/starfire.png",
+	colorBg: "#af2b38"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-EtdR0-4dAzk/YX4Y2fzFskI/AAAAAAAAy-A/RhI1aFV5-TIPid6iZNuQmYV9Q92VldcrwCNcBGAsYHQ/s120/reven.png",
+	colorBg: "#855fee"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-x6jibRH6XXE/YX0zEJHbLZI/AAAAAAAAy9s/21541bg65BAoCUNgoeZsV7dFp0RvSwNmACNcBGAsYHQ/s120/ayano-aishi.png",
 	colorBg: "#425cba"
 },{
@@ -7,6 +37,9 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-8fmUCPgWc4g/YX0vcNGbiAI/AAAAAAAAy9U/l0vqaH1Xgy81QM5v6EA0-L5Jr5H_HsLCACNcBGAsYHQ/s120/saiki-kusuo.png",
 	colorBg: "#2ec38b"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-_QmUGsVWhSE/YX4Z79f9cMI/AAAAAAAAy-Q/QCSddqui_j4np_dkfZX6fx5kSndWWPG2wCNcBGAsYHQ/s120/doraemi.png",
+	colorBg: "#fcbc3f"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-yyuwJpShasc/YX0unA3-V5I/AAAAAAAAy9M/IVFs7gO1DMMcVsoUJ9Il4igqhSKtWN63QCNcBGAsYHQ/s120/roboko.png",
 	colorBg: "#1caabd"
@@ -151,6 +184,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-PRT1AwFvxBA/YXQAbCsD9sI/AAAAAAAAykc/QrL9eR1l6kIYAdh-OeXQAUL6s7r2kc8awCNcBGAsYHQ/s120/kirito-ggo.png",
 	colorBg: "#a15aea"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-9nuYYtk_mNc/YX4hxf7bd4I/AAAAAAAAy_Q/bsvTTISOkRIdjGL4dYxXaBW37rqrQTzDACNcBGAsYHQ/s120/yuuki.png",
+	colorBg: "#c870d3"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-pKW63zXNHAQ/YXKA-y8OJLI/AAAAAAAAyhw/3jA2jD2OfqogOZifFfvnCdBvTolqDkvHQCNcBGAsYHQ/s120/alice-zuberg.png",
 	colorBg: "#f75148"
@@ -955,10 +991,7 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-b80EJ6JXLcE/YTND-eB200I/AAAAAAAAw-Y/pkRv43Nk0o8VvY2vqVVUw6HtQWPVVYAogCNcBGAsYHQ/s120/leonhart.png",
 	colorBg: "#949586"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-JGrthO2Roh8/YRJ1ubT0qFI/AAAAAAAAwE8/TXJjlZupyOAAcaNrXp-1HnBkRBwr1YCTwCNcBGAsYHQ/s120/kaori.png",
-	colorBg: "#82778a"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-EAkKo3u5b6g/YQ4-grJXtvI/AAAAAAAAv9I/5q99kAI5QZMcicrlhDlERmQfxdUhdBYogCNcBGAsYHQ/s120/bakugou.png",
 	colorBg: "#556b71"
 }, {
@@ -1069,6 +1102,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/s120/naruto.png",
 	colorBg: "#ec7230"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-7_AtJFQnlbI/YX4iIqn3SKI/AAAAAAAAy_Y/39R7V8xNHAMgbfffZXgzRHYD0chaxAYOgCNcBGAsYHQ/s120/naruto.png",
+	colorBg: "#f5742e"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-5YSrPZS5OTQ/YQtt31nppUI/AAAAAAAAv4k/aWWMO75j2EALPqCHfLKzyFcXB6qhbP4zgCNcBGAsYHQ/s120/sasuke.png",
 	colorBg: "#103555"
