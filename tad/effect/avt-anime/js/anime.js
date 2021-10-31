@@ -96,7 +96,7 @@ var dsAnime = [{
 	colorBg: "#ae9dd9"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-x9g2Y6JIfTM/YXpbDhHq8iI/AAAAAAAAy74/C0SsBrVzBewUzrdqlM4e_KpP0QC2HUx1ACNcBGAsYHQ/s120/rengoku-kyojuro.png",
-	colorBg: "#e33626"
+	colorBg: "#f7b431"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-umb_ogjyVC8/YXpWhGI_4pI/AAAAAAAAy7Y/4JSlagjti7cjv0tMTAaqd2ZLFeGDCUCmgCNcBGAsYHQ/s120/uzui-tengen.png",
 	colorBg: "#d52d2d"
