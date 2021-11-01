@@ -1,4 +1,16 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-gYgGG8n6xOg/YX_JieXszcI/AAAAAAAAzEk/EEunf6spzekm4MksvG9MM0Q35-5z9jIpgCNcBGAsYHQ/s120/Ojou.png",
+	colorBg: "#b71e2d"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-u6L7TI8d9Y0/YX_H-s6qnuI/AAAAAAAAzEU/dooyKVopz-w8SLP68DpkC3y7JVDU2a3IQCNcBGAsYHQ/s120/Hyakkimaru.png",
+	colorBg: "#b8353c"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-TPfJtn78dPk/YX_HZYUNWQI/AAAAAAAAzEM/UUsS-5qFAl44wynnvJbn9efabY-FdaunQCNcBGAsYHQ/s120/shu-kurenai.png",
+	colorBg: "#b43c4e"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-xixAViu0rnE/YX_Fxk2xICI/AAAAAAAAzD8/bX1hSFfZ0rErr2fGPd0B5yPM47d-5c3kwCNcBGAsYHQ/s129/Shinomiya-Kaguya.png",
+	colorBg: "#d1373d"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-vO_iwFqpuGw/YX54Ty5QNTI/AAAAAAAAzAQ/dmOqCfpQlRAzubEyyd2QFDzonHZIYkBnACNcBGAsYHQ/s120/yae-sakura.png",
 	colorBg: "#ec95ae"
 },{
@@ -28,6 +40,9 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-3CYRL6KxvgY/YX53Br8gaJI/AAAAAAAAzAA/JKIeMPyLd2AoSECzJxpbt7oasmkyrM-8QCNcBGAsYHQ/s120/akagi-towa.png",
 	colorBg: "#f78480"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-i4rOPJed_lY/YX_G81AKkhI/AAAAAAAAzEE/hOiDdd5y5OQUCS98akCcvU7PaWu6jnN6wCNcBGAsYHQ/s120/Kaguya-Madoka.png",
+	colorBg: "#79649d"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-upDDiiYo-Ms/YX4i7AH5wLI/AAAAAAAAy_g/CfMeuqFPXAQgAUIfeiizSYMd46LgIi14wCNcBGAsYHQ/s120/rin-shima.png",
 	colorBg: "#7099d6"
@@ -181,6 +196,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-TGA22nV3PnM/YXP_mVEuZKI/AAAAAAAAykU/I5LseemIOCAJf3hufJ7wtiq4654WmEVjgCNcBGAsYHQ/s120/miyamura.png",
 	colorBg: "#2397f0"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-_CKMldqP13w/YX_Ip1pj_pI/AAAAAAAAzEc/VW29mXeM73cRmwo5EadX3BJV97LQ9MyWgCNcBGAsYHQ/s120/hori.png",
+	colorBg: "#ffb72b"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-9SpihUBY-EY/YXK1jtNQ2pI/AAAAAAAAyio/Xn1v7rCkHZkt9H2o9EMs7Euc106QC-y_ACNcBGAsYHQ/s120/lugh.png",
 	colorBg: "#6480db"
@@ -1135,6 +1153,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-WBdWoZROHsI/YX-rsPKEQoI/AAAAAAAAzDY/0R9wl6fTlFMyn5TmYY3A4j230C9a4bsbwCNcBGAsYHQ/s120/edward-newgate.png",
 	colorBg: "#e12929"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-3IJPGi8xj0s/YX_KRI3zaYI/AAAAAAAAzEs/-PXGza_J5gEYYph96q0Q4KNi6kCF5fz5wCNcBGAsYHQ/s120/sengoku.png",
+	colorBg: "#6574b4"
 },{
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/s120/naruto.png",
 	colorBg: "#ec7230"
