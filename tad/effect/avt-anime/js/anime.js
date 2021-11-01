@@ -5,6 +5,18 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-nI1CR5pTiRY/YX55b44qKFI/AAAAAAAAzAc/soBMTvcY68EkN9xM4leiYCA95F5G6bvSACNcBGAsYHQ/s120/yae-miko.png",
 	colorBg: "#fa8da1"
 },{
+	imgAnime: "https://lh3.googleusercontent.com/-y_DR37h3wJ4/YX_E_D8LmJI/AAAAAAAAzDo/7Ufyvoq6OyoOSCBMRgT01nzVbA_VqTexgCNcBGAsYHQ/s120/cure-flora.png",
+	colorBg: "#ff64d4"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-1iX57nLD37A/YX_E_HWUq5I/AAAAAAAAzDg/RxAth0a1j4ogMYxjAtKV0DGf4gpzX16hwCNcBGAsYHQ/s120/cure-mermaid.png",
+	colorBg: "#5b9ac9"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-zHC1tTBMMcE/YX_FAcgErJI/AAAAAAAAzDs/O5T36sMdd_E5gRjRac2Id8QSNVaAKVnUACNcBGAsYHQ/s120/cure-twinkle.png",
+	colorBg: "#fecb40"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-meEagHt4JUU/YX_E_fqvjwI/AAAAAAAAzDk/T_ZI_eKvREII1wfScp-9AM5-TghJBW5wACNcBGAsYHQ/s120/cure-scarlet.png",
+	colorBg: "#f3365e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-8Z08aytgr8M/YX51sU6xbAI/AAAAAAAAy_s/ZJCvPxzmVTc9jLDFsZyriltSqt7s-Y1EQCNcBGAsYHQ/s120/haruno-haruka.png",
 	colorBg: "#f46546"
 },{
@@ -1121,6 +1133,9 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-oxxLdQIMJSw/YX53fbkZvEI/AAAAAAAAzAI/qJTbNX1HsSQl6bgU6uA5Zp-kC9jkonzBACNcBGAsYHQ/s120/kaido-rejiu.png",
 	colorBg: "#ff82a2"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-WBdWoZROHsI/YX-rsPKEQoI/AAAAAAAAzDY/0R9wl6fTlFMyn5TmYY3A4j230C9a4bsbwCNcBGAsYHQ/s120/edward-newgate.png",
+	colorBg: "#e12929"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/s120/naruto.png",
 	colorBg: "#ec7230"
 },{
