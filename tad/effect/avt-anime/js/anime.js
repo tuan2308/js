@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-5Li7B9xSV6w/YYJGYZZZwCI/AAAAAAAAzKg/66iiuLQEoEkCOCMMFZITVvATXUHgK_1hQCNcBGAsYHQ/s120/valt-aoi.png",
+	colorBg: "#438be2"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-gYgGG8n6xOg/YX_JieXszcI/AAAAAAAAzEk/EEunf6spzekm4MksvG9MM0Q35-5z9jIpgCNcBGAsYHQ/s120/Ojou.png",
 	colorBg: "#b71e2d"
 },{
@@ -1079,6 +1082,9 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-U2BDkAqUc_0/YR8uZ96xjFI/AAAAAAAAwgE/SFkpUXX9TKw9AxIn00OnS3WbttE20V-lACNcBGAsYHQ/s120/giorno-giovanna.png",
 	colorBg: "#b073a7"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-QHdmSZL8oKI/YYJF8w9MKnI/AAAAAAAAzKY/G4k6IrmXNuw2JFJv079-i7YoLly6x25-QCNcBGAsYHQ/s120/kakyoin.png",
+	colorBg: "#516141"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-GUfoqwtCUMM/YQutcKmSA4I/AAAAAAAAv5g/yCR267Bt5aoJTLZ2XmapgPRKcfcGR2MUQCNcBGAsYHQ/s120/kanna.png",
 	colorBg: "#eb9ead"
 }, {
@@ -1099,7 +1105,10 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-qyf-8emKvK4/YToA-_s6guI/AAAAAAAAxFA/MlckVLEQwWs8fTJxBqFAQSsBYYs8P9IQwCNcBGAsYHQ/s120/sonoko.png",
 	colorBg: "#4c88cb"
-}, {
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-A0XlrnUTAO0/YYJFRA9k8-I/AAAAAAAAzKQ/mKtK4rV2xnw95XMfleOXjCCRFXvLP2cnQCNcBGAsYHQ/s120/akai-shuichi.png",
+	colorBg: "#805086"
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-q9iYSou-gtY/YQurPYNR9BI/AAAAAAAAv5Q/FCP21rj34-gQJlTgTCoDPwSJo7jAJX4-QCNcBGAsYHQ/s120/kaito-kid.png",
 	colorBg: "#292c35"
 }, {
