@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-AAltfF3Y0nc/YYJM9aocYuI/AAAAAAAAzLg/7yQR-oKy6_A9mlsyG8AlTtLWxwws2-TcgCNcBGAsYHQ/s120/Eula.png",
+	colorBg: "#5a8bd7"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-XL7oinucd7I/YYJIlPMsVUI/AAAAAAAAzK4/Jw06jIEnvEAxnqyJ08oYJ60QwtNJT6regCNcBGAsYHQ/s120/SOPMOD.png",
 	colorBg: "#e1393f"
 },{
@@ -1093,6 +1096,15 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-QHdmSZL8oKI/YYJF8w9MKnI/AAAAAAAAzKY/G4k6IrmXNuw2JFJv079-i7YoLly6x25-QCNcBGAsYHQ/s120/kakyoin.png",
 	colorBg: "#516141"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-s0QTKUOv2jI/YYJLFdhkE8I/AAAAAAAAzLI/INl7D879z8sBdWjxsP45NcAP5G6wvWV6ACNcBGAsYHQ/s120/Jolyne.png",
+	colorBg: "#6ba940"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-AuMBUWhP72M/YYJLnjpvQmI/AAAAAAAAzLQ/mzP5uor0y5AayomFxycJbS78FnjUh0nFwCNcBGAsYHQ/s120/Johnny.png",
+	colorBg: "#4ea6de"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-L-ORMRtJ7-g/YYJMQPASj0I/AAAAAAAAzLY/k8-QVDw1sI0cpHdTiIo2pUTlTSSs-OQggCNcBGAsYHQ/s120/Josuke.png",
+	colorBg: "#396cb1"
 },{
 	imgAnime: "https://1.bp.blogspot.com/-GUfoqwtCUMM/YQutcKmSA4I/AAAAAAAAv5g/yCR267Bt5aoJTLZ2XmapgPRKcfcGR2MUQCNcBGAsYHQ/s120/kanna.png",
 	colorBg: "#eb9ead"
