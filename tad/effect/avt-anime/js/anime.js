@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-XL7oinucd7I/YYJIlPMsVUI/AAAAAAAAzK4/Jw06jIEnvEAxnqyJ08oYJ60QwtNJT6regCNcBGAsYHQ/s120/SOPMOD.png",
+	colorBg: "#e1393f"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-YbMdguIefkU/YYJIFnFUD8I/AAAAAAAAzKw/o51OjrSWs9Um_ZHdZuM0Z5_u4_i6TZxnwCNcBGAsYHQ/s120/Denki.png",
+	colorBg: "#ffc844"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-5Li7B9xSV6w/YYJGYZZZwCI/AAAAAAAAzKg/66iiuLQEoEkCOCMMFZITVvATXUHgK_1hQCNcBGAsYHQ/s120/valt-aoi.png",
 	colorBg: "#438be2"
 },{
@@ -703,6 +709,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-uRWT9cFz-YM/YRO2V63jXNI/AAAAAAAAwGw/SFnxNJ_o70c9MKAL-oPXcgCz38vrMwiLACNcBGAsYHQ/s120/hina.png",
 	colorBg: "#ef93a2"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-gc5EIlvG8-I/YYJHg9kJM8I/AAAAAAAAzKo/chVZZiQbzp4Uhh6fV3ZOOYZBYZCLb8PAwCNcBGAsYHQ/s120/naoto.png",
+	colorBg: "#49a6e1"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-eTuwjUKUhV0/YREhK8NVWmI/AAAAAAAAwEY/y53UXtV0nMU0eaevDg9Jby1gm1yQE0m-gCNcBGAsYHQ/s120/mikey.png",
 	colorBg: "#2e2a28"
@@ -1174,6 +1183,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-5YSrPZS5OTQ/YQtt31nppUI/AAAAAAAAv4k/aWWMO75j2EALPqCHfLKzyFcXB6qhbP4zgCNcBGAsYHQ/s120/sasuke.png",
 	colorBg: "#103555"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-ZOOYvt8GEwg/YYJJY8bxPfI/AAAAAAAAzLA/EXD47ePqpa8S8tyydoSkBgkpvGGwj0mmACNcBGAsYHQ/s120/sasuke.png",
+	colorBg: "#6283a5"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-xhj9vr_icEw/YQkNus86DjI/AAAAAAAAv1Y/T_FYJlBMT1A6AxsPEDiAfMnDbdc8nDb2gCNcBGAsYHQ/s120/kakashi.png",
 	colorBg: "#626b57"
