@@ -8,7 +8,7 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-TPfJtn78dPk/YX_HZYUNWQI/AAAAAAAAzEM/UUsS-5qFAl44wynnvJbn9efabY-FdaunQCNcBGAsYHQ/s120/shu-kurenai.png",
 	colorBg: "#b43c4e"
 },{
-	imgAnime: "https://lh3.googleusercontent.com/-xixAViu0rnE/YX_Fxk2xICI/AAAAAAAAzD8/bX1hSFfZ0rErr2fGPd0B5yPM47d-5c3kwCNcBGAsYHQ/s129/Shinomiya-Kaguya.png",
+	imgAnime: "https://lh3.googleusercontent.com/-xixAViu0rnE/YX_Fxk2xICI/AAAAAAAAzD8/bX1hSFfZ0rErr2fGPd0B5yPM47d-5c3kwCNcBGAsYHQ/s120/Shinomiya-Kaguya.png",
 	colorBg: "#d1373d"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-vO_iwFqpuGw/YX54Ty5QNTI/AAAAAAAAzAQ/dmOqCfpQlRAzubEyyd2QFDzonHZIYkBnACNcBGAsYHQ/s120/yae-sakura.png",
