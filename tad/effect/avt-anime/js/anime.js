@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-fCdX27lgzpw/YYPVCRr_wWI/AAAAAAAAzNw/j38Ic4DFM1w5yDBPhm7KS1kIwT2Bm10zACNcBGAsYHQ/s120/louis.png",
+	colorBg: "#776ec9"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-9JUI_Fe4kqI/YYPTdUdNYMI/AAAAAAAAzNg/sFIVgPFcinkqUzerV09mA25HaPwRjSYkACNcBGAsYHQ/s120/luminous-valentine.png",
+	colorBg: "#62c84e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-ELV3VAJ0wLY/YYPSq9HXb1I/AAAAAAAAzNU/Y6ZHk83OLtMtsn1Fz2fsBzw41xzsmEf-ACNcBGAsYHQ/s120/adam.png",
 	colorBg: "#62c84e"
 },{
