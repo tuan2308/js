@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-ELV3VAJ0wLY/YYPSq9HXb1I/AAAAAAAAzNU/Y6ZHk83OLtMtsn1Fz2fsBzw41xzsmEf-ACNcBGAsYHQ/s120/adam.png",
+	colorBg: "#62c84e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-VIv8_L9B4sw/YYPRult_V_I/AAAAAAAAzM4/ugTEOza5fFUf-4IEOPfeq-HE_g_Ad6LbQCNcBGAsYHQ/s120/sayori.png",
 	colorBg: "#ec8f80"
 },{
