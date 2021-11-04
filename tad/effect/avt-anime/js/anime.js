@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-VIv8_L9B4sw/YYPRult_V_I/AAAAAAAAzM4/ugTEOza5fFUf-4IEOPfeq-HE_g_Ad6LbQCNcBGAsYHQ/s120/sayori.png",
+	colorBg: "#ec8f80"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/--4ZNug7f9Q8/YYPSJsAzWDI/AAAAAAAAzNM/aDvxBjQIIKUzOBFXUA3xTo3pdIo4_TktwCNcBGAsYHQ/s120/natsuki.png",
+	colorBg: "#eda2ab"
+},{
+	imgAnime: "https://1.bp.blogspot.com/-o78BEas_k-I/YRpnXa1FW4I/AAAAAAAAwZE/yit4mL4lDjstn_qpo3LrulUdgc9c3ov6QCNcBGAsYHQ/s120/monika.png",
+	colorBg: "#6b6cb3"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-AAltfF3Y0nc/YYJM9aocYuI/AAAAAAAAzLg/7yQR-oKy6_A9mlsyG8AlTtLWxwws2-TcgCNcBGAsYHQ/s120/Eula.png",
 	colorBg: "#5a8bd7"
 },{
@@ -859,10 +868,7 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-OZmIFmnVidg/YRpoBQGazSI/AAAAAAAAwZM/x6SgLYXa9TksSjMipERh0lxczqRYEHs9gCNcBGAsYHQ/s120/iruma.png",
 	colorBg: "#3fafe8"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-o78BEas_k-I/YRpnXa1FW4I/AAAAAAAAwZE/yit4mL4lDjstn_qpo3LrulUdgc9c3ov6QCNcBGAsYHQ/s120/monika.png",
-	colorBg: "#6b6cb3"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-vx2FmYGYDCw/YRpthu0wCqI/AAAAAAAAwZU/S4HRAYCtM4IdKP7qDsNRFxfajyx9UszNQCNcBGAsYHQ/s120/yuri.png",
 	colorBg: "#967ea8"
 }, {
