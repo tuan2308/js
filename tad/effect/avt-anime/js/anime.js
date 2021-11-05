@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-FwR4ll1itks/YYTgRDLWh7I/AAAAAAAAzQQ/RWNC0la-ENwHk4XZy87K553C06UMaY2-QCNcBGAsYHQ/s120/Athanasia.png",
+	colorBg: "#559fde"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-iLRpOBxPNMY/YYTfDXH_fNI/AAAAAAAAzQI/69pp9-eiso0FGlzFCOaUyca8rg7cTFL8ACNcBGAsYHQ/s120/Makima.png",
+	colorBg: "#ea3d4d"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-Y2MahsxoZSg/YYTdpF3MNCI/AAAAAAAAzQA/nECbe8a7Uxk0cgWpmzjsgqtYX-yiE48qACNcBGAsYHQ/s120/Sakuma-Ritsu.png",
+	colorBg: "#4687c3"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-fCdX27lgzpw/YYPVCRr_wWI/AAAAAAAAzNw/j38Ic4DFM1w5yDBPhm7KS1kIwT2Bm10zACNcBGAsYHQ/s120/louis.png",
 	colorBg: "#776ec9"
 },{
