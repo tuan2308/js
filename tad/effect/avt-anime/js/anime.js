@@ -845,6 +845,9 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-Ic5ZTFfu1r4/YWqzyzcsj8I/AAAAAAAAyT0/jf66xF63UX8KoVddLkG629NvPcsKFJ9uwCNcBGAsYHQ/s120/akane-inui.png",
 	colorBg: "#ccb89f"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-bOjJRlFCrbU/YYe-Bx2hsKI/AAAAAAAAz84/OPZvfGaTWRgAkbrok2926osG2V2yfJ_2ACNcBGAsYHQ/s120/yuzuha-shiba.png",
+	colorBg: "#f09da5"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/s120/koro-sensei.png",
 	colorBg: "#ffca4e"
 },{
