@@ -1145,6 +1145,9 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-hZz72N2WAUA/YQuqjFY78dI/AAAAAAAAv5E/e8Yqg6WF3Bkx4YJKqImoFVHAXuFIkvcnQCNcBGAsYHQ/s120/ran.png",
 	colorBg: "#8770b9"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-9f8sw62NASs/YYdyEgYoUiI/AAAAAAAAz30/1cBeD5o0Z74niYsQaXdLyRBgUiqDZwTVQCNcBGAsYHQ/s120/Haibara-Ai.png",
+	colorBg: "#56b9de"
+}, {
 	imgAnime: "https://1.bp.blogspot.com/-BOUOT5544EE/YTn8rFxtVoI/AAAAAAAAxEo/tVMle4919CM7y1QMkLXoTipaHT8jzi4tACNcBGAsYHQ/s120/aoko.png",
 	colorBg: "#c773b9"
 }, {

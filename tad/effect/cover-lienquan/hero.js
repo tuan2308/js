@@ -83,17 +83,17 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-1ZGrK5BSdgA/YYdvIoblv2I/AAAAAAAAz28/jdRYdBGctggZtHrf7s1xgFcxhR1S4VlhwCNcBGAsYHQ/h240/ec901355109e2b0474bef102cef743965fc524cf832b5.jpeg"
 	},
-	{
-		LQcover: "https://lh3.googleusercontent.com/-xcjd5322j7k/YYdvb7tSOQI/AAAAAAAAz3M/Oj5r5atabIYdgUOESg2Ge1RLnyBSJBDtwCNcBGAsYHQ/h240/Sinestrea-2.jpg",
-
-		LQthumb: "https://lh3.googleusercontent.com/-lV_QtaoM7QM/YYdvbwtdzZI/AAAAAAAAz3Q/SVXFLIQDsA0DAKVrVQs4xGCzu5TTMiHrQCNcBGAsYHQ/h240/cdff76845baf0b4f577fc0385d08b4045fbcc45636a34.jpeg"
-	},
+	
     {
 		LQcover: "https://lh3.googleusercontent.com/-UJEQ6NU4ZaQ/YYZ9bLvYgXI/AAAAAAAAzrE/S61EWQJrgPEtmQGP9nnU3uqC5S40vuh7QCNcBGAsYHQ/h240/Sinestrea.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-8ihAM7zGakU/YYZ9a7ey4zI/AAAAAAAAzrA/S7BwbIR86XcPXDhBDroSqfx8wEqRi6ITgCNcBGAsYHQ/h240/7d7d0372a94df56d5a0dd83f2a5980365fbcc44336f9b.jpeg"
 	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-xcjd5322j7k/YYdvb7tSOQI/AAAAAAAAz3M/Oj5r5atabIYdgUOESg2Ge1RLnyBSJBDtwCNcBGAsYHQ/h240/Sinestrea-2.jpg",
 
+		LQthumb: "https://lh3.googleusercontent.com/-lV_QtaoM7QM/YYdvbwtdzZI/AAAAAAAAz3Q/SVXFLIQDsA0DAKVrVQs4xGCzu5TTMiHrQCNcBGAsYHQ/h240/cdff76845baf0b4f577fc0385d08b4045fbcc45636a34.jpeg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-vfdfYjDY_sw/YYZ88W8Va9I/AAAAAAAAzq0/HpPHhT6BDm44E6UUpV36bdv01lXYwUbBwCNcBGAsYHQ/h240/Thorne.jpg",
 
