@@ -159,12 +159,12 @@ var dsLquan = [
 	{
 		LQcover: "https://lh3.googleusercontent.com/-4gFsZhSdKxc/YYZ8KnQMQUI/AAAAAAAAzqI/8EeZtzvOyvc0LTVe2eip_-FGLf79OXSxQCNcBGAsYHQ/h240/Rouie.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-x8gmErS1-dI/YYe27j0WAhI/AAAAAAAAz5U/6iNEKfwgaY0cAPlsGtFTSKWr-NP-9xXzwCNcBGAsYHQ/h240/844461e40308cda89050dfe31772574c5eb13f2c8f7e1.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-vkXmy8256TQ/YYZ8Kqgo8zI/AAAAAAAAzqA/9WW6ESoN4RgtBUgSM8Wm55YKXB83iRqOQCNcBGAsYHQ/h240/7f7ce6b3593a8ea52de5fa3be55469f85eb1402d093b7.jpeg"
 	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-SfMchQGY_-0/YYe28mFhApI/AAAAAAAAz5k/q1tz_WIe0qEr7PDKLlFrje9vJ09fVyjiACNcBGAsYHQ/h240/Rouie-2.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-vkXmy8256TQ/YYZ8Kqgo8zI/AAAAAAAAzqA/9WW6ESoN4RgtBUgSM8Wm55YKXB83iRqOQCNcBGAsYHQ/h240/7f7ce6b3593a8ea52de5fa3be55469f85eb1402d093b7.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-x8gmErS1-dI/YYe27j0WAhI/AAAAAAAAz5U/6iNEKfwgaY0cAPlsGtFTSKWr-NP-9xXzwCNcBGAsYHQ/h240/844461e40308cda89050dfe31772574c5eb13f2c8f7e1.jpeg"
 	},
 	
     
