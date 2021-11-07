@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-f9AY38ZwX4k/YYe_TMWZnkI/AAAAAAAAz9I/6Rx9nLtGpbsAsnt9fAZOJc3gPYLPq6tjQCNcBGAsYHQ/s120/shido-itsuka.png",
+	colorBg: "#5b87bd"
+},{
+	imgAnime: "https://1.bp.blogspot.com/-HniZtfzU0FU/YSORrle6wQI/AAAAAAAAwlc/GbvJ7jGH-gQAI0mIQ-w6iDovHyE-67i8wCNcBGAsYHQ/s120/kotori.png",
+	colorBg: "#ed9595"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-dkmlxDPLSFs/YYe-zGaomHI/AAAAAAAAz9A/mhZiGAibAc4tXXozP49TUIVIU72mYIURQCNcBGAsYHQ/s120/origami-tobiichi.png",
+	colorBg: "#6c9ec9"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-C7Z2kPSCCRU/YRR3nMkiUpI/AAAAAAAAwIE/xtcFk4AWj_IJkWTAnyO_5JHH99mHuXsDQCNcBGAsYHQ/s120/tsukishima.png",
 	colorBg: "#233579"
 }, {
@@ -856,10 +865,7 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/s120/nagisa.png",
 	colorBg: "#6e99c2"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-HniZtfzU0FU/YSORrle6wQI/AAAAAAAAwlc/GbvJ7jGH-gQAI0mIQ-w6iDovHyE-67i8wCNcBGAsYHQ/s120/kotori.png",
-	colorBg: "#ed9595"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-OWoTcCKzihM/YSIak4FDQLI/AAAAAAAAwjI/_bfKY2D02IoNrz0eUMM2cF_oCZOT8K8OQCNcBGAsYHQ/s120/ruby-rose.png",
 	colorBg: "#1f1c25"
 },  {
