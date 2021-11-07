@@ -785,8 +785,76 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-IENOXRo9OOI/YYZEps06f8I/AAAAAAAAzV0/cmbH3g3hV7Q_4RtkJMv6EkWcloxmgmnOwCNcBGAsYHQ/h240/ed92932b8d6258aec8ac2cf8fbe571675d2564bb2c84e.jpeg"
 	},
 
+    {
+		LQcover: "https://lh3.googleusercontent.com/-Fg7zag5F4OU/YYe49eTpgfI/AAAAAAAAz6k/vQe1MCRK2K4hjCcBOC9nSwYgogEMKOEkQCNcBGAsYHQ/h240/Violet-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-VUdjb4a63D4/YYe5zJiF5UI/AAAAAAAAz8Q/Jcx8lFH4DxQNHBJMNO1ulRkfkaI_th9nwCNcBGAsYHQ/h240/ea8e80b2aceeb0045f6ba21c7f139fc858462ef3570d3.png"
+	},
 
 
+
+    {
+		LQcover: "https://lh3.googleusercontent.com/-JSinpkcPjN0/YYe49tADW8I/AAAAAAAAz6o/_CJIO5TQWUcG3tQVlI901mlIl-MNagysACNcBGAsYHQ/h240/Violet-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-8T7bAanPQu8/YYe5yik252I/AAAAAAAAz8M/yfq_CUkG1GABck587UwO5PB9_kzA4N6LwCNcBGAsYHQ/h240/d8b09710ebceb2d01dd1f79a79ae0a92590c02a0362fd.jpeg"
+	},
+
+    {
+		LQcover: "https://lh3.googleusercontent.com/-Uce1uvyplPc/YYe491EEwPI/AAAAAAAAz6s/XwE8uAhr_FwKjXWEToNa3-OlrWcpI-Y9wCNcBGAsYHQ/h240/Violet-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-0ohkfaqEoNs/YYe5yncsq6I/AAAAAAAAz8I/-8hOa7pTzFEzwiVJmZZVTqsvjgiA_HzewCNcBGAsYHQ/h240/c4f043968a2d8ca50c6815e75d172c715a66f08a3e408.jpeg"
+	},
+
+    {
+		LQcover: "https://lh3.googleusercontent.com/-iuMYE3d_A-Q/YYe4-IgLcWI/AAAAAAAAz6w/3OGHSKzAz1s5E7GdJ9qfz25ks8QMcoBDwCNcBGAsYHQ/h240/Violet-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-DbtygCnF6P4/YYe5xqQW71I/AAAAAAAAz70/EKgtxYCtheUjQ2WtZ3hfigox3it2SqANwCNcBGAsYHQ/h240/7743459a98787c5d4d7468dc0c78e7ed5b3d8a3a32266.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-O_4_lRVsvqg/YYe4-jCAcFI/AAAAAAAAz60/gffHHOv_X94teZ_DxUfZjZNEo78muugygCNcBGAsYHQ/h240/Violet-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-IXJgAcrqd8E/YYe5xXY8TGI/AAAAAAAAz7w/h3pTY6v44rcvjfqXZhL2fRmhxdQGfKxHQCNcBGAsYHQ/h240/63ea421032602e81b207aa7a3822c60c5c0def7eb0806.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-sI-jECnJ5Hw/YYe4-wlLkeI/AAAAAAAAz64/a7QVB1ybSYkxYxcmtqY6GoK8B71H8Q9LwCNcBGAsYHQ/h240/Violet-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-IXJgAcrqd8E/YYe5xXY8TGI/AAAAAAAAz7w/h3pTY6v44rcvjfqXZhL2fRmhxdQGfKxHQCNcBGAsYHQ/h240/63ea421032602e81b207aa7a3822c60c5c0def7eb0806.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-9YCCdhc227E/YYe4-860o9I/AAAAAAAAz68/QRkNqJW_8cEH7T6pfAZDWQcDZCV3-Qq0ACNcBGAsYHQ/h240/Violet-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-6fEkTnk9eow/YYe5wuPTNvI/AAAAAAAAz7o/0mLblM1k4TcjijbT8dQ56IkXQarEDml4wCNcBGAsYHQ/h240/101cc6d1d768baa1c7c2d3cc030bdae55c4ed09b77138.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-_V6sucOAIu8/YYe4_OGh1YI/AAAAAAAAz7A/54_yyvn43NwIEJGWrPWlmzAdKSGueIPtgCNcBGAsYHQ/h240/Violet-9.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-SDFjOfWTu0M/YYe5yBwg64I/AAAAAAAAz8A/Degmxb4B8BYIX_gCzSzGFiN1oSK3LKCfACNcBGAsYHQ/h240/bb8e31c69b000045c9695d68d6177c305d2564cac4460.png"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-w8LlgiqFYjo/YYe48Uk0gzI/AAAAAAAAz6Y/zzwlncl2dzw0Tq2THNFlp8kTuubZs9q_gCNcBGAsYHQ/h240/Violet-10.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-h-0wKDYREpc/YYe5x_pSGmI/AAAAAAAAz74/-Q4_UgOuLwM6B8XRcrci6m_09HS5eD8vwCNcBGAsYHQ/h240/7ca852c1408a4ae2a7d234ea246556725d47db1f381ca.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-cOc2qt4M85k/YYe48X1DzDI/AAAAAAAAz6U/WpmkC6uRhcI_0GUeB0eu2JdfMGcJ8m4ZgCNcBGAsYHQ/h240/Violet-11.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XfNMpEHPINA/YYe5yRZnvfI/AAAAAAAAz8E/mbTi5LxU8O4O1vRyF1DLWH3Z9aFQUc4dQCNcBGAsYHQ/h240/c3e64aed1b62e81570e9e8e88839b4d85e413ae8784a0.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-XhoEPVnvqDQ/YYe48aV28zI/AAAAAAAAz6Q/8tzgpl3-7jUbIuezH-O_AzZbG5J0LcwEQCNcBGAsYHQ/h240/Violet-12.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-M5xE1g4E8Wg/YYe5wXhxKzI/AAAAAAAAz7g/PbrLy3Ifzhgi_fDYNqXTebt77m9jQNRkQCNcBGAsYHQ/h240/111216db1369b3c62923569cf8d5743f5e4b566b962b5.jpeg"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-R-UHwukm-ek/YYe48-d0TXI/AAAAAAAAz6c/8sllANPnXOc3Q1qQ6Mo94V4Q7m7YSDlKwCNcBGAsYHQ/h240/Violet-13.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-tWpqjhujWrE/YYe5xAztQxI/AAAAAAAAz7s/VWiEedPTVKwbE4TSWDWxQwGCIsHFNOmKQCNcBGAsYHQ/h240/1ec7fa6fe82686a4ce793e21ad0f8fde6116c5c1cab9b.png"
+	},
+    {
+		LQcover: "https://lh3.googleusercontent.com/-nugQHZo9v38/YYe49BE7WYI/AAAAAAAAz6g/DnC2LAYsQr4FSwcQVXC8e5vkapf75NicwCNcBGAsYHQ/h240/Violet-14.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-E2IwJotbz04/YYe5yD1TXRI/AAAAAAAAz78/IPP3nkp0absyp-ZXrouQN3-BzvAohferQCNcBGAsYHQ/h240/87c1d1d72fbfcb91a87524fbf36fb2606116c5ef47671.png"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-HcCDlNXphkI/YYZES9bO-KI/AAAAAAAAzVk/9LTqbvxD2KY53fPxPEEg_brD1ZlRiZIxACNcBGAsYHQ/h240/Chaugnar.jpg",
 
