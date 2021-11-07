@@ -943,4 +943,4 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-LWBAMn-X4Tw/YYY7xtRJMDI/AAAAAAAAzRY/WdMxoQNV4HE2ycf0tiokNUB_PHsMrvzKwCNcBGAsYHQ/h240/Vanhein-8.jpg",
 		LQthumb: "https://lh3.googleusercontent.com/-8R1m1m4esvQ/YYY8_KX8yeI/AAAAAAAAzSE/i5dTwb3n8hENlzcvdaVfcjSUBRV9t8KXACNcBGAsYHQ/h240/6e495e602d02a66436880df337ea624d5ef5b921c04f9.jpeg"
 	}
-];
+];console.log(Object.keys(dsLquan).length);
