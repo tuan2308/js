@@ -802,18 +802,18 @@ var dsLquan = [
     {
 		LQcover: "https://lh3.googleusercontent.com/-Uce1uvyplPc/YYe491EEwPI/AAAAAAAAz6s/XwE8uAhr_FwKjXWEToNa3-OlrWcpI-Y9wCNcBGAsYHQ/h240/Violet-4.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-0ohkfaqEoNs/YYe5yncsq6I/AAAAAAAAz8I/-8hOa7pTzFEzwiVJmZZVTqsvjgiA_HzewCNcBGAsYHQ/h240/c4f043968a2d8ca50c6815e75d172c715a66f08a3e408.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-JqIk_WDhovc/YYe7O_ElQsI/AAAAAAAAz8w/_6GZEmD4QhEtoIlHftesDzHx3VGCx__RQCNcBGAsYHQ/h240/1e1035bc47f3d80054dd554d5dc9b2735a1be3e1c862e.jpeg"
 	},
 
     {
 		LQcover: "https://lh3.googleusercontent.com/-iuMYE3d_A-Q/YYe4-IgLcWI/AAAAAAAAz6w/3OGHSKzAz1s5E7GdJ9qfz25ks8QMcoBDwCNcBGAsYHQ/h240/Violet-5.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-DbtygCnF6P4/YYe5xqQW71I/AAAAAAAAz70/EKgtxYCtheUjQ2WtZ3hfigox3it2SqANwCNcBGAsYHQ/h240/7743459a98787c5d4d7468dc0c78e7ed5b3d8a3a32266.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-0ohkfaqEoNs/YYe5yncsq6I/AAAAAAAAz8I/-8hOa7pTzFEzwiVJmZZVTqsvjgiA_HzewCNcBGAsYHQ/h240/c4f043968a2d8ca50c6815e75d172c715a66f08a3e408.jpeg"
 	},
     {
 		LQcover: "https://lh3.googleusercontent.com/-O_4_lRVsvqg/YYe4-jCAcFI/AAAAAAAAz60/gffHHOv_X94teZ_DxUfZjZNEo78muugygCNcBGAsYHQ/h240/Violet-6.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-IXJgAcrqd8E/YYe5xXY8TGI/AAAAAAAAz7w/h3pTY6v44rcvjfqXZhL2fRmhxdQGfKxHQCNcBGAsYHQ/h240/63ea421032602e81b207aa7a3822c60c5c0def7eb0806.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-DbtygCnF6P4/YYe5xqQW71I/AAAAAAAAz70/EKgtxYCtheUjQ2WtZ3hfigox3it2SqANwCNcBGAsYHQ/h240/7743459a98787c5d4d7468dc0c78e7ed5b3d8a3a32266.jpeg"
 	},
     {
 		LQcover: "https://lh3.googleusercontent.com/-sI-jECnJ5Hw/YYe4-wlLkeI/AAAAAAAAz64/a7QVB1ybSYkxYxcmtqY6GoK8B71H8Q9LwCNcBGAsYHQ/h240/Violet-7.jpg",
