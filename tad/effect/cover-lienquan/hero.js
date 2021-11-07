@@ -99,6 +99,19 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-qU9FHGE4nwU/YYZ88fvbKJI/AAAAAAAAzqw/Vetd6v3vfswbF6jazJxevXUI-ZRrwgS1ACNcBGAsYHQ/h240/dd8031b80a4fc5978cdd4886a65a6eb35f5070fd5d022.jpeg"
 	},
+
+    {
+		LQcover: "https://lh3.googleusercontent.com/-TmX7OxbATpg/YYdv9qu5VNI/AAAAAAAAz3g/biQ0UfZsVI4pvx0kei0gHbKAkVmc7QHXgCNcBGAsYHQ/h240/Thorne-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Hn4DCGOJh88/YYdv9uLjnpI/AAAAAAAAz3Y/KXvTqyn9SbULh_AgnbRxkvwhjMY_sp6SQCNcBGAsYHQ/h240/21d72ab954826a2b174e09ef493086975fbcbc8313dd7.jpeg"
+	},
+
+    {
+		LQcover: "https://lh3.googleusercontent.com/-VVaGuq3Cw78/YYdv-VtDT9I/AAAAAAAAz3k/MrEohg472_ILnofRnDrthS1gbgQpuBL4QCNcBGAsYHQ/h240/Thorne-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-pMQIZ1dr9Vc/YYdv9rejgmI/AAAAAAAAz3c/CGD5tMqdNc453ubDnyp_Z1SOQjS6F-GbACNcBGAsYHQ/h240/6e3bffc0f351b851cd4c0487b4fb91ed6117962d4b78c.png"
+	},
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-iLoE0d0ZYGg/YYZ8krR4tYI/AAAAAAAAzqc/Cr7GwLph2qsrbwSDMTmu1TIuuef9eCZPgCNcBGAsYHQ/h240/Allain.jpg",
 
