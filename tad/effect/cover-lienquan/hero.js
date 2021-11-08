@@ -269,6 +269,15 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-qov90NGaiuo/YYZyd4pQDII/AAAAAAAAzmk/TurWsVh2jIQ-5VJupuETSGCxhGqpHNoJQCNcBGAsYHQ/h240/3d7beab0904b2c5dc6f1962b565bbde35cc136d356ef3.jpeg"
 	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-KDd79_PfYuM/YYjQeWgOV9I/AAAAAAAA0Ao/EwjGDbqNHIwwIxaMItEAtwTpAMa7ZQiXQCNcBGAsYHQ/h240/Errol-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Tysm9h3yh4M/YYjQeboMK9I/AAAAAAAA0As/w9TbHtoDGPA3-ZtG2HkgbmXlrXEpdJxJwCNcBGAsYHQ/h240/Errol4.jpg"
+	},
+
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-5LMrJLP7b6E/YYZyKj5vQ5I/AAAAAAAAzmY/wbjlmjbDKrYIBiqqlNj8oGieLaV3fsRRgCNcBGAsYHQ/h240/Capheny.jpg",
 
