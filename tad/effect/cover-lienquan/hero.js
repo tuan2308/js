@@ -844,6 +844,11 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-ddBzJQ4hlwk/YYZFVvqx3jI/AAAAAAAAzWA/b6amZvRapsoGZ0Ihi84DS82saeFROqa4QCNcBGAsYHQ/h240/594f025c153d363cb992cd9d6f77d3905f0ed5819ffd6.jpeg"
 	},
 
+	{
+		LQcover: "https://lh3.googleusercontent.com/-P-UCFbItEug/YYjRBUHo4iI/AAAAAAAA0A8/eO-FCLmWyi8DyNeGMWZZspBcnF-4g64CQCNcBGAsYHQ/h240/Butterfly-10.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Ix2LKwD1TPc/YYjRBNqo67I/AAAAAAAA0A4/DSeAuzQ8I9cqmRqvFW2-w2ufPGL2dLOhwCNcBGAsYHQ/h240/92bee19cd0b8558cd39a9c53582309a25f0843f4d40b8.jpeg"
+	},
 
 	{
 		LQcover: "https://lh3.googleusercontent.com/-BkZRRg4mEu0/YYZEmaBXQ3I/AAAAAAAAzVw/MlXonzSQ0OAXF7YCVSPPV1fzqWbUL2ovQCNcBGAsYHQ/h240/Violet.jpg",
