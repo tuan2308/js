@@ -383,6 +383,26 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-kvn16WNTKro/YYZtJxXhwPI/AAAAAAAAzjI/syv6ZTru5M8Oyf5wGrIZK4C4rXDVOpjiQCNcBGAsYHQ/h240/d9c34b86f1ad89c132e316672bfcd7f55b6bb975c0876.jpeg"
 	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-TyqOQQhNJPQ/YYjDGoIWKrI/AAAAAAAAz-A/j2zWvHDmZ6kJZbz1LpLlQBPd1iYly6cugCNcBGAsYHQ/h240/Baldum-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-LBCNY73rVZ4/YYjDGukdytI/AAAAAAAAz98/znWrAt5Iu2IvxGYlpJTFeVmuu0fpvLcKQCNcBGAsYHQ/h240/496ccdce3726050c01c8122dea65ddd15b6bba1b41444.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-a23CQmmUpJ4/YYjDHYWA9LI/AAAAAAAAz-E/HCLVFjFlPwY7cZkvL0nmkrPUJzy3og6AwCNcBGAsYHQ/h240/Baldum-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-R5W40gEj6u4/YYjDRbfujkI/AAAAAAAAz-M/EimZ9hgsU64wN0XqH3hz0gYUuABRb-gEwCNcBGAsYHQ/h240/c49c103589b3d65d678360d02e9082c45ed4c4fa7e856.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-ULjr9-AiTOM/YYjDICAWx6I/AAAAAAAAz-I/qU9OVqnzoMcUMPuZUxhVPGwOcjG8zq-EACNcBGAsYHQ/h240/Baldum-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-So0iMkjPRVo/YYjDGgs597I/AAAAAAAAz94/qD3RWCp49mMQSnfPUhdwL0QL4KG2Izf2gCNcBGAsYHQ/h240/9ceeccced81bbdc37430c2a510c40432611783646f53a.png"
+	},
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-oVEJW100qXc/YYZs8v_dc6I/AAAAAAAAzi4/X5oizH34qHodwH02UWNrwuaKUBZ0nwQJwCNcBGAsYHQ/h240/Roxie.jpg",
 
@@ -654,6 +674,43 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-69gLu6LdSxw/YYZgrN3BaAI/AAAAAAAAzZY/SX_J2Cv9Epwqn3xws0pfEn_t-Z0stWdVwCNcBGAsYHQ/h240/8f90ee32d1d033379b0062f5388370045eccc50b1e13c.jpeg"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-T1vhbuWvd8w/YYjEUcV0S1I/AAAAAAAAz-s/gHNhp4MrJ8MvZGdTnFDklYoDoD8C32I7ACNcBGAsYHQ/h240/Natalia-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-PoArhXMcq8E/YYjEV7I0bOI/AAAAAAAAz_I/K-7dcL_sEbYhIssm9yNVRKaqJfc6Q2mIgCNcBGAsYHQ/h240/b3e06b2967ffd043882f883cb19bfc2058e1ba5cce51b.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-BV2vbdGBBn0/YYjEUs75O4I/AAAAAAAAz-w/LFCp2GTuVOovRlgQpRyoY-yT6u5WFBtJQCNcBGAsYHQ/h240/Natalia-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-YxVmyBq6ii0/YYjETQn5WLI/AAAAAAAAz-k/pFqk2LN7aKQ8TK_z6Kjl96H8U8sZs3E8gCNcBGAsYHQ/h240/0778faf4426f76588f813ab7b7737a2159351e6327360.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Z-89pNDSmOM/YYjEUgIlrQI/AAAAAAAAz-0/jERayAz8_BAWDZXtDzMi2wrYJkAS0Sw-wCNcBGAsYHQ/h240/Natalia-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-IoNlHVx_gUI/YYjETjc1TCI/AAAAAAAAz-o/gvV8nDzeSlU8EZyg6fT44ZAhnJzCKu7qQCNcBGAsYHQ/h240/6e0162f0a81bf143cba0b3ac46cfb6475ef5b2ce6b939.jpeg"
+	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-LBFMRKicdkU/YYjEU17rctI/AAAAAAAAz-4/a9-c2KuOZP4my-YsS8G641ZPtW9cdsRcgCNcBGAsYHQ/h240/Natalia-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-jvDoNaF-yjY/YYjEVpLXrhI/AAAAAAAAz_E/1ywv_Whf4g4AAqXSFapqFRZ0oF21uEcqgCNcBGAsYHQ/h240/a34bec3aabf512cc583ddbc1bddc05db5ab31ff155f10.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-QRi-eTnvcoA/YYjEVFNq10I/AAAAAAAAz-8/Ptbpq5FF8vkWB1JSkaQr5OcTz1buiwWSgCNcBGAsYHQ/h240/Natalia-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-kcBFF0XNPEI/YYjETXxcqQI/AAAAAAAAz-g/ayYrKAf6MXYoKCrphgBo-Id5fEgZB1ayACNcBGAsYHQ/h240/24596ba65671b98fbf60486cc093c8505e413ec140cb7.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-O0BnW22_ZYY/YYjEVQ4YS2I/AAAAAAAAz_A/jmGhaV7qHn8TKENLAiI143u4hHZHGKVhQCNcBGAsYHQ/h240/Natalia-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-m_WTCJDNMBQ/YYjEWDNj5KI/AAAAAAAAz_M/_gh-0t6fpDwbAa_3Sx55jqRhTna25rW2QCNcBGAsYHQ/h240/b9f3ad656c9c8dd4ab1321446a8a3aed611758a5346e5.png"
+	},
+
+
 
 	{
 		LQcover: "https://lh3.googleusercontent.com/-IcRn0I2r1WM/YYZgZ6JDJxI/AAAAAAAAzZI/X-UfiUtu73QYB6mTZir0aV9C_pGBacdEACNcBGAsYHQ/h240/Lumburr.jpg",
