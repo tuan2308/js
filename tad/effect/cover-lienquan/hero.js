@@ -486,6 +486,51 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-I3G7eHMXGws/YYZqm74tBmI/AAAAAAAAzhI/X25_BeXkY0cTcsWJsVdRuKMo6SJgD-P6wCNcBGAsYHQ/h240/4b3a1b156a571f4c9cf270dabeb637c25aa0b6e347bf7.jpeg"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-RKO3af2-Yls/YYtOXqx1QlI/AAAAAAAA0H8/vs7k3fB3kwMPW37qyNWsBA06IjP85VLeQCNcBGAsYHQ/h240/Liliana-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-8hXGP86eopI/YYtO6MR2C5I/AAAAAAAA0JE/UpffLL9DpZozaEctRbl6VfoMqoQ3_RMwQCNcBGAsYHQ/h240/cd3297c14a5d0e94c84dba9f9918a7855aa0b73654c3f.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-s6hVCIHJ8qM/YYtOXcUhuxI/AAAAAAAA0H4/HiU6HOewWXI3nikYdvdmzkO7JPyB0qjWQCNcBGAsYHQ/h240/Liliana-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-n4_Cb_Mdd-Y/YYtO5kjlWBI/AAAAAAAA0JA/HHENaqUMtPcSmy03BRxCkRICOvzA7aC0ACNcBGAsYHQ/h240/8949ee9952aeda7eb7e81f626a94cd295b570925ec6fb.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-ht7r81V9wuU/YYtOXtPCFaI/AAAAAAAA0IA/T9bY1tY2YGw7V3C-Y6IobxzIlPb5NoLiQCNcBGAsYHQ/h240/Liliana-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-AoF3TmfpyEU/YYtO48PiSPI/AAAAAAAA0I4/2cu7sHcWRQspmuCuxa8T2o1-DSEWGSnrgCNcBGAsYHQ/h240/39f4e07d9a4c4f662f4a8ee256c358475bc5a7961e808.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-tPoq48QDb8k/YYtOYGxUPrI/AAAAAAAA0IE/fOBzKG2Eaq8bX9pbzyqUnjvrr1yhJnG4gCNcBGAsYHQ/h240/Liliana-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-lvRQQVnNSu4/YYtO6bOmuMI/AAAAAAAA0JI/MIccvZLymCcotOPBQ1UI3_2nXhit1qGEgCNcBGAsYHQ/h240/d589aebefb9a6a4b5a207a324d63d3875cadcc4280b5c.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-fsiXYblcORY/YYtOYdvs4RI/AAAAAAAA0II/LgpbP8IugeM8ID4RDkPhIaJyX4bb5RkmwCNcBGAsYHQ/h240/Liliana-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-cA1VuILhc2E/YYtO7GSRqKI/AAAAAAAA0JM/3tS1Giubi5AMckz4k93-vTa8wU7qm-7nwCNcBGAsYHQ/h240/ddd8fa70e96c0cffcf99c1b0092e60cf5d00cbe666848.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-MBFWFmafL9s/YYtOYaNBzdI/AAAAAAAA0IM/kusm9mrJ9FM9AijgrAQA9Df-5FnPKbjowCNcBGAsYHQ/h240/Liliana-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-DTpaD6le83w/YYtO42p89vI/AAAAAAAA0I8/8bSGsDvF2Z0R4p93OrWb21288UbXm7k2QCNcBGAsYHQ/h240/79e3e169883c091326c2495ac962c30e5ed4c1463810b.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-hr5_tsYcWyM/YYtOY1_iLwI/AAAAAAAA0IQ/xBQh96gK3IQ2tfbVy1ofWOO6zdbeAEsPwCNcBGAsYHQ/h240/Liliana-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-CAsUYce1H3U/YYtO4niI9UI/AAAAAAAA0I0/rsrU7bkNuR0kN6uSk26Bq2mqvyx7k1mggCNcBGAsYHQ/h240/1bbe88a7b02531449e5e24d9f8c3ad6d611781f469856.png"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-QOKtGKkQ-Ok/YYtOsRwkxMI/AAAAAAAA0Iw/dFFoWlNaSZg66roYjVDqJNaACXCvwYm4QCNcBGAsYHQ/h240/Liliana-9.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XYCCv_5fEeg/YYtPUVa3PzI/AAAAAAAA0Jg/-ugbwRlhjGgznZ9a35T-ilOZQ8LsyllgQCNcBGAsYHQ/h240/lili-9.jpg"
+	},
+
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-fMlaE16ip7E/YYZqXSvXKfI/AAAAAAAAzhE/jXS2qGKWkbMIBcMXSNTIPhTUS1YITM7iQCNcBGAsYHQ/h240/Tulen.jpg",
 
