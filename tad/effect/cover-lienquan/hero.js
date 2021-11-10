@@ -292,6 +292,34 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-ii6w68Dk7Hc/YYtCBIYUHjI/AAAAAAAA0HE/RAwu6TOubZQxvanbzAnA02EqMQMEskt_QCNcBGAsYHQ/h240/Hayate-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-TmPMNYeR8rk/YYtCCmsFETI/AAAAAAAA0HY/h1DdGtiBUdYqUKe8O8quGqhMCuwn1tkzwCNcBGAsYHQ/h240/d36947e14ceaa3c38ee7bb42666c56565c8f320e1539c.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-4o3ntTe7NHI/YYtCBciNbPI/AAAAAAAA0HI/Zw1P4Izbz1ULCW1VppQJeomxyrC7u-qwACNcBGAsYHQ/h240/Hayate-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-X1or6FLmdgE/YYtCAbfcCsI/AAAAAAAA0HA/wSNpnYOoS_4GoBSJoAJTz-4PDbwNX6FAgCNcBGAsYHQ/h240/6c967aaa8a93a9c61a0c1627ccb6e19f5d9d58e83256a.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-lxQx-PUenRc/YYtCBksHCKI/AAAAAAAA0HM/mB5Q2I9VJiE1csKeeuY6x7uYMs-M17DZgCNcBGAsYHQ/h240/Hayate-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-BXqCNsDLRpE/YYtCAVlbVkI/AAAAAAAA0G4/iDL0E23mVXUNYe5LPZ2bRcUs7LGGZNYOgCNcBGAsYHQ/h240/46869562d61894e9cd631dac898592ae5e453200584e8.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qwEecuFyuB4/YYtCB4Bg7EI/AAAAAAAA0HQ/PckyC2kXWjEDmKLI7Uvx2Zf4nB6UyUQ7gCNcBGAsYHQ/h240/Hayate-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-LRanPz1Vkz0/YYtCASMTYeI/AAAAAAAA0G8/ELxx7eYDOo0od5IQ_GhCbdMr0PNI2U-iACNcBGAsYHQ/h240/557e41d2286699a8293e2b3b9d9d57b85ed4c6444a119.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/--C7JqkRT3wU/YYtCCXFh1ZI/AAAAAAAA0HU/LTPn2vzg0U41G0zA20qIRVcFFl2vWNLGgCNcBGAsYHQ/h240/Hayate-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-1Hybmuc1Oxs/YYtCCoa1AXI/AAAAAAAA0Hc/sztUuwfMEvAsudkAdUDwv6mSVOcvwIU9QCNcBGAsYHQ/h240/e2b54af092b6c680b33c91efffbf39a55fbcbef2cf4ec.jpeg"
+	},
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-jqpVNvoufP0/YYZw1aH6ynI/AAAAAAAAzl4/b5uSTAPB8ygyLDyji6GMAQQlBPMm2_VVACNcBGAsYHQ/h240/D'arcy.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-whaqrWXFwuU/YYZw1Z8H2KI/AAAAAAAAzl0/rkNxQ9gn_KEUsg-xPuJjvF8HxhNISq4WACNcBGAsYHQ/h240/c545d29232eefe7a4d455fa68e7a60305c61059833fe2.jpeg"
