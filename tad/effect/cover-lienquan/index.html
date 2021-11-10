@@ -170,14 +170,22 @@ function draw(){
                         var ctx = c.getContext("2d");
               var t1= $(".tad-in-text1").val().toUpperCase();
 ctx.clearRect(0,0,c.width,c.height)
+
+
+
+
                         ctx.save();
                         ctx.filter = "blur(20px)"
                         var padding = 50;
                         ctx.drawImage(a, c.width / 2 - 3033 / 2 - padding / 2, 0 - padding / 2, 3033 + padding, c.height + padding);
 
                         ctx.restore();
-
+                        ctx.save();
+                        ctx.filter = "brightness(90%) contrast(110%)";
                         ctx.drawImage(a, 0, c.height / 2 - 741 / 2, c.width, 741);
+                        ctx.restore();
+                       
+                       
                         ctx.save();
                         ctx.globalCompositeOperation = "overlay";
 
@@ -186,10 +194,13 @@ ctx.clearRect(0,0,c.width,c.height)
 
 
                         ctx.save();
-                        ctx.fillStyle = "rgba(0,0,0, 0.2)"
+                        ctx.fillStyle = "rgba(0,0,0, 0.1)"
 
                         ctx.fillRect(0, 0, c.width, c.height)
                         ctx.restore();
+
+                      
+
 
 
                         ctx.drawImage(l2, 0, 0, c.width, c.height);
