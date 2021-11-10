@@ -737,7 +737,7 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-G6rTPk2phXY/YT8Zas6j9ZI/AAAAAAAAxKU/M9cDoVJ_F9A6nr3ieUxVksObM9veHGVEwCNcBGAsYHQ/h240/venti.png",
 	colorBg: "#179a6a"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-ZfOx36tTjoM/YTy--HCCuuI/AAAAAAAAxHI/oZiNtUdVIMMDvrh8K-GLv2Tc1It8PdTHACNcBGAsYHQ/h240/hu-tao.png",
+	imgAnime: "https://1.bp.blogspot.com/-ZfOx36tTjoM/YTy--HCCuuI/AAAAAAAAxHI/oZiNtUdVIMMDvrh8K-GLv2Tc1It8PdTHACNcBGAsYHQ/h240/hutao.png",
 	colorBg: "#e44335"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-MhWeQZgDeGM/YSoz6-Yz1ZI/AAAAAAAAwyY/DU6rO-GCSWAiGsg6R7GqKiGZKQ1TlvRfgCNcBGAsYHQ/h240/lisa.png",
