@@ -408,7 +408,35 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-ZNDsd_pq47Y/YYZuSwI9DHI/AAAAAAAAzkQ/p-ZdaSVGA5MqkZxef62Yfe8tDS8ICJM3QCNcBGAsYHQ/h240/Elsu.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-8I_bbZ5nAoc/YYZuUhXhSzI/AAAAAAAAzkU/ZEV9wWI8S3U8tUjrU9aOtpUUGrDPk6-ywCNcBGAsYHQ/h240/fec52948b2886e191fa03b45047ae6e45bc98f9834121.jpeg"
-	}, {
+	}, 
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Q9-cAD-0IiM/YYtX95_nI9I/AAAAAAAA0Ng/CGTDPvIL2RIvEtB3zMVriOFENKw9Y5epACNcBGAsYHQ/h240/Elsu-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-0Fas8r4g_fg/YYtYSQFOccI/AAAAAAAA0OM/qIbzmkry_R4I7ExFrtZi9lh8wKyXYzMAwCNcBGAsYHQ/h240/b4df1c0fa5e24e16da5a9c9541bf50b95bc98fca9bba7.jpeg"
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-S8af6TF6edE/YYtX9-Td0cI/AAAAAAAA0Nk/DO3TO6zl1z4v3FWdHtoesQp8livB4qzhwCNcBGAsYHQ/h240/Elsu-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-w0jxPBxTRh4/YYtYRjeXEgI/AAAAAAAA0OI/X04UKquvvIgwQ_NPildMg6vyR7ovl9pHQCNcBGAsYHQ/h240/5cf2a5b09915dc689482968629eedfbd5c623e3738d4a.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-46wFOSvFe_g/YYtX9-h2tPI/AAAAAAAA0Nc/a4VCNuKrK_4b5KGmr_IbtrrHV3sJJ5ZAQCNcBGAsYHQ/h240/Elsu-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-17ajqioAhpc/YYtYSrg3JYI/AAAAAAAA0OQ/bNPHFgPFWWMQWcep3w84jr-sPBZR_sXBwCNcBGAsYHQ/h240/eea656cbce00a9c007697dd3cda57b415cadcc07b04f4.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-zU7wBWingcw/YYtX-l2wu1I/AAAAAAAA0No/eJIUSSWJVgo4GDwBBAPIV0-LC5C_N2-eQCNcBGAsYHQ/h240/Elsu-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-SKaz393-34g/YYtYRkBfCuI/AAAAAAAA0OE/8ZMbx4TWqm8OanVwbnnBJkPvQGxnZ_iOwCNcBGAsYHQ/h240/54bd36c2b3f27e0d91db1665f4e542115d6f9c409445b.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/--Rmk2CW2QmY/YYtX-wbjYhI/AAAAAAAA0Ns/uN2hglUgXlsA5VSOLL42MC270Wb848vbACNcBGAsYHQ/h240/Elsu-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-W3lXWvuUh0A/YYtYRiIlahI/AAAAAAAA0OA/3F7ZPGCi04o0ocpd1eMt_d3hktGqc9IIQCNcBGAsYHQ/h240/742ade5e200598209af8050dd019b5285ed0d57e2147b.jpeg"
+	},
+	{
 		LQcover: "https://lh3.googleusercontent.com/-9ox9y3tpQMk/YYZuAAgBaUI/AAAAAAAAzj4/q-5pH5LivkUm_e8hJDjSaVJC81jX0HG0wCNcBGAsYHQ/h240/Y'bneth.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-qF4nDFi6mbc/YYZuCFbD3LI/AAAAAAAAzkE/LxPOoihEa9w935M28Pg78AkFRPY8r4p4gCNcBGAsYHQ/h240/8276a829e1e1559b0a57f38ce7e1ac255b98deead3d3e.jpeg"
