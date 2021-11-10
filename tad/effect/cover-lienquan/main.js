@@ -53,9 +53,6 @@ $(document).ready(function() {
 		});
 
 
-		$("#tad-chonkieu").html($("#tad-chonkieu>div").sort(function(){
-			return Math.random()-0.5;
-		}));
 
 		$("#tad-chonkieu").children("div:first-child").find("input").click();
 
