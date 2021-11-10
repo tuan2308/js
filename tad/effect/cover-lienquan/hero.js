@@ -1204,7 +1204,36 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-hJ5lkbDALLM/YYZDuVBuPOI/AAAAAAAAzVA/8yoXttQyJX4QkAG3dS0W96VYFNmCHrWngCNcBGAsYHQ/h240/Zephys.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-x6yV2fPCQdA/YYZDuRZZUZI/AAAAAAAAzVE/r0jYw8CqPvs9-LwKdPZ-J65Pij7hMWNaQCNcBGAsYHQ/h240/de94a53ea6836ee1e45a3f01d1f2d6375847d0d32fd30.png"
-	}, {
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-2vMXF2EnYsQ/YYtoGHJy00I/AAAAAAAA0UA/wVFcdGBVMrIp5FpwfCYEpveJdwOI3MF_gCNcBGAsYHQ/h240/Zephys-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-4OnKSMY8k0E/YYtoXRo8QPI/AAAAAAAA0Uk/B7qbMfBUVNcfiFtVPSJRPXQ8uCjulKjagCNcBGAsYHQ/h240/46cccdb60f875c9474303e7e62d71a8d5c4939181d104.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-mwXmsKZZaMk/YYtoGHU5qJI/AAAAAAAA0UI/_1zTZKeMRk44UxG4kWRBQmUl2FhsDssBgCNcBGAsYHQ/h240/Zephys-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-8inFdgpCLdQ/YYtoYMb0QKI/AAAAAAAA0Uw/65ruFUubCJELWilCB_5Qp77k3FjTIckTwCNcBGAsYHQ/h240/84de1c274b7b4d1f6c73341e7ce9f26759f83096648b7.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-a65Xja2atYQ/YYtoGMzYwbI/AAAAAAAA0UE/aaLZGLr1EXMsCT2oWFSczxibzJm0Yo0GACNcBGAsYHQ/h240/Zephys-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-v45pjif3CpU/YYtoXU6KXNI/AAAAAAAA0Uo/0FZxtybYXkQN7ox2oD6oCZy3jCEYlm9GgCNcBGAsYHQ/h240/649e134150b614e8e94c48550d29a1ab5c2c8dc41d4da.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-gJOH3FN2x1k/YYtoG4JF5DI/AAAAAAAA0UM/9QNFntQLbQUz1efgclvQ-a9Wnz8pAm6cwCNcBGAsYHQ/h240/Zephys-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Z7L9Lr55Qlg/YYtoYZZyyHI/AAAAAAAA0U0/FR1Hi8-g3IgsW_wZBiyLLAcr5crLadB-gCNcBGAsYHQ/h240/c091b528121fc95a7fbafec96e3c8b335d10858054095.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-yILk7-VgPLE/YYtoHH8d2SI/AAAAAAAA0UQ/gMBnd6ZaLg8Y3tcb2a3Ewu3en5_4Hk5mwCNcBGAsYHQ/h240/Zephys-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-JVIExKw7BG4/YYtoXUBQ4SI/AAAAAAAA0Us/apryx7yLdFctccBJ_qC1i-jpBuykdOL8wCNcBGAsYHQ/h240/0935d753a3a06735117b6603d60fc4a95fa8b988d5f85.png"
+	},
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-OMVp885agnk/YYZDgtu0ZcI/AAAAAAAAzU8/50U_g_zV9qUbhg8VE8ly96sIXgXeZDMEwCNcBGAsYHQ/h240/Khlii.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/--kE-db75WJA/YYZDggz-5bI/AAAAAAAAzU4/IlZVxwkhgCcvBEKm0qhfRtGOM3Hdl64hgCNcBGAsYHQ/h240/cc7a74bc6e29ff8a5eb020d8aac8701f583ff29d174cf.png"
