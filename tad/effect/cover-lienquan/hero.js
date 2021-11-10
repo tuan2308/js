@@ -143,13 +143,13 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-OAcTrK4ds0s/YYZ8Z521nxI/AAAAAAAAzqM/wQdwBP0AtEgUQZD80_fMJMzYrOwL7qqmwCNcBGAsYHQ/h240/fcd5c439a7cc37896ab98d568b662bec5ec66637da75d.jpeg"
 	},
 	{
-		LQcover: "https://lh3.googleusercontent.com/-Kx412LTnmuM/YYe29LUi3FI/AAAAAAAAz5w/AyAOVMXCUg0RC-Ve-7IrSTJs9fxgL-aXwCNcBGAsYHQ/h240/zata-2.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-Kx412LTnmuM/YYe29LUi3FI/AAAAAAAAz5w/AyAOVMXCUg0RC-Ve-7IrSTJs9fxgL-aXwCNcBGAsYHQ/h240/Zata-2.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-mVWcaAkrWb8/YYe2675N_4I/AAAAAAAAz5Q/fyIsVttr0kE0FraWQbW6GKK8UNX5C2fagCNcBGAsYHQ/h240/2caa9143a657fbd05f7fb07ce6b551875ec666c027911.jpeg"
 	},
 
     {
-		LQcover: "https://lh3.googleusercontent.com/-wwCupu_ddJA/YYe29RP5o4I/AAAAAAAAz50/PPnItByEjQUhkDufiWe1U0T_yXcjSS9HgCNcBGAsYHQ/h240/zata-3.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-wwCupu_ddJA/YYe29RP5o4I/AAAAAAAAz50/PPnItByEjQUhkDufiWe1U0T_yXcjSS9HgCNcBGAsYHQ/h240/Zata-3.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-Yv2dZlC2fmA/YYe28hjTz-I/AAAAAAAAz5o/SxKAahrEMqMSzBrvsUlwKaOW1YnB1aVoACNcBGAsYHQ/h240/ae1b08764831edbdba17445d4963253c6117951cb90c1.png"
 	},
