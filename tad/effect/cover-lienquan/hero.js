@@ -793,7 +793,7 @@ var dsLquan = [
 	},
 
 	{
-		LQcover: "https://lh3.googleusercontent.com/-U5DupmbvlU8/YYtQ4H9Ej9I/AAAAAAAA0Jw/970gMGR7xXwgzen2DeJXiry_wZxVHtmlACNcBGAsYHQ/h240/Zuak-4.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-U5DupmbvlU8/YYtQ4H9Ej9I/AAAAAAAA0Jw/970gMGR7xXwgzen2DeJXiry_wZxVHtmlACNcBGAsYHQ/h240/Zuka-4.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-ARIPJC6iydU/YYtRegXo5mI/AAAAAAAA0Kk/37hZ6nOY2A4aO9JaaX1aCUqqfqYGgPEpwCNcBGAsYHQ/h240/702684bc80b5700697e3de3b8c2ff40d5a815a23772f9.jpeg"
 	},
