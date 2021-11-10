@@ -573,6 +573,59 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-naGvpbxN7bQ/YYZqXbcRosI/AAAAAAAAzhA/DIyrbsmzeVogPIKSjAW7nvhZEB0F7zoFwCNcBGAsYHQ/h240/f9b8dde058317e1258add7221497da865a81728ba3618.jpeg"
 	},
 
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Pxs7qUOcXlk/YYtiiaLs4gI/AAAAAAAA0P8/WUS1txgN6NMz7FojSWbhuJZ28nu_98RjACNcBGAsYHQ/h240/Tulen-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Md3Ew4BNiDM/YYtjQDUoCHI/AAAAAAAA0RU/6-GzSPVN7SM9TuuFbjk1qHAOqQESvADXQCNcBGAsYHQ/h240/d4aed79281e74897fe3bb6b12dfcec3a5ef5f23026679.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-zEcywbnMl3w/YYtiimIOMaI/AAAAAAAA0QE/nQKH5vEYl0wCyb5z1kOzhX4ElhuhnrdswCNcBGAsYHQ/h240/Tulen-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-BzLIMu5GhcU/YYtjOImamdI/AAAAAAAA0Q0/UwEqmQDuDashr6ug8-pnQGewOcTW4WtdACNcBGAsYHQ/h240/5159a548e4a7ef3a7b082059fd3a2a2a5ac73e1872fda.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Fw59XDXp3us/YYY7y_3uF0I/AAAAAAAAzRg/sRQDCbUxvuMrVmEOrIriBXPcCKtTNBKIACNcBGAsYHQ/h240/Tulen-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-U9RBv7sXYT4/YYtjPr0Z1YI/AAAAAAAA0RI/qOZpeZZiNwspPmtXYP0TNWKhcYCzH1n5QCNcBGAsYHQ/h240/bbf09fa6b6410edcfbda226afe9d0fff5b1fa00198ac5.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-CFZT3dr8_-4/YYtijMeTtdI/AAAAAAAA0QI/D2B1PIGoEVgzpu8gTPGPZz2Hb5_j5I9HgCNcBGAsYHQ/h240/Tulen-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-CUp6l6TUTlE/YYtjOOanJyI/AAAAAAAA0Q4/h5nnp398-oc3uF_kUTotVa4oxX_9du5GwCNcBGAsYHQ/h240/5c989fdd8bcb08252b231d57b8290d5a5c1c7f20e169b.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-EwOe44IGaiU/YYtijnujScI/AAAAAAAA0QM/BPQAeEit31EUc8wd8eunHS_Tl4WO7vhQQCNcBGAsYHQ/h240/Tulen-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-zQH0qkf-hbo/YYtjOPs4hcI/AAAAAAAA0Qw/-h9SunwX6jwMIBQTwik2NiQW3UV6PjJQQCNcBGAsYHQ/h240/2a11f0a8a6e586ba237b145db0ec09bf5c5435da1fd91.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-WnUOrC6KGcg/YYtijt6B12I/AAAAAAAA0QQ/rXblIljLyc8kTH7AUGJ-aVfXZGKhK_lyQCNcBGAsYHQ/h240/Tulen-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-DK3C52YSj34/YYtjPSXHF9I/AAAAAAAA0RE/O7SgJlEIKvsXYjyGJpg6dV6Um4rAkXMNgCNcBGAsYHQ/h240/b6d45bb65431e6523232fde986e0e4225cc133a8a2a8a.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-GJWM5vCJjRg/YYtij3MnRhI/AAAAAAAA0QU/83FuLmRWSjI5WHmFwYZmy_EeQqi1rKA0wCNcBGAsYHQ/h240/Tulen-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-S2fcVkqZyFg/YYtjPPBo70I/AAAAAAAA0RA/CiOYU_gwOzYdN7JRk8Aou5016XUnnIP_QCNcBGAsYHQ/h240/8e4fc278afc09a6304145b7a3f3cf33c5d8c8a82d479d.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-v1xcTlUdcho/YYtikF4tU-I/AAAAAAAA0QY/u54aniNKkywAGeJZlHIeC3HjTIKlxlkzACNcBGAsYHQ/h240/Tulen-9.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-pd1hf5irZVE/YYtjO43MQyI/AAAAAAAA0Q8/b_tCaRb45vsUFb-7-HZTe7v_ckQ2-TD2ACNcBGAsYHQ/h240/81e401977a6020df5c76d9fda47260a25e4534f4f2bbe.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-tf72yPBFkDI/YYtiiZRwMmI/AAAAAAAA0QA/XB4_wEWsD1AORyfqAWal3vImtuDOJEYTwCNcBGAsYHQ/h240/Tulen-10.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-WPtpTsDJuF8/YYtjP4iT5FI/AAAAAAAA0RM/Fl-VD2TPZSM7tK-dwGeRNWe-FNBTs1ngwCNcBGAsYHQ/h240/c03782ae462d08357340d3886cb701e15fc52532a559b.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-4QJox0txWuE/YYaZSvc884I/AAAAAAAAzvw/KaX_h-W2ZWMi13HSt0ugdNaucJW1xUgNACNcBGAsYHQ/s0/Tulen-11.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-U2O2k1AwZsg/YYtjP6eauLI/AAAAAAAA0RQ/f-mpsAZxLIks3yXqgt7O6659b5PfPKgXgCNcBGAsYHQ/h240/d7d907af72ca1e4f3e5946a7c2d90438611769404797b.png"
+	},
 
 	{
 		LQcover: "https://lh3.googleusercontent.com/-Qs5EUu9-5-A/YYZpyBdrlTI/AAAAAAAAzgw/QMZ5slv_-rg0sG5JKrwdLBsPUu0hPN1EwCNcBGAsYHQ/h240/Omen.jpg",
