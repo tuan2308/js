@@ -1082,6 +1082,59 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-7eV8nB7ZBIo/YYZCHI_JUfI/AAAAAAAAzT4/Fn5biVkRZXoDY5mM9XRH4WLnrN-_hIhbwCNcBGAsYHQ/h240/3fa6fb1c1695570e79df259229e7a6c9583ff18becc9f.png"
 	},
 
+	{
+		LQcover: "https://lh3.googleusercontent.com/-oh-hwDV1h8k/YYtVXrQi-TI/AAAAAAAA0LI/tUdmBC5Airs7byJQn-coPz0mhQ-jnoOxQCNcBGAsYHQ/h240/Krixi-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-FyIffs1I8OQ/YYtV7S6OYAI/AAAAAAAA0MY/14Okj_iOAeYuAGsRrsrswIwisGHjG8H6gCNcBGAsYHQ/h240/ecbf4af52d7e8dea8fd35e7cca7cd1f6583ff206709f5.png"
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-iykWKYT3Au8/YYtVYfwdYcI/AAAAAAAA0LM/H6tlXGBVWV8AeOep6D7yaMdTXwqkEhWggCNcBGAsYHQ/h240/Krixi-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-JWM3uNVeWpo/YYtV7lkbNnI/AAAAAAAA0Mg/WEMeXClvQTwU0kl_dWYHVOSyuGJI3NPpwCNcBGAsYHQ/h240/eeee1e5428969d0bdc7649dd95bcf39859225ea21af4f.jpeg"
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-gNfxPpdJyyc/YYtVYoMuX3I/AAAAAAAA0LQ/n_0EydQIt7kcNa2ZHPXf5gdGV8bnfuNewCNcBGAsYHQ/h240/Krixi-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-D3-RQ_pWHOw/YYtV7F17rfI/AAAAAAAA0MU/4aBfTfvS67oBAuLE3jDqu3s1q0ZEQsSGgCNcBGAsYHQ/h240/bf70da385602cfc9d019fa1f7651a4fb5a0a94c564d27.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-dRVbrvlpip0/YYtVYukXEHI/AAAAAAAA0LU/icXdCnudfoAVeA2utvDVeYmM3aef6TvKQCNcBGAsYHQ/h240/Krixi-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-2a4i7vhCpvg/YYtV513ZjAI/AAAAAAAA0ME/71Hl9JOlnkYQOrHWa3Zo0NxgwqCcB_dmACNcBGAsYHQ/h240/4d0e81fea06cfcdad9b9988f6cff8ba15a94d2ec49f58.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-rHwX0G6EvvM/YYtVZPP5zxI/AAAAAAAA0LY/h6GWlgAxtXEn1_wWP0_nWW1ZhWRCVGs7QCNcBGAsYHQ/h240/Krixi-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-3hTQcrUVqp4/YYtV6ta2XnI/AAAAAAAA0MM/xI5LrOUy4rQXWR-ub9Jlw44gtGqCEkVoACNcBGAsYHQ/h240/512415c2ebfc9856de7dd6681f145fc25c0def6e1c8c7.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-gJKdHjJ9lgU/YYtVZCVcDGI/AAAAAAAA0Lc/lidsszBrWCQxCVsVBE8U_RKynnrkQQ2RACNcBGAsYHQ/h240/Krixi-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-DRFDQ50No7Q/YYtV58v5SoI/AAAAAAAA0MA/qaOQDBSwSWcQueohWE6jM__u8ofeElQwACNcBGAsYHQ/h240/0ab9d8f555dceb3b5f4f64a2e4a1df175d9d595ee2f8c.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Q4dnARWgsX4/YYtVZcJZF0I/AAAAAAAA0Lg/sK_OLr7ZpQIqaHlghWNSUY-WLmy2M0clgCNcBGAsYHQ/h240/Krixi-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-8yZHfGeo7SE/YYtV7ktwfrI/AAAAAAAA0Mc/LxTjT44DVwUCYwzi5-B_3qR0GUq-ldUeQCNcBGAsYHQ/h240/f94745a8acaa55f24a7f0caeb8b2aa706116b209da671.png"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-QkNvrEUbt7s/YYtVZjMLGnI/AAAAAAAA0Lk/xS1i884ZRI8Cq-XHInLbbKRkMxMzaW7ogCNcBGAsYHQ/h240/Krixi-9.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-6bKdGV9kPXk/YYtV5zmbBFI/AAAAAAAA0MI/nwqMNanhfuo6cTNiMdGNHEvndu-bDqKAACNcBGAsYHQ/h240/191a174eec868420d2b5eae36c164a8b6116b2c17162a.png"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-jMDDX6qHrlo/YYtVXjOFByI/AAAAAAAA0LE/qpj6FdhK_2I2ZGK6xRb6H-pYixxE_e-vgCNcBGAsYHQ/h240/Krixi-10.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-GxUJsBRqABk/YYtV6-ROvqI/AAAAAAAA0MQ/jeGnYq0vaCkfHfqeyxSMrNC6e-uNah4JQCNcBGAsYHQ/h240/584afa74f2a1450aff2aec8b8a3aff8c6116b71b067c3.png"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-drBKB3b9x-4/YYtVXnP_1PI/AAAAAAAA0LA/XkwmHk_Fpt4E-Y9YYhQCm89tQxuXyiYZgCNcBGAsYHQ/h240/Krixi-11.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-aUaImdKSV6Q/YYtV73QPMPI/AAAAAAAA0Mk/Vmc2qPeZWEEgksvUXpJQ2EWCBblqgZy-gCNcBGAsYHQ/h240/kri11.jpg"
+	},
 
 	{
 		LQcover: "https://lh3.googleusercontent.com/-HPZb2bAiQ8g/YYswnHVxitI/AAAAAAAA0GA/X5DJpVko7o8Au4-BUIoXc5uVj1PqGgBogCNcBGAsYHQ/h240/Mina.jpg",
