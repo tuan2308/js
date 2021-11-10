@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-Qj8VBZM1cFg/YYuSsuxtYBI/AAAAAAAA0Ws/TEUw3oYVmIEnnkGJlmoaomFcWvOlKeuxQCNcBGAsYHQ/h240/Tohno-Shiki.png",
+	colorBg: "#4470d6"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-8pPN8n0PFWY/YYuRwJmTkyI/AAAAAAAA0Wk/yXa9idkwP2sdneuA1lITb2Z66vYjT7LzwCNcBGAsYHQ/h240/Arcueid-Brunestud.png",
+	colorBg: "#f8c67e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-KUVYoL8nHhw/YYuPaOCLH7I/AAAAAAAA0WU/aVAEQWjj1vYUZvCpZMzSBIHNUfe8wF8sACNcBGAsYHQ/h240/Ochako-Uraraka.png",
 	colorBg: "#e9709e"
 },{
