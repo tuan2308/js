@@ -189,7 +189,11 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-fpKQBdtpNtU/YYe28yR27VI/AAAAAAAAz5s/4UUmi7cP0gkoA1MsXgBj9KsCYMatDaC5gCNcBGAsYHQ/h240/b9f47b36aa9189e712e7e5d072e098445fbcc5c05c71d.jpeg"
 	}, 
-    
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qjk1c1ydvUw/YYtmKbbONNI/AAAAAAAA0Tw/7lZKVOs9wBIkiD_WZXbS4_sR64bpVXNAwCNcBGAsYHQ/h240/Laville-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-8Q5kVDIfWQg/YYtmKWkX25I/AAAAAAAA0Ts/iUNOPmdks58CMERrpTFQYrjT-8Kw9QtVQCNcBGAsYHQ/h240/Laville5.jpg"
+	}, 
     {
 		LQcover: "https://lh3.googleusercontent.com/-51oeCDcKpsk/YYZ7Logc4II/AAAAAAAAzpk/_tStnGMayMgN8Du-wNpBlA9Sjlt8sCtEgCNcBGAsYHQ/h240/Paine.jpg",
 
