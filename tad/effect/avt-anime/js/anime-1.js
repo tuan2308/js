@@ -1,4 +1,19 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-KUVYoL8nHhw/YYuPaOCLH7I/AAAAAAAA0WU/aVAEQWjj1vYUZvCpZMzSBIHNUfe8wF8sACNcBGAsYHQ/h240/Ochako-Uraraka.png",
+	colorBg: "#e9709e"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-NEp5yxfVbzw/YYuO9Cax2LI/AAAAAAAA0WM/D2cOZILoEbYzvsqYgtqih0zxPJVVhVdAgCNcBGAsYHQ/h240/yoshimura-eto.png",
+	colorBg: "#6f253e"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-CRSUv4CXWEQ/YYuNaG7Q36I/AAAAAAAA0V8/cNtZEM5wA88Om5KkDrlymNZyZhnzokepACNcBGAsYHQ/h240/Nanami-Kento.png",
+	colorBg: "#2a6ac0"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-kLsximJgNsQ/YYuM-p0DT5I/AAAAAAAA0V0/QdLFChn1uxILStEjtOnO3O_Nf8nzHJFtgCNcBGAsYHQ/h240/sayu-ogiwara.png",
+	colorBg: "#bea581"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-7JocM3mnA_Y/YYuK98AmI8I/AAAAAAAA0Vc/oHcbov-Toikkv3_OfQQai3_YHVZeaykagCNcBGAsYHQ/h240/seele-vollerei.png",
+	colorBg: "#5469ed"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-acCZyldYh78/YYuG80FJ01I/AAAAAAAA0VU/nRDxOe713hUwUK4EJH0E7gfTRRBonCyUACNcBGAsYHQ/h240/Nakajima-Atsushi.png",
 	colorBg: "#6164f0"
 },{
@@ -251,6 +266,9 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/h240/akaza.png",
 	colorBg: "#df94a7"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-h3XYUUCj40U/YYuLu6QkFfI/AAAAAAAA0Vk/kCxYXjtZVP0jo354woDRrULAYl8fJjo2gCNcBGAsYHQ/h240/Tamayo.png",
+	colorBg: "#9661c7"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-f7Xnirn5ZwY/YXfMWuI1J9I/AAAAAAAAyp0/PHI5k728oqs5hHsCasn4L_T3GihSNoimQCNcBGAsYHQ/h240/sans.png",
 	colorBg: "#347fd8"
 },{
@@ -1348,6 +1366,9 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-ZUzK61zRQyw/YRooknSYFTI/AAAAAAAAwY0/xig7pXLJZG4D1ZUc8uipYrcYPXocvF18ACNcBGAsYHQ/h240/tobirama.png",
 	colorBg: "#3d6499"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-skIHICbbBJY/YYuMRx9E3yI/AAAAAAAA0Vs/svzboI1w1WcBZyXvTsHZkoj-SRsQSVr3gCNcBGAsYHQ/h240/namida.png",
+	colorBg: "#ec5c38"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
 	colorBg: "#f69e3f"
