@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-PkHgnc6fimw/YYuTZUReJWI/AAAAAAAA0W0/u6_iuvE87Qo5lXOHayU7-9RLCPgDOKPxACNcBGAsYHQ/h240/Diablo.png",
+	colorBg: "#a0373a"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-YP3tC1o_v9Y/YYuTzKHJXvI/AAAAAAAA0W8/3xSK6tU0bk8XMn3W2y8dlYb5iw5p7mPYgCNcBGAsYHQ/h240/veldora.png",
+	colorBg: "#cb3248"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-Qj8VBZM1cFg/YYuSsuxtYBI/AAAAAAAA0Ws/TEUw3oYVmIEnnkGJlmoaomFcWvOlKeuxQCNcBGAsYHQ/h240/Tohno-Shiki.png",
 	colorBg: "#4470d6"
 },{
