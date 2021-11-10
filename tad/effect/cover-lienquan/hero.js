@@ -269,8 +269,16 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-qov90NGaiuo/YYZyd4pQDII/AAAAAAAAzmk/TurWsVh2jIQ-5VJupuETSGCxhGqpHNoJQCNcBGAsYHQ/h240/3d7beab0904b2c5dc6f1962b565bbde35cc136d356ef3.jpeg"
 	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-g3-K8EiCKfo/YYtW9S21MxI/AAAAAAAA0NE/PFCbesSIBUw5fRqGCGakSNNBbvCotGBOwCNcBGAsYHQ/h240/Errol-2.jpg",
 
+		LQthumb: "https://lh3.googleusercontent.com/-uff01hhAw-8/YYtW9AZI1xI/AAAAAAAA0NA/_wFNerBgna84nfVFi2E5HmAVkRqbFRVNACNcBGAsYHQ/h240/49cd968039d46b7fb5ea43c9a0af694a5cc136dd21fab.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-2aCtZEqltt0/YYtW91a104I/AAAAAAAA0NI/5wVPIIWWmlU_zgoz-_90nSJ4PIe4PmpVwCNcBGAsYHQ/h240/Errol-3.jpg",
 
+		LQthumb: "https://lh3.googleusercontent.com/-RC8u7DFf-ek/YYtW9LcAJ1I/AAAAAAAA0M8/aZPvXe-nfjc5AQxrWscijXCi4uKd22tjgCNcBGAsYHQ/h240/7add3522bd4f02bf6cb35aefb3bf4eb85d9d59111a78b.jpeg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-KDd79_PfYuM/YYjQeWgOV9I/AAAAAAAA0Ao/EwjGDbqNHIwwIxaMItEAtwTpAMa7ZQiXQCNcBGAsYHQ/h240/Errol-4.jpg",
 
