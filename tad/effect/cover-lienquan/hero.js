@@ -1107,7 +1107,51 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-mbfrF42SgsI/YYZCvVnW5QI/AAAAAAAAzUQ/NxvKRYsz2wIV2bH7CLb-Z-QVKj83VMbFwCNcBGAsYHQ/h240/Triệu-Vân.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-wvzlSuxtwYs/YYZCvcVCQfI/AAAAAAAAzUU/VQrTUFxI9-8tYs6GOflQArwYgW0GPrMqACNcBGAsYHQ/h240/6ee0ca6c7839effd7b244bbe29f50a9e5d256414acc44.jpeg"
-	}, {
+	}, 
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-upuNG2vkc6A/YYtcmTpggSI/AAAAAAAA0Og/8GuFCSJcwE0LPgSJuQYFvL_UHDPVx3zIgCNcBGAsYHQ/h240/Triệu-Vân-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-fFmpx7Vl3MQ/YYtc9cPRlGI/AAAAAAAA0PM/iTulo-ImakwaVbBp3f7c8cRg9cZlsIz0ACNcBGAsYHQ/h240/7885cfef577fdfda6d4b3d012dde5441589a93745ad9d.jpeg"
+	}, 
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-xpcQnF0Y2QM/YYtcmRHREHI/AAAAAAAA0Oo/qJXTVy4KKwEserwL6T1UrNWFNLU7TtWUQCNcBGAsYHQ/h240/Triệu-Vân-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-7I1ssrZ_Vt0/YYtc9ffYf6I/AAAAAAAA0PQ/lvvrWYPe4OQDoFGGNdEQfHmJSjzPWsLWgCNcBGAsYHQ/h240/7bf7bbd37ba2a804e94da65ae0168f465ef5b50f9d916.jpeg"
+	}, 
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qgaQY1_OOso/YYtcmZ4WuZI/AAAAAAAA0Ok/2S0mUJf-cCMgT54WOpEI_qebwLQI7zJCQCNcBGAsYHQ/h240/Triệu-Vân-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-FZmC7fJ8GVo/YYtc-yjGmiI/AAAAAAAA0Pk/uKs9mIPeCcYici04j0hGNup1A7WebQXVQCNcBGAsYHQ/h240/d7342b00ec05faf09f815c74ce8306eb59d1ad95b5505.jpeg"
+	}, 
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-dRY05KNJZGA/YYtcnG3RpwI/AAAAAAAA0Os/9Fs836DNHUMususVD9ABgH-vUYP56n_YQCNcBGAsYHQ/h240/Triệu-Vân-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-V4X6A5o75dQ/YYtc9Topv6I/AAAAAAAA0PU/K1JPJN8CkKEACgWpwCAWNYIJFbRjWrAYACNcBGAsYHQ/h240/0c3845aa6836b92ca1e3ac2c793526205a1544dcd070b.jpeg"
+	}, 
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-R--F7ARr1yA/YYtcnvJMl_I/AAAAAAAA0Ow/xtal59wjlZAvf2VSbzq7pqEaDgSy09EpACNcBGAsYHQ/h240/Triệu-Vân-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-_PLeC3wo3BU/YYtc-dkB3eI/AAAAAAAA0Pg/VNaUlQUK2vI6Z3PXer0CHrKQC9f-x7GpQCNcBGAsYHQ/h240/c6c1fae81ea54a8bac046a4f55dab4925cc1339621941.jpeg"
+	}, 
+	{
+		LQcover: "https://lh3.googleusercontent.com/-K9ityxZdYHI/YYtcnqJJ73I/AAAAAAAA0O0/4lGpWOPcx1oDa1fCmNlD2d6-SWJjcjIzQCNcBGAsYHQ/h240/Triệu-Vân-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-1f5NsvL2KLc/YYtc-OsXJGI/AAAAAAAA0Pc/6T8xozwETtw1sPepe42NXb5KI8NPLrgXwCNcBGAsYHQ/h240/c5ad09bed1c868d83dc4d2cf6a467a195ec2051de5a1a.jpeg"
+	}, 
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-hQucaxbJNdI/YYtcn2GQhQI/AAAAAAAA0O4/8GS7yVzmwug3KW8eBfMCW8HOiFze4Gn-wCNcBGAsYHQ/h240/Triệu-Vân-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-3cprUKv71OE/YYtc-MYZj6I/AAAAAAAA0PY/-prbDm7OYtgJ3Zcg4zjp1sBq94rosHW1ACNcBGAsYHQ/h240/a579d6594f26dc9109c86428176967706116b8565ba8f.png"
+	}, 
+
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-w_TGxmSfYM0/YYZCgOHy2xI/AAAAAAAAzUM/nZzP2fwvTeQ_vo8cvmlwQaSvzuYORv2oACNcBGAsYHQ/h240/Mganga.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-WeJeWG8sYY0/YYZCgI65EtI/AAAAAAAAzUI/JZleOCvyUGAd_5hNlFOtOHUyLcJt7B89ACNcBGAsYHQ/h240/956abd3fa2d1e8ac9dd80970323d22f45d25634f558b7.jpeg"
