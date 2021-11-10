@@ -36,8 +36,8 @@ function h() {
 }
 var LQtuong;
 var e = document.getElementById("tad-chonkieu");
-dsLquan.forEach(function(b, c) {
-	c = c + 1;
+dsLquan.forEach(function(b) {
+	
 	var k = document.createElement("div");
 	var i = b.LQcover.replace(/h240/g, "s0");
 	k.setAttribute("dataCover", i);
