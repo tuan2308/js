@@ -51,7 +51,17 @@ $(document).ready(function() {
 			var c = $(this).attr("dataCover");
 			LQtuong = c
 		});
+
+
+		$("#tad-chonkieu").html($("#tad-chonkieu>div").sort(function(){
+			return Math.random()-0.5;
+		}));
+
 		$("#tad-chonkieu").children("div:first-child").find("input").click();
+
+		
+
+
 		$("#tad-taoanh").click(function() {
 			$("#img-out").hide();
 			$("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
