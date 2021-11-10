@@ -633,6 +633,45 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-c1W1t0Xrfuw/YYtQ4Gj3gCI/AAAAAAAA0Js/JOtICK6EI6o7nauQRbHs2qcsSB2GDgAZACNcBGAsYHQ/h240/Zuka-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-IZtxfaacVIM/YYtReUec79I/AAAAAAAA0Kg/zcHcc7XrAf0BIeqXA-hqTHKhgCpTK_kTwCNcBGAsYHQ/h240/51688b10d5464b3d4f736dc9d1d4458f5c493943a26c4.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-KDDa3vlIWNg/YYtQ4PwOs4I/AAAAAAAA0Jo/owrkZVniQMIBf8yLWU9OZwFZDJ8a_YLZwCNcBGAsYHQ/h240/Zuka-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-pwhAD6EczU0/YYtRdkGGeBI/AAAAAAAA0KY/uhfz7JCfOO0aeWk2IBoVNd7mmIyfJ-2IQCNcBGAsYHQ/h240/2225114632e2b46f7cf7b9fe6386f7db5a55d226bbefa.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-U5DupmbvlU8/YYtQ4H9Ej9I/AAAAAAAA0Jw/970gMGR7xXwgzen2DeJXiry_wZxVHtmlACNcBGAsYHQ/h240/Zuak-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-ARIPJC6iydU/YYtRegXo5mI/AAAAAAAA0Kk/37hZ6nOY2A4aO9JaaX1aCUqqfqYGgPEpwCNcBGAsYHQ/h240/702684bc80b5700697e3de3b8c2ff40d5a815a23772f9.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-v5hEQiVaaqQ/YYtQ5AVAVaI/AAAAAAAA0J0/3Y7QtuAcslwqOAGNJucqaO3sjGkzee9ZQCNcBGAsYHQ/h240/Zuka-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-_pH7m6nm4nM/YYtRdsKel-I/AAAAAAAA0KU/hZyg916Ak6ok0Gjdo4UyZj2KPDGgls8fgCNcBGAsYHQ/h240/49f821fa8c685b687bcceb2c6a12d66c5af2a38bc2d3f.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-9aT04oPbTOs/YYtQ5AB2gXI/AAAAAAAA0J4/0YIIjSZb8ak9EmMAXQcPz2m9PE0mhh-2QCNcBGAsYHQ/h240/Zuka-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-hGzsXN2702c/YYtRdntu5KI/AAAAAAAA0Kc/dDwLR_l6KiAGsJEAB05JDvEPNZupMlnOQCNcBGAsYHQ/h240/50374b304426e8f7fa8e11fb4347114f5cc136bd97551.jpeg"
+	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-G2wZbFNKsG4/YYtQ5dOZTFI/AAAAAAAA0J8/niEqHhp22nc-y24gs3MTMBF6zfvdjSOwACNcBGAsYHQ/h240/Zuka-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-mLUhnh0pBJM/YYtRezR90MI/AAAAAAAA0Ko/02hZGe7FLkckeBkEaH8W1lzbFsvXvzTJACNcBGAsYHQ/h240/d7e2785b31fc0a7b56e862ce2842f12d5fc522511641f.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-nugQHZo9v38/YYe49BE7WYI/AAAAAAAAz6g/DnC2LAYsQr4FSwcQVXC8e5vkapf75NicwCNcBGAsYHQ/h240/Zuka-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-y3nyJKa6xHk/YYtRfBGbunI/AAAAAAAA0Ks/dMoNioSDjyoNchxSjmQaaTQz7cNwd_BWQCNcBGAsYHQ/h240/df69eb0f0ac5bce7801b7938334ad4486117602ba23f6.png"
+	},
+	{
 		LQcover: "https://lh3.googleusercontent.com/-4ffQXvu4OsI/YYZlWuiHjrI/AAAAAAAAzc8/bCjDln3Du2g7Xcupxvs9rI1wokPQs9pGQCNcBGAsYHQ/h240/Airi.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-Yn9mUlqaLiQ/YYZlWinreqI/AAAAAAAAzdA/Z3I_hiBgIycE3KeLE5BhZS4wa26SiAjKACNcBGAsYHQ/h240/cc2dc1cf21b2ddc5a4b1d0f8c70b97285965d69279f76.jpeg"
