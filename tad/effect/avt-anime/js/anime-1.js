@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-Cb4QdKyZdzQ/YYu7RqghLrI/AAAAAAAA0YQ/c_A9SLkG65QYh2tuWrCy4yk_R0Sy47RPgCNcBGAsYHQ/h240/Mukuro-Hoshimiya.png",
+	colorBg: "#f5b274"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-tKipwXMMq_g/YYu6Kb1TY_I/AAAAAAAA0YA/3ktMZ1sGZuUq5IAnaD8akHcAF7VSlUGiQCNcBGAsYHQ/h240/Maki-Harukawa.png",
+	colorBg: "#b33a31"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/--dPCmMsrelU/YYu5GyK7c_I/AAAAAAAA0Xw/ay7jgR_W5R4z2j7jHgWuUOi3t9iDlAe3gCNcBGAsYHQ/h240/rosaria.png",
+	colorBg: "#ad344d"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
 	colorBg: "#f69e3f"
 }, {
@@ -58,6 +67,9 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-dkmlxDPLSFs/YYe-zGaomHI/AAAAAAAAz9A/mhZiGAibAc4tXXozP49TUIVIU72mYIURQCNcBGAsYHQ/h240/origami-tobiichi.png",
 	colorBg: "#6c9ec9"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-vAz5J3GX-1o/YYu5gxM-XdI/AAAAAAAA0X4/J352pffSB9o9xZXinV1-3PyQHpCVvpJFQCNcBGAsYHQ/h240/suna.png",
+	colorBg: "#de322e"
 },{
 	imgAnime: "https://1.bp.blogspot.com/-C7Z2kPSCCRU/YRR3nMkiUpI/AAAAAAAAwIE/xtcFk4AWj_IJkWTAnyO_5JHH99mHuXsDQCNcBGAsYHQ/h240/tsukishima.png",
 	colorBg: "#233579"
@@ -1156,7 +1168,10 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-b80EJ6JXLcE/YTND-eB200I/AAAAAAAAw-Y/pkRv43Nk0o8VvY2vqVVUw6HtQWPVVYAogCNcBGAsYHQ/h240/leonhart.png",
 	colorBg: "#949586"
-},  {
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-Li0ulhiEInw/YYu6vQjZo0I/AAAAAAAA0YI/W1wZzQVgAvIi3vjL1b1TVEmpQGlzvkGZACNcBGAsYHQ/h240/Pieck-Finger.png",
+	colorBg: "#a18072"
+}, {
 	imgAnime: "https://1.bp.blogspot.com/-EAkKo3u5b6g/YQ4-grJXtvI/AAAAAAAAv9I/5q99kAI5QZMcicrlhDlERmQfxdUhdBYogCNcBGAsYHQ/h240/bakugou.png",
 	colorBg: "#556b71"
 }, {
