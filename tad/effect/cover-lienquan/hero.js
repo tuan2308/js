@@ -970,6 +970,34 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-7eV8nB7ZBIo/YYZCHI_JUfI/AAAAAAAAzT4/Fn5biVkRZXoDY5mM9XRH4WLnrN-_hIhbwCNcBGAsYHQ/h240/3fa6fb1c1695570e79df259229e7a6c9583ff18becc9f.png"
 	},
 
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-HPZb2bAiQ8g/YYswnHVxitI/AAAAAAAA0GA/X5DJpVko7o8Au4-BUIoXc5uVj1PqGgBogCNcBGAsYHQ/h240/Mina.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Mhl1Gw0MI6U/YYsxJWoUOaI/AAAAAAAA0GU/ceaVJ_RX1pwbO1Udgo-98PuSh3tvH5_UQCNcBGAsYHQ/h240/63671026c0e03766c31176d07b56c364583ff15c728d2.png"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-8rrPFqM3XVk/YYswmPVBJ5I/AAAAAAAA0F4/0p7twpOT9UwRo3CsDeeNqgVrfCFqhi7aACNcBGAsYHQ/h240/Mina-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-SPM43tAi2T0/YYsxJUNupxI/AAAAAAAA0GQ/1eNXzJfDLyURa51D7sBMS6jRphB6455bQCNcBGAsYHQ/h240/2010b7e41dd78615e8b3a2f35b09ff7f589a8bd7ac141.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-vtbVjFsCO1A/YYswmNgHtOI/AAAAAAAA0F0/pFTWEJRyARAfxeSHy5Gkr1TCD9ESU-hNwCNcBGAsYHQ/h240/Mina-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-rkv7sufJ45w/YYsxJaOW76I/AAAAAAAA0GY/J-OHzk2kOWo6kdq-ghrVSbr6-k6K_oAOwCNcBGAsYHQ/h240/4d45a450e664e8c3dfb8aee1c67f7a225983e74939305.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/--EtJZOjalh8/YYswl0maBTI/AAAAAAAA0Fw/ZixMQ1iCjiwouZHCzgpa2Rqc2c6Ov2o7ACNcBGAsYHQ/h240/Mina-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XwU5lMrM8JQ/YYsxKozumAI/AAAAAAAA0Gg/mifJDqlYaYcq87lGN4YO_4HXJbTA04bwQCNcBGAsYHQ/h240/e5b2a62c3d6dab8066f8040a7a61f7005ef5b7960eb7b.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-C3vxPZT-m2U/YYswmhMbjhI/AAAAAAAA0F8/fxBWt9H1w0YrWiOfTm8mc_z-AoYFeNe3gCNcBGAsYHQ/h240/Mina-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-nllJtAV_-W4/YYsxKKEfqII/AAAAAAAA0Gc/C9zQ-RQ1rokJhSE_jw1c_bPnKh2LTJMSQCNcBGAsYHQ/h240/6ae00618e6c53d73db10be8453dddf895e413bd1a1c15.jpeg"
+	},
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-uHBS6qv4Z3E/YYZBGcwk0sI/AAAAAAAAzTY/iiWCnheHmeA5Eai4RTWjWARVUTtAe4NtwCNcBGAsYHQ/h240/Lữ-Bố.jpg",
 
