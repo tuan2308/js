@@ -1,4 +1,25 @@
 var dsAnime = [{
+	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
+	colorBg: "#f69e3f"
+}, {
+	imgAnime: "https://1.bp.blogspot.com/-DHKmKVOWB5E/YQ5KOhqCUAI/AAAAAAAAv-Y/UpV2SArQMQwTy1lB6loC83m9vzjsIB0rwCNcBGAsYHQ/h240/vegeta.png",
+	colorBg: "#223f89"
+}, {
+	imgAnime: "https://1.bp.blogspot.com/-mx4yeGDk1cM/YQ5KtIpbJJI/AAAAAAAAv-g/wbWhxO56coIJeWejlmSttEJOaB-4IqFUgCNcBGAsYHQ/h240/gohan.png",
+	colorBg: "#326ee3"
+}, {
+	imgAnime: "https://1.bp.blogspot.com/-rMrX5g2G9LI/YQ5MpVpVtaI/AAAAAAAAv-o/M4DDulBEPl8O0GPc4OQs8nVw2cQ06MuvgCNcBGAsYHQ/h240/black-goku.png",
+	colorBg: "#2c2b2f"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-Pt7dU5jsbAU/YYu33EYtN9I/AAAAAAAA0Xg/X-CPKsxzjQwdaBGoOfyCWlcyGCbO5s3MwCNcBGAsYHQ/h240/jiren.png",
+	colorBg: "#d42b1d"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-kx4rMQ-cPJ8/YYu3g8BNXAI/AAAAAAAA0XY/0yGDQL7vRuEvlvIAytLrMkcDn3GK_Yk_wCNcBGAsYHQ/h240/hit.png",
+	colorBg: "#9b62e2"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-OOz-Iz36dJE/YYu4e4PK0TI/AAAAAAAA0Xo/TbcaGDhEGOcg0nSx5exmPxMODDEdfWg7QCNcBGAsYHQ/h240/beerus.png",
+	colorBg: "#976dbf"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-PkHgnc6fimw/YYuTZUReJWI/AAAAAAAA0W0/u6_iuvE87Qo5lXOHayU7-9RLCPgDOKPxACNcBGAsYHQ/h240/Diablo.png",
 	colorBg: "#a0373a"
 },{
@@ -1381,19 +1402,7 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-skIHICbbBJY/YYuMRx9E3yI/AAAAAAAA0Vs/svzboI1w1WcBZyXvTsHZkoj-SRsQSVr3gCNcBGAsYHQ/h240/namida.png",
 	colorBg: "#ec5c38"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
-	colorBg: "#f69e3f"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-DHKmKVOWB5E/YQ5KOhqCUAI/AAAAAAAAv-Y/UpV2SArQMQwTy1lB6loC83m9vzjsIB0rwCNcBGAsYHQ/h240/vegeta.png",
-	colorBg: "#223f89"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-mx4yeGDk1cM/YQ5KtIpbJJI/AAAAAAAAv-g/wbWhxO56coIJeWejlmSttEJOaB-4IqFUgCNcBGAsYHQ/h240/gohan.png",
-	colorBg: "#326ee3"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-rMrX5g2G9LI/YQ5MpVpVtaI/AAAAAAAAv-o/M4DDulBEPl8O0GPc4OQs8nVw2cQ06MuvgCNcBGAsYHQ/h240/black-goku.png",
-	colorBg: "#2c2b2f"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-UQDKkhQBO1g/YQj2sRzBrRI/AAAAAAAAv04/tEpL58TzhB4gMJLp0GmebOs9o-Wq76wcgCNcBGAsYHQ/h240/taki.png",
 	colorBg: "#539bc5"
 }, {
