@@ -57,7 +57,6 @@ $(document).ready(function() {
 			$("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
 			a()
 		});
-
 		function a() {
 			document.fonts.load('10pt "UTM Gods Word"').then(function() {
 				var b = new Image();
@@ -81,7 +80,6 @@ $(document).ready(function() {
 							var m = 50;
 							i.drawImage(b, n.width / 2 - 3033 / 2 - m / 2, 0 - m / 2, 3033 + m, n.height + m);
 							i.restore();
-
                             i.save();
                             i.filter = "brightness(90%) contrast(110%)";
 							i.drawImage(b, 0, n.height / 2 - 741 / 2, n.width, 741);
