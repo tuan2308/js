@@ -852,6 +852,75 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-Yn9mUlqaLiQ/YYZlWinreqI/AAAAAAAAzdA/Z3I_hiBgIycE3KeLE5BhZS4wa26SiAjKACNcBGAsYHQ/h240/cc2dc1cf21b2ddc5a4b1d0f8c70b97285965d69279f76.jpeg"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-cN0_BTizmO4/YYyYgYTfm8I/AAAAAAAA0aU/cYNfEpkC5G4_4PfpKWsdITxkXAUCEdJlgCNcBGAsYHQ/h240/Airi-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-jlpnyCiRjFc/YYyZQz6nwGI/AAAAAAAA0b4/AqYc9j7zoKYjaAIKtFAhTXhcnBlg7ZsLACNcBGAsYHQ/h240/ed61d00fb8c65dc7784322d012b2f3f25965e9f49b412.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-ol2GohqRmGA/YYyYhZd65RI/AAAAAAAA0ag/jBC7-Yo98h8ReAnLrI76cE1PdM4Sga91wCNcBGAsYHQ/h240/Airi-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Y4KaqQskCSc/YYyZQb63jUI/AAAAAAAA0bw/AUg_KrnQOE8mwAx-2r8puz4C7-By4YHmwCNcBGAsYHQ/h240/ab3664fa2804c2fb0d3788615369507b59f04b5275536.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-PeW3D6BfvvA/YYyYhRevWdI/AAAAAAAA0ak/-uVyHgW0w0UfTDvmp6-5hdn6v9fj7Uo3ACNcBGAsYHQ/h240/Airi-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-cTXhuAireQY/YYyZOhgxErI/AAAAAAAA0bU/c_0s8ogrYVQvbi5CpHzV1tu8S2lOFgVjgCNcBGAsYHQ/h240/27867a036334b96777db4849ff7f97b65a9776187d23c.jpeg"
+	},
+
+
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-amrr_silUz8/YYyYhQe9XLI/AAAAAAAA0ao/LIcmi5nFtqc9CD-9WhkgzOnOCRSIf_OMwCNcBGAsYHQ/h240/Airi-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-UM7mOrrybzs/YYyZQmvnmZI/AAAAAAAA0b0/1RDopQG487Ut1hcT5RcBETvWMALx71mAQCNcBGAsYHQ/h240/eca59afef8741898d0ae059e16ccbbd15ae17132e9aa9.jpeg"
+	},
+
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-Bq6lEovJoYM/YYyYiEzt4YI/AAAAAAAA0as/AEPtgOpvLJEHQbC_vl6eqPK9cz01WpkgACNcBGAsYHQ/h240/Airi-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-eAge6rmhA10/YYyZPo9gBLI/AAAAAAAA0bk/_GLU8P_4-pcMiXuJDrspQgD84XEcXSNDgCNcBGAsYHQ/h240/64d712b709033324c7e2e68648200b2b5cf6347046d81.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-_rYWjzT8Rv8/YYyYiYoVzYI/AAAAAAAA0aw/9MUyD5eoxJM_zC3s0re3Z8xDVn8bPq50gCNcBGAsYHQ/h240/Airi-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-cZ0b_iXIlcg/YYyZQWVE6-I/AAAAAAAA0bs/ymIsU6JVtP4eT69tC-WiAB3ib53yGqz-wCNcBGAsYHQ/h240/9b5d286a2eba690a6e1b64213242b9fb5cd1148e7259c.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-BZdjT_XsjMI/YYyYis63HFI/AAAAAAAA0a0/BhRajsCCx9sguGewUda2lA33VvYN-YK0gCNcBGAsYHQ/h240/Airi-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-usN6gYYDJoc/YYyZP05Is1I/AAAAAAAA0bo/aZqvRzWTYBUl8WUFQOBpf0MKJb_Zr0FigCNcBGAsYHQ/h240/6a93d8e011eb861d8584f0a35ee87bab5cf6597ed8cb2.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-jdko0wAv9-0/YYyYi4qgIpI/AAAAAAAA0a4/ZzTGKf80JI4dOy37cVb42K1N5273FbchgCNcBGAsYHQ/h240/Airi-9.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-9I1hqQSpAxs/YYyZOiACXsI/AAAAAAAA0bY/VMsLS0S0Qgg6I4qdx88FlrSGrz_KrO0FgCNcBGAsYHQ/h240/0d11324a89d82078b8229be816d56da45d270e017e69b.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-lxQx-PUenRc/YYtCBksHCKI/AAAAAAAA0HM/mB5Q2I9VJiE1csKeeuY6x7uYMs-M17DZgCNcBGAsYHQ/h240/Airi-10.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-HAElOW_dHNc/YYyZRV5JdEI/AAAAAAAA0b8/BPKqo7_NtjswKSgyg405ZqFVyeKMaTuIgCNcBGAsYHQ/h240/ff04493a166af3979f401b5b5ee46be25e453205b2123.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-y0juEoYpHeo/YYyYgYdTQyI/AAAAAAAA0ac/xYco-3bU6skB5jFtrFN6aftldEX54pUtQCNcBGAsYHQ/h240/Airi-11.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-543DnQSnwIQ/YYyZPjM-YJI/AAAAAAAA0bg/EuRLnGfmI_8RyanEM_S4pqVNd3lFAoamgCNcBGAsYHQ/h240/40b44b03bcf8846f261af6556410ee1b5fbb7246ca215.jpeg"
+	},
+	{
+
+		LQcover: "https://lh3.googleusercontent.com/-P_qAjc3Wi7U/YYyYgf9l3gI/AAAAAAAA0aY/SaD8AfB7GgQF7U8nmnrbKqaH78vprh5AQCNcBGAsYHQ/h240/Airi-12.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-rwRZVLfqD8c/YYyZOhZT5FI/AAAAAAAA0bc/Ck29cu-u5AMK_Vm6Pp7mRWy-ArKdGujGgCNcBGAsYHQ/h240/05d7ea679c6f3c691f029ff2773afe2d61175f5aa1b04.png"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-9ze0WOp8jGM/YYZk2_hu40I/AAAAAAAAzcs/YyAY2DQefywKRpjpa_TNYRHiy8UVDYMDQCNcBGAsYHQ/h240/Batman.jpg",
 
