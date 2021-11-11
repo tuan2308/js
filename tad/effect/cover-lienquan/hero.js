@@ -59,7 +59,11 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-BFNroKkVd3s/YYc_txgnnwI/AAAAAAAAz0o/J465VuNwov49rjo4wlkWo0i1hGwLSHejwCNcBGAsYHQ/h240/894f58b3afe16f50d9885abce55df31a5fc55abae6387.jpeg"
 	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qRU7rd_aC6M/YYx_hnT8vQI/AAAAAAAA0ZM/GbeLvtUZ_M073LQHVx0n5PrDn94DMMsIQCNcBGAsYHQ/h240/Bright-3.jpg",
 
+		LQthumb: "https://lh3.googleusercontent.com/-pjMibqzxOYU/YYx-q4dC9rI/AAAAAAAA0ZA/_6tsfOpleHsH1k1fvaSa-98wJRLtiUe_gCNcBGAsYHQ/h240/bright3.jpg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-J8bhXxpxsps/YYZ-g9B5FwI/AAAAAAAAzrk/XB4KAnXM7iQq4X8FqZyArzvWw8duyqpcgCNcBGAsYHQ/h240/Lorion.jpg",
 
