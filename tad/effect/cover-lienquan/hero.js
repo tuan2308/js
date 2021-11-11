@@ -255,6 +255,19 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-D7XRprWt3rM/YYZzfeBOLZI/AAAAAAAAznU/KbyOLBFtm7QpDvu6k0bLW96Rrl5LdFkpgCNcBGAsYHQ/h240/ea8c78314832bcfd0425b344bed537895d568654bae10.jpeg"
 	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-RsyRh7jCXaI/YYyZ93ZjibI/AAAAAAAA0cY/ZgYanBjwjiI7-9KnYUAzJYUL7Zjf5sxSgCNcBGAsYHQ/h240/Qi-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-SUZ32HUFcT4/YYyZ97dkf9I/AAAAAAAA0cU/hoivy8usN6gP_QN7KZA0HL4ffl-glghdACNcBGAsYHQ/h240/5cb7c0e3b742a79a9467b892494ad1de5d5686a496e82.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-zN9xflmTRKQ/YYyZ920BN4I/AAAAAAAA0cc/A48r_lHfjoUtvWmN8vIofNR7LdT119yLwCNcBGAsYHQ/h240/Qi-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-_tDXd0t2w0Y/YYyZ-pqUcyI/AAAAAAAA0cg/mkr9w2FvNeYcKUwyQ9xHSE78oEf2L51dACNcBGAsYHQ/h240/f6157e2c0d6ade2f07146dd0f6a96b835e607bb308863.jpeg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-p6znzL0G6ho/YYZzT1-GS8I/AAAAAAAAznQ/xZVEzZ5dOg0wfvVRv8wNtuNzCfvIQSg6gCNcBGAsYHQ/h240/Zip.jpg",
 
@@ -977,7 +990,26 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-GRe9SEJmrKg/YYZj9iPKmrI/AAAAAAAAzcA/8Y3svuOjhXYtD8P0H0uSk6tZIeU5WRdmACNcBGAsYHQ/h240/Skud.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-28O_jLv_05o/YYZj9gimI2I/AAAAAAAAzb8/adtCNuP4vqInjxlsgsuywUfCs939l2FkQCNcBGAsYHQ/h240/33ff4bfdda333cb5b7af2f2cbb4256a95ee5e258a8bdc.jpeg"
-	}, {
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-VvMOxcce7HA/YYyajEaFauI/AAAAAAAA0dA/ENjQUg5uzNk2hLHeqPy7CmNr4Y08ivGlQCNcBGAsYHQ/h240/Skud-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-in54c17gM4M/YYyaijweBBI/AAAAAAAA0c0/aa85IJj9-qwQUNf46wauTBssJCuW3eXUgCNcBGAsYHQ/h240/51de75e4c9fe36ba49bdd1d49bed3453591533c1c5b67.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-VhYGcPZdWuM/YYyajl4BiRI/AAAAAAAA0dE/11uv1fdQi3opSr1oBOXId98z3kJLn4qkwCNcBGAsYHQ/h240/Skud-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XR_HP866MJM/YYyaiulbuYI/AAAAAAAA0c4/eOSdPRg6kps0uINArd42fcvOQCbx-u1jACNcBGAsYHQ/h240/908add3ac761cad6a35f90f00051a7795c21e8f590cdd.jpeg"
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-do6zSpOAD4E/YYyajgtKwdI/AAAAAAAA0dI/thZU_cf65rUplKY-p0LTKZYnqs0cg7cmACNcBGAsYHQ/h240/Skud-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-nGIsUBoaoCM/YYyaiu0hT9I/AAAAAAAA0c8/O4APo0m5HVsrjxeI4h2ZcbhCXe3wJHuxACNcBGAsYHQ/h240/9c7aaabc1cbc8e15bfdcce315fa4e19c5cd1143d3b013.jpeg"
+	},
+	
+	{
 		LQcover: "https://lh3.googleusercontent.com/--PfAf-_Pn5I/YYZjrfA2ZwI/AAAAAAAAzbo/1bztOcOXDZw2wQ0bygy7LdHjFjxwjN8IACNcBGAsYHQ/h240/Preyta.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-_5G4LEaUtrw/YYZjrfNBCDI/AAAAAAAAzbk/87kjbly07BoXV3XELkzQhc-54MOM9yBdgCNcBGAsYHQ/h240/90b107838232d5d8db37eb34f4fa5f70590bf51891048.jpeg"
