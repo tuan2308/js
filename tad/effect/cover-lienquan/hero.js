@@ -981,6 +981,14 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-rwRZVLfqD8c/YYyZOhZT5FI/AAAAAAAA0bc/Ck29cu-u5AMK_Vm6Pp7mRWy-ArKdGujGgCNcBGAsYHQ/h240/05d7ea679c6f3c691f029ff2773afe2d61175f5aa1b04.png"
 	},
 	{
+
+		LQcover: "https://lh3.googleusercontent.com/-AMn85Tpud7M/YYyvCzOdreI/AAAAAAAA0es/toxnfoGjzQMihWt_Ww-Ceo_gyonDvzzuwCNcBGAsYHQ/h240/Airi-13.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-FbLAqaZXN9M/YYyvMAIPqnI/AAAAAAAA0ew/BPf4BdrJIKMh2fbF2d7XYlAzxD3TONwuwCNcBGAsYHQ/h240/airi13.jpg"
+	},
+
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-9ze0WOp8jGM/YYZk2_hu40I/AAAAAAAAzcs/YyAY2DQefywKRpjpa_TNYRHiy8UVDYMDQCNcBGAsYHQ/h240/Batman.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-y6OsJkAR-MY/YYZk29Uy2rI/AAAAAAAAzcw/DFjdKbGwTzwwMAe9uMQmE1GE3JRnvbkYgCNcBGAsYHQ/h240/a6eb7ec688d37abc5acc697c762fe7145955d5d646a12.jpeg"
