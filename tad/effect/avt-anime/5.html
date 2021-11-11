@@ -27,7 +27,7 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js" integrity="sha512-k8F8QynmFNURwbUJC8drKA+fo3YfNvjqKzStdydD6au+MzvxBoRnxH8E31RJXwDY9DrnEiPhh9wBoDSIxhkyHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <button onclick="upload()">ádfasdasd</button>
+    <button onclick="upload()">Upload</button>
     <button class="dow">Download</button>
     <div id="output"></div>
     <script>
@@ -51,8 +51,6 @@
                 url: 'https://api.imgur.com/3/image',
                 type: 'POST',
 
-
-
                 headers: {
                     Authorization: 'Client-ID ' + apiKey,
                     Accept: 'application/json',
@@ -72,7 +70,7 @@
 
                 },
                 error: function (response) {
-                    console.log(response);
+                    alert("Lỗi tải ảnh lên")
                 }
             });
         }
@@ -95,6 +93,23 @@
 
     </script>
 
+<!-- <input type='text' value='á' id='urlShare'>
+
+
+<button class='btn btn-block btn-outline-dark'  title='Copy Url' data-clipboard-target='#urlShare'><i class='fas fa-link'></i> Sao chép url ảnh</a> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script>new Clipboard('.btn');
+
+$(function() {
+    new Clipboard('#test');
+});
+</script>
+
+<!-- Trigger -->
+<button class="btn" id="test" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
+    Copy to clipboard
+</button>
 
 </body>
 
