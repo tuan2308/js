@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/unmei.png",
+	colorBg: "#d83e49"
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-a-JPPUhb9wA/YY4o3ZdUqmI/AAAAAAAA0j8/f2rsJPLhvL0OmNX9CsapPTcRW3v8FLh4wCNcBGAsYHQ/h240/Takt-Asahina.png",
+	colorBg: "#65a2c2"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-tK5IwzC4z-g/YY4lrySuIDI/AAAAAAAA0j0/ipuKZ1Ad4FgxMwouU0Dw9o-kCiml-ruzgCNcBGAsYHQ/h240/keiji-akaashi.png",
+	colorBg: "#f2d85e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-Vu0tl-44nQk/YY4k5V4-3sI/AAAAAAAA0js/DXMI9D9oLEoG5iFsKncCSBfI4Rrwfm6hQCNcBGAsYHQ/h240/ruv.png",
 	colorBg: "#ae86c0"
 },{
@@ -376,9 +385,6 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-j_1QHO6k3qA/YXKD5RxrlLI/AAAAAAAAyiA/HcsXmrcpbjcNS8omLGBE8GF2Ix8txZuNgCNcBGAsYHQ/h240/kuma-bear.png",
 	colorBg: "#8ab0e0"
-}, {
-	imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/unmei.png",
-	colorBg: "#d83e49"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-uRFL4Oqz5bE/YVm9-MXe73I/AAAAAAAAx2M/oasK1eU9WgoJJs80sTlKl9-0rxX7otHcQCNcBGAsYHQ/h240/kirito.png",
 	colorBg: "#29d0c2"
