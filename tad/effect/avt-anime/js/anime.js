@@ -1169,6 +1169,9 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-FeUaudTnGfw/YRPh8v5oiaI/AAAAAAAAwHM/HCDEzHqRlT8kbTDtAX8QQw8XP2rGKk8FgCNcBGAsYHQ/h240/rimuru.png",
 	colorBg: "#5d9bae"
 },  {
+	imgAnime: "https://lh3.googleusercontent.com/-F_XciqcWiOU/YY4rc3_JBgI/AAAAAAAA0kM/_LJHy5OK7AMb-o2lLv9bWTACBvIjDDM-ACNcBGAsYHQ/h240/Rimuru.png",
+	colorBg: "#69a6dd"
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-fXoRvwNdIpE/YRj-dpN1SKI/AAAAAAAAwVw/dIvo1Bcg4w8-rUbmB4qJ2ipIK2NKEWw-QCNcBGAsYHQ/h240/oikawa-tooru.png",
 	colorBg: "#4a8a83"
 }, {
