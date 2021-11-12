@@ -944,6 +944,9 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-bOjJRlFCrbU/YYe-Bx2hsKI/AAAAAAAAz84/OPZvfGaTWRgAkbrok2926osG2V2yfJ_2ACNcBGAsYHQ/h240/yuzuha-shiba.png",
 	colorBg: "#f09da5"
 },{
+	imgAnime: "https://lh3.googleusercontent.com/-pDcP_B0HOUA/YY4q7PSJNqI/AAAAAAAA0kE/Fp20M5fMuPAe7Ne0tND8DxC348elnToLACNcBGAsYHQ/h240/Kokonoi.png",
+	colorBg: "#5839cd"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
 	colorBg: "#ffca4e"
 },{
