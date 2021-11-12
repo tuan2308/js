@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-MrCf3pfUr88/YY4jLfNnYtI/AAAAAAAA0jc/2bvdzYhRJpwTwDlsxpAXIaO7LhvCoOfZACNcBGAsYHQ/h240/Mieruko.png",
+	colorBg: "#f7c35e"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-qOOQgHH9ntM/YY4hJRwMhMI/AAAAAAAA0jU/QuFPjoSJbFwKeRXYIv6Vdvpx89SqX5RHACNcBGAsYHQ/h240/Paimon.png",
 	colorBg: "#f5b274"
 },{
