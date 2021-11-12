@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-1GwKNvzKX2A/YY4kc-aM-ZI/AAAAAAAA0jk/19v7IlDaXysCh1dpI3LwqYmmlBG4BLHPACNcBGAsYHQ/h240/pico.png",
+	colorBg: "#ffca4a"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-MrCf3pfUr88/YY4jLfNnYtI/AAAAAAAA0jc/2bvdzYhRJpwTwDlsxpAXIaO7LhvCoOfZACNcBGAsYHQ/h240/Mieruko.png",
 	colorBg: "#f7c35e"
 },{
