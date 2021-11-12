@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-qOOQgHH9ntM/YY4hJRwMhMI/AAAAAAAA0jU/QuFPjoSJbFwKeRXYIv6Vdvpx89SqX5RHACNcBGAsYHQ/h240/Paimon.png",
+	colorBg: "#f5b274"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-SYiZvPq-z0k/YY4QqXQuooI/AAAAAAAA0i8/zhusu9JSZaU8V9J4M2dEXMXP7P6eiA_rgCNcBGAsYHQ/h240/Kunimi-Akira.png",
+	colorBg: "#5dcbc3"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-Cb4QdKyZdzQ/YYu7RqghLrI/AAAAAAAA0YQ/c_A9SLkG65QYh2tuWrCy4yk_R0Sy47RPgCNcBGAsYHQ/h240/Mukuro-Hoshimiya.png",
 	colorBg: "#f5b274"
 },{

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>SURVEY</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+  <script type="text/javascript">
+
+      jQuery(function ($) {
+
+          var progress1 = $("#progress1").shieldProgressBar({
+              value: 50,
+              text: {
+                  enabled: true,
+                  template: "{0} %"
+              }
+          }).swidget();
+
+          $("#increase1").shieldButton({
+              events: {
+                  click: function () {
+                      progress1.value(progress1.value() + 10);
+                  }
+              }
+          });
+          $("#decrease1").shieldButton({
+              events: {
+                  click: function () {
+                      progress1.value(progress1.value() - 10);
+                  }
+              }
+          });
+
+          $("#slider1").shieldSlider({
+              cls: "slider",
+              min: 0,
+              max: 10,
+              buttons: true,
+              ticks: {
+                  enabled: true
+              }
+          });
+
+          $("#slider2").shieldSlider({
+              cls: "slider",
+              min: 0,
+              max: 10,
+              buttons: true,
+              ticks: {
+                  enabled: true
+              }
+          });
+
+          $(".results").hide();
+
+      });
+
+      function upload(){
+        let region = document.querySelector("body"); // whole screen
+        var imageId = "";
+        var apiKey = "4cdbcff7e21a4868a3e8d1edf31ca1bdb5dd1817";
+        
+        
+        html2canvas(region, { onrendered: function(canvas) {
+              //document.body.appendChild(canvas); //show image captured back to our page
+              try {
+                  var img = canvas.toDataURL('image/jpeg', 0.9).split(',')[1];
+              } catch(e) {
+                  var img = canvas.toDataURL().split(',')[1];
+              }
+              // Begin file upload
+              console.log('Uploading file to Imgur..');
+
+              var apiUrl = 'https://api.imgur.com/3/upload';
+
+              var settings = {
+                async: false,
+                crossDomain: true,
+                processData: false,
+                contentType: false,
+                type: 'POST',
+                url: apiUrl,
+                headers: {
+                  Authorization: 'Bearer ' + apiKey,
+                  Accept: 'application/json',
+                },
+                mimeType: 'multipart/form-data',
+              };
+
+              var formData = new FormData();
+              formData.append('image', img);
+              //formData.append('album', 'G7mNnQJ'); //your albumID
+              settings.data = formData;
+
+              $('.results').show();
+
+              // Response contains stringified JSON
+              // Image URL available at response.data.link
+              $.ajax(settings).done(function (response) {
+                  console.log(response);
+              });
+
+            },
+        });
+
+  }
+  </script>
+
+  <style>
+      .slider {
+          width: 100%;
+      }
+
+      body {
+        background-color: #002233;
+      }
+
+      .container{
+          margin: 50px auto 50px auto;
+      }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+          <div class="panel panel-default">
+              <div class="panel-heading">Level "sương sương"</div>
+              <div class="panel-body">
+                  Do you hate me?
+                  <br />
+                  <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-default">
+                          <input type="radio" autocomplete="off"/> Yes
+                      </label>
+                      <label class="btn btn-default">
+                          <input type="radio" autocomplete="off" /> No
+                      </label>
+                  </div>
+                  <br />
+                  <br />
+
+                  Do you miss me?
+                  <br />
+                  <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-default">
+                          <input type="radio" autocomplete="off" /> Yes
+                      </label>
+                      <label class="btn btn-default">
+                          <input type="radio" autocomplete="off"/> No
+                      </label>
+
+                  </div>
+                  <br />
+                  <br />
+              </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading">Level "lưng lửng"</div>
+              <div class="panel-body">
+                  <div class="row">
+                      <div class="col-md-4 col-sm-4 col-xs-3">
+                          <span style="font-size:15px;">How much do you hate me?</span>
+                      </div>
+                      <div class="col-md-8 col-sm-8 col-xs-9">
+                          <input class="slider" id="slider1" value="4" />
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-4 col-sm-4 col-xs-3">
+                          <span style="font-size:15px;">How much do you miss me?</span>
+                      </div>
+                      <div class="col-md-8 col-sm-8 col-xs-9">
+                          <input class="slider" id="slider2" value="4" />
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading">Level "đu cột" - How much do you <b>love</b> me?</div>
+              <div class="panel-body">
+                  <div class="row">
+                      <div class="col-md-2 col-sm-2 col-xs-3 text-center">
+                          <button id="decrease1" style="width:100%; max-width:35px;">-</button>
+                      </div>
+                      <div class="col-md-8 col-sm-8 col-xs-8">
+                          <div style="width:100%;" id="progress1"></div>
+                      </div>
+                      <div class="col-md-2 col-sm-2 col-xs-3 text-center">
+                          <button id="increase1" style="width:100%; max-width:35px;">+</button>
+                      </div>
+                  </div>
+                  <div class="clearfix"><br /></div>
+              </div>
+          </div>
+
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <button onclick="upload()">Show results</button>
+                  <div class="clearfix"><br /></div>
+                  <span style="font-size:15px;color:red;" class="results">Congratulations! Your choices will send to me right now! And I will know your heart. hehe</span>
+              </div>
+
+          </div>
+
+      </div>
+  </div>
+</body>
+</html>
