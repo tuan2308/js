@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-8GOy_mdUtsM/YY9RzuKjYBI/AAAAAAAA0pQ/2GqPYZEz7pgyteDiZ-f0sl86DDRNc9p_wCNcBGAsYHQ/h240/Noé-Archiviste.png",
+	colorBg: "#6a5dca"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-g3fAoir2Y0Q/YY9RcDs0cQI/AAAAAAAA0pI/J9x1dO4nDV4E2VCbyj3fpOR9pcMO4yN8gCNcBGAsYHQ/h240/Akutagawa-Ryunosuke.png",
+	colorBg: "#665dad"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
 	colorBg: "#f05c80"
 },{
