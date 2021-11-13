@@ -1,4 +1,10 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-h42zJgZ0Q7o/YY93umj1eZI/AAAAAAAA0rI/ii6SiAlyrlsCeH0theObCOuP67EMqF5YwCNcBGAsYHQ/h240/Hanamichi-Sakuragi.png",
+	colorBg: "#d02a21"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-lg4fTETuJB0/YY92uhS8rTI/AAAAAAAA0rA/wj-A7kYVTUI4r2cO2dGxkwQj6XFyz6FOQCNcBGAsYHQ/h240/scaramouche.png",
+	colorBg: "#f57c4d"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-lFvpktc65bM/YY9UknLhFmI/AAAAAAAA0po/uB0XweIHN-oCG_ou5TIoet8yY5nwSfOEwCNcBGAsYHQ/h240/Claude-De-Alger-Obelia.png",
 	colorBg: "#e4b653"
 },{
