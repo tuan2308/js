@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-87ZGnwtArnE/YY8wXGYQs5I/AAAAAAAA0oU/zKhyixuUfyI1dUkjtaXXkMJGaFInwMxeACNcBGAsYHQ/h240/Azusagawa-Kaede.png",
+	colorBg: "#92706b"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-WTUTvXRXK-s/YY8vt9X_9pI/AAAAAAAA0oM/tqKN9qsKUe4dwyCEwSF-6u9QdgjauUOPwCNcBGAsYHQ/h240/Yukihana-Lamy.png",
+	colorBg: "#63aae7"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-G9B87taEr2M/YY8vCVPXydI/AAAAAAAA0oE/uFRZpFm5MtgarMxovghmZoWncwIqruX3QCNcBGAsYHQ/h240/Tenya-Iida.png",
+	colorBg: "#588bca"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-hThrJOyQIoM/YY8uYq37sII/AAAAAAAA0n8/avgJOyfkvcUTLxjLismoKcBbONG7POCBwCNcBGAsYHQ/h240/zhongli.png",
 	colorBg: "#fac542"
 },{
