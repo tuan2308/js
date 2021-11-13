@@ -1250,6 +1250,24 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-O3S2L5_dqTw/YYZPHIsffpI/AAAAAAAAzX0/_sWCuVi6yNMozoUq8ydRkL7E9B1lm9FNgCNcBGAsYHQ/h240/b7b9e1d6feade741ed789349815ddabc5ef592311b28c.jpeg"
 	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-Wx-efL_TMQo/YY9aVxGzGDI/AAAAAAAA0p4/pY18MpLjegwtscUcSjqmmoedEYeWpcAiQCNcBGAsYHQ/h240/Toro-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-q4dSveo3H5s/YY9aoeu23vI/AAAAAAAA0qQ/YZvPIl8Y-141IODShkLpFfbE-MllnZ1cgCNcBGAsYHQ/h240/af54d8a843bef7631fc44b7e13b62eb6583ffb2427a06.png"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-gfjNxb2Ak7Y/YY9aWLpYynI/AAAAAAAA0qA/NhZOhqXHqnM-VKaIOVCVO5Idk_O9hkfkwCNcBGAsYHQ/h240/Toro-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-LLzz8xiTK4c/YY9aoZ3ZjQI/AAAAAAAA0qU/003pk-fOEIQuT9d21ZSWkK5YYORyKRSRgCNcBGAsYHQ/h240/59201b4f48a4fbdf0a68102fd7ff44f25a5ddac54a04c.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-fpMZkWaxFuc/YY9aWOBH6yI/AAAAAAAA0p8/vgX-eI4jACYa4u9S0bpAHCdWdyvX_lcbgCNcBGAsYHQ/h240/Toro-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-UrZ0S2XW8uQ/YY9aoStXMsI/AAAAAAAA0qM/AyjY5BgVZ64MWx7blyUPxAtaJRZ-_8EhQCNcBGAsYHQ/h240/toro4.jpg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-h3AnEspVQ9Y/YYZHqYXb5RI/AAAAAAAAzXg/6PEadBEakSktrILBeV0AD_tzhlz46vxoQCNcBGAsYHQ/h240/Yorn.jpg",
 
