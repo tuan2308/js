@@ -1,4 +1,13 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
+	colorBg: "#f05c80"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-U8bJOP1kaXU/YY9PB6dfMmI/AAAAAAAA0o4/AkEMwNbKFUAQLyGEU6bpTjZOHtLClhZ2ACNcBGAsYHQ/h240/Hisoka-Morow.png",
+	colorBg: "#f05c80"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-Lhwq4J-Iu_k/YY9Oc1yhYSI/AAAAAAAA0ow/Lo8TBlpqGeQskXLOnO-pjvnVSC6bXf31ACNcBGAsYHQ/h240/Sakurayashiki.png",
+	colorBg: "#d879b1"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-87ZGnwtArnE/YY8wXGYQs5I/AAAAAAAA0oU/zKhyixuUfyI1dUkjtaXXkMJGaFInwMxeACNcBGAsYHQ/h240/Azusagawa-Kaede.png",
 	colorBg: "#92706b"
 },{
@@ -941,6 +950,9 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-nPonIkatt88/YRzIaPpi56I/AAAAAAAAwb0/5c5OMkWZ8UIaqteplu9IsgDK9AyT9w0qACNcBGAsYHQ/h240/imaushi.png",
 	colorBg: "#869592"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-D676iEFz-BQ/YY9NfXIph_I/AAAAAAAA0oo/Fu8A2cQNXtcp7M4-l3PkLr85wp8USArkACNcBGAsYHQ/h240/takeomi.png",
+	colorBg: "#8b6b9e"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-U2CZddwTurM/YTYqjNlXYVI/AAAAAAAAxAw/NAVkQtzQvtcPh6BH9ZhUhAnUDqzGtTSHgCNcBGAsYHQ/h240/smiley.png",
 	colorBg: "#f78889"
 }, {
