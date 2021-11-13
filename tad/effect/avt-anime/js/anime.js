@@ -1,4 +1,16 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-hThrJOyQIoM/YY8uYq37sII/AAAAAAAA0n8/avgJOyfkvcUTLxjLismoKcBbONG7POCBwCNcBGAsYHQ/h240/zhongli.png",
+	colorBg: "#fac542"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-hNSJzdaJIeo/YY8tyoADm9I/AAAAAAAA0n0/9q7bTOPmnF4XlRvjkVsVU-f00ZXe5QaSgCNcBGAsYHQ/h240/kaedehara-kazuha.png",
+	colorBg: "#d1362e"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-YMLBEgnuJ4U/YY8tarICiFI/AAAAAAAA0ns/JWoEapapAwMyYwhwBh6YnVZXqyi6muBmACNcBGAsYHQ/h240/Edogawa-Ranpo.png",
+	colorBg: "#b57c6f"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-aCyETuof9xk/YY8tE-EBR0I/AAAAAAAA0nk/9_egeemwbi4Vt1pEjg_auQDeCWLI_DmewCNcBGAsYHQ/h240/Miya-Chinen.png",
+	colorBg: "#97db34"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/unmei.png",
 	colorBg: "#d83e49"
 }, {
