@@ -362,7 +362,7 @@ var dsLquan = [
 	{
 		LQcover: "https://lh3.googleusercontent.com/-kFwyHimWBDg/YZDzZ_FGYlI/AAAAAAAA0tw/t0KNWAqo_jAZTNeABhg94yg9Q-vfCh0HQCNcBGAsYHQ/h240/Volkath-2.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-6R5E-zBcwyE/YZDz8p_d7iI/AAAAAAAA0uU/GVxcPwVw5J4FEQvN7AeuxYTNDaJ2DLnYgCNcBGAsYHQ/h240/61573ec523ca20cbcdc03b971838b94c5ed4c787b8cc9.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-EJcUDlT_UbA/YZD6Oec3wPI/AAAAAAAA0y8/5IdkdZurCVo8ox-HiFRwLaivl6YDgBjXACNcBGAsYHQ/h240/dc592b232cf9e3ecaace99a5d2ec392b5d947c5a92d96.jpeg"
 	},
 
 	{
