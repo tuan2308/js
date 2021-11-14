@@ -1,4 +1,22 @@
-var dsAnime = [{
+var dsAnime = [ {
+	imgAnime: "https://lh3.googleusercontent.com/-Mydq4k-nAoY/YZDWePSK9uI/AAAAAAAA0tI/dHarTehO98Mgm-PiksXP9Lk8TPfUIHYFQCNcBGAsYHQ/h240/Haku.png",
+	colorBg: "#5a9dc4"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-bqXSXxzf9Fc/YXKADnuklEI/AAAAAAAAyho/ojG8jRgk0toUjSXTm_0XNTXEIscD69eVACNcBGAsYHQ/h240/kaonashi.png",
+	colorBg: "#9c9c9c"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-t5p-THDB8o0/YX4epkm_zqI/AAAAAAAAy-s/5jXLmqq0cvQKtQovY0Yy1gzSF3jHPw5qACNcBGAsYHQ/h240/satoshi.png",
+	colorBg: "#288ce0"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-MEinkHu--vA/YZDVTdIv1dI/AAAAAAAA0tA/ModK69z8TcMHUxSOfrkUqLSheY-F4zQFQCNcBGAsYHQ/h240/serena.png",
+	colorBg: "#e97882"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-BC18ZEh_alY/YZDUkNaLnOI/AAAAAAAA0s4/OrCl-R2MZwYxBLbyWE5nQyN7No6wNBXkwCNcBGAsYHQ/h240/rachel-gardner.png",
+	colorBg: "#f4c790"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-AYmgYf1cKzM/YZDTvlKBISI/AAAAAAAA0sw/6zLwL3tefewBQXqm4OHSAFjC_59kKNMywCNcBGAsYHQ/h240/Beelzebub.png",
+	colorBg: "#2ed177"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-h42zJgZ0Q7o/YY93umj1eZI/AAAAAAAA0rI/ii6SiAlyrlsCeH0theObCOuP67EMqF5YwCNcBGAsYHQ/h240/Hanamichi-Sakuragi.png",
 	colorBg: "#d02a21"
 },{
@@ -278,9 +296,6 @@ var dsAnime = [{
 	imgAnime: "https://lh3.googleusercontent.com/-K9Bz2vCU_eg/YX4e-8m2E7I/AAAAAAAAy-4/XRhzVuePfw0F6O7SonhOYJDiRcaxzeHVwCNcBGAsYHQ/h240/komi-san.png",
 	colorBg: "#b459cb"
 },{
-	imgAnime: "https://lh3.googleusercontent.com/-t5p-THDB8o0/YX4epkm_zqI/AAAAAAAAy-s/5jXLmqq0cvQKtQovY0Yy1gzSF3jHPw5qACNcBGAsYHQ/h240/satoshi.png",
-	colorBg: "#288ce0"
-},{
 	imgAnime: "https://lh3.googleusercontent.com/-QINx8LuNbR0/YX4d7UPZruI/AAAAAAAAy-g/2I35CyrgK641K1EZMNtn1A1w4UwDMxhnwCNcBGAsYHQ/h240/arima-kousei.png",
 	colorBg: "#5fa9c1"
 },{
@@ -466,9 +481,6 @@ var dsAnime = [{
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-s1xlBrhVQao/YUXL2QmledI/AAAAAAAAxWM/sjt6BWYBZ2wN6sj_aKDtAsWSnlWkr2-NgCNcBGAsYHQ/h240/eugeo.png",
 	colorBg: "#40b6e2"
-}, {
-	imgAnime: "https://lh3.googleusercontent.com/-bqXSXxzf9Fc/YXKADnuklEI/AAAAAAAAyho/ojG8jRgk0toUjSXTm_0XNTXEIscD69eVACNcBGAsYHQ/h240/kaonashi.png",
-	colorBg: "#9c9c9c"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-UinqgAaxi5s/YXJ9PzdF8NI/AAAAAAAAyhY/he8Y4PAMuQUZLE-185pq8ImagmHx1gYzACNcBGAsYHQ/h240/cool-boy.png",
 	colorBg: "#e2bc5f"
