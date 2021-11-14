@@ -583,11 +583,7 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-1yF_LZg_VB0/YYyc9dQE0FI/AAAAAAAA0ec/KpKhPwIVeMoraDxidbh8_0rQH-xbLfbOQCNcBGAsYHQ/h240/e75a3e8b7b94a77de94206106a25282c5e4534a35eb19.jpeg"
 	},
-	{
-		LQcover: "https://lh3.googleusercontent.com/-1g639qixOJ4/YYycaON7AxI/AAAAAAAA0do/v_oCNcy2fJ4V_4mAtamOKZCbUy35oVqZQCNcBGAsYHQ/h240/Quillen-6.jpg",
-
-		LQthumb: "https://lh3.googleusercontent.com/-Dkg5yE_Wusg/YYyc81G2v0I/AAAAAAAA0eU/tqa1RtxqrqYESNc_h_PgvX6__Y59K_q-QCNcBGAsYHQ/h240/c0b03f3948e8e8999d63936e1d1d30b75ed48ab92cbe7.jpeg"
-	},
+	
 	{
 		LQcover: "https://lh3.googleusercontent.com/-1g639qixOJ4/YYycaON7AxI/AAAAAAAA0do/v_oCNcy2fJ4V_4mAtamOKZCbUy35oVqZQCNcBGAsYHQ/h240/Quillen-6.jpg",
 
