@@ -243,7 +243,28 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-GDeC0L-YQlI/YYZz_0WyRJI/AAAAAAAAzn0/JrnwgmJQTzYYxlb5xOLI3nBLgEZlDJTmACNcBGAsYHQ/h240/16727f5198e91db68433cb19b8bacc785d9479be7a773.jpeg"
 	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-kFwyHimWBDg/YZDzZ_FGYlI/AAAAAAAA0tw/t0KNWAqo_jAZTNeABhg94yg9Q-vfCh0HQCNcBGAsYHQ/h240/Volkath-2.jpg",
 
+		LQthumb: "https://lh3.googleusercontent.com/-6R5E-zBcwyE/YZDz8p_d7iI/AAAAAAAA0uU/GVxcPwVw5J4FEQvN7AeuxYTNDaJ2DLnYgCNcBGAsYHQ/h240/61573ec523ca20cbcdc03b971838b94c5ed4c787b8cc9.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-FOgj6kvbXOA/YZDzZ_noVXI/AAAAAAAA0t4/vur1igFiSEYFQu_fR5SBZWDbpefo8VfZQCNcBGAsYHQ/h240/Volkath-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-6R5E-zBcwyE/YZDz8p_d7iI/AAAAAAAA0uU/GVxcPwVw5J4FEQvN7AeuxYTNDaJ2DLnYgCNcBGAsYHQ/h240/61573ec523ca20cbcdc03b971838b94c5ed4c787b8cc9.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-OpS1MOWJnJk/YZDzZ8u4jsI/AAAAAAAA0t0/e9ulAY9cRr40XZsySl52VKDFsVLkmGu5wCNcBGAsYHQ/h240/Volkath-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XU3PyafY4JA/YZDz8vVc1uI/AAAAAAAA0uM/cPLOLYN8eI8znoKi98W6tI2Z9JpfQHQRgCNcBGAsYHQ/h240/vol4.jpg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-nYP1OOu6X_c/YZDzamP-hhI/AAAAAAAA0t8/aYZ_gQIOoEs6wk5DZaBU3L2YYUAAW72FgCNcBGAsYHQ/h240/Volkath-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-4PGJ5UyQuoc/YZD0K35WmFI/AAAAAAAA0uY/29UrDD35e6IW36bNK_9gdTJW5yu5G60XgCNcBGAsYHQ/h240/vol5.jpg"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-Z-xh9ZPyu5A/YYZzxd2pbHI/AAAAAAAAznw/rUilEsJZwHkHM5kQx1YSxpr7hEmIu8pigCNcBGAsYHQ/h240/Celica.jpg",
 
