@@ -1,4 +1,13 @@
-var dsAnime = [ {
+var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-XdpUrWTxt6k/YZDmYmdZMYI/AAAAAAAA0tg/xBmo71uZWRYNaeC92JP9WEBF9zsOTr7OgCNcBGAsYHQ/h240/yuri-ayato.png",
+	colorBg: "#e87797"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-QtxOlGXgsc4/YZDlxdf7WrI/AAAAAAAA0tY/CVc9vnCn8WQkVGoHtxFu-wnDs3ebNLv7ACNcBGAsYHQ/h240/Satori-Tendou.png",
+	colorBg: "#cd445a"
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-yZZk0-ZAF48/YZDXlzWnnkI/AAAAAAAA0tQ/Ba7dihjDodInRsWsWiquf-XzkvHlEi4dgCNcBGAsYHQ/h240/Tanaka.png",
+	colorBg: "#b38d70"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-Mydq4k-nAoY/YZDWePSK9uI/AAAAAAAA0tI/dHarTehO98Mgm-PiksXP9Lk8TPfUIHYFQCNcBGAsYHQ/h240/Haku.png",
 	colorBg: "#5a9dc4"
 },{
@@ -482,6 +491,9 @@ var dsAnime = [ {
 	imgAnime: "https://1.bp.blogspot.com/-s1xlBrhVQao/YUXL2QmledI/AAAAAAAAxWM/sjt6BWYBZ2wN6sj_aKDtAsWSnlWkr2-NgCNcBGAsYHQ/h240/eugeo.png",
 	colorBg: "#40b6e2"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/--7ubPBZr4KU/YZDmpndranI/AAAAAAAA0to/HnjNlnglqVYNc9wq1nZUEnfGpOgV2304gCNcBGAsYHQ/h240/argo.png",
+	colorBg: "#72c757"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-UinqgAaxi5s/YXJ9PzdF8NI/AAAAAAAAyhY/he8Y4PAMuQUZLE-185pq8ImagmHx1gYzACNcBGAsYHQ/h240/cool-boy.png",
 	colorBg: "#e2bc5f"
 }, {
