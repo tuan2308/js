@@ -4,7 +4,7 @@ var dsAnime = [
 		colorBg: "#ffca4e"
 	},{
 		imgAnime: "https://1.bp.blogspot.com/-8qoNfyqkEO4/YSOSYaIsEMI/AAAAAAAAwlk/uTZCVrF6UjIZyQAEqmmFt4FPxoJkI3NFwCNcBGAsYHQ/h240/karma.png",
-		colorBg: "#8a695c"
+		colorBg: "#cc3d3d"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/h240/nagisa.png",
 		colorBg: "#6e99c2"
