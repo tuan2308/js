@@ -1455,7 +1455,7 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-iBflZ6hDVn4/YYaO9u8ukwI/AAAAAAAAzuc/o6dWFN0NHl49q6iqGADtxZ3eLSTOjBVHwCNcBGAsYHQ/h240/8dc3de369880e1cd0dda0f27b0c4ae976116ce3d4f06f.png"
 	},
 	{
-		LQcover: "https://lh3.googleusercontent.com/-5S03teMIxcY/YYc9vFNU5uI/AAAAAAAAzzw/JlUKeljHTlw9NvpbThUjWxlzUKXy8QZQgCNcBGAsYHQ/h240/Nakroth-9.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-RevuHBvtaO4/YZG1E_MCuzI/AAAAAAAA020/IzXouSFewnIA5akkQ8Dg2Pxh28zgKeGigCNcBGAsYHQ/h240/Nakroth-9.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-pNvCyc39qDA/YYc9uwfrHCI/AAAAAAAAzzs/spvTxYNdqLQ-TNHgDn3_0gEQEmB_nnnFQCNcBGAsYHQ/h240/nak-9.jpg"
 	},
