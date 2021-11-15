@@ -1,5 +1,19 @@
 var dsAnime = [
 	{
+		imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
+		colorBg: "#ffca4e"
+	},{
+		imgAnime: "https://1.bp.blogspot.com/-8qoNfyqkEO4/YSOSYaIsEMI/AAAAAAAAwlk/uTZCVrF6UjIZyQAEqmmFt4FPxoJkI3NFwCNcBGAsYHQ/h240/karma.png",
+		colorBg: "#8a695c"
+	}, {
+		imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/h240/nagisa.png",
+		colorBg: "#6e99c2"
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-mke0jYFpD8c/YZJJfJbiouI/AAAAAAAA0-o/_sTbbQ-WUQoMnkKzgBK0X-qYCWgFn1i7ACNcBGAsYHQ/h240/Kayano-Kaede.png",
+		colorBg: "#75cba2"
+	},{
 		imgAnime: "https://1.bp.blogspot.com/-kEFP8gx1MGA/YU7ZVnh6rdI/AAAAAAAAxnU/GVkk7lDh0Ss8VrdrjWmeEAMFsbQ0BmmFwCNcBGAsYHQ/h240/subaru.png",
 		colorBg: "#ff9e2e"
 	},  {
@@ -1069,20 +1083,6 @@ var dsAnime = [
 {
 	imgAnime: "https://lh3.googleusercontent.com/-pDcP_B0HOUA/YY4q7PSJNqI/AAAAAAAA0kE/Fp20M5fMuPAe7Ne0tND8DxC348elnToLACNcBGAsYHQ/h240/Kokonoi.png",
 	colorBg: "#5839cd"
-},{
-	imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
-	colorBg: "#ffca4e"
-},{
-	imgAnime: "https://1.bp.blogspot.com/-8qoNfyqkEO4/YSOSYaIsEMI/AAAAAAAAwlk/uTZCVrF6UjIZyQAEqmmFt4FPxoJkI3NFwCNcBGAsYHQ/h240/karma.png",
-	colorBg: "#8a695c"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/h240/nagisa.png",
-	colorBg: "#6e99c2"
-},
-
-{
-	imgAnime: "https://lh3.googleusercontent.com/-mke0jYFpD8c/YZJJfJbiouI/AAAAAAAA0-o/_sTbbQ-WUQoMnkKzgBK0X-qYCWgFn1i7ACNcBGAsYHQ/h240/Kayano-Kaede.png",
-	colorBg: "#75cba2"
 },
 
 {
