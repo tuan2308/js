@@ -1207,7 +1207,7 @@ var dsLquan = [
 	},
 	{
 
-		LQcover: "https://lh3.googleusercontent.com/-AMn85Tpud7M/YYyvCzOdreI/AAAAAAAA0es/toxnfoGjzQMihWt_Ww-Ceo_gyonDvzzuwCNcBGAsYHQ/h240/Airi-13.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-jAbUIxIS2tM/YZG2LVoMp5I/AAAAAAAA028/a5hwK0Lt4GEhLkOR02YYngXMJ5M2K8G8gCNcBGAsYHQ/h240/Airi-13.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-FbLAqaZXN9M/YYyvMAIPqnI/AAAAAAAA0ew/BPf4BdrJIKMh2fbF2d7XYlAzxD3TONwuwCNcBGAsYHQ/h240/airi13.jpg"
 	},
