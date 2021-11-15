@@ -1078,7 +1078,14 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/h240/nagisa.png",
 	colorBg: "#6e99c2"
-},  {
+},
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-mke0jYFpD8c/YZJJfJbiouI/AAAAAAAA0-o/_sTbbQ-WUQoMnkKzgBK0X-qYCWgFn1i7ACNcBGAsYHQ/h240/Kayano-Kaede.png",
+	colorBg: "#75cba2"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-OWoTcCKzihM/YSIak4FDQLI/AAAAAAAAwjI/_bfKY2D02IoNrz0eUMM2cF_oCZOT8K8OQCNcBGAsYHQ/h240/ruby-rose.png",
 	colorBg: "#1f1c25"
 },  {
