@@ -1,5 +1,8 @@
 var dsAnime = [
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-Dcg9Q-NhqmI/YZJ_gpLj4vI/AAAAAAAA1Ck/Z_z6dU3uhwAQSL7BkvXd1PVtQvg1AOBcwCNcBGAsYHQ/h240/hachiman.png",
+		colorBg: "#3c7cd4"
+	},{
 		imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
 		colorBg: "#ffca4e"
 	},{
