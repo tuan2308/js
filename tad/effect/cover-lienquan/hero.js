@@ -298,6 +298,14 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-qKReaiB5Hgk/YZGzjItiYsI/AAAAAAAA02o/jkyFpDLPG5sZ6NpPRON8mEyZ7PVvzLV5ACNcBGAsYHQ/h240/Dirak-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-b7v0bYhAaNo/YZGzjCvgS2I/AAAAAAAA02k/X9Pe1sQBGKshV3nTalIz237v68C1G7ycACNcBGAsYHQ/h240/dirak5.jpg"
+	},
+
+
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-WzhhHH8HgHw/YYZ1AqZsGgI/AAAAAAAAzog/-Mdjy_L9FSY3aUFkkMav30X7tKhW0kMLACNcBGAsYHQ/h240/Ishar.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-UwULksoxo60/YYZ1AuHOTcI/AAAAAAAAzoc/tYV65RxObuExfQb82ltbF-fK0ku-AXU0wCNcBGAsYHQ/h240/1009dcdfe78de2f6bc7fbdaea21cabc05df2198341d45.jpeg"
