@@ -1612,6 +1612,15 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-E2IwJotbz04/YYe5yD1TXRI/AAAAAAAAz78/IPP3nkp0absyp-ZXrouQN3-BzvAohferQCNcBGAsYHQ/h240/87c1d1d72fbfcb91a87524fbf36fb2606116c5ef47671.png"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-7EWUUqLf_Zk/YZHVCjlF9aI/AAAAAAAA03U/SWJ3DIeGZKM5HHVwVUJtL_qctLEHaVpwQCNcBGAsYHQ/h240/Violet-15.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-MpdwJXUrIBM/YZHVCYS4XsI/AAAAAAAA03Q/BWso69lwPjgU1XNgrK6rBcwACc-F5L_qACNcBGAsYHQ/h240/vio15.jpg"
+	},
+
+
+
 	{
 		LQcover: "https://lh3.googleusercontent.com/-HcCDlNXphkI/YYZES9bO-KI/AAAAAAAAzVk/9LTqbvxD2KY53fPxPEEg_brD1ZlRiZIxACNcBGAsYHQ/h240/Chaugnar.jpg",
 
