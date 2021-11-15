@@ -1477,6 +1477,46 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-zGd-KSYkeTI/YYZiOx2mcRI/AAAAAAAAzac/FJD8p8nZnLsgzCVdFocvGGBgT00_8hdfgCNcBGAsYHQ/h240/f2a0aca22638c3fe5a63bac7e9632bfc5e45321b07373.jpeg"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-t6H_OQwQlDU/YZJmdxJZRTI/AAAAAAAA1Ag/f5HIIMJlkP8sSI_70zMfVlxoUX0FdJlxwCNcBGAsYHQ/h240/nk-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-o90Kwyb_Yi0/YZJmc9GR3yI/AAAAAAAA1AQ/VFmtZS3DbsI9Srtu3p3i6WoO5cd_xeB7QCNcBGAsYHQ/h240/9750f204bf00281fe2e51ca142768cce59b293b79faeb.jpeg"
+	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-nrA0mHHsp5g/YZJmeIrzl4I/AAAAAAAA1Ak/pYbcauegeAYwdSsrzFdl5M3IUawUrbocQCNcBGAsYHQ/h240/nk-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-rHFxDvUm0gI/YZJmcJuNw5I/AAAAAAAA1AI/fdlq0svhyrc3-lgXZ1A9s7AiJvgcp1QhQCNcBGAsYHQ/h240/3683832b4952d76c9430b7eba1fff70a5a93820f6a99e.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-PLnFitMUxdc/YZJmeQACdzI/AAAAAAAA1Ao/Rfzk0qCHdyUzCJY6BSWgmyfUr4b7sOFiQCNcBGAsYHQ/h240/nk-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-ycm7i833A68/YZJmdjdQd7I/AAAAAAAA1Ac/eT5ZxMxz99wi3dsT9TOnWF8MYUeOKqPVACNcBGAsYHQ/h240/d89f0a8587115e23c8156aa36db9ccbe5b67fd281b28a.png"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-I5lrjNC0_y0/YZJmegviYRI/AAAAAAAA1As/vkL0UxA0m6AJSuzj8J93NtuLpWal8-QmQCNcBGAsYHQ/h240/nk-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-5LsSKo5npJ8/YZJmdIW7MDI/AAAAAAAA1AU/61Ob8gmw2vYVWaLwiu3AOETR5Gp7mUsHwCNcBGAsYHQ/h240/9e27405399e2242178d7019defa9241e5ce64af808e40.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-OclwsO11wLE/YZJmejZsWsI/AAAAAAAA1Aw/6qfGK39c3Y4EUXw3KJ8xa7ST4YW8Ujc8gCNcBGAsYHQ/h240/nk-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-f-BZ0r3n4X0/YZJmcPZnbrI/AAAAAAAA1AE/66S4rMKkmCUflDMFb90ilR5hhfLGyaGyACNcBGAsYHQ/h240/28eec5a8eca75382424ffc462e401f6c5d8e14d0dc0a4.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-YvhTCynH6tk/YZJmfPqIbYI/AAAAAAAA1A0/y7or9gwKpN08jICOFa-Ck2Elqgwlg8MCACNcBGAsYHQ/h240/nk-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-bV_FXUh2do0/YZJmcMa-cbI/AAAAAAAA1AM/hdkNmQJ7W60VHdyPbnOWN7rxmY06dj9GwCNcBGAsYHQ/h240/64f9afbab0845de5b4a7c7aa7f2582a15e607c56c0cc9.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-y4Nv36s4aRE/YZJmfqy1AII/AAAAAAAA1A4/mYjtEhxOoyQVTi52nyBQ3w1_kSRjGq46gCNcBGAsYHQ/h240/nk-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-CYeieOzoBe0/YZJmdLrFXUI/AAAAAAAA1AY/0CGBefGiyS4NHfA8fdn72d6g6R_aOmbSgCNcBGAsYHQ/h240/bc402592f4d5daa41a15e6d67489cbd061175a79a1072.png"
+	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-DpQvtpPJfjk/YYZiAJIN2sI/AAAAAAAAzaU/P7PSrtxlTp0ORFRHtsnGSStsAs1OMN05QCNcBGAsYHQ/h240/Macloch.jpg",
 
@@ -1651,6 +1691,44 @@ var dsLquan = [
 
 		LQthumb: "https://lh3.googleusercontent.com/-i9Df8BY0Qq0/YYZHqVtr5lI/AAAAAAAAzXk/BNgcrsx_bAkJ00njNXsxmzCbj00ZqENUgCNcBGAsYHQ/h240/212b5120d63099d26da82b8ff1ed11875c49389add497.jpeg"
 	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-v_s1s0_5dAw/YZJoqNNgyYI/AAAAAAAA1Bo/-0NfBAiVZJEvr_AgR6HXUfrnhD_ZfRkyACNcBGAsYHQ/h240/Yorn-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-XvQQjn3OiIs/YZJop7KUzqI/AAAAAAAA1Bk/QeXAQNf1C84cZiR9gMAguAyHfkLxBOLbwCNcBGAsYHQ/h240/9ea6a9052c3398efcd4b8bc75fe3ae305c4938fe45911.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-wx_2Hb8csNg/YZJoqJ17wZI/AAAAAAAA1Bs/VuAlolbVeMga9KsszJkhZTATY4-LH0O3gCNcBGAsYHQ/h240/Yorn-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-PDjMxuXBxzk/YZJopDy0aAI/AAAAAAAA1Bg/Lo47TjEa0wwpeOpHGmPc3WvHzO4pr1iWwCNcBGAsYHQ/h240/60315c4d2109aef556ad2b3f425c977859c622a9c93d2.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-p_ulVL7pmBo/YZJoqe_O56I/AAAAAAAA1Bw/jrvwaxQGf6oICEg_ZyflnDb34n_j1pHYgCNcBGAsYHQ/h240/Yorn-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-P1X-Q5wxVwA/YZJopN0wN6I/AAAAAAAA1BY/AowLVxO2OYcBfBn5T7c0OvYSXURxzQozQCNcBGAsYHQ/h240/31c9c51abdc9e81332054eba6cf207745a5837bd0932c.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-ZMtQG4JapIo/YZJoq9QleCI/AAAAAAAA1B0/tkLP9hogncEX63R9aKaCmVaCsKgn2SubwCNcBGAsYHQ/h240/Yorn-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-pDpV8Bw12TQ/YZJopI0SLEI/AAAAAAAA1Bc/aD8fEQWc_j0f-NwS08P0HDdiU5G51DZMgCNcBGAsYHQ/h240/19940bfcf0a81d06f2d9bee52780782f5c6240ad64d7a.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-kIPkgudAIoM/YZJoqyGgRXI/AAAAAAAA1B4/1njfzwrQJyExqFsh_Djaa-WKniM7conMwCNcBGAsYHQ/h240/Yorn-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-bsvivgUvQXI/YZJosvGI3jI/AAAAAAAA1CM/GJT_I-gdVREMzPnQEQk2DYQayD0T8ZrEQCNcBGAsYHQ/h240/d20a60d620a9ae6479e6b546b9eb36e75e413c80b0c38.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-s-7wcLP5qy0/YZJorLCLy4I/AAAAAAAA1B8/ODW0hgnDEPUFmVFvJYpqW1qMXpkwcuvfwCNcBGAsYHQ/h240/Yorn-7.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-b38YmIWGdZ8/YZJorqdJSGI/AAAAAAAA1CE/jw3JJIFG4nsxq6n8fOvnOyLahfiEU7rhACNcBGAsYHQ/h240/c1798ce4745268e778961de7b3c4bf315fbb6e3fcc269.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-SU2xDtsWHrk/YZJorpVA9tI/AAAAAAAA1CA/nZsQrHMfQkIxS3BRHQ7zkyJIjdAjrxP-ACNcBGAsYHQ/h240/Yorn-8.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-sSyjPUUCuNA/YZJor8560KI/AAAAAAAA1CI/VOaiO6SRWOIwZjzEKhPge8gXionqqm7eQCNcBGAsYHQ/h240/cb3b27724593d2803c7a79c6bcebd0366116cb595c88e.png"
+	},
+
 
 	{
 		LQcover: "https://lh3.googleusercontent.com/-xr84maJ5qls/YYZHbbgglJI/AAAAAAAAzXc/2Vc-I9YWlmAtupRYVEskj7awVe_z5BxFQCNcBGAsYHQ/h240/Gildur.jpg",
