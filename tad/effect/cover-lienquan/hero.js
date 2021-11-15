@@ -1020,7 +1020,29 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-tBBqa0yQ0AM/YYZmjZA1ZjI/AAAAAAAAzds/z4b5NmbIJF0VI-hIVWD43HUQfqXm_JrKQCNcBGAsYHQ/h240/Zill.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-4AD_M7hMOWA/YYZmjf9yiQI/AAAAAAAAzdw/Q0nMUVndCmskmBwb8x8puRnE9YDLJNKngCNcBGAsYHQ/h240/256b32f0089b83919788d8a4d0cf88cc59966ed3777eb.jpeg"
-	}, {
+	},
+	
+	{
+		LQcover: "https://lh3.googleusercontent.com/-ekpUoAH8foU/YZIL99fw2OI/AAAAAAAA03s/TuI9T7RYB6IBgAhOquHtJgKmMiOiXzsbQCNcBGAsYHQ/h240/Zill-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-LnIlwZzsA3A/YZIL9GjnMGI/AAAAAAAA03o/JyBwYIlm0t4TXv53qiqELyeeAwzADTcIQCNcBGAsYHQ/h240/8006a0f36b59be7ef020ee1d43ccf94a59966eec3e9b8.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-5RbETOS6F8k/YZIL-dcom7I/AAAAAAAA03w/5GtEaWUSPh8NeWaLMJ7AqeO6mTLK-8GfACNcBGAsYHQ/h240/Zill-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-eaQp4jny6ZQ/YZIL-9CgoiI/AAAAAAAA038/Az6tVFPSIkYGStxXekYXd0OmD-ViMcd3QCNcBGAsYHQ/h240/ee7008ffdeece347e497e547cfb971795a7a79940007e.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qaKRGdVQUZE/YZIL-QT_VrI/AAAAAAAA030/RfxyDYPKDn0iyLYgYRfHOAdijkNXHE0ngCNcBGAsYHQ/h240/Zill-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-eaQp4jny6ZQ/YZIL-9CgoiI/AAAAAAAA038/Az6tVFPSIkYGStxXekYXd0OmD-ViMcd3QCNcBGAsYHQ/h240/ee7008ffdeece347e497e547cfb971795a7a79940007e.jpeg"
+	},
+	{
+		LQcover: "https://lh3.googleusercontent.com/-nb8xO6oPmY0/YZIL-1B0ITI/AAAAAAAA034/MR0ZsDz5FXQjAGW6xlggmNVCQTzHqS_6wCNcBGAsYHQ/h240/Zill-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-BEa-WC6YjWw/YZIL9LzSQOI/AAAAAAAA03g/mz71M_uW7mYAtwqFWCaapVkRJx2iKQJMACNcBGAsYHQ/h240/53485f62723a7ba4a6c7121df7831b705e453413c92e1.jpeg"
+	},
+	{
 		LQcover: "https://lh3.googleusercontent.com/-RwzzNPoI6TY/YYZmV9-kLrI/AAAAAAAAzdo/MIKFwM-IYC0RB0YF0L9TF5xkc2XMSqtPACNcBGAsYHQ/h240/Murad.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-HCHUxVOoNFc/YYZmV0yAS3I/AAAAAAAAzdk/XsqobJgyZtwwNdd33yZR3hLLRZOqJYIXwCNcBGAsYHQ/h240/e3db6ff94f1becebd8f742e611ed285f5983e6644743f.jpeg"
@@ -1871,7 +1893,7 @@ var dsLquan = [
 		LQcover: "https://lh3.googleusercontent.com/-LWBAMn-X4Tw/YYY7xtRJMDI/AAAAAAAAzRY/WdMxoQNV4HE2ycf0tiokNUB_PHsMrvzKwCNcBGAsYHQ/h240/Vanhein-8.jpg",
 		LQthumb: "https://lh3.googleusercontent.com/-8R1m1m4esvQ/YYY8_KX8yeI/AAAAAAAAzSE/i5dTwb3n8hENlzcvdaVfcjSUBRV9t8KXACNcBGAsYHQ/h240/6e495e602d02a66436880df337ea624d5ef5b921c04f9.jpeg"
 	}
-].sort( () => .5 - Math.random() );
+]
 
 
 console.log(Object.keys(dsLquan).length);
