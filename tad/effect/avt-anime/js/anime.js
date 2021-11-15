@@ -351,7 +351,7 @@ var dsAnime = [{
 	colorBg: "#48c7aa"
 },{
 	imgAnime: "https://1.bp.blogspot.com/-D_8PxJ58tYE/YQqczcsSdoI/AAAAAAAAv3U/M9Z4JB8BYD4IN54qgld45M1G2l9NKD54ACNcBGAsYHQ/h240/tanjiro.png",
-	colorBg: "#3b9172"
+	colorBg: "#4cba93"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-1lzQ9TBEEtA/YQqczRz91DI/AAAAAAAAv3Y/xSE5cIapEx81y-drb8pTFBX5sXytr-DZACNcBGAsYHQ/h240/nezuko.png",
 	colorBg: "#ffa6ac"
@@ -618,7 +618,7 @@ var dsAnime = [{
 	colorBg: "#f18695"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-rU5kOWEtTMc/YQzvR0DHARI/AAAAAAAAv7U/kTMGmdciDoEWji2CvCc7XPNnli7TcZPLgCNcBGAsYHQ/h240/satoru-gojo.png",
-	colorBg: "#5e4c7c"
+	colorBg: "#746294"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-iCpLylmNJf4/YSyq5Gj06iI/AAAAAAAAw1U/2iRtPrlXKJ4ywgQBKC7rju10YSx29wdbQCNcBGAsYHQ/h240/sukuna.png",
 	colorBg: "#c66163"
