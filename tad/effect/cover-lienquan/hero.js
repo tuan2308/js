@@ -862,6 +862,38 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-WQRb9H1yihA/YZITP7vlgUI/AAAAAAAA07s/XPMm6obBZCQ0NqideiA-PFyHIjM8ttg-gCNcBGAsYHQ/h240/Amily-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-JRFSkcgiG3o/YZITPh1OIeI/AAAAAAAA07o/8TOKBIzAs6gW0HkAvKAd1d-NF5hvk7vNgCNcBGAsYHQ/h240/58922be4a508108552db403fb6c031295b88ea54d7b74.jpeg"
+	},
+
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-qW77a9hbjEc/YZITQOUdzQI/AAAAAAAA07w/1kDMCruQpdMHbK6ggriSx7Anvtahuz_iwCNcBGAsYHQ/h240/Amily-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-NEDl1e2c0dg/YZITOxxpCII/AAAAAAAA07c/nKo5ZeSWmQkGAhHYk6s03PVVyclgALcOgCNcBGAsYHQ/h240/32d9ee54dc31eb8dfed5342aef3846995c62405f60bb4.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-pETxfsAVVjs/YZITQZAmRlI/AAAAAAAA070/f28agKqYL6IdHUQJyFyz9onPdKBul6LTACNcBGAsYHQ/h240/Amily-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-if3OXJiwfxQ/YZITOxXAneI/AAAAAAAA07k/B-ytNX_oMtcrqIohK8hb21lUNcj8rTScACNcBGAsYHQ/h240/377238cf21ad73aa0fbcf77f6185724c5c7e4bd098684.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-L94t5bUsFqM/YZITQii9ocI/AAAAAAAA074/GfJ7d4DOtOw1OjBLqfOZvQvqub1l1pnzQCNcBGAsYHQ/h240/Amily-5.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-jtqTN924BK4/YZITQ8-d4fI/AAAAAAAA08A/gG8QBc2Tj9ETQMsYfXVrdyzJuu9kg-PoACNcBGAsYHQ/h240/fd1286a8e58883aa706889ee564479c35e4534752b180.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-t_dDqfu7hew/YZITlVI6R4I/AAAAAAAA08Y/gjnpZb1LtvgYNF6oOSNALhWxPcRPRHPnwCNcBGAsYHQ/h240/Amily-6.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-JpIR-AS3QVA/YZITO8C9ftI/AAAAAAAA07g/7ab4Ar1mLo0XKgZ7pxQCNYxmrbmxt5pHwCNcBGAsYHQ/h240/0db9aaeb584e9fc8b692218f424759705fbcba42bfa72.jpeg"
+	},
+
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-8mPCFLLO-8Q/YYZtjDKgAXI/AAAAAAAAzjk/k8uL5EU6QwUaXVqg5ZAWOKrme0wmtGQbACNcBGAsYHQ/h240/Annette.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-z_QVpQqZwtY/YYZtiyyAuBI/AAAAAAAAzjg/xrLBwuDkKpYogwFK0Sy1c4Ldvdp1R1ubQCNcBGAsYHQ/h240/5f93999a6586945b8d85258d67cee9195ef60dbbd2b5f.jpeg"
@@ -1134,7 +1166,7 @@ var dsLquan = [
 	{
 		LQcover: "https://lh3.googleusercontent.com/-qaKRGdVQUZE/YZIL-QT_VrI/AAAAAAAA030/RfxyDYPKDn0iyLYgYRfHOAdijkNXHE0ngCNcBGAsYHQ/h240/Zill-4.jpg",
 
-		LQthumb: "https://lh3.googleusercontent.com/-eaQp4jny6ZQ/YZIL-9CgoiI/AAAAAAAA038/Az6tVFPSIkYGStxXekYXd0OmD-ViMcd3QCNcBGAsYHQ/h240/ee7008ffdeece347e497e547cfb971795a7a79940007e.jpeg"
+		LQthumb: "https://lh3.googleusercontent.com/-dj4HEiWasmo/YZIUNQeIsBI/AAAAAAAA08g/H8DZyea1Qc4TQ2AxcKCoswEE0iJhr-iiQCNcBGAsYHQ/h240/8572a8572b042cb7bb0e7dc3d09dc8255c80da2259ba1.jpeg"
 	},
 	{
 		LQcover: "https://lh3.googleusercontent.com/-nb8xO6oPmY0/YZIL-1B0ITI/AAAAAAAA034/MR0ZsDz5FXQjAGW6xlggmNVCQTzHqS_6wCNcBGAsYHQ/h240/Zill-5.jpg",
