@@ -353,7 +353,7 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-eCSsLOSPBVc/YZD4T6ihIRI/AAAAAAAA0xs/QUYlF5Z0GlAlUmI-qUs2C_VLp_RUT3rMQCNcBGAsYHQ/h240/28a71d5d00272e77e50e4f17bbf1fe305fbcb86f9d634.jpeg"
 	},
 	{
-		LQcover: "https://lh3.googleusercontent.com/-zkmp1ZimPTY/YZD4VAkViSI/AAAAAAAA0yE/t1KX97DIn4EOMLyZ297wAnvML6qFmeADQCNcBGAsYHQ/h240/Eland%2527orr-4.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-zkmp1ZimPTY/YZD4VAkViSI/AAAAAAAA0yE/t1KX97DIn4EOMLyZ297wAnvML6qFmeADQCNcBGAsYHQ/h240/Eland'orr-5.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-MFg1KtC2shQ/YZD4T1RyMjI/AAAAAAAA0xw/_Oh91alw8TgdyFvohSUOoinAcNXTglJHQCNcBGAsYHQ/h240/8458d266870cafbd3411eacdb519e14c61178ff69dd21.png"
 	},
