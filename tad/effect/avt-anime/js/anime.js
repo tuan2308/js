@@ -1,4 +1,19 @@
 var dsAnime = [
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-cshU33TXmno/YZONxKuYOLI/AAAAAAAA1FA/43Yt3gEaeDcshEm0CC5-t_sOKP2kTRN5ACNcBGAsYHQ/h240/Legosi.png",
+		colorBg: "#454545"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ia5hdPLfY08/YZOOG_yWIeI/AAAAAAAA1FI/mpbZns8j4iMkZzqRNfZcf_IBxtthW3eBwCNcBGAsYHQ/h240/Rouis.png",
+		colorBg: "#eaae6a"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-tvMW9KcU1hw/YZOOtdWZlmI/AAAAAAAA1FQ/tvqpzB56h48DKH245TOKGbeEJU14Zk-TACNcBGAsYHQ/h240/Haru.png",
+		colorBg: "#eebeb1"
+	}, 
+	
+	
 	{
 		imgAnime: "https://1.bp.blogspot.com/-Iu_ufSRyN2A/YRSERnBX33I/AAAAAAAAwIs/-tITYLeOIH8xFHlftzu31YnaFKJBvMI_gCNcBGAsYHQ/h240/l-lawlie.png",
 		colorBg: "#454545"
