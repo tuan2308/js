@@ -2,7 +2,7 @@ var dsAnime = [
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-cshU33TXmno/YZONxKuYOLI/AAAAAAAA1FA/43Yt3gEaeDcshEm0CC5-t_sOKP2kTRN5ACNcBGAsYHQ/h240/Legosi.png",
-		colorBg: "#454545"
+		colorBg: "#598e74"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-ia5hdPLfY08/YZOOG_yWIeI/AAAAAAAA1FI/mpbZns8j4iMkZzqRNfZcf_IBxtthW3eBwCNcBGAsYHQ/h240/Rouis.png",
