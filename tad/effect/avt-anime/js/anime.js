@@ -34,7 +34,10 @@ var dsAnime = [
 	},{
 		imgAnime: "https://lh3.googleusercontent.com/-baX3xQG7RwU/YZOLF4qX1YI/AAAAAAAA1EY/4FlLzG-ctZE4CzbnxprBRzyjVgsxr5bvACNcBGAsYHQ/h240/hajime-hinata.png",
 		colorBg: "#677b5d"
-	},
+	},{
+		imgAnime: "https://1.bp.blogspot.com/-IF9ZetPgBCY/YSo3XDvvUvI/AAAAAAAAwzA/0y9SNdrheFUVh78YDcaqR3WS1EWxDm7eACNcBGAsYHQ/h240/nanami.png",
+		colorBg: "#5997a5"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-_YldhORDBl0/YZOJNJkXVoI/AAAAAAAA1EA/XvGOGdmZkPk-aaYANOtXmGL98dnHXC0AACNcBGAsYHQ/h240/Yui.png",
 		colorBg: "#f6cb8e"
@@ -962,9 +965,6 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-NgD81tLgq84/YSyrizMSJEI/AAAAAAAAw1c/lNH0mV-av2EfvNOG_-DxdJiGCDeRDM7rwCNcBGAsYHQ/h240/raphtalia.png",
 	colorBg: "#d58390"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-IF9ZetPgBCY/YSo3XDvvUvI/AAAAAAAAwzA/0y9SNdrheFUVh78YDcaqR3WS1EWxDm7eACNcBGAsYHQ/h240/nanami.png",
-	colorBg: "#5997a5"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-3N8lN_gj3BM/YSo2wYR67eI/AAAAAAAAwy4/KSjXnRZmytgBWkmFyq_kWCaJQaAZp2xXQCNcBGAsYHQ/h240/ai-ohto.png",
 	colorBg: "#498ce0"
