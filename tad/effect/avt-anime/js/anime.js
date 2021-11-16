@@ -1,6 +1,43 @@
 var dsAnime = [
 	{
-		imgAnime: "https://lh3.googleusercontent.com/-Dcg9Q-NhqmI/YZJ_gpLj4vI/AAAAAAAA1Ck/Z_z6dU3uhwAQSL7BkvXd1PVtQvg1AOBcwCNcBGAsYHQ/h240/hachiman.png",
+		imgAnime: "https://1.bp.blogspot.com/-Iu_ufSRyN2A/YRSERnBX33I/AAAAAAAAwIs/-tITYLeOIH8xFHlftzu31YnaFKJBvMI_gCNcBGAsYHQ/h240/l-lawlie.png",
+		colorBg: "#454545"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-zcMdjHsBaKI/YZONVXghwfI/AAAAAAAA1E4/FDgV6pnrV9kjL193UzHbwt5Nw6I07788gCNcBGAsYHQ/h240/Death-Ryuk.png",
+		colorBg: "#5135e0"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-9UgUOFUd-PU/YZOM52zDfkI/AAAAAAAA1Ew/A2eDynR6dHgkQFA5dABvWboUeAOzYGWyQCNcBGAsYHQ/h240/Light-Yagami.png",
+		colorBg: "#d74f3e"
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-afYu2UO-WXM/YZOMZyfdMqI/AAAAAAAA1Eo/agbVgAGZtWkFsYDWZUNf5abk4w8ZS5tiACNcBGAsYHQ/h240/Fumino-Furuhashi.png",
+		colorBg: "#6b9df1"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-_ilC1X6hTvg/YZOL3Wgk46I/AAAAAAAA1Eg/yZ7Fo0SAaXIb8tYN-p5D0Cz07eRZTJg8gCNcBGAsYHQ/h240/TOMURA.png",
+		colorBg: "#7295a4"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-baX3xQG7RwU/YZOLF4qX1YI/AAAAAAAA1EY/4FlLzG-ctZE4CzbnxprBRzyjVgsxr5bvACNcBGAsYHQ/h240/hajime-hinata.png",
+		colorBg: "#677b5d"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-_YldhORDBl0/YZOJNJkXVoI/AAAAAAAA1EA/XvGOGdmZkPk-aaYANOtXmGL98dnHXC0AACNcBGAsYHQ/h240/Yui.png",
+		colorBg: "#f6cb8e"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-_IYrKlL3i1I/YZOI4XzRmAI/AAAAAAAA1D4/xpsCvE0i4B8fehiACo8iR0wwdQINpomkwCNcBGAsYHQ/h240/Hojo-Sophie.png",
+		colorBg: "#ff72a6"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-SK34TPmFxsE/YZOIIUKw2dI/AAAAAAAA1Dw/NCAHFXw45P41nfaNkstSE6-xWpiQRfhpQCNcBGAsYHQ/h240/Leonardo.png",
+		colorBg: "#3475d7"
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9wLr0RF_SEs/YZOEawD3JKI/AAAAAAAA1DY/hiN3L0q7aSQRer4CjUqK3qHrNr5tdQtDgCNcBGAsYHQ/h240/Matsuda-Takato.png",
+		colorBg: "#31acea"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-1S8qPMb-9s0/YZOD5dp4KeI/AAAAAAAA1DQ/0tDDQh4IvnoYj1kofA9q9b-I7AnnUX_kACNcBGAsYHQ/h240/hachiman.png",
 		colorBg: "#3c7cd4"
 	},{
 		imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
@@ -557,7 +594,21 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/--7ubPBZr4KU/YZDmpndranI/AAAAAAAA0to/HnjNlnglqVYNc9wq1nZUEnfGpOgV2304gCNcBGAsYHQ/h240/argo.png",
 	colorBg: "#72c757"
-},{
+},
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-tnNaqsxd1d4/YZOHHo-Wu_I/AAAAAAAA1Do/ja_Wi84Pl8UZq3DBBLQDiDNiDoxpZQ36wCNcBGAsYHQ/h240/kirito-summer.png",
+	colorBg: "#72d2dd"
+},
+
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-4c8upRSeAlo/YZOFukm70xI/AAAAAAAA1Dg/ohONoWje2A0W0ufOANrJPtsRZRhvpHHqACNcBGAsYHQ/h240/silica-summer.png",
+	colorBg: "#72c3dd"
+},
+
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-UinqgAaxi5s/YXJ9PzdF8NI/AAAAAAAAyhY/he8Y4PAMuQUZLE-185pq8ImagmHx1gYzACNcBGAsYHQ/h240/cool-boy.png",
 	colorBg: "#e2bc5f"
 }, {
@@ -1283,10 +1334,7 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-zTXgM6gOWLQ/YRSG1bplCCI/AAAAAAAAwI8/AqQu87U71QEyET8ZSosCv2vDVgws_z9qwCNcBGAsYHQ/h240/jinmori.png",
 	colorBg: "#db432a"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-Iu_ufSRyN2A/YRSERnBX33I/AAAAAAAAwIs/-tITYLeOIH8xFHlftzu31YnaFKJBvMI_gCNcBGAsYHQ/h240/l-lawlie.png",
-	colorBg: "#454545"
-}, {
+},{
 	imgAnime: "https://1.bp.blogspot.com/-_3PVB5nmMfU/YRTTLjnOSlI/AAAAAAAAwKY/InFTv3vobwQbbsBtvOo5cGx43ypFD54sACNcBGAsYHQ/h240/naraku.png",
 	colorBg: "#9a739c"
 }, {
@@ -1319,7 +1367,13 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-xf4xB37HTJs/YQ5DtNnzArI/AAAAAAAAv9w/4SELVV2jR4crbubus_FvU1-S997LDKcQACNcBGAsYHQ/h240/eren.png",
 	colorBg: "#615852"
-}, {
+},
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-x-a8Xwthe1g/YZOKn7bRKSI/AAAAAAAA1EQ/W5obphc9yYUG98Jb2W-A9S9c5TpoLhDrgCNcBGAsYHQ/h240/Eren.png",
+	colorBg: "#7c898e"
+},
+{
 	imgAnime: "https://1.bp.blogspot.com/-3prj-XMYyIU/YRjcev7aneI/AAAAAAAAwUo/TWKRGM0wCgc8lregfj24XMBJmRWeRlVGgCNcBGAsYHQ/h240/mikasa.png",
 	colorBg: "#8c664e"
 }, {
@@ -1587,7 +1641,10 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-skIHICbbBJY/YYuMRx9E3yI/AAAAAAAA0Vs/svzboI1w1WcBZyXvTsHZkoj-SRsQSVr3gCNcBGAsYHQ/h240/namida.png",
 	colorBg: "#ec5c38"
-},  {
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-pZ8Ppk2zlRw/YZOJyjQAelI/AAAAAAAA1EI/2reTtWrurtIHjcU-AUFNruDVSNqhZMIIwCNcBGAsYHQ/h240/neji.png",
+	colorBg: "#7c8e7c"
+}, {
 	imgAnime: "https://1.bp.blogspot.com/-UQDKkhQBO1g/YQj2sRzBrRI/AAAAAAAAv04/tEpL58TzhB4gMJLp0GmebOs9o-Wq76wcgCNcBGAsYHQ/h240/taki.png",
 	colorBg: "#539bc5"
 }, {
