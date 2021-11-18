@@ -435,7 +435,7 @@ var dsLquan = [
 	
 	
 	{
-		LQcover: "https://lh3.googleusercontent.com/-XygNfNNuyS8/YZGtZU9YCKI/AAAAAAAA00M/SAoOUSGiEYwQ9qcFzAPl8qjII0_iF825ACNcBGAsYHQ/h240/zip-2.jpg",
+		LQcover: "https://lh3.googleusercontent.com/-XygNfNNuyS8/YZGtZU9YCKI/AAAAAAAA00M/SAoOUSGiEYwQ9qcFzAPl8qjII0_iF825ACNcBGAsYHQ/h240/Zip-2.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-eelyCfx7TP4/YZGtYzroPoI/AAAAAAAA00E/z2QUesXRDLwPlusI42RAqILOcr52kJoQwCNcBGAsYHQ/h240/b85f496bf0380fd9bdf490a1dd74ea0e5d3826134162d.jpeg"
 	},
