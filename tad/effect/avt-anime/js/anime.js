@@ -34,14 +34,14 @@ var dsAnime = [{
 		imgAnime: "https://lh3.googleusercontent.com/-zPZpwwfSlZk/YWWUI5RrxDI/AAAAAAAAyJw/ymc7QCnu4g8_tNMdA1DmazWzXGJLGHAvgCNcBGAsYHQ/h240/all-might.png",
 		colorBg: "#50a5af"
 	},
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-AGfKoSxzgng/YZeFTGCithI/AAAAAAAA1Tg/7FHtfuPdpbEKZiILmxbSf6En9V8A9QC9ACNcBGAsYHQ/h240/Asuka.png",
-		colorBg: "#f74545"
-	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-DPwO1HhERYY/YZJEX4O7nXI/AAAAAAAA0-I/H4KYrVeBa7AnQfLIFO7JWPoHTrcueHyEQCNcBGAsYHQ/h240/tsuyu-asui.png",
 		colorBg: "#40bc52"
-	},
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-AGfKoSxzgng/YZeFTGCithI/AAAAAAAA1Tg/7FHtfuPdpbEKZiILmxbSf6En9V8A9QC9ACNcBGAsYHQ/h240/Asuka.png",
+		colorBg: "#f74545"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-NBRrbWNbaUY/YZeEn0pf5MI/AAAAAAAA1TY/V2qIJBfWj8IHAIWHqaRT4XUJfBHo-gCggCNcBGAsYHQ/h240/Reze.png",
 		colorBg: "#678ee6"
