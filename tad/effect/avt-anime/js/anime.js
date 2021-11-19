@@ -10,7 +10,10 @@ var dsAnime = [{
 },{
 	imgAnime: "https://1.bp.blogspot.com/-HIRiLwhw3B8/YROWkdFfBII/AAAAAAAAwGE/iqatYU8c8MQyeBKcXRrxUlsXoupTkTW0gCNcBGAsYHQ/h240/Todoroki-Shouto.png",
 	colorBg: "#575468"
-},  {
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-YbMdguIefkU/YYJIFnFUD8I/AAAAAAAAzKw/o51OjrSWs9Um_ZHdZuM0Z5_u4_i6TZxnwCNcBGAsYHQ/h240/Denki.png",
+	colorBg: "#ffc844"
+}, {
 	imgAnime: "https://1.bp.blogspot.com/-EAkKo3u5b6g/YQ4-grJXtvI/AAAAAAAAv9I/5q99kAI5QZMcicrlhDlERmQfxdUhdBYogCNcBGAsYHQ/h240/bakugou.png",
 	colorBg: "#556b71"
 },
@@ -551,9 +554,6 @@ var dsAnime = [{
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-XL7oinucd7I/YYJIlPMsVUI/AAAAAAAAzK4/Jw06jIEnvEAxnqyJ08oYJ60QwtNJT6regCNcBGAsYHQ/h240/SOPMOD.png",
 	colorBg: "#e1393f"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-YbMdguIefkU/YYJIFnFUD8I/AAAAAAAAzKw/o51OjrSWs9Um_ZHdZuM0Z5_u4_i6TZxnwCNcBGAsYHQ/h240/Denki.png",
-	colorBg: "#ffc844"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-5Li7B9xSV6w/YYJGYZZZwCI/AAAAAAAAzKg/66iiuLQEoEkCOCMMFZITVvATXUHgK_1hQCNcBGAsYHQ/h240/valt-aoi.png",
 	colorBg: "#438be2"
