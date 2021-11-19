@@ -1,4 +1,7 @@
 var dsAnime = [{
+	imgAnime: "https://lh3.googleusercontent.com/-sFUwxGprcMM/YZeKxdmdr8I/AAAAAAAA1T4/T-1j6JRcthgnG1rhe1SzXHBJsz3dszAbgCNcBGAsYHQ/h240/Loremaster.png",
+	colorBg: "#cd3333"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-xb561qOPUcI/YRYevHx7j-I/AAAAAAAAwN4/Y-z3NiL5rxgQA6FhdZ9JrJf0jkkfZfhCQCNcBGAsYHQ/h240/midoriya.png",
 	colorBg: "#3b867a"
 },{
