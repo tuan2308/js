@@ -1,4 +1,36 @@
-var dsAnime = [{
+var dsAnime = [
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-f8LaGboLdWE/YZzX5uQckeI/AAAAAAAA1Z8/aPExryFCxjITP17KvAA05ZXkRGcruS3bACNcBGAsYHQ/h240/Menhera.png",
+		colorBg: "#f88c93"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-ymQ-fMDBNJk/YZzW4g_8dQI/AAAAAAAA1Zs/fQ6sv3xNPAYf7xa8gvmoujRm1seo1UnegCNcBGAsYHQ/h240/Kagamine-Len.png",
+		colorBg: "#f2d42c"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-Y49WeenXnuI/YZzW4mVbCbI/AAAAAAAA1Zw/1czndRgVlQsFpuPfbIvM_BCPuDBnk5K3QCNcBGAsYHQ/h240/Kagamine-Rin.png",
+		colorBg: "#f2d42c"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-6hWkb2QOpxc/YZzVnXFzRsI/AAAAAAAA1Zk/oARejoqbX0QAmJv3M8MLQDpLCurhU5EJwCNcBGAsYHQ/h240/Catarina.png",
+		colorBg: "#3ab0d5"
+	},
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-SlrMgFe14iM/YZzU9YyyT8I/AAAAAAAA1Zc/CxEYY2285vc-jnFvNa0StsKKpKu8DQalQCNcBGAsYHQ/h240/Isuzu-Sento.png",
+		colorBg: "#cb362e"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-6qkvqu37Qvg/YZzTwKfjCnI/AAAAAAAA1ZM/0dqHq_Gvbd0Avc96Q2Bzu-uc_eLwtygqACNcBGAsYHQ/h240/Twisted-Wonderland.png",
+		colorBg: "#813bd8"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9da9f3oo_do/YZzUZqLtVdI/AAAAAAAA1ZU/yHs8rOl5KqEPdlNso0hxhIFaLKTiw-LJACNcBGAsYHQ/h240/noelle.png",
+		colorBg: "#9144cc"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9QI24NNMCKE/YZzTA8bJw3I/AAAAAAAA1ZE/21js3ijyVCgSoz3GKYK0e30zqfUc2JjVwCNcBGAsYHQ/h240/Kahono.png",
+		colorBg: "#ca3838"
+	},
+	{
 	imgAnime: "https://lh3.googleusercontent.com/-sFUwxGprcMM/YZeKxdmdr8I/AAAAAAAA1T4/T-1j6JRcthgnG1rhe1SzXHBJsz3dszAbgCNcBGAsYHQ/h240/Loremaster.png",
 	colorBg: "#cd3333"
 },{
@@ -1661,7 +1693,7 @@ var dsAnime = [{
 	imgAnime: "https://1.bp.blogspot.com/-Ar1qfZgfJDM/YRSz5fI_DyI/AAAAAAAAwJ4/a103ZpEJoIUhATEfMwsQDaMdAFD53MCpgCNcBGAsYHQ/h240/sakura.png",
 	colorBg: "#cc7a7f"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-CS2v0BvqwBE/YRS0bnCbVzI/AAAAAAAAwKA/rXLqcIbI9pEmR7pnH-VoXGNVstDhEJ_AgCNcBGAsYHQ/h240/tusnade.png",
+	imgAnime: "https://1.bp.blogspot.com/-CS2v0BvqwBE/YRS0bnCbVzI/AAAAAAAAwKA/rXLqcIbI9pEmR7pnH-VoXGNVstDhEJ_AgCNcBGAsYHQ/h240/Senju-Tsunade.png",
 	colorBg: "#4c7c60"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-7Ddn00y0l2g/YTn3SB_1tXI/AAAAAAAAxD4/xgBQacU0qI08aywsKsHfkwNNGVi8WsCkACNcBGAsYHQ/h240/jraiya.png",
