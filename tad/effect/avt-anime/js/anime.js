@@ -1,5 +1,14 @@
 var dsAnime = [
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-4p0omaa4ukw/YZza7Cab7SI/AAAAAAAA1ac/rMkudx8HvqEDE7oquCrudUUh66Xq9UPoQCNcBGAsYHQ/h240/reiji.png",
+		colorBg: "#478cff"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-sQFuPldVbEE/YZzZU4JnglI/AAAAAAAA1aM/EDCWSwB5j0AsxpEIJ3KBM3GNDd8Tz9k8ACNcBGAsYHQ/h240/hoshimachi-suisei.png",
+		colorBg: "#68a2dc"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-RuvV-5cdk_I/YZzYkIFNXwI/AAAAAAAA1aE/yOo8mx2lPK0rLVCDSSk5xziLvBG9IsdTwCNcBGAsYHQ/h240/Opera.png",
+		colorBg: "#d13d33"
+	},{
 		imgAnime: "https://lh3.googleusercontent.com/-f8LaGboLdWE/YZzX5uQckeI/AAAAAAAA1Z8/aPExryFCxjITP17KvAA05ZXkRGcruS3bACNcBGAsYHQ/h240/Menhera.png",
 		colorBg: "#f88c93"
 	},{
@@ -1614,6 +1623,9 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-HDpEG7NoL60/YVr4sDv5-VI/AAAAAAAAx4g/Qc7AFm1tgLoI0xg1pUarbRozRvY4X_HwwCNcBGAsYHQ/h240/akako-koizumi.png",
 	colorBg: "#5356be"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-0LsCDLMcy0A/YZzaAQQsUjI/AAAAAAAA1aU/wl2NPfyAGxIZyzFh6-bGsPC-f32nl0TZwCNcBGAsYHQ/h240/Kisaki-Eri.png",
+	colorBg: "#8181cd"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-Nn9cqk74CRI/YQqaQFBMe9I/AAAAAAAAv3M/7Ln3AFlxpw82coa1WJMo1ASoDQ1kozkXACNcBGAsYHQ/h240/luffy.png",
 	colorBg: "#f1bc1c"
 }, {
