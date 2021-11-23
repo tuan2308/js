@@ -2393,6 +2393,26 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-tddEkkQgRI0/YZzgVF8WeZI/AAAAAAAA1as/RCGKsUiR4mgZ5uJL7cKinlkSm-f7B2vugCNcBGAsYHQ/h240/Thane-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Kzuf68t6Avs/YZzgVLmkfhI/AAAAAAAA1ao/Vj8FqrwJy0MJLewgeK2uHnDZjkfwX9Q3ACNcBGAsYHQ/h240/9fb464087738fb97c7df0c1639eaccfa5c4939373e49d.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-llotNrrPdO4/YZzgV69RePI/AAAAAAAA1aw/CPk9CmRSxbo5OE0a7L256vsBbVpJiJb6QCNcBGAsYHQ/h240/Thane-3.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-HxpYHqt0voo/YZzgU6eoRwI/AAAAAAAA1ak/CCfwKd8nK7AV4NA5PqOMBNPdN9fEYX7rACNcBGAsYHQ/h240/054c7833a371a11691ad82f4faaa699d5bdbd0729f7fa.jpeg"
+	},
+
+	{
+		LQcover: "https://lh3.googleusercontent.com/-0ZhzXR5hHaU/YZzgWKwuU1I/AAAAAAAA1a0/wGK4ULQMS4wI_G4J6BD8LgrpfNuHWyq5wCNcBGAsYHQ/h240/Thane-4.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-Xgh95Ox4yQg/YZzgZWkADWI/AAAAAAAA1a4/vhUSgmNnbUI6zjMWRISka34kcKbXvKMmQCNcBGAsYHQ/h240/f0c860faaa4124ab78e8850da7a455c16116c2332c989.png"
+	},
+
+
+
+	{
 		LQcover: "https://lh3.googleusercontent.com/-K6OnOrUuc4k/YYY7zqbhM7I/AAAAAAAAzRo/NisXEj0Zd7gSPCYecJlP3riXmzfoApGPgCNcBGAsYHQ/h240/Vanhein.jpg",
 		LQthumb: "https://lh3.googleusercontent.com/-f-3_CdmoNnE/YYY8_4KRSqI/AAAAAAAAzSQ/ByLSaLOE65og_ZwnD2S_wTI1PumotRkXwCNcBGAsYHQ/h240/83d9de6ce9963f9ea406db2edd81707f5ee04e755f2a7.jpeg"
 	}, {
