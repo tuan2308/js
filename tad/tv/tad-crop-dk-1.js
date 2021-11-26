@@ -161,7 +161,7 @@ window.onload = function() {
 					a.value = null;
 
 					$(".cropanh").val(1);
-
+					ktform();
 					$(".cropanh-container").show();
 					$(".btn-upanh span,.btn-chonanh").html("<i class='fas fa-upload'></i> Chọn ảnh khác")
 				} else {
