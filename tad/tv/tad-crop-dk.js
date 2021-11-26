@@ -1,4 +1,5 @@
 window.onload = function() {
+    $("body").append("<input class='cropanh d-none' value=''>")
 	var c = window.Cropper;
 	var l = window.URL || window.webkitURL;
 	var g = document.querySelector(".img-container");
