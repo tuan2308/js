@@ -438,7 +438,36 @@ $("#phatsang").click(function(){
     isVisible = !isVisible;
 
 });
+var t3top;
 
+function wrapText(context, text, x, y, maxWidth, lineHeight) {
+        var words = text.split(' ');
+        var line = '';
+
+        for(var n = 0; n < words.length; n++) {
+          var testLine = line + words[n] + ' ';
+          var metrics = context.measureText(testLine);
+          var testWidth = metrics.width;
+          if (testWidth > maxWidth && n > 0) {
+            context.fillText(line, x, y);
+            line = words[n] + ' ';
+            y += lineHeight;
+
+
+            t3top = y - 500;
+
+
+          }
+          else {
+            line = testLine;
+
+            t3top = 120;
+
+          }
+        }
+        context.fillText(line, x, y);
+      }
+      
 
 
 function draw(){
@@ -505,11 +534,25 @@ ctx.shadowColor = "rgba(255,255,255, 0.8)";
                     ctx.restore();
 
                     ctx.save();
-                    ctx.fillStyle = "#fff";
-                    ctx.textAlign = "center";
-                    ctx.textBaseline = 'middle';
-                    ctx.font = "50px Montserrat";
-                    ctx.fillText(t2, c.width / 2, c.height / 2 + 120);
+                    // ctx.fillStyle = "#fff";
+                    // ctx.textAlign = "center";
+                    // ctx.textBaseline = 'middle';
+                    // ctx.font = "50px Montserrat";
+                    // ctx.fillText(t2, c.width / 2, c.height / 2 + 120);
+
+
+
+                    var maxWidth = 1300;
+      var lineHeight = 60;
+      var x = c.width / 2
+      var y =  c.height / 2 + 130;
+      ctx.textAlign = "center";
+      ctx.font = "50px Montserrat";
+      ctx.fillStyle = '#fff';
+
+      wrapText(ctx, t2, x, y, maxWidth, lineHeight);
+
+
                     ctx.restore();
 
                 }
@@ -523,19 +566,44 @@ ctx.shadowColor = "rgba(255,255,255, 0.8)";
                 ctx.restore();
 
                 ctx.save();
-                ctx.fillStyle = "#fff";
-                ctx.textAlign = "center";
-                ctx.textBaseline = 'middle';
-                ctx.font = "50px Montserrat";
-                ctx.fillText(t2, c.width / 2, c.height / 2 + 100);
+                // ctx.fillStyle = "#fff";
+                // ctx.textAlign = "center";
+                // ctx.textBaseline = 'middle';
+                // ctx.font = "50px Montserrat";
+                // ctx.fillText(t2, c.width / 2, c.height / 2 + 100);
+
+
+
+                var maxWidth = 1300;
+      var lineHeight = 60;
+      var x = c.width / 2
+      var y =  c.height / 2 + 110;
+      ctx.textAlign = "center";
+      ctx.font = "50px Montserrat";
+      ctx.fillStyle = '#fff';
+
+      wrapText(ctx, t2, x, y, maxWidth, lineHeight);
+
                 ctx.restore();
 
                 ctx.save();
-                ctx.fillStyle = "#fff";
-                ctx.textAlign = "center";
-                ctx.textBaseline = 'middle';
-                ctx.font = "40px Montserrat";
-                ctx.fillText(t3, c.width / 2, c.height / 2 + 170);
+                // ctx.fillStyle = "#fff";
+                // ctx.textAlign = "center";
+                // ctx.textBaseline = 'middle';
+                // ctx.font = "40px Montserrat";
+                // ctx.fillText(t3, c.width / 2, c.height / 2 + 170);
+
+
+                var maxWidth = 1300;
+      var lineHeight = 50;
+      var x = c.width / 2
+      var y =  c.height/2 + t3top + 60;
+      ctx.textAlign = "center";
+      ctx.font = "40px Montserrat";
+      ctx.fillStyle = '#fff';
+
+      wrapText(ctx, t3, x, y, maxWidth, lineHeight);
+
                 ctx.restore();
 
                 }
@@ -545,6 +613,10 @@ ctx.shadowColor = "rgba(255,255,255, 0.8)";
 
             }
         }) })
+
+
+
+
 
 
 
