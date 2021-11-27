@@ -1790,6 +1790,9 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-UXrDFtw-4w4/YZIrtvjJKaI/AAAAAAAA09I/5XP2KbB_c_8qX2GJyGJAaA34MmC3cznVgCNcBGAsYHQ/h240/Kaido.png",
 	colorBg: "#6253ad"
 },{
+	imgAnime: "https://lh3.googleusercontent.com/-onGPusMVEoQ/YaHfabLwqfI/AAAAAAAA1k0/ihfVllEJk_4gchUg4MxjQAnByCNs6w1dACNcBGAsYHQ/h240/Sakazuki.png",
+	colorBg: "#a73c48"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/h240/naruto.png",
 	colorBg: "#ec7230"
 },{
