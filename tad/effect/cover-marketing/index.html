@@ -89,15 +89,15 @@
     <input type="text" class="form-control tad-in-text1 mb-2" placeholder="Nhập tên">
     
     
-    <label>Nhập mô tả</label>
+    <label><b>Nhập tên*</b></label>
     <textarea class="form-control tad-in-texta" rows="3" placeholder="Nhập caption">Nhận tất cả dịch vụ về xương khớp
 Receive all osteoarthritis services
 sdasdf</textarea>
 
-        <label>Nhập thông tin</label>
+        <label>Nhập thông tin liên hệ</label>
         <input type="text" class="form-control tad-in-text2 mb-2" placeholder="facebook">
-        <input type="text" class="form-control tad-in-text3 mb-2" placeholder="phone">
-        <input type="text" class="form-control tad-in-text4 mb-2" placeholder="mail">
+        <input type="text" class="form-control tad-in-text3 mb-2" placeholder="email">
+        <input type="text" class="form-control tad-in-text4 mb-2" placeholder="phone">
   
 
         <div class="mt-3">
@@ -124,7 +124,7 @@ var tenanhxuat = "cover_marketing";
 
 $("#tad-taoanh").click(function() {
 
-$("#cropanh").clik();
+$("#cropanh").click();
        
            $("#img-out").hide();
            $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
@@ -155,7 +155,7 @@ function draw(){
                     cc.crossOrigin = "Anonymous";
                     cc.src = "https://1.bp.blogspot.com/-C6ac9ris0sc/YTMchbZOJ1I/AAAAAAAAw94/9PLlIZNcrLUpsDyJS9r5bYG6__JMGHjBgCNcBGAsYHQ/s0/tich.png";
                     cc.onload = function () {
-console.log("a")
+
                         var t1= $(".tad-in-text1").val();
 
 var texta = $(".tad-in-texta").val();
