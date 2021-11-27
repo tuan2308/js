@@ -1,5 +1,13 @@
 var dsAnime = [
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-oZ_hEHW8NU4/YaHeaZDWgNI/AAAAAAAA1kk/pTArKhLZoIYVwCr7demOVrV6GwAp6wTIgCNcBGAsYHQ/h240/Gasai-Yuno.png",
+		colorBg: "#7179cf"
+	},
 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Aw508-3kThI/YaHe_tIFpuI/AAAAAAAA1ks/ck--OK8EbtwkfTJyGaWRfuifS93qt79CQCNcBGAsYHQ/h240/Uryuu-Minene.png",
+		colorBg: "#9b5ab4"
+	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-tvOt1p_rL0c/YaHcTPGNJlI/AAAAAAAA1kU/LS23j9QJ9yAgSRfYV57OHO7xo67EivA1gCNcBGAsYHQ/h240/jail.png",
 		colorBg: "#6364b3"
