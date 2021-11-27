@@ -8,14 +8,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-Aw508-3kThI/YaHe_tIFpuI/AAAAAAAA1ks/ck--OK8EbtwkfTJyGaWRfuifS93qt79CQCNcBGAsYHQ/h240/Uryuu-Minene.png",
 		colorBg: "#9b5ab4"
 	},
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-tvOt1p_rL0c/YaHcTPGNJlI/AAAAAAAA1kU/LS23j9QJ9yAgSRfYV57OHO7xo67EivA1gCNcBGAsYHQ/h240/jail.png",
-		colorBg: "#6364b3"
-	},
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-Y2S3LV7RI48/YaHbcYDjZEI/AAAAAAAA1kM/s0wg3OxLIok0svNlJjRwf4svLMPZ4uhZACNcBGAsYHQ/h240/Licht-Bach.png",
-		colorBg: "#b0374b"
-	},
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-JGdm4TAfARg/YaDvMhkj8_I/AAAAAAAA1jc/nK_H25-e8zUkbaRG_AZk_dgSt-05-SWiQCNcBGAsYHQ/h240/kyouka-izumi.png",
 		colorBg: "#f7bc56"
@@ -33,7 +26,17 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-4p0omaa4ukw/YZza7Cab7SI/AAAAAAAA1ac/rMkudx8HvqEDE7oquCrudUUh66Xq9UPoQCNcBGAsYHQ/h240/reiji.png",
 		colorBg: "#478cff"
-	},{
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-tvOt1p_rL0c/YaHcTPGNJlI/AAAAAAAA1kU/LS23j9QJ9yAgSRfYV57OHO7xo67EivA1gCNcBGAsYHQ/h240/jail.png",
+		colorBg: "#6364b3"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Y2S3LV7RI48/YaHbcYDjZEI/AAAAAAAA1kM/s0wg3OxLIok0svNlJjRwf4svLMPZ4uhZACNcBGAsYHQ/h240/Licht-Bach.png",
+		colorBg: "#b0374b"
+	},
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-sQFuPldVbEE/YZzZU4JnglI/AAAAAAAA1aM/EDCWSwB5j0AsxpEIJ3KBM3GNDd8Tz9k8ACNcBGAsYHQ/h240/hoshimachi-suisei.png",
 		colorBg: "#68a2dc"
 	},{
@@ -67,7 +70,10 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-M8bSr1ADBPY/YaDhvvcvDyI/AAAAAAAA1h0/A399wQ30vFY4mXAayqTApxNoQ8s5mlnKgCNcBGAsYHQ/h240/mikuo.png",
 		colorBg: "#4fc4c2"
 	},
-	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-6Dz8iZ2BQRw/YaJEaIxJ08I/AAAAAAAA1lU/Npt5LDAt8WMfvi4QAShw04Xy1loIvVrCgCNcBGAsYHQ/h240/miku.png",
+		colorBg: "#49cdd9"
+	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-nTgmjI5le5s/YRYfMrVob-I/AAAAAAAAwOA/JlyK9C3ckdcVs957y8L8fEjuCaxfHv9bgCNcBGAsYHQ/h240/miku.png",
 		colorBg: "#70adb7"
