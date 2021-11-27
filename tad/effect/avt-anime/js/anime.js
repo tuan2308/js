@@ -76,7 +76,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-nTgmjI5le5s/YRYfMrVob-I/AAAAAAAAwOA/JlyK9C3ckdcVs957y8L8fEjuCaxfHv9bgCNcBGAsYHQ/h240/miku.png",
-		colorBg: "#70adb7"
+		colorBg: "#7dcedb"
 	},
 	
 	{
