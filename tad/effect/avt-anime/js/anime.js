@@ -1,6 +1,14 @@
 var dsAnime = [
 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-tvOt1p_rL0c/YaHcTPGNJlI/AAAAAAAA1kU/LS23j9QJ9yAgSRfYV57OHO7xo67EivA1gCNcBGAsYHQ/h240/jail.png",
+		colorBg: "#6364b3"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Y2S3LV7RI48/YaHbcYDjZEI/AAAAAAAA1kM/s0wg3OxLIok0svNlJjRwf4svLMPZ4uhZACNcBGAsYHQ/h240/Licht-Bach.png",
+		colorBg: "#b0374b"
+	},
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-JGdm4TAfARg/YaDvMhkj8_I/AAAAAAAA1jc/nK_H25-e8zUkbaRG_AZk_dgSt-05-SWiQCNcBGAsYHQ/h240/kyouka-izumi.png",
 		colorBg: "#f7bc56"
 	},{
@@ -826,7 +834,11 @@ var dsAnime = [
 },{
 	imgAnime: "https://1.bp.blogspot.com/-py52JcBDjg0/YSOT7TUQ7pI/AAAAAAAAwl0/PfKoiNsEaLohOE0Mk1ygke6FQCZd2OQhQCNcBGAsYHQ/h240/yoriichi.png",
 	colorBg: "#b83b2e"
-},  {
+}, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-IlhiKmg-CrI/YaHduXwSxVI/AAAAAAAA1kc/0TH3ujwiwp8xWnTXFPZ4UZrvhNtN3c2jgCNcBGAsYHQ/h240/yorichi.png",
+	colorBg: "#a24b50"
+}, {
 	imgAnime: "https://lh3.googleusercontent.com/-47Wln-QjZ48/YXpVWuZQRiI/AAAAAAAAy7I/m9EGByy8B-gLv8cHPCxiK-9gXYFmc6q_ACNcBGAsYHQ/h240/kanao.png",
 	colorBg: "#9e3ff4"
 }, {
