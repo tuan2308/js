@@ -5,6 +5,7 @@ var cra = $(".cropanh");
         var ti2 = $(".tad-in-text2");
         var ti3 = $(".tad-in-text3");
         var ti4 = $(".tad-in-text4");
+		var ti5 = $(".tad-in-text4");
         var tia = $(".tad-in-texta");
         $("#cropanh").click(function() {
             $(".cropanh").val(1);
@@ -22,6 +23,9 @@ var cra = $(".cropanh");
         ti4.on("input", function() {
             ktform();
         });
+		ti5.on("input", function() {
+            ktform();
+        });
         tia.on("input", function() {
             ktform();
         });
@@ -36,6 +40,8 @@ var cra = $(".cropanh");
             } else if (undefined !== ti3.val() && ti3.val().length == 0) {
                 $("#tad-taoanh").addClass("disabled")
             }else if (undefined !== ti4.val() && ti4.val().length == 0) {
+                $("#tad-taoanh").addClass("disabled")
+            }else if (undefined !== ti5.val() && ti5.val().length == 0) {
                 $("#tad-taoanh").addClass("disabled")
             } else if (undefined !== tia.val() && tia.val().length == 0) {
                 $("#tad-taoanh").addClass("disabled")
