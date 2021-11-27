@@ -84,7 +84,10 @@
                 </div>
                 </div>
             </div>
-
+<label><b>Nhập tên*</b></label>
+<input type="text" class="form-control tad-in-text5 mb-2" value="Tạo ảnh đẹp" placeholder="Nhập tên">
+    
+            
     <label><b>Nhập tên*</b></label>
     <input type="text" class="form-control tad-in-text1 mb-2" placeholder="Nhập tên">
     
@@ -105,11 +108,6 @@ sdasdf</textarea>
                 ảnh</button>
         </div>
         <div id="img-out"></div>
-
-    <img id="Cimg" width="0" height="0"
-        src="https://1.bp.blogspot.com/-2hrD12OymIQ/YTHhD8SsoMI/AAAAAAAAw9E/ShopLf-YTHw2Ep5d0jE_RzcYCRkERtt4ACNcBGAsYHQ/s0/avt.jpg"
-        class="d-none" alt="The Scream">
-
 
 
 
@@ -135,7 +133,7 @@ $("#cropanh").click();
        });
 
 
-
+       draw();
 
 function draw(){
         document.fonts.load('10pt "iCiel Fester Semi-Condensed"').then(function () {
@@ -163,7 +161,7 @@ var texta = $(".tad-in-texta").val();
 var t2= $(".tad-in-text2").val();
 var t3= $(".tad-in-text3").val();
 var t4= $(".tad-in-text4").val();
-
+var t5= $(".tad-in-text5").val();
                         var c = document.getElementById("temp");
                         var ctx = c.getContext("2d");
                         ctx.clearRect(0, 0, c.width, c.height);
@@ -175,7 +173,7 @@ var t4= $(".tad-in-text4").val();
 
                         ctx.drawImage(a, 0, 0, c.width, c.height);
 
-
+  ctx.restore();
                         ctx.save();
                         
                         ctx.beginPath();
@@ -190,7 +188,19 @@ var t4= $(".tad-in-text4").val();
                         ctx.restore();
 
 
-                        ctx.restore();
+                        ctx.save();
+               var gradient = ctx.createLinearGradient(0, 0, 0, 760);
+      gradient.addColorStop(0.83, "#4fcfea");
+      gradient.addColorStop(0.93, "#403abb");
+      ctx.fillStyle = gradient;
+      ctx.textAlign = "center";
+
+      ctx.font = "bold 53px UTM-Avo";
+      ctx.fillText(t5.toUpperCase(), c.width/2, 700);
+
+      ctx.restore();
+
+                      
                         ctx.save();
                
                         ctx.font = "50px iCiel Fester Semi-Condensed";
