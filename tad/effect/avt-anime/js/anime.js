@@ -325,6 +325,9 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-d3zb2yEzwc0/YSYzeBRcRfI/AAAAAAAAwqc/yLDHOVsFGwg4XNN4d0eeUVdchKqukX-swCNcBGAsYHQ/h240/killua-zoldyck.png",
 		colorBg: "#596890"
 	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-U8bJOP1kaXU/YY9PB6dfMmI/AAAAAAAA0o4/AkEMwNbKFUAQLyGEU6bpTjZOHtLClhZ2ACNcBGAsYHQ/h240/Hisoka-Morow.png",
+		colorBg: "#f05c80"
+	},{
 		imgAnime: "https://1.bp.blogspot.com/-PyYvjL4q_pU/YSYyB9jk92I/AAAAAAAAwqM/mjr1Wg-K3gotm7IbF7ydABGSsSMTSfzAQCNcBGAsYHQ/h240/saber.png",
 		colorBg: "#5a9ece"
 	}, {
@@ -535,9 +538,6 @@ var dsAnime = [
 	colorBg: "#6152d0"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
-	colorBg: "#f05c80"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-U8bJOP1kaXU/YY9PB6dfMmI/AAAAAAAA0o4/AkEMwNbKFUAQLyGEU6bpTjZOHtLClhZ2ACNcBGAsYHQ/h240/Hisoka-Morow.png",
 	colorBg: "#f05c80"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-Lhwq4J-Iu_k/YY9Oc1yhYSI/AAAAAAAA0ow/Lo8TBlpqGeQskXLOnO-pjvnVSC6bXf31ACNcBGAsYHQ/h240/Sakurayashiki.png",
