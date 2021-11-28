@@ -1328,6 +1328,9 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-gc5EIlvG8-I/YYJHg9kJM8I/AAAAAAAAzKo/chVZZiQbzp4Uhh6fV3ZOOYZBYZCLb8PAwCNcBGAsYHQ/h240/naoto.png",
 	colorBg: "#49a6e1"
 }, {
+	imgAnime: "https://lh3.googleusercontent.com/-G7PjKUprzY8/YaLr_ETKiVI/AAAAAAAA1mY/5qFmiQYnG5Y5ae_tt4nC091WxNmZykJLgCNcBGAsYHQ/h240/mikey.png",
+	colorBg: "#e7b93e"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-eTuwjUKUhV0/YREhK8NVWmI/AAAAAAAAwEY/y53UXtV0nMU0eaevDg9Jby1gm1yQE0m-gCNcBGAsYHQ/h240/mikey.png",
 	colorBg: "#2e2a28"
 }, {
