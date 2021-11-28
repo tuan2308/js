@@ -1,4 +1,6 @@
 var dsAnime = [
+    
+  
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-oZ_hEHW8NU4/YaHeaZDWgNI/AAAAAAAA1kk/pTArKhLZoIYVwCr7demOVrV6GwAp6wTIgCNcBGAsYHQ/h240/Gasai-Yuno.png",
 		colorBg: "#7179cf"
@@ -31,9 +33,11 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-tvOt1p_rL0c/YaHcTPGNJlI/AAAAAAAA1kU/LS23j9QJ9yAgSRfYV57OHO7xo67EivA1gCNcBGAsYHQ/h240/jail.png",
 		colorBg: "#6364b3"
 	},
-	{
+	  {
 		imgAnime: "https://lh3.googleusercontent.com/-Y2S3LV7RI48/YaHbcYDjZEI/AAAAAAAA1kM/s0wg3OxLIok0svNlJjRwf4svLMPZ4uhZACNcBGAsYHQ/h240/Licht-Bach.png",
-		colorBg: "#b0374b"
+		colorBg: "#b0374b",
+      	marginL: 100
+      
 	},
 	
 	{
@@ -622,7 +626,8 @@ var dsAnime = [
 	colorBg: "#b22a2a"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-NEp5yxfVbzw/YYuO9Cax2LI/AAAAAAAA0WM/D2cOZILoEbYzvsqYgtqih0zxPJVVhVdAgCNcBGAsYHQ/h240/yoshimura-eto.png",
-	colorBg: "#6f253e"
+	colorBg: "#6f253e",
+  marginL : 100
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-CRSUv4CXWEQ/YYuNaG7Q36I/AAAAAAAA0V8/cNtZEM5wA88Om5KkDrlymNZyZhnzokepACNcBGAsYHQ/h240/Nanami-Kento.png",
 	colorBg: "#2a6ac0"
@@ -1754,7 +1759,8 @@ var dsAnime = [
 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-S88YOp5mmTc/YaDpMgPqTHI/AAAAAAAA1is/uNJsdXu7Td0kQjsgj8Hc5BdfzDm_fG4rwCNcBGAsYHQ/h240/Sanji.png",
-	colorBg: "#4d6aab"
+	colorBg: "#4d6aab",
+    marginL : 100
 },
 {
 	imgAnime: "https://1.bp.blogspot.com/--qyypSJcnNo/YROJGoz7PHI/AAAAAAAAwF0/3CmiNSwzUicxszMYcp0NI2xiYA7BheEEwCNcBGAsYHQ/h240/ace.png",
