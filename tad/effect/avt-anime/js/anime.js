@@ -287,7 +287,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-ZfOx36tTjoM/YTy--HCCuuI/AAAAAAAAxHI/oZiNtUdVIMMDvrh8K-GLv2Tc1It8PdTHACNcBGAsYHQ/h240/hutao.png",
 		colorBg: "#e44335"
-	}, {
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-V8qJOgDvlIc/YaLJ-vnCLYI/AAAAAAAA1ls/K8itGiGPBfsmf-zVBDm8z0r-B2TPTK2RgCNcBGAsYHQ/h240/hutao.png",
+		colorBg: "#d34f42"
+	}, 
+	
+	{
 		imgAnime: "https://1.bp.blogspot.com/-MhWeQZgDeGM/YSoz6-Yz1ZI/AAAAAAAAwyY/DU6rO-GCSWAiGsg6R7GqKiGZKQ1TlvRfgCNcBGAsYHQ/h240/lisa.png",
 		colorBg: "#86679a"
 	}, {
