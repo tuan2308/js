@@ -309,8 +309,11 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-xPIn5BVtsJo/YSovHVFrcNI/AAAAAAAAwx4/w7qKslSrWCsrc5wE12BuIVarAiBOpIypgCNcBGAsYHQ/h240/ganyu.png",
 		colorBg: "#5f8bb6"
 	}, {
-		imgAnime: "https://1.bp.blogspot.com/-aD3BWx3PX4o/YSSzzwhT81I/AAAAAAAAwoM/MC9BwyJ7JJUgWRS2Ltxj7sWzcs26XDlxgCNcBGAsYHQ/h240/raiden-shogun.png",
-		colorBg: "#795dd1"
+		imgAnime: "https://lh3.googleusercontent.com/-6JtbARk4X9w/YaLqBWnB3KI/AAAAAAAA1mQ/PmXReJd86TgDJPu_Ow_d0hsolhnD26EEACNcBGAsYHQ/h240/Raiden-Shogun.png",
+		colorBg: "#7971b2"
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-YGB4G6j4ihc/YaLphSDfKhI/AAAAAAAA1mI/ckCJe7UFgowKkqbwGFGFo6LCYEEe700sgCNcBGAsYHQ/h240/Aether.png",
+		colorBg: "#e4b671"
 	},{
 		imgAnime: "https://lh3.googleusercontent.com/-A0JmU2vBqas/YX4hW-PovmI/AAAAAAAAy_I/HEk4MLQ_nS0YtFTlaibeGMVf9oHZrecZgCNcBGAsYHQ/h240/klee.png",
 		colorBg: "#d64131"
