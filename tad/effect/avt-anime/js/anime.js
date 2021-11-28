@@ -1490,8 +1490,8 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-TwlUNbrROMk/YURPXWOj3GI/AAAAAAAAxUo/nBWqMpJ9GHIX4CkvddtH8zI68pKC8LaEQCNcBGAsYHQ/h240/genos.png",
 	colorBg: "#f2d04a"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-ZjrAsUTlXC0/YRka57MWz9I/AAAAAAAAwXY/-FqqIpJSl3wSmXU_r10wvYPGx-IPIXeBwCNcBGAsYHQ/h240/tatumaki.png",
-	colorBg: "#1a562f"
+	imgAnime: "https://1.bp.blogspot.com/-ZjrAsUTlXC0/YRka57MWz9I/AAAAAAAAwXY/-FqqIpJSl3wSmXU_r10wvYPGx-IPIXeBwCNcBGAsYHQ/h240/tatsumaki.png",
+	colorBg: "#2d7d48"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-0G8C-3jV7OA/YRkaIbWPk6I/AAAAAAAAwXQ/r7yNvt9hkn4iU0HQPhwesVULOvun_zV5gCNcBGAsYHQ/h240/fubuki.png",
 	colorBg: "#44756a"
