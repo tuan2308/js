@@ -611,34 +611,38 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
 	colorBg: "#f69e3f"
 }, 
-
+{
+	imgAnime: "https://lh3.googleusercontent.com/-1anQbWDOWqg/YaMQ1j9JPcI/AAAAAAAA1no/BvCBTBDG2AwalfZ4I_2zUIoiB0_ZXMHGgCNcBGAsYHQ/h240/goku-ultra-instinct.png",
+	colorBg: "#5284b2"
+},
 {
 	imgAnime: "https://lh3.googleusercontent.com/-crNYrubuB7s/YaMI7bi2A_I/AAAAAAAA1mw/EVZLSgoJTY4JRtdPArZYm6_1sMM50H6ugCNcBGAsYHQ/h240/songoku-blue.png",
 	colorBg: "#40bec6"
 }, 
+
 {
 	imgAnime: "https://lh3.googleusercontent.com/-VHS_sfDpfNM/YaMJmm4A1fI/AAAAAAAA1m4/j_u-j0mwSlk2rE-TQJA1y7794SbCJnPYACNcBGAsYHQ/h240/songoku-god.png",
 	colorBg: "#e63041"
 }, 
 
 {
-	imgAnime: "https://lh3.googleusercontent.com/-Zo42o6uIoxU/YaMKIOoLWuI/AAAAAAAA1nA/2Uk_IURynv0_U7vYo5GRqOs5do6QI-i5gCNcBGAsYHQ/h240/songoku-ssj-1.png",
+	imgAnime: "https://lh3.googleusercontent.com/-Zo42o6uIoxU/YaMKIOoLWuI/AAAAAAAA1nA/2Uk_IURynv0_U7vYo5GRqOs5do6QI-i5gCNcBGAsYHQ/h240/songoku-ssj1.png",
 	colorBg: "#f6c223"
 }, 
 
 {
-	imgAnime: "https://lh3.googleusercontent.com/-zzODkRU4Ia0/YaMKWwpqJfI/AAAAAAAA1nE/Z_KMDd3c6LsNSsxYBvtykeidGLloGS3OQCNcBGAsYHQ/h240/songoku-ssj-2.png",
+	imgAnime: "https://lh3.googleusercontent.com/-zzODkRU4Ia0/YaMKWwpqJfI/AAAAAAAA1nE/Z_KMDd3c6LsNSsxYBvtykeidGLloGS3OQCNcBGAsYHQ/h240/songoku-ssj2.png",
 	colorBg: "#f6c223"
 }, 
 
 
 {
-	imgAnime: "https://lh3.googleusercontent.com/-ekWC597EA8U/YaMK8QPxxyI/AAAAAAAA1nQ/mUiwJNOgp_c8gjKsx4QCWWkxUfypG3mhQCNcBGAsYHQ/h240/songoku-ssj-3.png",
-	colorBg: "#f6c223"
+	imgAnime: "https://lh3.googleusercontent.com/-r6WKzhKfH90/YaMQXKsXa5I/AAAAAAAA1ng/fPG0CcTFot0oe5h2YiQ3ytRt-Ww9nh82wCNcBGAsYHQ/h240/songoku-ssj3.png",
+	colorBg: "#ffd24a"
 }, 
 
 {
-	imgAnime: "https://lh3.googleusercontent.com/-ZmC5xOEreZ0/YaMLcxhJzEI/AAAAAAAA1nY/c09glvqUQEEwvvdCvCYYQN5Sgv3gmFfmQCNcBGAsYHQ/h240/songoku-ssj-4.png",
+	imgAnime: "https://lh3.googleusercontent.com/-ZmC5xOEreZ0/YaMLcxhJzEI/AAAAAAAA1nY/c09glvqUQEEwvvdCvCYYQN5Sgv3gmFfmQCNcBGAsYHQ/h240/songoku-ssj4.png",
 	colorBg: "#f74448"
 }, 
 {
