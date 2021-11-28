@@ -1,5 +1,24 @@
 var dsAnime = [
-    
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Z9x998tUp6g/YXKzrjCOkLI/AAAAAAAAyiQ/NYBUE_nauGohLh3TNPMZNUWGpma3nosRACNcBGAsYHQ/h240/issei-hyoudou.png",
+		colorBg: "#ef3d3e"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-sVr1yS5ShI8/YaMIYte0PZI/AAAAAAAA1mo/2-Ze74v2i-IedYktLN6CGH_8CInith89gCNcBGAsYHQ/h240/Himejima-Akeno.png",
+		colorBg: "#9a5fb1"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Vkg-WargXtY/YXKzSKy0DcI/AAAAAAAAyiI/Iq6hs6DggVkJuREJ-Wp_fsVvqVM_RVqywCNcBGAsYHQ/h240/rias-gremory.png",
+		colorBg: "#7656f0"
+	}, 
+    {
+		imgAnime: "https://lh3.googleusercontent.com/-u6L7TI8d9Y0/YX_H-s6qnuI/AAAAAAAAzEU/dooyKVopz-w8SLP68DpkC3y7JVDU2a3IQCNcBGAsYHQ/h240/Hyakkimaru.png",
+		colorBg: "#b8353c"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-SCECDeGtGKQ/YaMGjKCSlvI/AAAAAAAA1mg/Jn8O6Px5gQgjblUMRbpT-qn0_GHmTylEQCNcBGAsYHQ/h240/dororo.png",
+		colorBg: "#7b9a74"
+	},
   
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-oZ_hEHW8NU4/YaHeaZDWgNI/AAAAAAAA1kk/pTArKhLZoIYVwCr7demOVrV6GwAp6wTIgCNcBGAsYHQ/h240/Gasai-Yuno.png",
@@ -591,7 +610,38 @@ var dsAnime = [
 },{
 	imgAnime: "https://1.bp.blogspot.com/-_uJ-8W6TcNA/YQ5JiTVjC2I/AAAAAAAAv-Q/ng_PK2jqAxUzV3AaT6xvJEYmaHuYRsmUwCNcBGAsYHQ/h240/songoku.png",
 	colorBg: "#f69e3f"
-}, {
+}, 
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-crNYrubuB7s/YaMI7bi2A_I/AAAAAAAA1mw/EVZLSgoJTY4JRtdPArZYm6_1sMM50H6ugCNcBGAsYHQ/h240/songoku-blue.png",
+	colorBg: "#40bec6"
+}, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-VHS_sfDpfNM/YaMJmm4A1fI/AAAAAAAA1m4/j_u-j0mwSlk2rE-TQJA1y7794SbCJnPYACNcBGAsYHQ/h240/songoku-god.png",
+	colorBg: "#e63041"
+}, 
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-Zo42o6uIoxU/YaMKIOoLWuI/AAAAAAAA1nA/2Uk_IURynv0_U7vYo5GRqOs5do6QI-i5gCNcBGAsYHQ/h240/songoku-ssj-1.png",
+	colorBg: "#f6c223"
+}, 
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-zzODkRU4Ia0/YaMKWwpqJfI/AAAAAAAA1nE/Z_KMDd3c6LsNSsxYBvtykeidGLloGS3OQCNcBGAsYHQ/h240/songoku-ssj-2.png",
+	colorBg: "#f6c223"
+}, 
+
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-ekWC597EA8U/YaMK8QPxxyI/AAAAAAAA1nQ/mUiwJNOgp_c8gjKsx4QCWWkxUfypG3mhQCNcBGAsYHQ/h240/songoku-ssj-3.png",
+	colorBg: "#f6c223"
+}, 
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-ZmC5xOEreZ0/YaMLcxhJzEI/AAAAAAAA1nY/c09glvqUQEEwvvdCvCYYQN5Sgv3gmFfmQCNcBGAsYHQ/h240/songoku-ssj-4.png",
+	colorBg: "#f74448"
+}, 
+{
 	imgAnime: "https://1.bp.blogspot.com/-DHKmKVOWB5E/YQ5KOhqCUAI/AAAAAAAAv-Y/UpV2SArQMQwTy1lB6loC83m9vzjsIB0rwCNcBGAsYHQ/h240/vegeta.png",
 	colorBg: "#223f89"
 }, {
@@ -721,9 +771,6 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-gYgGG8n6xOg/YX_JieXszcI/AAAAAAAAzEk/EEunf6spzekm4MksvG9MM0Q35-5z9jIpgCNcBGAsYHQ/h240/Ojou.png",
 	colorBg: "#b71e2d"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-u6L7TI8d9Y0/YX_H-s6qnuI/AAAAAAAAzEU/dooyKVopz-w8SLP68DpkC3y7JVDU2a3IQCNcBGAsYHQ/h240/Hyakkimaru.png",
-	colorBg: "#b8353c"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-TPfJtn78dPk/YX_HZYUNWQI/AAAAAAAAzEM/UUsS-5qFAl44wynnvJbn9efabY-FdaunQCNcBGAsYHQ/h240/shu-kurenai.png",
 	colorBg: "#b43c4e"
@@ -928,12 +975,6 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-B2VXKXZTfyI/YXK0he_w64I/AAAAAAAAyiY/_CX_Z5Vu6hco1ANCjumZyHAFHn5Y7r1HQCNcBGAsYHQ/h240/rudeus.png",
 	colorBg: "#eb494a"
-}, {
-	imgAnime: "https://lh3.googleusercontent.com/-Z9x998tUp6g/YXKzrjCOkLI/AAAAAAAAyiQ/NYBUE_nauGohLh3TNPMZNUWGpma3nosRACNcBGAsYHQ/h240/issei.png",
-	colorBg: "#ef3d3e"
-}, {
-	imgAnime: "https://lh3.googleusercontent.com/-Vkg-WargXtY/YXKzSKy0DcI/AAAAAAAAyiI/Iq6hs6DggVkJuREJ-Wp_fsVvqVM_RVqywCNcBGAsYHQ/h240/rias.png",
-	colorBg: "#7656f0"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-j_1QHO6k3qA/YXKD5RxrlLI/AAAAAAAAyiA/HcsXmrcpbjcNS8omLGBE8GF2Ix8txZuNgCNcBGAsYHQ/h240/kuma-bear.png",
 	colorBg: "#8ab0e0"
@@ -1335,9 +1376,6 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-G7PjKUprzY8/YaLr_ETKiVI/AAAAAAAA1mY/5qFmiQYnG5Y5ae_tt4nC091WxNmZykJLgCNcBGAsYHQ/h240/mikey.png",
 	colorBg: "#e7b93e"
-},{
-	imgAnime: "https://1.bp.blogspot.com/-eTuwjUKUhV0/YREhK8NVWmI/AAAAAAAAwEY/y53UXtV0nMU0eaevDg9Jby1gm1yQE0m-gCNcBGAsYHQ/h240/mikey.png",
-	colorBg: "#2e2a28"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-v6NJ2xU97mw/YTYpHwSIm-I/AAAAAAAAxAo/IMTenQHNJoo5Z_dg672r0xAymBEpAogkACNcBGAsYHQ/h240/black-mikey.png",
 	colorBg: "#b5b5b5"
