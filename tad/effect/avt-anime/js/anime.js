@@ -1,5 +1,28 @@
 var dsAnime = [
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-Z06td_HR_3c/YaTEnI7VFTI/AAAAAAAA1sM/rkhISH0fqsItoDf_p4mmjI6lg1RcHJntwCNcBGAsYHQ/h240/togashi-yuuta.png",
+		colorBg: "#9c796b"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-FYRkUlH0Zhs/YXpiHe1VGvI/AAAAAAAAy8o/PNcsn9zxYao6AQ2CZsKX1tsf3yzIZWWQACNcBGAsYHQ/h240/renge-miyauchi.png",
+		colorBg: "#9990c2"
+	},
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-sR6I8rSDQaY/YaTCWyHI12I/AAAAAAAA1r0/5g2VXYsxUgg5-O6ctER0T-xETxUDIViQACNcBGAsYHQ/h240/komari-koshigaya.png",
+		colorBg: "#ffcb87"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-nPCEWHPMo1M/YaTDM2avRTI/AAAAAAAA1r8/FOI6E2F1pCUarZn4jwxE_Lip8DPoMKfQACNcBGAsYHQ/h240/natsumi-koshigaya.png",
+		colorBg: "#fb9487"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Pt8TyPetcaM/YaTDuN37rNI/AAAAAAAA1sE/VAQK9NCAVoAbh2DTdahUZosuVZoF6HlJgCNcBGAsYHQ/h240/hotaru-ichijou.png",
+		colorBg: "#fb9487"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-Z9x998tUp6g/YXKzrjCOkLI/AAAAAAAAyiQ/NYBUE_nauGohLh3TNPMZNUWGpma3nosRACNcBGAsYHQ/h240/issei-hyoudou.png",
 		colorBg: "#ef3d3e"
 	}, 
@@ -853,9 +876,6 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-IVq3938YjSY/YXpipcwGi4I/AAAAAAAAy8w/XCpQsR9JtXQVAQO8XlK66GdGD_kDnSCyACNcBGAsYHQ/h240/emiya-shirou.png",
 	colorBg: "#3e4588"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-FYRkUlH0Zhs/YXpiHe1VGvI/AAAAAAAAy8o/PNcsn9zxYao6AQ2CZsKX1tsf3yzIZWWQACNcBGAsYHQ/h240/renge-miyauchi.png",
-	colorBg: "#9990c2"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-XiwW2OfHAKE/YXpf7txf1TI/AAAAAAAAy8Y/tVkrhVCJZi0gu5x1CA7kNqCx3wree0DEQCNcBGAsYHQ/h240/fuwa.png",
 	colorBg: "#6bd0f1"
@@ -1858,7 +1878,14 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-onGPusMVEoQ/YaHfabLwqfI/AAAAAAAA1k0/ihfVllEJk_4gchUg4MxjQAnByCNs6w1dACNcBGAsYHQ/h240/Sakazuki.png",
 	colorBg: "#a73c48"
-},{
+},
+{
+    imgAnime: "https://lh3.googleusercontent.com/-20S6DMJaQ70/YaTFIg8gKqI/AAAAAAAA1sU/e4O70JyFGWIp3qglzHHaco9BA0LN9qoOgCNcBGAsYHQ/h240/mihawk.png",
+    colorBg: "#3e78e3"
+}, 
+
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/h240/naruto.png",
 	colorBg: "#ec7230"
 },{
