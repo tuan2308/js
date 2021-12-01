@@ -1807,7 +1807,14 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-qyf-8emKvK4/YToA-_s6guI/AAAAAAAAxFA/MlckVLEQwWs8fTJxBqFAQSsBYYs8P9IQwCNcBGAsYHQ/h240/sonoko.png",
 	colorBg: "#4c88cb"
-},{
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-0RlDiYyLc6A/Yad8cafgZmI/AAAAAAAA1zM/oqa0uv62qsYKSOGJWF3pT_stx___CLX0wCNcBGAsYHQ/h240/Kudo-Yukiko.png",
+	colorBg: "#c58acf"
+},
+
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-_5XE4hgqa-s/YYeHAnBHXDI/AAAAAAAAz4I/gP3BJTFk-SIVnhwZDUs1O_hRW0SItlEyACNcBGAsYHQ/h240/vermouth.png",
 	colorBg: "#94a853"
 },{
@@ -1874,7 +1881,13 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-XBr4TvyyrQ8/YTy9zUwImqI/AAAAAAAAxHA/By3sKe8GXWY6wPegXq7tbmBFG5RxYngdwCNcBGAsYHQ/h240/katakuri.png",
 	colorBg: "#e63e77"
-},{
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-aFgGjScpUsA/Yad6hVFIMiI/AAAAAAAA1y8/Ch8qai4iAtICQidDaZYwhIjCfkpZYoc5gCNcBGAsYHQ/h240/Vinsmoke-Ichiji.png",
+	colorBg: "#b64238"
+},
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-06C5QjXT_WI/YXpg6a_QnVI/AAAAAAAAy8g/YCqQWPEnH9QNZP_AwE7GCqHIuY29i3vlQCNcBGAsYHQ/h240/sabo.png",
 	colorBg: "#429ddc"
 },{
@@ -2024,7 +2037,13 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-pZ8Ppk2zlRw/YZOJyjQAelI/AAAAAAAA1EI/2reTtWrurtIHjcU-AUFNruDVSNqhZMIIwCNcBGAsYHQ/h240/neji.png",
 	colorBg: "#7c8e7c"
-}, {
+}, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-G9V_Wss352c/Yad7bwRL9AI/AAAAAAAA1zE/_G294zsh8rYnmfOM6Rx5qk_6yUjSFBTYQCNcBGAsYHQ/h240/kurama.png",
+	colorBg: "#f88e4a"
+}, 
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-UQDKkhQBO1g/YQj2sRzBrRI/AAAAAAAAv04/tEpL58TzhB4gMJLp0GmebOs9o-Wq76wcgCNcBGAsYHQ/h240/taki.png",
 	colorBg: "#539bc5"
 }, {
