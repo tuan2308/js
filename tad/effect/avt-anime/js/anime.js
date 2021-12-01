@@ -1194,7 +1194,7 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-TjUyB_oxlOk/YVm6nH7Ge_I/AAAAAAAAx10/mUtLkDQoIPUh0gZ1MNfexbsGdSLQICPaQCNcBGAsYHQ/h240/kambe-daisuke.png",
 	colorBg: "#ac4639"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-OD08PQusqBI/YVm4iP0V2HI/AAAAAAAAx1k/WsSLdANhJvIiF5tjitdnEvsLmHnTXMWYQCNcBGAsYHQ/h240/dr-stone.png",
+	imgAnime: "https://1.bp.blogspot.com/-OD08PQusqBI/YVm4iP0V2HI/AAAAAAAAx1k/WsSLdANhJvIiF5tjitdnEvsLmHnTXMWYQCNcBGAsYHQ/h240/Ishigami-Senku.png",
 	colorBg: "#30b05d"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-I-FXWNPoFAE/YVm3i3AXFHI/AAAAAAAAx1c/f06VS2jnvp0Pu8nzB6E1naVNBlsAYKCCwCNcBGAsYHQ/h240/tomie.png",
