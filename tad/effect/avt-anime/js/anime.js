@@ -1,4 +1,18 @@
 var dsAnime = [
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-0TwS9oWHsl0/Yad45XB-kYI/AAAAAAAA1ys/J_O7X8WLp1kf94wzfbbKrWqCvrxnsg62gCNcBGAsYHQ/h240/Sanae.png",
+		colorBg: "#85c276"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-dnDRVGZiLPc/Yad5hu2-AfI/AAAAAAAA1y0/Br0Z-C2O-g03XyMCaMTPJEbtklM1AhWwQCNcBGAsYHQ/h240/Dekomori.png",
+		colorBg: "#d3b17d"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ESzEN4e9KCI/Yad386gx7SI/AAAAAAAA1yk/ty7r8jI_DF0-EAE6FeOYghqk1I55OyAmACNcBGAsYHQ/h240/cool-boy.png",
+		colorBg: "#3f4a8a"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-Z06td_HR_3c/YaTEnI7VFTI/AAAAAAAA1sM/rkhISH0fqsItoDf_p4mmjI6lg1RcHJntwCNcBGAsYHQ/h240/togashi-yuuta.png",
 		colorBg: "#9c796b"
