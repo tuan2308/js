@@ -381,6 +381,12 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-yxfc3h7Z9v8/YR8tStp7s-I/AAAAAAAAwf0/3Xdh49pfIgsEu0CiJ5klDazeP6nPS0veQCNcBGAsYHQ/h240/xiao.png",
 		colorBg: "#359e9b"
 	},
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-DgMNyl_nOLo/YaiuJHjNWmI/AAAAAAAA1zw/QrTqz3rr_jEkPAEVh2w-0l1WJvcZz5iQgCNcBGAsYHQ/h240/gorou.png",
+		colorBg: "#d68c48"
+	}, 
+
 	{
 		imgAnime: "https://1.bp.blogspot.com/-jpzot7a6g2Y/YSIbEDq8MwI/AAAAAAAAwjQ/0nfGzDI8_-w1cXTZ1Yhn7rHQPHXUzXkDACNcBGAsYHQ/h240/qiqi-trinh.png",
 		colorBg: "#8681ac"
