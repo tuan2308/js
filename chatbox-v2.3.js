@@ -1,1 +1,214 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('2k.1M||G.2b(\'<2j 21="15://2c.1c/2c-4O-2L/3I/2c/2w/2c-1.11.2.2l.2w"><\\/2j>\');(6(d,s,a){k b,2i=d.43(s)[0];P(d.2E(a))2r;b=d.45(s);b.3H=a;b.21=\'//47.9.3R/3J/49.2w#4v=1&4A=4C.5\';2i.4H.4I(b,2i)}(G,\'2j\',\'9-4L\'));k $=1M.3d();$(G).29(6(){$("#2O").R(2O);$("#4f").R(4h);$("#4M").R(4q);$("#4m").R(4l);$("#4k").R("<a 4i=\'4e\' 1a=\'15://1q.1r.1c/4d/12/4c-4b-2K-3j-3F-4s-3B-2n-4J-9.R\'><i 4G=\'3m 3m-3L-3M\'></i> 3O 3j</a><1i>"+46+"</1i>");1J(6(){2h()},22)});6 3o(a,b){1P{G.2E(a).3X=b}1L(3h){}}6 2g(a,b){1P{G.2E(a).1g.1E=b}1L(3h){}}6 27(){k N=1w("27");(0==N||""==N)&&(S("f-7-L"),W("27","1",1),W("1t","1",1))}6 28(){14(\'b-c-9\'),W(\'28\',1,1),$(\'3q\').4a(\'.3K\').3N(),S(\'M\'),1k(\'1f\')}6 3P(){W(\'28\',\'0\',1),S(\'b-c-9\'),S(\'f-7-L\'),14(\'M\')}6 1T(){W(\'1T\',\'1\',10),14(\'1B\'),14(\'1N\'),1k(\'1f\')}6 3D(){k t=1w(\'1T\');0==t||\'\'==t?(S(\'1B\'),S(\'1N\'),3G()):(14(\'1B\'),14(\'1N\'))}6 3S(){k t=1w(\'1t\');0==t||\'\'==t?(S(\'f-7-L\'),W(\'1t\',\'1\',1)):(14(\'f-7-L\'),W(\'1t\',\'0\',1)),1k(\'1f\')}6 2h(){27();3D();k t=1w(\'28\');P(\'\'==t||0==t||\'0\'==t){S(\'b-c-9\'),14(\'M\');k e=1w(\'1t\');(1==e||\'1\'==e)&&S(\'f-7-L\')}25 S(\'M\'),14(\'b-c-9\')}6 3G(){1I(\'1\',44),1I(\'2\',3V),1I(\'3\',3W),1I(\'4\',3Y)}6 1I(t,e){1J(6(){S(\'3Z\'+t)},e),1J(6(){1k(\'2N\')},e),1J(6(){3o(\'1N\',t)},e)}6 S(t){2g(t,\'4t\')}6 14(t){2g(t,\'U\')}6 W(t,e,n){P(n){k o=3b 4K;o.4r(o.4g()+24*n*60*60*4n);k c=\'; 4o=\'+o.48()}25 k c=\'\';G.2S=t+\'=\'+e+c+\'; 1O=/\'}6 1w(t){1U(k e=t+\'=\',n=G.2S.1F(\';\'),o=0;o<n.1R;o++){1U(k c=n[o];\' \'==c.4p(0);)c=c.2Q(1,c.1R);P(0==c.2x(e))2r c.2Q(e.1R,c.1R)}2r\'\'}6 1k(t){1==2o&&$.J.1y(t)}6 J(){1==2o&&$.J({1j:[\'1f\',\'2N\'],1O:3f+\'/2M/1j/\',1V:!0,1K:\'1.0\'})}k 2o=!0;1M(G).29(6(t){t(2k).4j(6(){k e=t(2k).Z();4D>=e?W(\'1t\',\'0\',1):W(\'1t\',\'1\',1)})}),1J(6(){2h()},22);k $=1M.3d();!6(t){P(!t.J){k e,n,o,c,N={},f={},a=!1,i=6(e){k c,a;-1!==e.2x(\':\')?(c=e.1F(\':\')[0],a=e.1F(\':\')[1]):c=e,f[c]=3b 2C,n=f[c].4F(\'4E/3a\'),o=\'4u\'===n||\'4B\'===n?N.1O+c+\'.3a\':N.1O+c+\'.4z\',t(f[c]).4y(\'21\',o),f[c].4x(),f[c].4w=\'23\',f[c].1K=a||N.1K},u=6(t){k e,n,o,c;P(-1!==t.2x(\':\')?(n=t.1F(\':\')[0],o=t.1F(\':\')[1]):n=t,e=f[n],\'2a\'==1H e&&1G!==e)P(o&&(e.1K=o),N.1V||a){P(N.1V)P(e.2X)e.1y();25{1P{e.34=0}1L(i){}e.1y()}}25 e.1y(),a=!0,c=3T(6(){e.2X&&(40(c),a=!1)},41)},l=6(t){k e=f[t];P(\'2a\'==1H e&&1G!==e){e.42();1P{e.34=0}1L(n){}}},r=6(t){k e=f[t];P(\'2a\'==1H e&&1G!==e){1P{f[t].21=\'\'}1L(n){}f[t]=1G}};t.J=6(n){P(N=t.3U({1j:[\'3Q\'],1O:3f+\'/2M/1j/\',1V:!0,1K:\'0.5\'},n),e=N.1j.1R,\'6\'==1H 2C||\'2a\'==1H 2C)1U(c=0;e>c;c+=1)i(N.1j[c]);t.J.1y=6(t){u(t)},t.J.2J=6(t){l(t)},t.J.2G=6(t){r(t)}},t.J.50=6(){1U(c=0;e>c;c+=1)f[N.1j[c]]=1G;e=0,t.J.1y=6(){},t.J.2J=6(){},t.J.2G=6(){}}}}(1M),J();G.2b("<1g 2A=\\"D/2y\\"5T=\\"5S\\">#b-c-9 .f-7-L .7-1D a,#M	{	g-1l:\'26 30\',26,1x,31-32}#b-c-9 .7-f-b,#M	{	D-1e:0 1Y 0 1d(0,0,0,.1);	Q-3e:3e-x;	Q-E:23;	Q-I:0 0;	D-1o:U}.5R	{	I:5Q;	"+5P+"}#M	{	18:0 q;	2Y:2Z;	Z:3l;	8:#13;	w:1m;	1b-w:1m;	Q-8:"+3c+";	O:0;	O-1C:1Y 2p"+3c+";	F-16:Y;	g-E:1z;	z-2f:5O;	1C:0;	O-B-j-1n:V;	O-B-16-1n:V;	D-2B:5N;	1E:U}#M:1S	{	w:39;	1b-w:39;	g-E:1X;	Q-8:#5M}#b-c-9	{    B: 3s !3t;	1C:0;	z-2f:5L;	Z:37;	w:23;	5J-w:5z;	2l-w:1m;	1u-1e:1W 1W 1W q 1d(0,0,0,.2);	O-B-j-1n:V;	O-B-16-1n:V;	2U:36}#b-c-9 .f-7-L	{	1h:j;	Z:22%;	w:5I;	2U:36;	1E:U;	Q-8:#13;	I:2T}#b-c-9 .f-7-L .7-1D	{	1h:j;	I:17;	1C:0;	j:0;	Q-8:#13;	1b-w:35;	8:#13;	Z:22%}#b-c-9 .f-7-L .7-1D a	{	1h:j;	D-1o:U;	F-j:q;	8:#33;	g-E:Y}#b-c-9 .f-7-L .7-1D a:1S	{	8:#5H}#b-c-9 .f-7-L .7-1D 1i	{	1h:16;	8:5G;	F-16:V;	g-E:Y;	g-1l:1x}#b-c-9 .7-f-b,#b-c-9 .7-f-b 1i	{	1b-w:1X;	F:0;	2Y:2Z;	g-1l:\'26 30\',26,1x,31-32;	g-E:1z}#b-c-9 .f-7-L .7-1D i	{	8:#33}#b-c-9 .f-7-L .5F-5E	{	F-B:0;	1h:j;	w:5D}#b-c-9 .7-f-b	{	1h:j;	18:0 35;	Z:37;	8:"+5C+";	w:1m;	1b-w:1m;	Q-8:#38;	O:0;	O-1C:1Y 2p#38;	z-2f:5B;	F-16:Y}#b-c-9 .7-f-b 1i	{	I:17;	j:1m;	B:Y}.X-f-7-2D	{	F-j:-q}#20	{	1h:j;	I:17;	16:1W;	B:-5A}#20 a	{	18:5U 2m;	8:#13;	g-E:1z;	g-1l:5V;	D-1o:U}#20 a:1S	{	8:#1Z}#20 a:1S i	{	8:#1Z;	D-1o:U}.7-j-5	{	F-j:V}#1B	{	I:17;	Z:5W;	w:68;	B:6c;	j:0;	Q-8:#6b;	18:q;	1h:j;	1E:U;	-2H-1u-1e:1v 0 0 q q 1d(0,0,0,.1);	-2I-1u-1e:1v 0 0 q q 1d(0,0,0,.1);	1u-1e:1v 0 0 q q 1d(0,0,0,.1)}#1B 6a	{	g-E:69;	8:5X}.1Q	{	1b-w:4N;	Z:66;	8:#65;	g-1l:1x;	g-E:Y;	Q:#64;	18:V q;	2l-w:2e;	F-1C:V;	I:2T;	F-j:q;	O-1n:3w;	-2H-1u-1e:1v 0 0 q q 1d(0,0,0,.1);	-2I-1u-1e:1v 0 0 q q 1d(0,0,0,.1);	1u-1e:1v 0 0 q q 1d(0,0,0,.1)}.1Q:63	{	2L:\'\';	I:17;	Z:0;	w:0;	O:2m 2p;	O-8:2q 2q 2q#62;	16:-2e;	B:61}.1Q a	{	D-1o:5Z;	8:#5Y}#1T	{	F:23;	Q-8:#5K;	O-1n:V;	8:#13;	g-1l:1x;	g-E:5y;	18:q 3w;	D-1o:U}#1T:1S	{	8:#1Z;	D-1o:U}#1B p	{	F:V 0;	g-E:Y;	8:#5b;	1b-w:1z;	Z:5w%}#1N	{	Q-8:#1Z;	18:1Y 2m 0;	8:5x;	O-1n:1m;	g-E:2e;	g-1l:1x;	g-2z:57;	I:17;	16:56;	B:Y;	w:1X;	1b-w:1X}.55	{	1E:U}</1g>");k 3v=\'2.0\';$(G).29(6(){$("#3z").R(3y);$("#M").1f(6(){1k(\'1f\')})});G.2b("<1g 2A=\\"D/2y\\">#M	{	18-j: 2V;}#M { B: 3s !3t; } #b-c-9 .7-f-b, #b-c-9 .7-f-b 1i	{	8:#13;	g-2z:2P;} .X-f-7-2D	{	j: Y;	 B: q;	 I: 17;	 g-E: 1z;	 8: #13;	 F: 2R;} .1Q	{	D-2B:j;}</1g>");k 3v=\'2.0\';$(G).29(6(){$("#3z").R(3y);$("#M").1f(6(){1k(\'1f\')})});$(\'3q\').54(\'<p 1g="D-53: -52;I: 17;B: -3l;"><a 1a="15://1q.1r.1c/" 1s="1p" X="Tạo ẢA Đẹp | Cá19 tạo ảA và 3k sẻ tài 3rên">Tạo ẢA Đẹp | Cá19 tạo ảA và 3k sẻ tài 3rên</a><a 1a="15://51.3A/" 1s="1p" X="3E.3A là một 4Y tổ1A hợp các cô1A cụ, 4Pện í19 3B 3Fàn 4Xàn 4Wễn 4Ví">3E</a><a 1a="15://1q.1r.1c/p/2F.R" 1s="1p" X="Tạo ảA 2F với hìA nền cá Aân">Tạo ảA 2F với hìA nền cá Aân</a><a 1a="15://1q.1r.1c/4U/4T/4S-4R-4Q-59-4Z-5a-5m-5v-5u.R" 1s="1p" X="Cá19 Tạo Tên Kí Tự Đặc 3xệt 3i 3uên 3pân 3n">Cá19 Tạo Tên Kí Tự Đặc 3xệt 3i 3uên 3pân 3n</a><a 1a="15://1q.1r.1c/5r/1i/H%5q%5p%5o%5n%5l%5k" 1s="1p" X="HìA nền 2n máy tíA - điện 2dại">HìA nền 2n máy tíA - điện 2dại</a><a X="3C hơn 2s 2t 2u 2v 19ỉA màu 2Wệt đẹp" 1s="1p" 1a="15://1q.1r.1c/3g/5h/5g-5f-2s-2t-2u-2v.R">3C hơn 2s 2t 2u 2v 19ỉA màu 2Wệt đẹp</a><a X="Tổ1A hợp ảA đẹp, 19ất dù1A làm hìA nền điện 2dại" 1s="1p" 1a="15://1q.1r.1c/3g/5d/67-2K-58-5e-5i-5j-5c-5s-5t.R">Tổ1A hợp ảA đẹp, 19ất dù1A làm hìA nền điện 2dại</a></p>\');G.2b("<1g 2A=\\"D/2y\\">#M{18-j: 2V;} #b-c-9 .7-f-b, #b-c-9 .7-f-b 1i{8:#13;g-2z:2P;} .X-f-7-2D{j: Y; B: q; I: 17; g-E: 1z; 8: #13; F: 2R;} .1Q{D-2B:j;}</1g>");',62,385,'||||||function|chat|color|facebook|||||||font|||left|var||||||10px||||||height||||nh|top||text|size|margin|document||position|ionSound||conent|chat_f_b_smal|_|border|if|background|html|fb_eshow||none|5px|f_create_cki|title|12px|width||||fff|fb_ehide|https|right|absolute|padding|ch|href|line|com|rgba|shadow|click|style|float|label|sounds|on_playsound|family|40px|radius|decoration|dofollow|www|taoanhdep|ref|f_chat_open|box|inset|f_read_cki|Arial|play|18px|ng|fb_chat_start|bottom|single|display|split|null|typeof|f_enter_chat|setTimeout|volume|catch|jQuery|fb_alert_num|path|try|msg_b|length|hover|f_bt_start_chat|for|multiPlay|6px|20px|1px|ff0|t_f_chat|src|100|auto||else|Helvetica|check_fist_vist_f|chat_f_close|ready|object|write|jquery|tho|13px|index|fb_e_style|f_ck_chat|fjs|script|window|min|7px|cho|web_sound|solid|transparent|return|1000|preset|lightroom|free|js|indexOf|css|weight|type|align|Audio|icon|getElementById|instagram|kill|moz|webkit|stop|hop|content|livechat|door_bell|f_chat_name|normal|substring|0px|cookie|relative|overflow|32px|tuy|ended|cursor|pointer|Neue|sans|serif|0c5bb5|currentTime|25px|hidden|250px|43609c|50px|mp3|new|f_chat_background_title|noConflict|repeat|f_chat_domain|2020|err|Game|chatbox|chia|90px|fa|Mobile|fb_e_html|Qu|body|nguy|initial|important|Li|fb_vs_new|15px|Bi|f_chat_star_3|f_enter_3|vn|online|Share|f_c_start_chat|Webtool|ho|f_chat_step|id|themes|vi_VN|zopim|question|circle|remove|Fb|chat_f_show|water_droplet|net|b_f_chat|setInterval|extend|5500|6e3|innerHTML|7e3|f_enter_|clearInterval|250|pause|getElementsByTagName|3500|createElement|f_chat_vs|connect|toGMTString|sdk|find|tao|code|2015|_blank|f_enter_1|getTime|f_chat_star_1|target|scroll|f_chat_source|f_chat_star_4|f_enter_4|1e3|expires|charAt|f_chat_star_2|setTime|tro|block|probably|xfbml|preload|load|prop|ogg|version|maybe|v2|680|audio|canPlayType|class|parentNode|insertBefore|fanpage|Date|jssdk|f_enter_2|22px|wp|ti|tu|ki|ten|05|2017|ph|mi|to|website|biet|destroy|webtool|99999px|indent|append|fb_hide|47px|700|anh|dac|game|888|nen|04|dep|hon|share|03|lam|hinh|81n|BB|lien|E1|20n|ACnh|C3|search|dien|thoai|mobile|quan|95|red|17px|375px|2px|9999999|f_chat_color_title|310px|page|fb|silver|F60|335px|max|11a92d|9999999999|0a932c|center|999999999|f_chat_vitri_manhinh|fixed|chat_f_vt|screen|media|4px|verdana|248px|gray|01509e|underline||8px|79e7dc|after|86fff3|333|200px|tong|239px|11px|em|f9f9f9|70px'.split('|'),0,{}))
+window.jQuery || document.write('<script src="https://jquery.com/jquery-wp-content/themes/jquery/js/jquery-1.11.2.min.js"><\/script>');
+(function (d, s, a) {
+    var b, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(a)) return;
+    b = d.createElement(s);
+    b.id = a;
+    b.src = '//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5';
+    fjs.parentNode.insertBefore(b, fjs)
+}(document, 'script', 'facebook-jssdk'));
+var $ = jQuery.noConflict();
+$(document).ready(function () {
+    $("#f_chat_name").html(f_chat_name);
+    $("#f_enter_1").html(f_chat_star_1);
+    $("#f_enter_2").html(f_chat_star_2);
+    $("#f_enter_4").html(f_chat_star_4);
+    $("#f_chat_source").html("<a target='_blank' href='https://www.taoanhdep.com/2015/12/code-tao-hop-chatbox-ho-tro-online-cho-fanpage-facebook.html'><i class='fa fa-question-circle'></i> Fb chatbox</a><label>" + f_chat_vs + "</label>");
+    setTimeout(function () {
+        f_ck_chat()
+    }, 100)
+});
+
+function fb_e_html(a, b) {
+    try {
+        document.getElementById(a).innerHTML = b
+    } catch (err) {}
+}
+
+function fb_e_style(a, b) {
+    try {
+        document.getElementById(a).style.display = b
+    } catch (err) {}
+}
+
+function check_fist_vist_f() {
+    var _ = f_read_cki("check_fist_vist_f");
+    (0 == _ || "" == _) && (fb_eshow("f-chat-conent"), f_create_cki("check_fist_vist_f", "1", 1), f_create_cki("f_chat_open", "1", 1))
+}
+
+function chat_f_close() {
+    fb_ehide('b-c-facebook'), f_create_cki('chat_f_close', 1, 1), $('body').find('.zopim').remove(), fb_eshow('chat_f_b_smal'), on_playsound('click')
+}
+
+function chat_f_show() {
+    f_create_cki('chat_f_close', '0', 1), fb_eshow('b-c-facebook'), fb_eshow('f-chat-conent'), fb_ehide('chat_f_b_smal')
+}
+
+function f_bt_start_chat() {
+    f_create_cki('f_bt_start_chat', '1', 10), fb_ehide('fb_chat_start'), fb_ehide('fb_alert_num'), on_playsound('click')
+}
+
+function f_c_start_chat() {
+    var t = f_read_cki('f_bt_start_chat');
+    0 == t || '' == t ? (fb_eshow('fb_chat_start'), fb_eshow('fb_alert_num'), f_chat_step()) : (fb_ehide('fb_chat_start'), fb_ehide('fb_alert_num'))
+}
+
+function b_f_chat() {
+    var t = f_read_cki('f_chat_open');
+    0 == t || '' == t ? (fb_eshow('f-chat-conent'), f_create_cki('f_chat_open', '1', 1)) : (fb_ehide('f-chat-conent'), f_create_cki('f_chat_open', '0', 1)), on_playsound('click')
+}
+
+function f_ck_chat() {
+    check_fist_vist_f();
+    f_c_start_chat();
+    var t = f_read_cki('chat_f_close');
+    if ('' == t || 0 == t || '0' == t) {
+        fb_eshow('b-c-facebook'), fb_ehide('chat_f_b_smal');
+        var e = f_read_cki('f_chat_open');
+        (1 == e || '1' == e) && fb_eshow('f-chat-conent')
+    } else fb_eshow('chat_f_b_smal'), fb_ehide('b-c-facebook')
+}
+
+function f_chat_step() {
+    f_enter_chat('1', 3500), f_enter_chat('2', 5500), f_enter_chat('3', 6e3), f_enter_chat('4', 7e3)
+}
+
+function f_enter_chat(t, e) {
+    setTimeout(function () {
+        fb_eshow('f_enter_' + t)
+    }, e), setTimeout(function () {
+        on_playsound('door_bell')
+    }, e), setTimeout(function () {
+        fb_e_html('fb_alert_num', t)
+    }, e)
+}
+
+function fb_eshow(t) {
+    fb_e_style(t, 'block')
+}
+
+function fb_ehide(t) {
+    fb_e_style(t, 'none')
+}
+
+function f_create_cki(t, e, n) {
+    if (n) {
+        var o = new Date;
+        o.setTime(o.getTime() + 24 * n * 60 * 60 * 1e3);
+        var c = '; expires=' + o.toGMTString()
+    } else var c = '';
+    document.cookie = t + '=' + e + c + '; path=/'
+}
+
+function f_read_cki(t) {
+    for (var e = t + '=', n = document.cookie.split(';'), o = 0; o < n.length; o++) {
+        for (var c = n[o];
+            ' ' == c.charAt(0);) c = c.substring(1, c.length);
+        if (0 == c.indexOf(e)) return c.substring(e.length, c.length)
+    }
+    return ''
+}
+
+function on_playsound(t) {
+    1 == web_sound && $.ionSound.play(t)
+}
+
+function ionSound() {
+    1 == web_sound && $.ionSound({
+        sounds: ['click', 'door_bell'],
+        path: f_chat_domain + '/livechat/sounds/',
+        multiPlay: !0,
+        volume: '1.0'
+    })
+}
+var web_sound = !0;
+jQuery(document).ready(function (t) {
+    t(window).scroll(function () {
+        var e = t(window).width();
+        680 >= e ? f_create_cki('f_chat_open', '0', 1) : f_create_cki('f_chat_open', '1', 1)
+    })
+}), setTimeout(function () {
+    f_ck_chat()
+}, 100);
+var $ = jQuery.noConflict();
+! function (t) {
+    if (!t.ionSound) {
+        var e, n, o, c, _ = {},
+            f = {},
+            a = !1,
+            i = function (e) {
+                var c, a; - 1 !== e.indexOf(':') ? (c = e.split(':')[0], a = e.split(':')[1]) : c = e, f[c] = new Audio, n = f[c].canPlayType('audio/mp3'), o = 'probably' === n || 'maybe' === n ? _.path + c + '.mp3' : _.path + c + '.ogg', t(f[c]).prop('src', o), f[c].load(), f[c].preload = 'auto', f[c].volume = a || _.volume
+            },
+            u = function (t) {
+                var e, n, o, c;
+                if (-1 !== t.indexOf(':') ? (n = t.split(':')[0], o = t.split(':')[1]) : n = t, e = f[n], 'object' == typeof e && null !== e)
+                    if (o && (e.volume = o), _.multiPlay || a) {
+                        if (_.multiPlay)
+                            if (e.ended) e.play();
+                            else {
+                                try {
+                                    e.currentTime = 0
+                                } catch (i) {}
+                                e.play()
+                            }
+                    } else e.play(), a = !0, c = setInterval(function () {
+                        e.ended && (clearInterval(c), a = !1)
+                    }, 250)
+            },
+            l = function (t) {
+                var e = f[t];
+                if ('object' == typeof e && null !== e) {
+                    e.pause();
+                    try {
+                        e.currentTime = 0
+                    } catch (n) {}
+                }
+            },
+            r = function (t) {
+                var e = f[t];
+                if ('object' == typeof e && null !== e) {
+                    try {
+                        f[t].src = ''
+                    } catch (n) {}
+                    f[t] = null
+                }
+            };
+        t.ionSound = function (n) {
+            if (_ = t.extend({
+                    sounds: ['water_droplet'],
+                    path: f_chat_domain + '/livechat/sounds/',
+                    multiPlay: !0,
+                    volume: '0.5'
+                }, n), e = _.sounds.length, 'function' == typeof Audio || 'object' == typeof Audio)
+                for (c = 0; e > c; c += 1) i(_.sounds[c]);
+            t.ionSound.play = function (t) {
+                u(t)
+            }, t.ionSound.stop = function (t) {
+                l(t)
+            }, t.ionSound.kill = function (t) {
+                r(t)
+            }
+        }, t.ionSound.destroy = function () {
+            for (c = 0; e > c; c += 1) f[_.sounds[c]] = null;
+            e = 0, t.ionSound.play = function () {}, t.ionSound.stop = function () {}, t.ionSound.kill = function () {}
+        }
+    }
+}(jQuery), ionSound();
+document.write("<style type=\"text/css\"media=\"screen\">#b-c-facebook .f-chat-conent .chat-single a,#chat_f_b_smal	{	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif}#b-c-facebook .chat-f-b,#chat_f_b_smal	{	text-shadow:0 1px 0 rgba(0,0,0,.1);	background-repeat:repeat-x;	background-size:auto;	background-position:0 0;	text-decoration:none}.chat_f_vt	{	position:fixed;	" + f_chat_vitri_manhinh + "}#chat_f_b_smal	{	padding:0 10px;	cursor:pointer;	width:90px;	color:#fff;	height:40px;	line-height:40px;	background-color:" + f_chat_background_title + ";	border:0;	border-bottom:1px solid" + f_chat_background_title + ";	margin-right:12px;	font-size:18px;	z-index:999999999;	bottom:0;	border-top-left-radius:5px;	border-top-right-radius:5px;	text-align:center;	display:none}#chat_f_b_smal:hover	{	height:50px;	line-height:50px;	font-size:20px;	background-color:#0a932c}#b-c-facebook	{    top: initial !important;	bottom:0;	z-index:9999999999;	width:250px;	height:auto;	max-height:375px;	min-height:40px;	box-shadow:6px 6px 6px 10px rgba(0,0,0,.2);	border-top-left-radius:5px;	border-top-right-radius:5px;	overflow:hidden}#b-c-facebook .f-chat-conent	{	float:left;	width:100%;	height:335px;	overflow:hidden;	display:none;	background-color:#fff;	position:relative}#b-c-facebook .f-chat-conent .chat-single	{	float:left;	position:absolute;	bottom:0;	left:0;	background-color:#fff;	line-height:25px;	color:#fff;	width:100%}#b-c-facebook .f-chat-conent .chat-single a	{	float:left;	text-decoration:none;	margin-left:10px;	color:#0c5bb5;	font-size:12px}#b-c-facebook .f-chat-conent .chat-single a:hover	{	color:#F60}#b-c-facebook .f-chat-conent .chat-single label	{	float:right;	color:silver;	margin-right:5px;	font-size:12px;	font-family:Arial}#b-c-facebook .chat-f-b,#b-c-facebook .chat-f-b label	{	line-height:20px;	margin:0;	cursor:pointer;	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;	font-size:18px}#b-c-facebook .f-chat-conent .chat-single i	{	color:#0c5bb5}#b-c-facebook .f-chat-conent .fb-page	{	margin-top:0;	float:left;	height:310px}#b-c-facebook .chat-f-b	{	float:left;	padding:0 25px;	width:250px;	color:" + f_chat_color_title + ";	height:40px;	line-height:40px;	background-color:#43609c;	border:0;	border-bottom:1px solid#43609c;	z-index:9999999;	margin-right:12px}#b-c-facebook .chat-f-b label	{	position:absolute;	left:40px;	top:12px}.title-f-chat-icon	{	margin-left:-10px}#t_f_chat	{	float:left;	position:absolute;	right:6px;	top:-2px}#t_f_chat a	{	padding:4px 7px;	color:#fff;	font-size:18px;	font-family:verdana;	text-decoration:none}#t_f_chat a:hover	{	color:#ff0}#t_f_chat a:hover i	{	color:#ff0;	text-decoration:none}.chat-left-5	{	margin-left:5px}#fb_chat_start	{	position:absolute;	width:248px;	height:239px;	top:70px;	left:0;	background-color:#f9f9f9;	padding:10px;	float:left;	display:none;	-moz-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);	-webkit-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);	box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1)}#fb_chat_start em	{	font-size:11px;	color:gray}.msg_b	{	line-height:22px;	width:200px;	color:#333;	font-family:Arial;	font-size:12px;	background:#86fff3;	padding:5px 10px;	min-height:13px;	margin-bottom:5px;	position:relative;	margin-left:10px;	border-radius:15px;	-moz-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);	-webkit-box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1);	box-shadow:inset 0 0 10px 10px rgba(0,0,0,.1)}.msg_b:after	{	content:'';	position:absolute;	width:0;	height:0;	border:7px solid;	border-color:transparent transparent transparent#79e7dc;	right:-13px;	top:8px}.msg_b a	{	text-decoration:underline;	color:#01509e}#f_bt_start_chat	{	margin:auto;	background-color:#11a92d;	border-radius:5px;	color:#fff;	font-family:Arial;	font-size:17px;	padding:10px 15px;	text-decoration:none}#f_bt_start_chat:hover	{	color:#ff0;	text-decoration:none}#fb_chat_start p	{	margin:5px 0;	font-size:12px;	color:#888;	line-height:18px;	width:95%}#fb_alert_num	{	background-color:#ff0;	padding:1px 7px 0;	color:red;	border-radius:40px;	font-size:13px;	font-family:Arial;	font-weight:700;	position:absolute;	right:47px;	top:12px;	height:20px;	line-height:20px}.fb_hide	{	display:none}</style>");
+var fb_vs_new = '2.0';
+$(document).ready(function () {
+    $("#f_enter_3").html(f_chat_star_3);
+    $("#chat_f_b_smal").click(function () {
+        on_playsound('click')
+    })
+});
+document.write("<style type=\"text/css\">#chat_f_b_smal	{	padding-left: 32px;}#chat_f_b_smal { top: initial !important; } #b-c-facebook .chat-f-b, #b-c-facebook .chat-f-b label	{	color:#fff;	font-weight:normal;} .title-f-chat-icon	{	left: 12px;	 top: 10px;	 position: absolute;	 font-size: 18px;	 color: #fff;	 margin: 0px;} .msg_b	{	text-align:left;}</style>");
+var fb_vs_new = '2.0';
+$(document).ready(function () {
+    $("#f_enter_3").html(f_chat_star_3);
+    $("#chat_f_b_smal").click(function () {
+        on_playsound('click')
+    })
+});
+
+document.write("<style type=\"text/css\">#chat_f_b_smal{padding-left: 32px;} #b-c-facebook .chat-f-b, #b-c-facebook .chat-f-b label{color:#fff;font-weight:normal;} .title-f-chat-icon{left: 12px; top: 10px; position: absolute; font-size: 18px; color: #fff; margin: 0px;} .msg_b{text-align:left;}</style>");
