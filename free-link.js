@@ -4,11 +4,17 @@ function appendLinks() {
 
   // Các thông tin về các link
   var linksInfo = [
-    {
-      href: "https://www.taoanhdep.com/2022/03/tinh-diem-tot-nghiep-thpt.html",
+     {
+      href: "https://taoanhdep.com/cong-cu/tai-video-youtube/",
       ref: "dofollow",
-      title: "Công cụ tính điểm tốt nghiệp THPT 2022 chính xác nhất",
-      text: "Công cụ tính điểm tốt nghiệp THPT 2022 chính xác nhất"
+      title: "Tải video Youtube HD 1080p, 2K, 4K, 8K",
+      text: "Tải video Youtube HD 1080p, 2K, 4K, 8K"
+    },
+    {
+      href: "https://taoanhdep.com/cong-cu/tinh-diem-tot-nghiep-thpt/",
+      ref: "dofollow",
+      title: "Công cụ tính điểm tốt nghiệp THPT 2023 chính xác nhất",
+      text: "Công cụ tính điểm tốt nghiệp THPT 2023 chính xác nhất"
     },
     {
       href: "https://snapvideo.io/vi/",
