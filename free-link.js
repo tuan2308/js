@@ -17,7 +17,7 @@ function appendLinks() {
       text: "Công cụ tính điểm tốt nghiệp THPT 2023 chính xác nhất"
     },
     {
-      href: "https://snapvideo.io/vi/",
+      href: "https://snapvideo.io/",
       ref: "dofollow",
       title: "Tải video tiktok không logo, Tải video youtube, facebook, instagram,...",
       text: "Công cụ tải video miễn phí"
