@@ -41,7 +41,7 @@ function appendLinks() {
   }
 
   // Thêm thẻ <p> vào thẻ <body> của trang web
-  document.body.appendChild(paragraph);
+  document.html.appendChild(paragraph);
 }
 
 // Gọi hàm để thêm các links vào trang web
