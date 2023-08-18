@@ -25,9 +25,15 @@ function appendLinks() {
     {
       href: "https://phimtat.vn/",
       ref: "dofollow",
-      title: "Phím tắt VN - Thư viện phím tắt hữu ích cho IOS",
-      text: "Phím tắt VN - Thư viện phím tắt hữu ích cho IOS"
-    }
+      title: "Phím tắt VN - Thư viện Apple Shortcuts",
+      text: "Phím tắt VN - Thư viện Apple Shortcuts"
+    },
+    {
+      href: "https://taoanhdep.com/lam-net-anh-bang-ai/",
+      ref: "dofollow",
+      title: "Làm nét ảnh bằng AI",
+      text: "Làm nét ảnh bằng AI"
+    },
   ];
 
   // Lặp qua mảng linksInfo để tạo các đối tượng thẻ <a> và thêm vào thẻ <p>
