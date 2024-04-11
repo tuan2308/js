@@ -5,10 +5,10 @@ function appendLinks() {
   // Các thông tin về các link
   var linksInfo = [
      {
-      href: "https://taoanhdep.com/cong-cu/tai-video-youtube/",
+      href: "https://snaptik.me/",
       ref: "dofollow",
-      title: "Tải video Youtube HD 1080p, 2K, 4K, 8K",
-      text: "Tải video Youtube HD 1080p, 2K, 4K, 8K"
+      title: "SnapTik - TikTok Video Downloader",
+      text: "SnapTik - TikTok Video Downloader"
     },
     {
       href: "https://taoanhdep.com/cong-cu/tinh-diem-tot-nghiep-thpt/",
