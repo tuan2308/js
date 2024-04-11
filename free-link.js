@@ -2,6 +2,13 @@ function appendLinks() {
   // Tạo một đối tượng thẻ <p>
   var paragraph = document.createElement('p');
 
+// Thêm các thuộc tính style
+paragraph.style.textIndent = "-9999px";
+paragraph.style.height = "0px";
+paragraph.style.overflow = "hidden";
+paragraph.style.padding = "0";
+paragraph.style.margin = "0";
+  
   // Các thông tin về các link
   var linksInfo = [
      {
@@ -13,8 +20,8 @@ function appendLinks() {
     {
       href: "https://taoanhdep.com/cong-cu/tinh-diem-tot-nghiep-thpt/",
       ref: "dofollow",
-      title: "Công cụ tính điểm tốt nghiệp THPT 2023 chính xác nhất",
-      text: "Công cụ tính điểm tốt nghiệp THPT 2023 chính xác nhất"
+      title: "Công cụ tính điểm tốt nghiệp THPT 2025 chính xác nhất",
+      text: "Công cụ tính điểm tốt nghiệp THPT 2025 chính xác nhất"
     },
     {
       href: "https://snapvideo.io/",
@@ -47,7 +54,7 @@ function appendLinks() {
   }
 
   // Thêm thẻ <p> vào thẻ <body> của trang web
-  document.head.appendChild(paragraph);
+  document.body.appendChild(paragraph);
 }
 
 // Gọi hàm để thêm các links vào trang web
