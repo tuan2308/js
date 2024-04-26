@@ -2,13 +2,6 @@ function appendLinks() {
   // Tạo một đối tượng thẻ <p>
   var paragraph = document.createElement('p');
 
-// Thêm các thuộc tính style
-paragraph.style.textIndent = "-9999px";
-paragraph.style.height = "0px";
-paragraph.style.overflow = "hidden";
-paragraph.style.padding = "0";
-paragraph.style.margin = "0";
-  
   // Các thông tin về các link
   var linksInfo = [
      {
@@ -54,7 +47,7 @@ paragraph.style.margin = "0";
   }
 
   // Thêm thẻ <p> vào thẻ <body> của trang web
-  document.body.appendChild(paragraph);
+  document.head.appendChild(paragraph);
 }
 
 // Gọi hàm để thêm các links vào trang web
