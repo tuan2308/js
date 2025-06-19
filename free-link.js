@@ -4,20 +4,8 @@ function appendLinks() {
 
   // Các thông tin về các link
   var linksInfo = [
-     {
-      href: "https://snaptik.me/",
-      ref: "dofollow",
-      title: "SnapTik - TikTok Video Downloader",
-      text: "SnapTik - TikTok Video Downloader"
-    },
     {
-      href: "https://taoanhdep.com/cong-cu/tinh-diem-tot-nghiep-thpt/",
-      ref: "dofollow",
-      title: "Công cụ tính điểm tốt nghiệp THPT 2025 chính xác nhất",
-      text: "Công cụ tính điểm tốt nghiệp THPT 2025 chính xác nhất"
-    },
-    {
-      href: "https://snapvideo.io/",
+      href: "https://snapvideo.co/",
       ref: "dofollow",
       title: "Tải video tiktok không logo, Tải video youtube, facebook, instagram,...",
       text: "Công cụ tải video miễn phí"
