@@ -5,12 +5,6 @@ function appendLinks() {
   // Các thông tin về các link
   var linksInfo = [
     {
-      href: "https://snapvideo.co/",
-      ref: "dofollow",
-      title: "Tải video tiktok không logo, Tải video youtube, facebook, instagram,...",
-      text: "Công cụ tải video miễn phí"
-    },
-    {
       href: "https://phimtat.vn/",
       ref: "dofollow",
       title: "Phím tắt VN - Thư viện Apple Shortcuts",
