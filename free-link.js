@@ -16,6 +16,12 @@ function appendLinks() {
       title: "Làm nét ảnh bằng AI",
       text: "Làm nét ảnh bằng AI"
     },
+    {
+      href: "https://tiemanhai.com/",
+      ref: "dofollow",
+      title: "Tiệm ảnh AI",
+      text: "Tiệm ảnh AI"
+    },
   ];
 
   // Lặp qua mảng linksInfo để tạo các đối tượng thẻ <a> và thêm vào thẻ <p>
